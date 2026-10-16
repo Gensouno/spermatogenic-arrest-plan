@@ -1,0 +1,41 @@
+# ---- 环境 / 依赖（本地安装，不入库） ----
+.Rlib/
+.venv/
+.venvtest/
+.cache/
+.conda_meta/
+.condapkgs/
+.condatmp/
+.conda-env/
+.mplcache/
+envs/vendor/
+envs/probe/
+
+# ---- 运行产物 ----
+logs/
+data/raw/
+data/ref/
+data/interim/
+data/tmp/
+results/
+figures/
+*.parts/
+*.tmp
+*.RData
+.Rhistory
+.Rproj.user/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- macOS ----
+.DS_Store
+._*
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp

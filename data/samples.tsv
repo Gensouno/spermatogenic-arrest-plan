@@ -1,0 +1,87 @@
+gse	sample_id	title	group	tissue_class	node	age	platform	note
+GSE38096	GSM934572	Testes_Germ Cell-Specific Sin3a KO_rep 1	KO	whole_testis	精原细胞/起始	P0	GPL13912	testes, whole testis
+GSE38096	GSM934573	Testes_Germ Cell-Specific Sin3a KO_rep 2	KO	whole_testis	精原细胞/起始	P0	GPL13912	testes, whole testis
+GSE38096	GSM934574	Testes_Germ Cell-Specific Sin3a Hemizygous_rep 1	HET	whole_testis	精原细胞/起始	P0	GPL13912	testes, whole testis
+GSE38096	GSM934575	Testes_Germ Cell-Specific Sin3a Hemizygous_rep 2	HET	whole_testis	精原细胞/起始	P0	GPL13912	testes, whole testis
+GSE38096	GSM934576	Testes_Sin3a Wild Type_rep 1	WT	whole_testis	精原细胞/起始	P0	GPL13912	testes, whole testis
+GSE38096	GSM934577	Testes_Sin3a Wild Type_rep 2	WT	whole_testis	精原细胞/起始	P0	GPL13912	testes, whole testis
+GSE42601	GSM1045752	Wild-type testes at P21, biological rep1	WT	whole_testis	精原细胞/起始	P21	GPL1261	source "testes, wild-type" / "testes, Dazap1 mutant"
+GSE42601	GSM1045753	Mutant testes at P21, biological rep1	KO	whole_testis	精原细胞/起始	P21	GPL1261	source "testes, wild-type" / "testes, Dazap1 mutant"
+GSE42601	GSM1045754	Wild-type testes at P21, biological rep2	WT	whole_testis	精原细胞/起始	P21	GPL1261	source "testes, wild-type" / "testes, Dazap1 mutant"
+GSE42601	GSM1045755	Mutant testes at P21, biological rep2	KO	whole_testis	精原细胞/起始	P21	GPL1261	source "testes, wild-type" / "testes, Dazap1 mutant"
+GSE42601	GSM1045756	Wild-type testes at P21, biological rep3	WT	whole_testis	精原细胞/起始	P21	GPL1261	source "testes, wild-type" / "testes, Dazap1 mutant"
+GSE42601	GSM1045757	Mutant testes at P21, biological rep3	KO	whole_testis	精原细胞/起始	P21	GPL1261	source "testes, wild-type" / "testes, Dazap1 mutant"
+GSE294209	GSM8900412	P14 control testis 1	WT	whole_testis	减数分裂前期	P14	GPL24247	characteristics "tissue: Whole testis"
+GSE294209	GSM8900413	P14 control testis 2	WT	whole_testis	减数分裂前期	P14	GPL24247	characteristics "tissue: Whole testis"
+GSE294209	GSM8900414	P14 control testis 3	WT	whole_testis	减数分裂前期	P14	GPL24247	characteristics "tissue: Whole testis"
+GSE294209	GSM8900415	P14 Rnu11 mutant testis 1	KO	whole_testis	减数分裂前期	P14	GPL24247	characteristics "tissue: Whole testis"
+GSE294209	GSM8900416	P14 Rnu11 mutant testis 2	KO	whole_testis	减数分裂前期	P14	GPL24247	characteristics "tissue: Whole testis"
+GSE294209	GSM8900417	P14 Rnu11 mutant testis 3	KO	whole_testis	减数分裂前期	P14	GPL24247	characteristics "tissue: Whole testis"
+GSE236388	GSM7529021	Sperm, WT, D56, rep1	WT	sperm_EXCLUDED	精子形成(disqualified)	D56	GPL24247	tissue: sperm -> NOT whole testis, deconvolution invalid
+GSE236388	GSM7529022	Sperm, WT, D56, rep2	WT	sperm_EXCLUDED	精子形成(disqualified)	D56	GPL24247	tissue: sperm -> NOT whole testis, deconvolution invalid
+GSE236388	GSM7529023	Sperm, WT, D56, rep3	WT	sperm_EXCLUDED	精子形成(disqualified)	D56	GPL24247	tissue: sperm -> NOT whole testis, deconvolution invalid
+GSE236388	GSM7529024	Sperm, XAP5L KO, D56, rep1	KO	sperm_EXCLUDED	精子形成(disqualified)	D56	GPL24247	tissue: sperm -> NOT whole testis, deconvolution invalid
+GSE236388	GSM7529025	Sperm, XAP5L KO, D56, rep2	KO	sperm_EXCLUDED	精子形成(disqualified)	D56	GPL24247	tissue: sperm -> NOT whole testis, deconvolution invalid
+GSE236388	GSM7529026	Sperm, XAP5L KO, D56, rep3	KO	sperm_EXCLUDED	精子形成(disqualified)	D56	GPL24247	tissue: sperm -> NOT whole testis, deconvolution invalid
+GSE236388	GSM7529027	Testes, WT, D16, rep1	WT	whole_testis	减数分裂前期	D16	GPL24247	tissue: testes
+GSE236388	GSM7529028	Testes, WT, D16, rep2	WT	whole_testis	减数分裂前期	D16	GPL24247	tissue: testes
+GSE236388	GSM7529029	Testes, WT, D16, rep3	WT	whole_testis	减数分裂前期	D16	GPL24247	tissue: testes
+GSE236388	GSM7529030	Testes, XAP5 cKO, D16, rep1	KO	whole_testis	减数分裂前期	D16	GPL24247	tissue: testes
+GSE236388	GSM7529031	Testes, XAP5 cKO, D16, rep2	KO	whole_testis	减数分裂前期	D16	GPL24247	tissue: testes
+GSE236388	GSM7529032	Testes, XAP5 cKO, D16, rep3	KO	whole_testis	减数分裂前期	D16	GPL24247	tissue: testes
+GSE101511	GSM2705201	Hnrnpgt-/- 10-gt-cre-293	KO	whole_testis	减数分裂前期	18 dpp	GPL19057	tissue: Testes
+GSE101511	GSM2705202	Hnrnpgt-/- 11-gt-cre-320	KO	whole_testis	减数分裂前期	18 dpp	GPL19057	tissue: Testes
+GSE101511	GSM2705203	wild type 12-gt-cre-321	WT	whole_testis	减数分裂前期	18 dpp	GPL19057	tissue: Testes
+GSE101511	GSM2705204	Hnrnpgt-/- 7-gt-cre-263	KO	whole_testis	减数分裂前期	18 dpp	GPL19057	tissue: Testes
+GSE101511	GSM2705205	wild type 8-gt-cre-279	WT	whole_testis	减数分裂前期	18 dpp	GPL19057	tissue: Testes
+GSE101511	GSM2705206	wild type 9-gt-cre-288	WT	whole_testis	减数分裂前期	18 dpp	GPL19057	tissue: Testes
+GSE283904	GSM8674146	CTL-1	WT	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674147	CTL-2	WT	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674148	CTL-3	WT	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674149	CTL-4	WT	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674150	N6A-SKO-1	KO	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674151	N6A-SKO-2	KO	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674152	N6A-SKO-3	KO	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE283904	GSM8674153	N6A-SKO-4	KO	whole_testis	减数分裂前期	adult	GPL24247	tissue: testis
+GSE68283	GSM1666998	173WT	WT	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1666999	174WT	WT	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667000	194WT	WT	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667001	197WT	WT	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667002	207WT	WT	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667003	141KO	KO	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667004	182KO	KO	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667005	183KO	KO	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68283	GSM1667006	209KO	KO	whole_testis	减数分裂后/精子形成	P29-30	GPL17021	Decapsulated testis
+GSE68284	GSM1667007	WT1	WT	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667008	WT2	WT	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667009	WT3	WT	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667010	WT4	WT	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667011	WT5	WT	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667012	KO6	KO	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667013	KO7	KO	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667014	KO8	KO	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667015	KO9	KO	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667016	KO10	KO	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE68284	GSM1667017	KO11	KO	whole_testis	减数分裂后/精子形成	P21	GPL17021	Decapsulated testis
+GSE213442	GSM6586191	Kpna2 knockout 1	KO	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586192	Kpna2 knockout 2	KO	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586193	Kpna2 knockout 3	KO	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586194	Kpna2 knockout 4	KO	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586195	Wild-type 1	WT	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586196	Wild-type 2	WT	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586197	Wild-type 3	WT	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE213442	GSM6586198	Wild-type 4	WT	whole_testis	减数分裂前期	adult	GPL17021	source "Adult testis"; matrix col kpn1-4/control1-4
+GSE214201	GSM6600986	Iqch knockout 1	KO	whole_testis	减数分裂后/精子形成	adult	GPL17021	matrix has ONLY 3 KO columns (iqch1,iqch2,iqch4; iqch3 ABSENT)
+GSE214201	GSM6600987	Iqch knockout 2	KO	whole_testis	减数分裂后/精子形成	adult	GPL17021	matrix has ONLY 3 KO columns (iqch1,iqch2,iqch4; iqch3 ABSENT)
+GSE214201	GSM6600988	Iqch knockout 3	KO	whole_testis	减数分裂后/精子形成	adult	GPL17021	matrix has ONLY 3 KO columns (iqch1,iqch2,iqch4; iqch3 ABSENT)
+GSE214201	GSM6600989	Iqch knockout 4	KO	whole_testis	减数分裂后/精子形成	adult	GPL17021	in GEO but ABSENT from GSE214201_cpm_matrix.txt.gz (mtx has iqch1,iqch2,iqch4 only) -> excluded from DE/deconvolution until a KO count is obtained
+GSE214201	GSM6600990	Wild-type1	WT	whole_testis	减数分裂后/精子形成	adult	GPL17021	source "Adult testis"
+GSE214201	GSM6600991	Wild-type2	WT	whole_testis	减数分裂后/精子形成	adult	GPL17021	source "Adult testis"
+GSE214201	GSM6600992	Wild-type3	WT	whole_testis	减数分裂后/精子形成	adult	GPL17021	source "Adult testis"
+GSE214201	GSM6600993	Wild-type4	WT	whole_testis	减数分裂后/精子形成	adult	GPL17021	source "Adult testis"
+GSE235777	GSM7509320	Msl3 Wild-type Testes at P45 rep1	WT	whole_testis	减数分裂前期	P45	GPL19057	pheno-null model per paper title
+GSE235777	GSM7509321	Msl3 Wild-type Testes at P45 rep2	WT	whole_testis	减数分裂前期	P45	GPL19057	pheno-null model per paper title
+GSE235777	GSM7509322	Msl3 Wild-type Testes at P45 rep3	WT	whole_testis	减数分裂前期	P45	GPL19057	pheno-null model per paper title
+GSE235777	GSM7509323	Msl3 cKO Testes at P45 rep1	KO	whole_testis	减数分裂前期	P45	GPL19057	pheno-null model per paper title
+GSE235777	GSM7509324	Msl3 cKO Testes at P45 rep2	KO	whole_testis	减数分裂前期	P45	GPL19057	pheno-null model per paper title
+GSE235777	GSM7509325	Msl3 cKO Testes at P45 rep3	KO	whole_testis	减数分裂前期	P45	GPL19057	pheno-null model per paper title
