@@ -1,0 +1,5 @@
+gse,n_samples,WT,KO,input_rows,unmapped_or_ambiguous,symbol_genes,tested_genes,DEG_FDR05_absLFC1,comparison,normalization,grouping_source
+GSE236388,6,3,3,23502,0,23502,16821,2528,KO minus WT,TMM + voom,data/samples.tsv; see sample_metadata stage official_sample_evidence.csv for GEO source evidence
+GSE283904,8,4,4,17121,0,17121,17109,612,KO minus WT,TMM + voom,data/samples.tsv; see sample_metadata stage official_sample_evidence.csv for GEO source evidence
+GSE68283,9,5,4,23074,1989,21079,15151,888,KO minus WT,TMM + voom,data/samples.tsv; see sample_metadata stage official_sample_evidence.csv for GEO source evidence
+GSE68284,11,5,6,23074,1989,21079,15288,342,KO minus WT,TMM + voom,data/samples.tsv; see sample_metadata stage official_sample_evidence.csv for GEO source evidence

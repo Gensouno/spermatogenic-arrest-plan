@@ -1,6 +1,8 @@
 # ---- 环境 / 依赖（本地安装，不入库） ----
 .Rlib/
 .venv/
+.Rlib
+.venv
 .venvtest/
 .cache/
 .conda_meta/
@@ -16,11 +18,14 @@ logs/
 data/raw/
 data/ref/
 data/interim/
+data/bulk/
 data/tmp/
 results/
 figures/
 *.parts/
 *.tmp
+*.download-part
+*.import-part
 *.RData
 .Rhistory
 .Rproj.user/

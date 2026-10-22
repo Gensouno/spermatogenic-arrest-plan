@@ -1,0 +1,3 @@
+gse,WT,KO,input_probes,retained_probes,tested_genes,DEG_FDR05_absLFC1,method
+GSE38096,2,2,62976,33093,22039,94,Agilent single Cy3; normexp offset50; quantile; mean log2 probes per symbol
+GSE42601,3,3,45101,37447,20478,2194,Affymetrix mouse4302; RMA; mean log2 probesets per symbol

@@ -1,0 +1,15 @@
+{
+  "official_metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/soft/GSE112393_family.soft.gz",
+  "sha256": "5140259bd3926d8fa5c836515e64d18c08998da3026ad62851c864763d44f684",
+  "annotation_header": [
+    "###### Per-cell Attributes for All 34,633 Cells Used in the Study, Related to Figure 1C",
+    "### Cell type: 1-InnateLymph; 2-Macrophage; 3-Endothelial; 4-Myoid; 5-Leydig; 6-Sertoli; 7-Unknown; 8-SPG; 9-Scytes; 10-STids; 11-Elongating",
+    "### Each row is one cell"
+  ],
+  "batches": 25,
+  "unresolved_aliases": [
+    "ST7",
+    "ST8"
+  ],
+  "note": "ST7/ST8 aliases unresolved; GEO has 1nDepleted1/2. GEO does not establish unique animal IDs for these batches. Do not call source-batch holdout leave-one-animal-out validation."
+}

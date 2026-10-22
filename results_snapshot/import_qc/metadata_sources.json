@@ -1,0 +1,58 @@
+[
+  {
+    "gse": "GSE236388",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE236nnn/GSE236388/soft/GSE236388_family.soft.gz",
+    "sha256": "e53d1b06230448ee16314cb386295ae91329822fa63e196d5a52db4a388dff61",
+    "selected_samples": 6,
+    "series_samples": 12
+  },
+  {
+    "gse": "GSE283904",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283904/soft/GSE283904_family.soft.gz",
+    "sha256": "5fd15a17f87d12ea7371578abf147aa1cd8adcdeb6aaf2c909d7a9a72fe6289d",
+    "selected_samples": 8,
+    "series_samples": 8
+  },
+  {
+    "gse": "GSE68283",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68283/soft/GSE68283_family.soft.gz",
+    "sha256": "b45f62fcc54913dbd30b3dedae3a700392c04e0e9df2e1f7f80cfed9e3d7d697",
+    "selected_samples": 9,
+    "series_samples": 9
+  },
+  {
+    "gse": "GSE68284",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68284/soft/GSE68284_family.soft.gz",
+    "sha256": "131b8e2f83dac8630398ebfd814d2e8cd12662a2341f7bb94f63c7737642ba8e",
+    "selected_samples": 11,
+    "series_samples": 11
+  },
+  {
+    "gse": "GSE101511",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101511/soft/GSE101511_family.soft.gz",
+    "sha256": "c077201ea2051c40701166d68f7ae443fab1d895be0d6483ba436dfc49bb54d1",
+    "selected_samples": 6,
+    "series_samples": 6
+  },
+  {
+    "gse": "GSE294209",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294209/soft/GSE294209_family.soft.gz",
+    "sha256": "13092b4545fb8169af2c9e8eb4698f97b8b944049cdc6c3ef583da835c86c125",
+    "selected_samples": 6,
+    "series_samples": 6
+  },
+  {
+    "gse": "GSE38096",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38096/soft/GSE38096_family.soft.gz",
+    "sha256": "cae84c0fe4b1bba8f77d224fedd32fe5abb2e386bcc75018c293e43415c55d66",
+    "selected_samples": 4,
+    "series_samples": 6
+  },
+  {
+    "gse": "GSE42601",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42601/soft/GSE42601_family.soft.gz",
+    "sha256": "7fc8f48797ad73da865630607cde9fd5fa4da3f48aa21bd2832d4eb285e1612a",
+    "selected_samples": 6,
+    "series_samples": 6
+  }
+]

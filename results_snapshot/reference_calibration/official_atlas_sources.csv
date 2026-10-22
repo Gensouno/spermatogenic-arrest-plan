@@ -1,0 +1,26 @@
+source_batch,captured_cells,gsm,strain,tissue,cell type enrichment,age,non-mouse cell line,spike-in species,included_ST_only_reference
+SER7,3047,GSM3069462,C57BL/6,Testis,sertoli,7.5 wk,n/a,Homo sapiens,False
+ST3,2720,GSM3069441,C57BL/6,Testis,none,9 wk,n/a,,True
+ST4,2363,GSM3069442,C57BL/6,Testis,none,9 wk,n/a,,True
+ST6,2341,GSM3069444,C57BL/6,Testis,none,9 wk,n/a,,True
+ST1,2324,GSM3069439,C57BL/6,Testis,none,7 wk,n/a,Homo sapiens,True
+SER5,2015,GSM3069460,C57BL/6,Testis,sertoli,7 wk,n/a,Macaca mulatta,False
+SER8,1979,GSM3069463,C57BL/6,Testis,sertoli,8 wk,n/a,Macaca mulatta,False
+ST2,1642,GSM3069440,C57BL/6,Testis,none,7 wk,n/a,Homo sapiens,True
+ST5,1601,GSM3069443,C57BL/6,Testis,none,9 wk,n/a,,True
+ST7,1549,,,,,,,,False
+INT5,1480,GSM3069454,C57BL/6,Testis,interstitial,14 wk,A549 cell line,Homo sapiens,False
+INT6,1453,GSM3069455,C57BL/6,Testis,interstitial,9 wk,n/a,,False
+SER6,1399,GSM3069461,C57BL/6,Testis,sertoli,9 wk,n/a,Macaca mulatta,False
+ST8,1286,,,,,,,,False
+SPG3,1212,GSM3069449,C57BL/6,Testis,spermatogonia,20 wk,A549 cell line,Homo sapiens,False
+INT3,1210,GSM3069452,C57BL/6,Testis,interstitial,15 wk,HEK 293T cell line,Homo sapiens,False
+SPG1,957,GSM3069447,C57BL/6,Testis,spermatogonia,8 wk,n/a,,False
+SPG2,937,GSM3069448,C57BL/6,Testis,spermatogonia,8 wk,n/a,,False
+INT1,819,GSM3069450,C57BL/6,Testis,interstitial,16 wk,n/a,,False
+SER4,716,GSM3069459,C57BL/6,Testis,sertoli,8 wk,n/a,Homo sapiens,False
+INT4,653,GSM3069453,C57BL/6,Testis,interstitial,18 wk,A549 cell line,Homo sapiens,False
+SER3,451,GSM3069458,C57BL/6,Testis,sertoli,11 wk,HEK 293T cell line,Homo sapiens,False
+INT2,237,GSM3069451,C57BL/6,Testis,interstitial,10 wk,n/a,Homo sapiens,False
+SER2,161,GSM3069457,C57BL/6,Testis,sertoli,7 and 11 wk,HEK 293T cell line,Homo sapiens,False
+SER1,81,GSM3069456,C57BL/6,Testis,sertoli,8 wk,HEK 293T cell line,Homo sapiens,False

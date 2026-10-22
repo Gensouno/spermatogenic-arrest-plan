@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "exported_utc": "2026-10-22T14:03:48.801641+00:00",
+  "git_base_commit": "18ebb5e4126f6471a97538f3a171764ffa75c4a4",
+  "git_note": "Base commit is provenance only; source_sha256 identifies the prepared working-tree code.",
+  "asset_manifest_sha256": "0a50258c64016c11622367f4882ef775e00afe3431eeabd155ae751a7967ba93",
+  "sample_sheet_sha256": "dd50f2f98c33b733e712b8641678031b8de93144069504414b221250f886ef1d",
+  "source_sha256": {
+    "code/de_extended_rnaseq.R": "27729c29d7902ca159864655cfe1cc5f1e8883a7a3d35f29de0766203277b97b",
+    "code/05_deconvolution.R": "333661c2ce157002cb3a02a02285f5c24df6435a6166ec892867e17c6ee14c7b",
+    "code/de_microarrays.R": "66298235f9c05ad6cb7155612f8fd1e580ade9b2de6b7218765b3a5edc813abe",
+    "code/04_normalize_signature.py": "4037c47e8bddb9fcaa64b811705bc66bf7635758a373eb70fffb8fca1c7655ee",
+    "code/06_validate_deconvolution.py": "4a69a6ef4286af3dccba02f71f55e1b96199cbb876dc67503766bdd88c9f6a89",
+    "code/crossfit_composition_prediction.py": "e9fe8bc01cf0e9fd2b4effbb399899bb8aac62bea93a952c28f9f0b0e744324a",
+    "code/build_reference_batches.py": "5547cf7419776bdde3226b11a38c9637a02ffa2e9496a8624fa1166d23d20b79",
+    "code/calibrate_reference_batches.py": "0d4a06459b808fff6c30a3facf03b91aab118c78d53089303ada8ff601a2c7e6",
+    "code/import_microarrays.py": "99225d1c580598bc713e7960e177024925d8183c3518e2ef64e1109d52db07e1",
+    "code/check_stage_reference.py": "56c7bc1d24323e263d708b99ac00581cd0e205c3e4b2611f640691cb534d594d",
+    "code/audit_mixture.py": "20ca4185d7d10e425dab9e7893417ad53d84f7a1cf424d9a963c31046d0543bb",
+    "code/explore_count_cohorts.py": "0fec0ecc5d601eb7e03cac56dc1d5f9a7d1a5a02f477e4e5ee31d9b77d419b81",
+    "code/prepare_legacy_annotation.py": "46847dbbe68fabd55cfb41552cb4a32354bf1b515b657e9e87a7f9d53934f16a",
+    "code/prepare_counts_and_de.R": "af493b37cfe6dd0e51456073aba39b3b5b8e962e720c1bbdae76b9496b38dca0",
+    "code/compare_rnaseq_effects.py": "640ab601ab7de6e4d3d68c05f0a7857ea1d285cd82de4309eb32fc94a732778c",
+    "code/import_extended_rnaseq.py": "4c119c178dc6e2aad23e156f04f44a4ec869c298ea3910c4c04f2ff080e363fb",
+    "code/check_effect_robustness.R": "a1236135d25279f09ee2ac054836eae554ce8be2d17a02e78f952f276d23feb7",
+    "code/audit_reference_metadata.py": "c87425b1fd0b68aca45f728c7b5cf13e8c4230fdf9a95423f9929356e255d490",
+    "code/verify_count_metadata.py": "7091263563438a78b8c6fc1f745e0be17a4aae8776ca968f10400aa05787b4fc",
+    "code/check_external_sorted_reference.py": "c1b2d596407f0dade7f31648375ef8588532729a56419942ee533a832b358f9a",
+    "code/summarize_robustness.py": "be31c6958a44e4ac85ab45490f92b5a5d77da9fd58d0d16e46d201913fe65e1e",
+    "scripts/run_analysis.py": "85d934b7407f3526eacdd87e92086afd7695f4770ee8f19ecd4a20fa39e37f98",
+    "scripts/check_clean_reproduction.py": "b59f877257f1ab854c5995132d5933bb725ec5288cb8f5e08cd5399b9be6745c",
+    "scripts/data_assets.py": "b5ec7b4df42f8f7061faf4a9537635baeeff38e54ad9d1f09f089466f187709b",
+    "scripts/02_geo_supplementary.py": "24a21af4b02a55804a703d079702963d1f77249c61c18a09cd8c88503d8ab505",
+    "scripts/export_snapshot.py": "45d81323840a0b59de679bf754b477fe2ff7595066a2bc1767c4081359a42310",
+    "scripts/fetch_geo.py": "bf3a2b29c6a60e593e82865e5a3c16843b98f5846c8e7561697c46afd8b6c1ad",
+    "scripts/check_release.py": "e29b8039db559aea5478e6399bd62e0c6c71bb9460d5ecd7e7cc1e6f9471ace4",
+    "scripts/build_signature.py": "47e4d4ae3870c496d43e3e38ed5e149bce38a90ba303f3ae1457817f1f53187c",
+    "scripts/01_geo_search.py": "bd96c956257925b631f3ab247425e8dc0d47d6a91fc2ec708ed27a7cdafcdf4a",
+    "scripts/03_curate.py": "00f815397fb5d3500d7db48225fd0a66196c54e5192d5c8edf6ec46f6449fd0a",
+    "scripts/02_geo_meta.py": "3b290f3f1f7cd1ab23e8d1c507b05e5c7fccbe436fe538a6aa973b8d7efa73e4",
+    "tests/test_data_assets.py": "776caa4f9ebca2161f5e39b2f97442cd8f34d9dd7e8d3f3db777ce03f6b9047b",
+    "tests/test_stage_reference.py": "0a2f6927d5d45dbe066b5c76e051fa87c30bf866f71ae101b9092e3ef972e4ff",
+    "envs/setup.sh": "38005eafa41b0f6443bcd02aecf9a66007b13ae2061fe05522fb4dfb86825a0d",
+    "envs/_drive.sh": "ebd1147cb45629963ff4c7813ec2d11d88a113d092378f86415827684b775e05",
+    "envs/python.sh": "0d48365fef0c0a07c912bc7a431171c103a278140b7dd80f16d1cb58f9aa50be",
+    "envs/rscript.sh": "ba91d026205dce66c2cbaae95b11be75d33a30da8732875625811561fba4ae33",
+    "envs/install_pkgs.R": "f8f3b0e5fa806b2c908599f73420cb76357137fef71abe7ee5f773b863f31d94",
+    "envs/requirements-analysis.txt": "681062dc490cb14f1a52771652eeab30bb98913469429db42e3c05c19238a097",
+    "envs/setup_analysis.sh": "098e2a8b5ea5686833fb46b7444ccf86f25cbc450b65c399bfda60b9580c998e"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1146,
+      "sha256": "152c24fde92b1655c4c4dd6ee02ee86bd6f12be2ee609b4a596a0ad20b5b0cc1"
+    },
+    {
+      "path": "all_cohort_comparison/PCA_sample_labels.csv",
+      "bytes": 1306,
+      "sha256": "2fc21469affbab8a3f93413cf6fedf4442a190a89f14a37960696bbcc30a1a47"
+    },
+    {
+      "path": "all_cohort_comparison/common_gene_spearman.csv",
+      "bytes": 1313,
+      "sha256": "e63bab4034735e9ff45e1aa736fae5bec8dad36ea655cb28753f5ab17d46382e"
+    },
+    {
+      "path": "all_cohort_comparison/diagnostic_markers.csv",
+      "bytes": 2622,
+      "sha256": "e17472f8d41c8bfd4c65609fec13cc6d8e896314f2ae0f181ef713ddb357cda0"
+    },
+    {
+      "path": "all_cohort_comparison/eight_cohort_effects.png",
+      "bytes": 160394,
+      "sha256": "c5fc40b847e6659f9dc7eb0572866fb5667d3502641cf4a369e1b1a5b076373d"
+    },
+    {
+      "path": "all_cohort_comparison/pairwise_gene_numbers.csv",
+      "bytes": 535,
+      "sha256": "db9b439a192da38af02ca638b458b975654b5f0f3cf6ac33e56de4ae70a0be48"
+    },
+    {
+      "path": "all_cohort_comparison/pairwise_gene_spearman.csv",
+      "bytes": 1315,
+      "sha256": "5416d40a118f2b9ff65a8f862322b3680e0ccb8795b52db07737bee44913a5b2"
+    },
+    {
+      "path": "all_cohort_comparison/within_study_PCA.png",
+      "bytes": 252091,
+      "sha256": "e6f3effc20ff1c7ba14888871b29a73127f12e2cc8bc578005887d4e05830986"
+    },
+    {
+      "path": "cohort_summary.csv",
+      "bytes": 366,
+      "sha256": "4a69ee60c15bf8974b0aa73a7ff6583a96ba3e53e46750a4475a185aee30ab68"
+    },
+    {
+      "path": "composition_prediction/covariance_terms.csv",
+      "bytes": 2871,
+      "sha256": "55e7710086c7327d49ac0429a4cbd79fe82a703ab3191d04382a0dfd0362f259"
+    },
+    {
+      "path": "composition_prediction/prediction_metrics.csv",
+      "bytes": 1058,
+      "sha256": "6589f1a1c22411d42b14340126ad1b02d6a2cac94addd0eb098d54bc5f278fbd"
+    },
+    {
+      "path": "external_sorted_reference/excluded_nonnumeric_rows.csv",
+      "bytes": 270,
+      "sha256": "cc3a8a94389a02c3224cec21566afedc53f6aab96ec27375bfa9dc3df16966de"
+    },
+    {
+      "path": "external_sorted_reference/fitted_RNA_weights.csv",
+      "bytes": 933,
+      "sha256": "b4112c32298c64ae66cb7369ccf33b10024c74ca63c38d02feee1c7cc0574a71"
+    },
+    {
+      "path": "external_sorted_reference/provenance.json",
+      "bytes": 1229,
+      "sha256": "b71f402f9ab047363db9721997558b9b1c9cf033c1e8cc56381dc6a0af13e920"
+    },
+    {
+      "path": "external_sorted_reference/within_meiotic_stage_contrast.csv",
+      "bytes": 163,
+      "sha256": "72fee21d7cd19b9c4ef83de5b4cb4e4dc05603b71d946a47709d85b1892830c3"
+    },
+    {
+      "path": "import_qc/GSE101511_mapping_mass.csv",
+      "bytes": 326,
+      "sha256": "4bab1383915cd675dcc83840e6a5a03c4c667e6f00aa4572cc087011046190f2"
+    },
+    {
+      "path": "import_qc/R_sessionInfo.txt",
+      "bytes": 1287,
+      "sha256": "b6a47b015dfa64de62957aa80e971e7b76317cf4db785e2afa2f7a349e6d78e2"
+    },
+    {
+      "path": "import_qc/count_cohorts.csv",
+      "bytes": 784,
+      "sha256": "991d1d298d5471f674b5e437387f7e52fcc9d3fa5cca278b7713598510b090bd"
+    },
+    {
+      "path": "import_qc/extended_R_sessionInfo.txt",
+      "bytes": 1305,
+      "sha256": "6b880627cd7a6e822fceea3db10820a731e191d3af9fa22dd17e24e4456a2ce1"
+    },
+    {
+      "path": "import_qc/extended_rnaseq_cohorts.csv",
+      "bytes": 363,
+      "sha256": "c6de9575e5a18e84a6717f94212ae8a760330e3385785dae6663b98494b4f693"
+    },
+    {
+      "path": "import_qc/metadata_sources.json",
+      "bytes": 2150,
+      "sha256": "9e28772edff52e949c771b3ecf6dbc242386099ff6285a40a4dab92318958cd6"
+    },
+    {
+      "path": "import_qc/microarray_R_sessionInfo.txt",
+      "bytes": 1433,
+      "sha256": "5db4fa40f7ad0ad0429262803d1189ac622adfc493764e7d8d6730d09b89971d"
+    },
+    {
+      "path": "import_qc/microarray_cohorts.csv",
+      "bytes": 281,
+      "sha256": "ac437e2dad30bbbe398a0e3caae3bcd753aa39daddf7e16004e6f0688adecec9"
+    },
+    {
+      "path": "import_qc/official_sample_evidence.csv",
+      "bytes": 13457,
+      "sha256": "205015d24e9c271f3be8d8d6a6a138e0b032c3fbfa4fb8e95fcd8b32a53e4223"
+    },
+    {
+      "path": "mixture_audit/calibration_summary.csv",
+      "bytes": 194,
+      "sha256": "ae631dd2780b468e49e7a152c45f6297590c2c82cab3daef1f33156794352d56"
+    },
+    {
+      "path": "mixture_audit/mixture_audit.png",
+      "bytes": 89827,
+      "sha256": "1d9ea0282b04e5a890df6264e3d1fd52ec38cc009f33889bc65ec7378ae67d6e"
+    },
+    {
+      "path": "mixture_audit/provenance.json",
+      "bytes": 491,
+      "sha256": "b2682176e997781ec9c0d28207a9799bc34857fca20c3c88c7334ff62b74fc88"
+    },
+    {
+      "path": "mixture_audit/real_heldout.csv",
+      "bytes": 1790,
+      "sha256": "3ba4e8226f843946ad3779da7fc275968bbe9bb8fb1d4c4ee36e89cc72bcea49"
+    },
+    {
+      "path": "reference_calibration/atlas_metadata_audit.json",
+      "bytes": 766,
+      "sha256": "0c28eb327244d5ffff17720cfa056a354ad578845f65074fe2784173944548f5"
+    },
+    {
+      "path": "reference_calibration/cross_source_error.png",
+      "bytes": 65640,
+      "sha256": "363578943f0a8fb9e97946563f4f79acd346084a89ff1415b498731a189c2ce7"
+    },
+    {
+      "path": "reference_calibration/design.json",
+      "bytes": 581,
+      "sha256": "07f717a9304f4681f3b3fab5eaefc33577c7cd3ae4ec7f79d233fdd4a56361f2"
+    },
+    {
+      "path": "reference_calibration/official_atlas_sources.csv",
+      "bytes": 1862,
+      "sha256": "41eba24d9422d57c980e9d0c6380a37dcdf59fd16109c38a7254bb2d1df4627c"
+    },
+    {
+      "path": "reference_calibration/per_batch.csv",
+      "bytes": 3602,
+      "sha256": "2ade701f8eb5b66096855f749a03ac1c0c1ad7933e7febc0928ef9b2b3dbcf6d"
+    },
+    {
+      "path": "reference_calibration/summary.csv",
+      "bytes": 226,
+      "sha256": "ca0913f587bb1e4db3f16d4da76959db51bf54ed83352a6b57d7596bb06fd9b6"
+    },
+    {
+      "path": "robustness/R_sessionInfo.txt",
+      "bytes": 749,
+      "sha256": "669e0321467c5f6d4e5644c8fb8d9feace3b5be4c50357fe89dae68fa978ad5a"
+    },
+    {
+      "path": "robustness/baseline_reproduction.csv",
+      "bytes": 267,
+      "sha256": "36409e473d6377d7b0a67f8bdcff49f3deda9318aed584367f5b7fe4acf40ba1"
+    },
+    {
+      "path": "robustness/key_pair_sensitivity.png",
+      "bytes": 55972,
+      "sha256": "e9935f79e4149960501968a97508a3c062dfb253cbcb2df91bb3e5f09aa0ff37"
+    },
+    {
+      "path": "robustness/pair_ranges.csv",
+      "bytes": 4221,
+      "sha256": "1a63fb848dece9228245818740ed672677e1c87f1ce32ba50938eb7ee44bdfbf"
+    },
+    {
+      "path": "robustness/pairwise_sensitivity.csv",
+      "bytes": 46371,
+      "sha256": "2ab8fb6b84c8aaae353b1894172866ae11e6d39a3f840b7bf44202dc3e8d8757"
+    },
+    {
+      "path": "robustness/sensitivity_metrics.csv",
+      "bytes": 6262,
+      "sha256": "f549fc5bd21d8b50acde6fa3dad32791fc1191dd7b8d40c369c8d3b93196e738"
+    },
+    {
+      "path": "robustness/sensitivity_summary.csv",
+      "bytes": 1016,
+      "sha256": "f820ec6ffe5487282d416e3c0a24dc21e52ed289100c65952969c5d9e684bc77"
+    },
+    {
+      "path": "stage_reference/controlled_resolution_comparison.png",
+      "bytes": 75096,
+      "sha256": "deda25b2d348581e1674aade7bb16670d50ba33b28fdd2b7e1145c0249e26eed"
+    },
+    {
+      "path": "stage_reference/crossfit_metrics.csv",
+      "bytes": 1765,
+      "sha256": "12e12d02bcbe42844472af3f935a5eecc288efd250b07f757a23f152bf2fa61f"
+    },
+    {
+      "path": "stage_reference/excluded_excel_date_gene_rows.csv",
+      "bytes": 6453,
+      "sha256": "69cf47a21758d50d056ab8e1c710fb145f601b919ea9643a5194fd71f7df2807"
+    },
+    {
+      "path": "stage_reference/fitted_weights.csv",
+      "bytes": 4826,
+      "sha256": "fbfe579742f739e3adddb0ee692ca11ecfdc87b0d390abc3fc2bdf13c986b512"
+    },
+    {
+      "path": "stage_reference/germ_cluster_sizes.csv",
+      "bytes": 114,
+      "sha256": "953a24f32f3fac1357e06c245c3577f30f33775bd8de194a3dd68e6265a12325"
+    },
+    {
+      "path": "stage_reference/provenance.json",
+      "bytes": 2002,
+      "sha256": "4e2f4ecd4b36fa311ce61f89ccfd91ee562255d79b7f6861099860443ff1b457"
+    },
+    {
+      "path": "validation_summary.json",
+      "bytes": 5121,
+      "sha256": "a99c64ce47e48991a8d35a51b1a8d1c633cce47ccc08ee8c6ab500eb4c60d2a2"
+    }
+  ]
+}

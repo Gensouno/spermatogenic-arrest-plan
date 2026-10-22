@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """
+HISTORICAL IMPLEMENTATION: not part of the audited default pipeline.
+CPM coefficients are not validated cell-number fractions. See docs/METHODS.md.
+
 04_normalize_signature.py -- put the cell-type signature S on a CPM scale.
 
 WHY THIS EXISTS (this is not cosmetic)

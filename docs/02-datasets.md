@@ -1,5 +1,7 @@
 # 数据集与去卷积参考系：最小可行数据集清单
 
+> 历史盘点记录，非当前方法或纳入状态的权威说明。下文将 GSE38096 称为双色芯片的记录有误：实际为单 Cy3 通道。Hnrnpgt 旧转录本映射、TPM 与 counts 的处理、样本数量及参考可用性以 [当前方法](METHODS.md)、[当前结果](RESULTS.md) 和 `data/analysis_assets.json` 为准。旧的“能去卷积”不等于比例经过验证。
+
 > 产出人：dataset-curator（task-2）　日期：2026-10-16
 > 配套文件：`data/dataset_selection.csv`（57 行，入选/淘汰/库存纠错）、`data/samples.tsv`（85 行，逐样本清单）
 

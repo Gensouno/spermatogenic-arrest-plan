@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "shared_genes": 18838,
+  "fit_genes": 15070,
+  "heldout_genes": 3768,
+  "simulated_mixtures": 200,
+  "scope": "Exact-reference algebra calibration and real-data reconstruction; not cell-fraction validation",
+  "inputs": {
+    "results/reference_calibration/pooled_cpm.csv.gz": "340ffc53131ceb74344b7542f8738e09219df45d24d56ce606f768c1409350e9",
+    "data/raw/GSE236388/GSE236388_XAP5_counts.txt.gz": "2b5f2894c30eae019279993f34faf11d909716d5156b9e0e4231a29c20b9f33c"
+  }
+}

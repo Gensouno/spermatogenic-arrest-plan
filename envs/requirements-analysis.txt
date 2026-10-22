@@ -1,0 +1,6 @@
+# Tested top-level versions; environment snapshots also record transitive packages.
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+openpyxl==3.1.5

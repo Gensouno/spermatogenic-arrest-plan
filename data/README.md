@@ -1,101 +1,27 @@
-# 数据说明
+# 数据与分组说明
 
-本目录只放**清单与分组表**，原始表达数据**不入库**（体积大、且有 GEO 使用条款）。
-按下面的步骤把数据取回来即可复现全流程。
+默认分析只使用 `analysis_assets.json` 中冻结的 22 份输入，约 250.6 MiB。文件包括八个 bulk 队列、GSE112393 图谱及其元数据、Ensembl 79 注释、外部分选补充表。精子臂、未使用的备用队列和搜索发现文件不在默认输入清单中。
 
-## 本目录已有的文件
+每项资产都有准确 URL、字节数及 SHA-256。GEO 补充文件 URL 与官方 SOFT 的 supplementary-file 字段核对；哈希代表本次获取的快照，不是 GEO 官方对内容正确性的认证。
 
-| 文件 | 内容 |
-|---|---|
-| `inventory.csv` | 220 行 GEO 自动盘点（检索 → 元数据 → 可用性判定）。**⚠️ 含 15 处误标**，见 `docs/02-datasets.md` |
-| `dataset_selection.csv` | 57 行 × 19 列，逐条核验后的选择结果：core 8 / extended 4 / rejected 30 / mislabel 15 |
-| `samples.tsv` | 86 行逐样本分组表（`tissue_class` 是去卷积的入口开关） |
-| `README.md` | 本文件 |
-
-## 下载后应当出现的路径
-
-```
-data/
-├── raw/
-│   ├── ref/
-│   │   ├── GSE112393_DGE.txt.gz                 81,261,540 B   去卷积参考系（必须）
-│   │   └── GSE112393_PerCellAttributes.txt.gz    1,495,253 B   细胞类型注释（必须）
-│   ├── GSE236388/GSE236388_XAP5_counts.txt.gz      285,621 B   正向对照用（D16 睾丸臂）
-│   ├── GSE283904/GSE283904_Gene_count.txt.gz       347,406 B
-│   ├── GSE68283/GSE68283_Raw_counts.txt.gz         389,507 B
-│   ├── GSE68284/GSE68284_Raw_counts.txt.gz         474,203 B
-│   └── <其它 GSE>_RAW.tar                       见下表
-└── ref/
-    ├── signature_GSE112393.csv.gz                491,724 B   细胞类型特征谱（未标准化 counts）
-    └── signature_GSE112393_cpm.csv.gz            384,037 B   ← 去卷积实际输入（CPM）
+```bash
+bash envs/python.sh scripts/data_assets.py --download
+bash envs/python.sh scripts/data_assets.py --verify
 ```
 
-`data/raw/` 与 `data/ref/` 已在 `.gitignore` 中。
+下载仅补齐缺失文件，校验通过才提升为正式输入；已有输入不符时停止，保留原文件。代理如有需要由调用者环境配置，仓库不写死本机代理地址。首次完整网络下载路径尚未在空目录验证。
 
-## 最小可用集合（跑通正向对照只需要两个文件）
+`samples.tsv` 保留早期盘点的完整分组表，包含默认分析以外的候选样本；它不代表全部样本都进入分析。当前 56 个主分析样本以 `results_snapshot/import_qc/official_sample_evidence.csv` 为准，其中保存 assigned_group、原始 GSM 标题与来源信息。自动步骤核对样本 ID、标题及 Hnrnpgt 基因型；其余分组还依赖核查时对官方特征的人工解释，不把单纯标题匹配称为全部分组的自动证明。
 
-1. **GSE112393 参考系**（82.8 MB）
-   ```bash
-   python3 scripts/fetch_geo.py \
-     "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/suppl/GSE112393_MergedAdultMouseST25_DGE.txt.gz" \
-     data/raw/ref/GSE112393_DGE.txt.gz
+重要边界：
 
-   python3 scripts/fetch_geo.py \
-     "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/suppl/GSE112393_MergedAdultMouseST25_PerCellAttributes.txt.gz" \
-     data/raw/ref/GSE112393_PerCellAttributes.txt.gz
-   ```
+- GSE236388 只选 XAP5 D16 睾丸，不选 XAP5L D56 附睾尾精子。
+- GSE38096 主比较为 2 KO / 2 WT，两个 HET 保留但不纳入。
+- GSE68283 与 GSE68284 是同一 Rfx2 研究的两个年龄队列。
+- GSE294209 仅有每样本 TPM，不作为原始 counts。
+- GSE101511 的 ENSMUST 旧特征使用固定 Ensembl 79 兼容映射；原始 GTF 发布版本未明确，不能称为完全复现作者注释。
+- 旧表中 N6amt1 的 adult 年龄及部分“阻滞节点”缺少当前充分证据，不用于年龄或组织学分期因果分析。
 
-2. **一个 bulk 数据集**（这里用 GSE236388 的 D16 睾丸臂）
-   ```bash
-   python3 scripts/fetch_geo.py \
-     "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE236nnn/GSE236388/suppl/GSE236388_XAP5_counts.txt.gz" \
-     data/raw/GSE236388/GSE236388_XAP5_counts.txt.gz
-   ```
+`inventory.csv`、`dataset_selection.csv` 是历史搜索盘点，不是新的纳入证据；旧说明备份见 [历史数据说明](../docs/history/data-README-pre-audit.md)。
 
-⚠️ **GSE236388 有两个 counts 文件，只有一个是睾丸**：
-
-- `GSE236388_XAP5_counts.txt.gz` → **D16 睾丸**，KO 组标为 `XAP5 cKO`。**用这个。**
-- `GSE236388_XAP5L_counts.txt.gz` → **D56 附睾尾精子**，不是睾丸，不能做组成分析。
-
-3. 从参考系生成 CPM 特征谱（`data/ref/` 下的两个文件）
-   ```bash
-   MPLCONFIGDIR="$PWD/.mplcache" .venv/bin/python scripts/build_signature.py \
-     --dge  data/raw/ref/GSE112393_DGE.txt.gz \
-     --anno data/raw/ref/GSE112393_PerCellAttributes.txt.gz \
-     --out  data/ref/signature_GSE112393.csv.gz \
-     --group-out data/ref/cluster_collapse.csv
-
-   MPLCONFIGDIR="$PWD/.mplcache" .venv/bin/python code/04_normalize_signature.py
-   ```
-   特征谱构建约 12 min；**峰值内存 ~48 MB**（流式，不会碰到 16 GB 上限）。
-
-## 全部 8 个 CORE 数据集的体积
-
-| GSE | 补充文件 | 体积 |
-|---|---|---|
-| GSE112393 | `*_DGE.txt.gz` + `*_PerCellAttributes.txt.gz` | 82.8 MB |
-| GSE38096 | `GSE38096_RAW.tar` | 83.3 MB |
-| GSE42601 | `GSE42601_RAW.tar` | 24.1 MB |
-| GSE294209 | `GSE294209_RAW.tar` + 作者 DE 表 | 12.2 MB |
-| GSE236388 | `GSE236388_XAP5_counts.txt.gz` | 0.3 MB |
-| GSE101511 | `GSE101511_RAW.tar` | 1.9 MB |
-| GSE283904 | `GSE283904_Gene_count.txt.gz` | 0.3 MB |
-| GSE68283 | `GSE68283_Raw_counts.txt.gz` | 0.4 MB |
-| GSE68284 | `GSE68284_Raw_counts.txt.gz` | 0.5 MB |
-
-合计约 **205 MB**。
-
-## 关于下载速度
-
-NCBI GEO 的 FTP 对单连接限速很严（实测 **15–35 KB/s**）。`scripts/fetch_geo.py`
-用 8 路并发 range 请求把聚合速率提到约 **126 KB/s**（约 6 倍），
-并支持**块级断点续传**：中断后重跑只补缺失的块，全部就位后才拼接，
-拼接前用 gzip CRC 校验，校验失败拒绝写入。所以按上面的命令反复重跑是安全的。
-
-> 实测：81 MB 的 GSE112393 DGE 用 6–8 并发约 11–15 min。
-> 若某轮遇到 NCBI 的 HTTP 503，脚本会退避重试，不需要人工干预。
-
-## 数据来源与许可
-
-所有数据来自 [NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/)，各数据集的使用请遵循
-其原始发表论文与 GEO 的条款。本仓库不再分发这些文件。
+`data/raw/`、`data/ref/`、`data/bulk/`、`data/interim/` 仅在本地生成并被 Git 忽略。上游数据、原论文及补充表不适用本仓库原创代码的 MIT 许可；使用时遵守各来源要求并引用原作者。

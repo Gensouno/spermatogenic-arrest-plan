@@ -1,0 +1,18 @@
+{
+  "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12864-016-2618-1/MediaObjects/12864_2016_2618_MOESM2_ESM.xlsx",
+  "doi": "10.1186/s12864-016-2618-1",
+  "sha256": "f950c6f3c79f20c1791bb5ecfd40386cce1de5cc8aacc400a5602dd4edc325ce",
+  "source_genes": 13009,
+  "excluded_nonnumeric_genes": 7,
+  "normalization": "Renormalize each source and reference profile over shared genes to 1e6.",
+  "scope": "External sorted-profile compatibility check, not known proportion mixture recovery or cell-number validation.",
+  "limitations": [
+    "2C includes spermatogonia and somatic cells; never used as pure cell-class truth.",
+    "Single expression profile per stage; no replicate-based uncertainty.",
+    "Publication table contains a selected expressed-gene universe and rounded RPKM.",
+    "Seven genes with ambiguous number strings excluded, including influential stage markers; this can affect compatibility.",
+    "FACS-RNAseq and Drop-seq have assay and cell-state differences.",
+    "No reannotation of legacy gene symbols; intersection is explicitly reported.",
+    "Fit uses all common genes; expected-class weight is a compatibility diagnostic, not a certified proportion error."
+  ]
+}

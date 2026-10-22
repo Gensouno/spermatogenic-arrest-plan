@@ -1,4 +1,6 @@
 #!/usr/bin/env Rscript
+# HISTORICAL IMPLEMENTATION, not the default pipeline. Gene reconstruction
+# R2 does not validate cell fractions; see docs/METHODS.md and docs/RESULTS.md.
 # =============================================================================
 # 05_deconvolution.R -- estimate cell-type proportions P for every bulk sample
 #

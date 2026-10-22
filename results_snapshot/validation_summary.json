@@ -1,0 +1,131 @@
+{
+  "scope": "Fresh outputs and intermediates, same installed Python/R dependency libraries; NOT a fresh dependency installation",
+  "status": "complete",
+  "elapsed_seconds": 126.93,
+  "input_files_copied": 22,
+  "compared_tables": [
+    {
+      "path": "results/de/GSE236388_de.csv",
+      "rows": 16821,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE283904_de.csv",
+      "rows": 17109,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE68283_de.csv",
+      "rows": 15151,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE68284_de.csv",
+      "rows": 15288,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE101511_de.csv",
+      "rows": 12902,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE294209_de.csv",
+      "rows": 17866,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE38096_de.csv",
+      "rows": 22039,
+      "matches": true
+    },
+    {
+      "path": "results/de/GSE42601_de.csv",
+      "rows": 20478,
+      "matches": true
+    },
+    {
+      "path": "results/all_cohort_comparison/common_gene_spearman.csv",
+      "rows": 8,
+      "matches": true
+    },
+    {
+      "path": "results/robustness/sensitivity_metrics.csv",
+      "rows": 63,
+      "matches": true
+    },
+    {
+      "path": "results/robustness/pairwise_sensitivity.csv",
+      "rows": 441,
+      "matches": true
+    },
+    {
+      "path": "results/composition_prediction/prediction_metrics.csv",
+      "rows": 10,
+      "matches": true
+    },
+    {
+      "path": "results/composition_prediction/covariance_terms.csv",
+      "rows": 20,
+      "matches": true
+    },
+    {
+      "path": "results/external_sorted_reference/fitted_RNA_weights.csv",
+      "rows": 8,
+      "matches": true
+    },
+    {
+      "path": "results/stage_reference/fitted_weights.csv",
+      "rows": 24,
+      "matches": true
+    },
+    {
+      "path": "results/stage_reference/crossfit_metrics.csv",
+      "rows": 24,
+      "matches": true
+    },
+    {
+      "path": "results/mixture_audit/calibration_summary.csv",
+      "rows": 2,
+      "matches": true
+    },
+    {
+      "path": "results/mixture_audit/real_heldout.csv",
+      "rows": 12,
+      "matches": true
+    }
+  ],
+  "primary_samples": 56,
+  "datasets": 8,
+  "genetic_perturbations": 7,
+  "baseline_run_id": "20261022T135256.746180Z",
+  "analysis_source_sha256": {
+    "code/de_extended_rnaseq.R": "27729c29d7902ca159864655cfe1cc5f1e8883a7a3d35f29de0766203277b97b",
+    "code/05_deconvolution.R": "333661c2ce157002cb3a02a02285f5c24df6435a6166ec892867e17c6ee14c7b",
+    "code/de_microarrays.R": "66298235f9c05ad6cb7155612f8fd1e580ade9b2de6b7218765b3a5edc813abe",
+    "code/04_normalize_signature.py": "4037c47e8bddb9fcaa64b811705bc66bf7635758a373eb70fffb8fca1c7655ee",
+    "code/06_validate_deconvolution.py": "4a69a6ef4286af3dccba02f71f55e1b96199cbb876dc67503766bdd88c9f6a89",
+    "code/crossfit_composition_prediction.py": "e9fe8bc01cf0e9fd2b4effbb399899bb8aac62bea93a952c28f9f0b0e744324a",
+    "code/build_reference_batches.py": "5547cf7419776bdde3226b11a38c9637a02ffa2e9496a8624fa1166d23d20b79",
+    "code/calibrate_reference_batches.py": "0d4a06459b808fff6c30a3facf03b91aab118c78d53089303ada8ff601a2c7e6",
+    "code/import_microarrays.py": "99225d1c580598bc713e7960e177024925d8183c3518e2ef64e1109d52db07e1",
+    "code/check_stage_reference.py": "56c7bc1d24323e263d708b99ac00581cd0e205c3e4b2611f640691cb534d594d",
+    "code/audit_mixture.py": "20ca4185d7d10e425dab9e7893417ad53d84f7a1cf424d9a963c31046d0543bb",
+    "code/explore_count_cohorts.py": "0fec0ecc5d601eb7e03cac56dc1d5f9a7d1a5a02f477e4e5ee31d9b77d419b81",
+    "code/prepare_legacy_annotation.py": "46847dbbe68fabd55cfb41552cb4a32354bf1b515b657e9e87a7f9d53934f16a",
+    "code/prepare_counts_and_de.R": "af493b37cfe6dd0e51456073aba39b3b5b8e962e720c1bbdae76b9496b38dca0",
+    "code/compare_rnaseq_effects.py": "640ab601ab7de6e4d3d68c05f0a7857ea1d285cd82de4309eb32fc94a732778c",
+    "code/import_extended_rnaseq.py": "4c119c178dc6e2aad23e156f04f44a4ec869c298ea3910c4c04f2ff080e363fb",
+    "code/check_effect_robustness.R": "a1236135d25279f09ee2ac054836eae554ce8be2d17a02e78f952f276d23feb7",
+    "code/audit_reference_metadata.py": "c87425b1fd0b68aca45f728c7b5cf13e8c4230fdf9a95423f9929356e255d490",
+    "code/verify_count_metadata.py": "7091263563438a78b8c6fc1f745e0be17a4aae8776ca968f10400aa05787b4fc",
+    "code/check_external_sorted_reference.py": "c1b2d596407f0dade7f31648375ef8588532729a56419942ee533a832b358f9a",
+    "code/summarize_robustness.py": "be31c6958a44e4ac85ab45490f92b5a5d77da9fd58d0d16e46d201913fe65e1e",
+    "scripts/run_analysis.py": "85d934b7407f3526eacdd87e92086afd7695f4770ee8f19ecd4a20fa39e37f98",
+    "scripts/data_assets.py": "b5ec7b4df42f8f7061faf4a9537635baeeff38e54ad9d1f09f089466f187709b"
+  },
+  "python_version": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:13:42) [Clang 20.1.8 ]",
+  "cell_number_fractions_validated": false,
+  "causal_composition_percentages_validated": false,
+  "warning": "Successful reproducibility checks do not establish biological validity. Same installed dependencies were reused."
+}

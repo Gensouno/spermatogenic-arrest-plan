@@ -1,0 +1,28 @@
+{
+  "seed": 20261022,
+  "min_cells_per_class": 20,
+  "eligible_sources": [
+    "INT1",
+    "INT3",
+    "INT5",
+    "SER3",
+    "SER4",
+    "SER5",
+    "SER6",
+    "SER7",
+    "SER8",
+    "ST2",
+    "ST3",
+    "ST4",
+    "ST5",
+    "ST6",
+    "ST8"
+  ],
+  "mixtures_per_source": 100,
+  "methods": [
+    "linear_all",
+    "linear_weighted",
+    "markers_weighted"
+  ],
+  "interpretation": "Held-out source-batch generalization within one atlas. Unknown donor independence; no cross-study or cell-number validation. Method comparison is exploratory, not an independent final test."
+}

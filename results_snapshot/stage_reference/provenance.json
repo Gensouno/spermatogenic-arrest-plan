@@ -1,0 +1,28 @@
+{
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/suppl/GSE112393_MergedAdultMouseST25_12GermCellClusters_AllGeneExp.xlsx",
+  "paper": "https://pubmed.ncbi.nlm.nih.gov/30146481/",
+  "sha256": "295913d010621fd59225824bef6b730149d8dd0e4c05498d41447744280da853",
+  "natural_log_Average_Total_identity_max_error": 2.763622664048171e-13,
+  "normalization": "exp(Average)-1 sums to 10,000 in each cluster; multiply by 100 before shared-gene renormalization.",
+  "germ_cells": 20646,
+  "original_genes": 24475,
+  "excluded_nonstring_gene_rows": 27,
+  "shared_genes": 11874,
+  "cluster_annotation": {
+    "GC1": "Spermatogonia",
+    "GC2-GC3": "Rare transition into meiosis; not asserted exact LZ identity",
+    "GC4-GC8": "Spermatocytes; not assigned exact prophase substages",
+    "GC9-GC11": "Round spermatids",
+    "GC12": "Elongated spermatids"
+  },
+  "design": "Compare same-table cell-number-weighted collapsed centroids vs 12 germ centroids plus one somatic profile; same genes, weights and five gene folds. Original pseudobulk 4-class reference is an additional comparator.",
+  "limitations": [
+    "Exploratory refinement motivated by failure on these SAME external profiles; not an untouched confirmatory validation set.",
+    "Averages of per-cell normalized counts are not sum-count pseudobulks. Somatic profile comes from a different aggregation scheme of the same atlas.",
+    "Early transition clusters contain only 132 and 61 cells across the atlas; per-batch fine cluster labels unavailable here.",
+    "Gene folds are not independent biological samples; correlated genes remain. No claim of donor or sample holdout.",
+    "Seven malformed external rows remain excluded. RPKM vs UMI, ages and selected-gene universe remain confounded.",
+    "Atlas gene symbols converted to Excel dates are recorded and excluded, not guessed or silently merged.",
+    "No full known-proportion mixture, absolute cell counts or causal composition percentages are validated."
+  ]
+}

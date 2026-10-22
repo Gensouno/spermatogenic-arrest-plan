@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "scope": "Eight selected cohorts, atlas and two reference supplements; no unused discovery data",
+  "assets": [
+    {
+      "path": "data/raw/metadata/GSE236388_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE236nnn/GSE236388/soft/GSE236388_family.soft.gz",
+      "bytes": 2838,
+      "sha256": "e53d1b06230448ee16314cb386295ae91329822fa63e196d5a52db4a388dff61"
+    },
+    {
+      "path": "data/raw/metadata/GSE283904_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283904/soft/GSE283904_family.soft.gz",
+      "bytes": 2746,
+      "sha256": "5fd15a17f87d12ea7371578abf147aa1cd8adcdeb6aaf2c909d7a9a72fe6289d"
+    },
+    {
+      "path": "data/raw/metadata/GSE68283_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68283/soft/GSE68283_family.soft.gz",
+      "bytes": 2608,
+      "sha256": "b45f62fcc54913dbd30b3dedae3a700392c04e0e9df2e1f7f80cfed9e3d7d697"
+    },
+    {
+      "path": "data/raw/metadata/GSE68284_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68284/soft/GSE68284_family.soft.gz",
+      "bytes": 2689,
+      "sha256": "131b8e2f83dac8630398ebfd814d2e8cd12662a2341f7bb94f63c7737642ba8e"
+    },
+    {
+      "path": "data/raw/metadata/GSE101511_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101511/soft/GSE101511_family.soft.gz",
+      "bytes": 2898,
+      "sha256": "c077201ea2051c40701166d68f7ae443fab1d895be0d6483ba436dfc49bb54d1"
+    },
+    {
+      "path": "data/raw/metadata/GSE294209_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294209/soft/GSE294209_family.soft.gz",
+      "bytes": 3052,
+      "sha256": "13092b4545fb8169af2c9e8eb4698f97b8b944049cdc6c3ef583da835c86c125"
+    },
+    {
+      "path": "data/raw/metadata/GSE38096_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38096/soft/GSE38096_family.soft.gz",
+      "bytes": 10605195,
+      "sha256": "cae84c0fe4b1bba8f77d224fedd32fe5abb2e386bcc75018c293e43415c55d66"
+    },
+    {
+      "path": "data/raw/metadata/GSE42601_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42601/soft/GSE42601_family.soft.gz",
+      "bytes": 11309701,
+      "sha256": "7fc8f48797ad73da865630607cde9fd5fa4da3f48aa21bd2832d4eb285e1612a"
+    },
+    {
+      "path": "data/raw/metadata/GSE112393_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/soft/GSE112393_family.soft.gz",
+      "bytes": 6965,
+      "sha256": "5140259bd3926d8fa5c836515e64d18c08998da3026ad62851c864763d44f684"
+    },
+    {
+      "path": "data/raw/GSE236388/GSE236388_XAP5_counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE236nnn/GSE236388/suppl/GSE236388_XAP5_counts.txt.gz",
+      "bytes": 285621,
+      "sha256": "2b5f2894c30eae019279993f34faf11d909716d5156b9e0e4231a29c20b9f33c"
+    },
+    {
+      "path": "data/raw/GSE283904/GSE283904_Gene_count.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283904/suppl/GSE283904_Gene_count.txt.gz",
+      "bytes": 347406,
+      "sha256": "de8b67412f134c5e37a92653a81d6f7d9a34eb2144763e21479c2549ffbde028"
+    },
+    {
+      "path": "data/raw/GSE68283/GSE68283_Raw_counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68283/suppl/GSE68283_Raw_counts.txt.gz",
+      "bytes": 389507,
+      "sha256": "24eb1b9cd39d8672bef8d4ac2e21b73b6e72f5eae737870d4047331e54c306d2"
+    },
+    {
+      "path": "data/raw/GSE68284/GSE68284_Raw_counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68284/suppl/GSE68284_Raw_counts.txt.gz",
+      "bytes": 474203,
+      "sha256": "998ff7555bb15a94bca4ffeae46bcd286b31635064e68aed2d1e941e1009cf14"
+    },
+    {
+      "path": "data/raw/GSE101511/GSE101511_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101511/suppl/GSE101511_RAW.tar",
+      "bytes": 1914880,
+      "sha256": "269c25afc02ca045de1cc4255be86f0d350646cfdddf96718b069abd1f7994f0"
+    },
+    {
+      "path": "data/raw/GSE294209/GSE294209_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294209/suppl/GSE294209_RAW.tar",
+      "bytes": 10700800,
+      "sha256": "da3e2063bcbc7ca6fddfc485352ef11d4b62894ea72b7257731117935b1afca7"
+    },
+    {
+      "path": "data/raw/GSE38096/GSE38096_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38096/suppl/GSE38096_RAW.tar",
+      "bytes": 83292160,
+      "sha256": "b3362ca29a892856d0ec325dec49b9198874e0c2ee1ac843fef3d9609e64c94c"
+    },
+    {
+      "path": "data/raw/GSE42601/GSE42601_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42601/suppl/GSE42601_RAW.tar",
+      "bytes": 24145920,
+      "sha256": "4964e4d476d2804d6b791c242d2439e7928048938db60a37523cb29c882803e5"
+    },
+    {
+      "path": "data/raw/ref/GSE112393_DGE.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/suppl/GSE112393_MergedAdultMouseST25_DGE.txt.gz",
+      "bytes": 81261540,
+      "sha256": "d6f4479eb68a135733602eb82725114cb6d59cad76a1e7671c843caa899fe9cb"
+    },
+    {
+      "path": "data/raw/ref/GSE112393_PerCellAttributes.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/suppl/GSE112393_MergedAdultMouseST25_PerCellAttributes.txt.gz",
+      "bytes": 1495253,
+      "sha256": "1c644dcb87466c50b32bea433ee90d6cd1db92a6db8a77649d9bf8b49c6981fe"
+    },
+    {
+      "path": "data/raw/ref/GSE112393_MergedAdultMouseST25_12GermCellClusters_AllGeneExp.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112393/suppl/GSE112393_MergedAdultMouseST25_12GermCellClusters_AllGeneExp.xlsx",
+      "bytes": 11357441,
+      "sha256": "295913d010621fd59225824bef6b730149d8dd0e4c05498d41447744280da853"
+    },
+    {
+      "path": "data/ref/annotation/Mus_musculus.GRCm38.79.gtf.gz",
+      "url": "https://ftp.ensembl.org/pub/release-79/gtf/mus_musculus/Mus_musculus.GRCm38.79.gtf.gz",
+      "bytes": 24613530,
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221"
+    },
+    {
+      "path": "data/raw/external_reference/12864_2016_2618_MOESM2_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12864-016-2618-1/MediaObjects/12864_2016_2618_MOESM2_ESM.xlsx",
+      "bytes": 583920,
+      "sha256": "f950c6f3c79f20c1791bb5ecfd40386cce1de5cc8aacc400a5602dd4edc325ce"
+    }
+  ]
+}

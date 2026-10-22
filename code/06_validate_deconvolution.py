@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """
+HISTORICAL IMPLEMENTATION: log-space NNLS and in-sample R2 do not validate
+cell fractions. Retained for audit only; see docs/RESULTS.md.
+
 06_validate_deconvolution.py -- end-to-end validation of the deconvolution step
 on a REAL whole-testis dataset, with the project's positive control.
 
