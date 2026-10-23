@@ -1,0 +1,359 @@
+{
+  "review_date_local": "2026-10-23",
+  "scope": "Targeted search, not an exhaustive systematic review or preregistration.",
+  "selection_basis": "Source tissue, controls, assay, units and file identity; no model selected on correlation with baseline.",
+  "candidates": [
+    {
+      "gse": "GSE117706",
+      "title": [
+        " \t\u2018Sertoli cell-only\u2019 phenotype and single-cell RNA-seq define PRAMEF12 as a germline-specific factor for male stem cell maintenance and differentiation [RNA-Seq]"
+      ],
+      "samples_in_series": 12,
+      "decision": "analyzed_HET_control_sensitivity",
+      "reason": "P2 and P7 separately, each 3 control/3 KO; controls are Pramef12+/-, never renamed WT.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE117nnn/GSE117706/soft/GSE117706_family.soft.gz",
+      "metadata_sha256": "da008d8eeb299cf82bf308183157cf0b68bdbb91c71e0581191c2a456d3379fc"
+    },
+    {
+      "gse": "GSE117707",
+      "title": [
+        "\u2018Sertoli cell-only\u2019 phenotype and single-cell RNA-seq define PRAMEF12 as a germline-specific factor for male stem cell maintenance and differentiation [scRNA-seq]"
+      ],
+      "samples_in_series": 2,
+      "decision": "single_cell_candidate",
+      "reason": "PRAMEF12 scRNA-seq, not extra bulk replicates; source labels still need extraction.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE117nnn/GSE117707/soft/GSE117707_family.soft.gz",
+      "metadata_sha256": "9a34509272dc05f0455f05c729361dd0a8c9e0056227593af22b0777ecd30930"
+    },
+    {
+      "gse": "GSE121904",
+      "title": [
+        "Dynamic transcriptome profiles within spermatogonial and spermatocyte populations during postnatal testis maturation revealed by single-cell sequencing"
+      ],
+      "samples_in_series": 8,
+      "decision": "age_reference_candidate",
+      "reason": "PND6/14/18/25/30 and adult; capture preparation differs and adult enrichment must be respected; cell-label mapping pending.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE121nnn/GSE121904/soft/GSE121904_family.soft.gz",
+      "metadata_sha256": "9911e09e25b64c5534e292af49fb45044cd4c061216f00d43e05dc3e23cf65dd"
+    },
+    {
+      "gse": "GSE151564",
+      "title": [
+        "Regulation of meiotic progression by Sertoli-cell androgen signaling"
+      ],
+      "samples_in_series": 8,
+      "decision": "reference_candidate_pending",
+      "reason": "AR-signaling study; not admitted without checking population, genotype and expression format.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151564/soft/GSE151564_family.soft.gz",
+      "metadata_sha256": "987b9caededeb073fbbe010e3ead17119b687a5127b193fa8336c4edd8a4441b"
+    },
+    {
+      "gse": "GSE158471",
+      "title": [
+        "The CNOT4 Subunit of the CCR4-NOT Complex is Involved in mRNA Degradation, Efficient DNA Damage Repair, and XY Chromosome Crossover during Male Germ Cell Meiosis"
+      ],
+      "samples_in_series": 8,
+      "decision": "analyzed_sorted_WT_reference_check",
+      "reason": "Four Cnot4 WT LZ/PD profiles, FPKM not counts; mm9 symbols and two replicates per stage.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158471/soft/GSE158471_family.soft.gz",
+      "metadata_sha256": "64f8790d12af0bda46a428398b5eaa4ac22f7af0515d9c1233f1627f3c4e73c4"
+    },
+    {
+      "gse": "GSE172171",
+      "title": [
+        "Transcriptome analysis of early and late pachytene spermatocytes in WT and Zfp541-KO mice (Smart-Seq2)"
+      ],
+      "samples_in_series": 12,
+      "decision": "synchronized_stage_candidate",
+      "reason": "WT/KO early and late pachytene after WIN18,446/RA synchronization; not untreated whole testis.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE172nnn/GSE172171/soft/GSE172171_family.soft.gz",
+      "metadata_sha256": "23771c00133a36b0cc9f25d2f5fe691db6bd7ca651153cc4227b6f071d5e3261"
+    },
+    {
+      "gse": "GSE180204",
+      "title": [
+        "LRH1 can help reprogram sexual cell fate and is required for Sertoli cell development and spermatogonial stem cell maintenance in the mouse testis"
+      ],
+      "samples_in_series": 16,
+      "decision": "priority_future_bulk_candidate",
+      "reason": "P1 Nanos3-Cre and P3 Dhh-Cre arms, 4 vs 4 each; different targeted cell types and floxed controls, not interchangeable.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE180nnn/GSE180204/soft/GSE180204_family.soft.gz",
+      "metadata_sha256": "307c9af840aa5359a61c543beb299f337e19c96b34e7af95326131d1d2a66deb"
+    },
+    {
+      "gse": "GSE181132",
+      "title": [
+        "Catalytic Subunit of Protein Phosphatase 2A (PP2Ac) Influences the Meiosis Initiation During Spermatocyte Meiosis Prophase I"
+      ],
+      "samples_in_series": 4,
+      "decision": "small_sample_candidate",
+      "reason": "Adult whole testis 2 WT/2 Ppp2ca cKO; matrix units still require file inspection.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181132/soft/GSE181132_family.soft.gz",
+      "metadata_sha256": "3f18a2528d63c0df180fbe7cacc523ed7b3b93a23715834b4c9b8c965f237b31"
+    },
+    {
+      "gse": "GSE182518",
+      "title": [
+        "The NMD endonuclease SMG6 co-operates with the piRNA pathway in germ granules to shape the male germ cell transcriptome"
+      ],
+      "samples_in_series": 35,
+      "decision": "mixed_assay_sorted_candidate",
+      "reason": "Sorted CB/RS/spermatocyte and small-RNA/TE/gene outputs; not added as whole testis.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182518/soft/GSE182518_family.soft.gz",
+      "metadata_sha256": "bb78af126d27da802e201c814f9d435edff41519f020b6ccb00bddac2d25c513"
+    },
+    {
+      "gse": "GSE190646",
+      "title": [
+        "SRSF10 is essential for progenitor spermatogonia expansion by regulating alternative splicing"
+      ],
+      "samples_in_series": 24,
+      "decision": "FPKM_sensitivity_candidate",
+      "reason": "P3/P6/P8 whole-testis FPKM with small replicate counts plus sorted/single-cell components; not primary integer counts.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190646/soft/GSE190646_family.soft.gz",
+      "metadata_sha256": "c61607d2b1aaadca20fcf6ac187a62a72eea3da3634d24d80f84af753b264cda"
+    },
+    {
+      "gse": "GSE206018",
+      "title": [
+        "Effects of deletion of Arhgef15 gene in mouse sertoli cells  on spermatogenesis"
+      ],
+      "samples_in_series": 6,
+      "decision": "exclude_whole_testis_pool",
+      "reason": "Primary Sertoli cells, not whole testis.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE206nnn/GSE206018/soft/GSE206018_family.soft.gz",
+      "metadata_sha256": "b5b11d62a75f6fdf22563d4ab4384f603e1921f9bcfd5e8f2b48a26133d738a6"
+    },
+    {
+      "gse": "GSE217685",
+      "title": [
+        "RNA-seq reveals an abnormal transcriptome as a result of DDX20 loss in spermatogonia."
+      ],
+      "samples_in_series": 6,
+      "decision": "exclude_whole_testis_pool",
+      "reason": "THY1-positive sorted spermatogonia.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE217nnn/GSE217685/soft/GSE217685_family.soft.gz",
+      "metadata_sha256": "bd2801b7f2614297346e8532a3c610c78908ce43c2a75bd742018468c599a139"
+    },
+    {
+      "gse": "GSE228722",
+      "title": [
+        "RNA polymerase II pausing is essential for appropriate gene expression and meiosis during spermatogenesis"
+      ],
+      "samples_in_series": 9,
+      "decision": "replicated_reference_candidate",
+      "reason": "P24 scRNA-seq, 4 control/2 NELF-B cKO/3 TDP-43 cKO; not bulk biological replication by summing cells.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE228nnn/GSE228722/soft/GSE228722_family.soft.gz",
+      "metadata_sha256": "28db2f75329fea3cdaec6e056e46fb44f563d2efffa80befbcd4d04ec878f0ef"
+    },
+    {
+      "gse": "GSE230743",
+      "title": [
+        "The role of MEIOC at the transition from mitosis to meiosis during mammalian spermatogenesis [bulkRNAseq]"
+      ],
+      "samples_in_series": 7,
+      "decision": "exclude_unmanipulated_whole_testis_pool",
+      "reason": "Developmentally synchronized preleptotene-enriched testes.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE230nnn/GSE230743/soft/GSE230743_family.soft.gz",
+      "metadata_sha256": "f3c9161a256ec623ae204dd5f634dda9e2d4f0126ce805ec4e8126596b39898b"
+    },
+    {
+      "gse": "GSE230746",
+      "title": [
+        "The role of MEIOC at the transition from mitosis to meiosis during mammalian spermatogenesis [scRNA]"
+      ],
+      "samples_in_series": 4,
+      "decision": "age_reference_candidate_resource_deferred",
+      "reason": "P15 WT has two biological replicates and author-labeled Seurat object, but object is 1,122,924,799 bytes compressed; not downloaded.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE230nnn/GSE230746/soft/GSE230746_family.soft.gz",
+      "metadata_sha256": "d7566ca25af33a6bd7b3094bd47e96bd44921341e4a4bfa4a7a0e805a5f37668"
+    },
+    {
+      "gse": "GSE230747",
+      "title": [
+        "The role of MEIOC at the transition from mitosis to meiosis during mammalian spermatogenesis"
+      ],
+      "samples_in_series": 11,
+      "decision": "superseries_not_independent_dataset",
+      "reason": "Parent of GSE230743 and GSE230746; do not double count.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE230nnn/GSE230747/soft/GSE230747_family.soft.gz",
+      "metadata_sha256": "31b33b5be914e7664913481302f87122a0395f0bee6940c60de547dd831e4971"
+    },
+    {
+      "gse": "GSE232398",
+      "title": [
+        "NKAPL binding sites in mouse testis and the genome-wide occupancy of the SOX30/HDAC3 protein complex and RNA Pol II in the absence of NKAPL"
+      ],
+      "samples_in_series": 20,
+      "decision": "exclude_non_expression_assay",
+      "reason": "ChIP-seq binding profiles.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232398/soft/GSE232398_family.soft.gz",
+      "metadata_sha256": "e4d251ae3513cfcb568baa956df096f3ef2bd5050c91c2fde0268c5b29b9d1a2"
+    },
+    {
+      "gse": "GSE232415",
+      "title": [
+        "Gene expression alterations with Nkapl knockout or NKAPL frameshift mutation (M349fs)"
+      ],
+      "samples_in_series": 26,
+      "decision": "whole_testis_blocked_sorted_WT_only",
+      "reason": "15 internal-label mismatches and 6 whole-testis files in duplicate groups; no inferred relabeling. Four separately checked sorted WT PS/RS profiles used only for reference diagnostics.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232415/soft/GSE232415_family.soft.gz",
+      "metadata_sha256": "ec5680fc54aa2efe2424a781a057ce7ecf5dd67c670eb1c136c6ae7dbaadf073"
+    },
+    {
+      "gse": "GSE232416",
+      "title": [
+        "NKAPL RNA targets in mouse testes with eCLIP-seq"
+      ],
+      "samples_in_series": 3,
+      "decision": "exclude_non_expression_assay",
+      "reason": "eCLIP-seq RNA binding, not bulk gene expression.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232416/soft/GSE232416_family.soft.gz",
+      "metadata_sha256": "da83e6c2a936e1fc7d0f0a8c8f7c96ee57506ce82eb34b9ebb6a2797d9b0a2c5"
+    },
+    {
+      "gse": "GSE232417",
+      "title": [
+        "Genome-wide R-loops dynamics and its alteration by Nkapl knockout in mouse testes with ssDRIP-seq"
+      ],
+      "samples_in_series": 10,
+      "decision": "exclude_non_expression_assay",
+      "reason": "ssDRIP-seq R-loop profiles.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232417/soft/GSE232417_family.soft.gz",
+      "metadata_sha256": "59154b7c8a4043c5efd5916e06ce201aba72b4c5d33218bb701bdcc706e70a22"
+    },
+    {
+      "gse": "GSE235777",
+      "title": [
+        "Loss Of Function of Male-Specific Lethal 3 (Msl3) Does Not Affect Spermatogenesis in Rodents"
+      ],
+      "samples_in_series": 6,
+      "decision": "analyzed_phenotype_negative_comparator",
+      "reason": "P45 Msl3 3 WT/3 cKO, STAR unstranded column 2; not a guaranteed transcriptional-null truth set.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE235nnn/GSE235777/soft/GSE235777_family.soft.gz",
+      "metadata_sha256": "5f28eb9482e5c483d555c6993801cb3b3ee95f3cb7a3c30e85b3d41a716c3422"
+    },
+    {
+      "gse": "GSE242235",
+      "title": [
+        "Deletion of an evolutionary conserved TAD boundary leads to changes in gene expression, histology and function in mouse testis."
+      ],
+      "samples_in_series": 27,
+      "decision": "mixed_assay_candidate",
+      "reason": "Whole-testis RNA arms exist alongside Capture-HiC/ChIP and homozygous/heterozygous genotypes; expression file availability not yet fully checked.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE242nnn/GSE242235/soft/GSE242235_family.soft.gz",
+      "metadata_sha256": "3984b86fbe5a35e2ade0c117ead5e98b117536c6f1347a53a2afb556d5899a61"
+    },
+    {
+      "gse": "GSE252121",
+      "title": [
+        "Chromatin remodeler CHD8 is required for spermatogonial proliferation and early meiotic progression"
+      ],
+      "samples_in_series": 42,
+      "decision": "exclude_whole_testis_pool",
+      "reason": "Sorted Thy1+/cKit+ RNA-seq and ChIP-seq mixed in the series.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE252nnn/GSE252121/soft/GSE252121_family.soft.gz",
+      "metadata_sha256": "772f4aedccd776b65a99db3d50fd3639900924dac3319efded44c8cf96843e6c"
+    },
+    {
+      "gse": "GSE259242",
+      "title": [
+        "DCAF2 regulates the proliferation and differentiation of mouse progenitor spermatogonia by targeting p21 and thymine DNA glycosylase"
+      ],
+      "samples_in_series": 6,
+      "decision": "analyzed_new_arrest_comparison",
+      "reason": "P9 Dcaf2; explicit count columns only; 3 control/3 cKO.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE259nnn/GSE259242/soft/GSE259242_family.soft.gz",
+      "metadata_sha256": "74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20"
+    },
+    {
+      "gse": "GSE264025",
+      "title": [
+        "Deletion of Mgat2 in Spermatogonia Blocks Spermatogenesis"
+      ],
+      "samples_in_series": 8,
+      "decision": "exclude_whole_testis_pool",
+      "reason": "Prepared germ cells from P15, not unselected whole testis.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE264nnn/GSE264025/soft/GSE264025_family.soft.gz",
+      "metadata_sha256": "e94bde295a598c45aecf455a0867b1373933e2f07d67bedebe12dcb1a3ff28ea"
+    },
+    {
+      "gse": "GSE278121",
+      "title": [
+        "PPP6R3-mediated dephosphorylation regulates mRNA translation during spermatogonial differentiation"
+      ],
+      "samples_in_series": 6,
+      "decision": "unit_pending",
+      "reason": "About 48% matrix entries are non-integer despite raw_counts filename; quantification scale unresolved; not rounded.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE278nnn/GSE278121/soft/GSE278121_family.soft.gz",
+      "metadata_sha256": "21f170706ec4f3118e82119d9893a6f6e494cf48764c47c8fbba0e51f53f88e1"
+    },
+    {
+      "gse": "GSE290629",
+      "title": [
+        "Effect of knockout of H3mm15 on gene expression during spermatogenesis [RNA-seq]"
+      ],
+      "samples_in_series": 24,
+      "decision": "analyzed_sorted_WT_reference_check",
+      "reason": "Twelve author-labeled WT stage profiles; no assertion that stages are independent animals.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290629/soft/GSE290629_family.soft.gz",
+      "metadata_sha256": "90ffe10164b0f417566d76b33de9caa674f71c5d9e39d776c258d909019b290c"
+    },
+    {
+      "gse": "GSE290783",
+      "title": [
+        "Male germ cells-specific deletion of eukaryotic translation initiation factor 5 causes apoptosis of mouse progenitor spermatogonia by DNA repair defects and sustained endoplasmic reticulum stress"
+      ],
+      "samples_in_series": 6,
+      "decision": "unit_and_sample_metadata_pending",
+      "reason": "About 95% entries non-integer; genotype characteristic is literally tissue for all samples; not admitted to primary counts analysis.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290783/soft/GSE290783_family.soft.gz",
+      "metadata_sha256": "5ee6b0fcc63bd2c2ffe3ba898e7a7d1826e347fcf4b0fd93e4babc7347dd85bb"
+    },
+    {
+      "gse": "GSE341157",
+      "title": [
+        "ChIL-seq profiling of H3.3 and H3mm15 chromatin incorporation after histone chaperone depletion and amino acid substitution in NIH3T3 cells"
+      ],
+      "samples_in_series": 31,
+      "decision": "exclude_non_testis_expression_assay",
+      "reason": "Official series is ChIL-seq in NIH3T3 cells; misleading search snippets do not establish whole-testis RNA-seq.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE341nnn/GSE341157/soft/GSE341157_family.soft.gz",
+      "metadata_sha256": "3993b40959ddc4b96cd68ca0f65538dbfc2485c9bb0ab6dcafc2b9eb9211ea1a"
+    },
+    {
+      "gse": "GSE63166",
+      "title": [
+        "Small RNA and transcriptome profiling of mice deficient in either germline Dgcr8 or Dicer"
+      ],
+      "samples_in_series": 16,
+      "decision": "normalized_sensitivity_candidate",
+      "reason": "Multiple small-RNA/expression experiments and processed CPM tables; not verified raw counts.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63166/soft/GSE63166_family.soft.gz",
+      "metadata_sha256": "c3de4f5f44c0cda2aaaf0f78c933910157b493250199641610cdb237701a3f4e"
+    },
+    {
+      "gse": "GSE79106",
+      "title": [
+        "Ptbp2 controls an alternative splicing network required for cell communication during spermatogenesis"
+      ],
+      "samples_in_series": 7,
+      "decision": "expression_asset_pending",
+      "reason": "Whole-series supplement list is empty; sample-level files and raw availability still need inspection.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE79nnn/GSE79106/soft/GSE79106_family.soft.gz",
+      "metadata_sha256": "46219327400351cd044efb2c2574516a7e140539f9bb52edb9340b2d91a49719"
+    },
+    {
+      "gse": "GSE95225",
+      "title": [
+        "EZH1 in Germ Cells Safeguards the Function of PRC2 during Spermatogenesis"
+      ],
+      "samples_in_series": 6,
+      "decision": "exclude_non_expression_assay",
+      "reason": "Official sample metadata identifies H3K27me3 ChIP/input, despite expression-like study title.",
+      "metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95225/soft/GSE95225_family.soft.gz",
+      "metadata_sha256": "3ad004868cfa5ae0f109f877bfe9cbf2eaff23f551de43299e20c1a34ef36c3f"
+    }
+  ]
+}

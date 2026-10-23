@@ -1,0 +1,119 @@
+{
+  "generated_utc": "2026-10-23T08:01:29.207534+00:00",
+  "baseline": "Frozen eight-cohort analysis, commit 7d8e45e; not overwritten by expansion.",
+  "baseline_effect_matrix_sha256": "e75706463d6ceb880b63b550c98606a8c0ef4141142de277eef248dd3cbcc91d",
+  "whole_testis_samples_added": 24,
+  "bulk_contrasts_added": 4,
+  "sorted_WT_profiles_checked": 20,
+  "source_sha256": {
+    "code/prepare_expansion.py": "3ffc6c53e37b483b2992e940cae50a1564f427eac1640b2df6df9d03a84e0e41",
+    "code/de_expansion.R": "b49e74147d182d178a4cbc85a2796b1f9a7050ab75b97286e52187a8b4334115",
+    "code/map_sorted_expansion.R": "7e5ecb9d849ea3455d0597412bb9c818fc26d53a58f89aff309fc4c7a90902d3",
+    "code/check_sorted_expansion.py": "48d6f6eff5deae643d97d8f7c7274b61c292bb9e016f35f030216fa0355c4ab7",
+    "code/summarize_expansion.py": "c854e51f5fd1de4306b43791b3a976135be9e14892a9f2dad8a14174cfe4f3aa",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "scripts/fetch_expansion_asset.py": "bea916e7300b3cc5b25b0c14108a8083a2b849d2014d6f42da2c457e569d9f00",
+    "scripts/run_expansion.py": "da6c6e235f6fe1dfac12798a8d0b9e3b5f7b8f7dbc61699d2f6e1602fb65d53b",
+    "scripts/check_expansion_reproduction.py": "3ae2a556caeadb0dc647cc0770c723c3526db7449fa790ad3c5d48784b09c2d0",
+    "tests/test_expansion.py": "3ec6b27f717230fa37b1db3c80949527d63cf79e4c8eff84f0bcf64af31b789e",
+    "tests/test_proxy_env.py": "5576f831bb6e522a51543939041da0c6b727fb84dc3088d603e4677916ab35fe",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8"
+  },
+  "asset_manifest_sha256": "c6b7fc83fc986e392b6f2705db11bae50ba96b15c6705cf6e7245e80b3eeeb74",
+  "review_sha256": "b502b8b8cd69da111139799dd5c7c3ab67cb1f08b57e93ce6f2f5518f914e25b",
+  "files": [
+    {
+      "path": "GSE117706_P2_sample_evidence.csv",
+      "bytes": 1673,
+      "sha256": "db163d331f7bc97839fd895448a73ea6aca45a33a03282e1681bd285bdbc4cd1"
+    },
+    {
+      "path": "GSE117706_P7_sample_evidence.csv",
+      "bytes": 1673,
+      "sha256": "9fc6f130ff82160f0a10bd674b879e0c1baeb88b0f2c65d533561fc7dddc24f5"
+    },
+    {
+      "path": "GSE232415_file_identity_audit.csv",
+      "bytes": 3684,
+      "sha256": "508bbe272ca182dd8299e9faaaa389b97d5ec28eddd2c591cbef743db1f67849"
+    },
+    {
+      "path": "GSE235777_P45_sample_evidence.csv",
+      "bytes": 2066,
+      "sha256": "c622e178cbfa12c6182058d6eada17af46d675fdc0e99f1e6342cdcd887b005e"
+    },
+    {
+      "path": "GSE259242_P9_sample_evidence.csv",
+      "bytes": 1544,
+      "sha256": "a4e4c7b0e8f9a963cb2b463efb7a74e3b3bb95afef7d6722684bd257df6b6010"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1514,
+      "sha256": "9200104fe84da080ec5a2fe24db57f81d0d722d9020290e7cf38ea7100b129c7"
+    },
+    {
+      "path": "cohort_summary.csv",
+      "bytes": 733,
+      "sha256": "61acae54552fa2772ec75875b33c22051cf54cd75a10be34eb6887851469db08"
+    },
+    {
+      "path": "cross_cohort_ranges.csv",
+      "bytes": 2050,
+      "sha256": "09555b076e6a3296c0573facac2dea6452921e37ccf2bef802680fde511d2964"
+    },
+    {
+      "path": "expansion_effects.png",
+      "bytes": 123905,
+      "sha256": "801e63670b9c672385b62e21b4ac599b6b4942f7baf897fba019a1961969d26a"
+    },
+    {
+      "path": "fixed_core_gene_correlations.csv",
+      "bytes": 1587,
+      "sha256": "a7200e1e8d600dc3b2959278ec9e97a5f1c933836d1bf9c3bf3fb5b897dde87d"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 692,
+      "sha256": "06c87441ada06f9cf992ea63b71b6b6a7f2833ad57125eeac475ac74e802385a"
+    },
+    {
+      "path": "sample_sensitivity.csv",
+      "bytes": 1196,
+      "sha256": "fce7b1e647446b9413648538f1bf690dcde95d5d933481956fa1bbe4177e63e1"
+    },
+    {
+      "path": "sorted_validation/design.json",
+      "bytes": 1369,
+      "sha256": "24d9e94808150182260fa5e0bca7452ff982a0db0908f9883a333145b47ac0e4"
+    },
+    {
+      "path": "sorted_validation/fitted_weights.csv",
+      "bytes": 8845,
+      "sha256": "435001e9e178a47e62aa2e862047bc4ceb8d03aa442cf8eed3eed6bb86b3a5bc"
+    },
+    {
+      "path": "sorted_validation/new_sorted_compatibility.png",
+      "bytes": 128438,
+      "sha256": "4cb494d5569f57b0a682026928a70e32c2c490b05c44b6cedd65d02f10c43ea2"
+    },
+    {
+      "path": "sorted_validation/source_sample_evidence.csv",
+      "bytes": 5088,
+      "sha256": "7ae31c4b453cbfb27209d2dbd96d2e76f2fa03e4df6f099c58380c4255c65aad"
+    },
+    {
+      "path": "sorted_validation/summary.csv",
+      "bytes": 465,
+      "sha256": "ec3ec42fc7d9e8c1a29ed4468dbd92c6bb227979ca44e01a1af5ff5c24a9f90b"
+    },
+    {
+      "path": "unresolved_count_units.csv",
+      "bytes": 232,
+      "sha256": "1fa5e866792d0e4e3ea4c9e02b5afded4cf9084bec57a39d63d753fbf243d94c"
+    }
+  ],
+  "cell_proportions_validated": false
+}

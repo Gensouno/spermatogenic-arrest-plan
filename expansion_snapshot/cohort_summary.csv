@@ -1,0 +1,5 @@
+cohort,gse,age,role,control_genotype,KO_genotype,Control,KO,symbol_genes,tested_genes,DEG_FDR05_absLFC1,min_retained_count_fraction,contrast
+GSE259242_P9,GSE259242,P9,new_arrest_comparison,control,conditional Dcaf2 knockout,3,3,21349,14247,735,0.990277344472019,KO minus explicitly stated Control
+GSE117706_P2,GSE117706,P2,HET_control_sensitivity,Pramef12+/-,Pramef12-/-,3,3,30440,14904,2,0.9660120892477,KO minus explicitly stated Control
+GSE117706_P7,GSE117706,P7,HET_control_sensitivity,Pramef12+/-,Pramef12-/-,3,3,30440,15167,396,0.982339254233986,KO minus explicitly stated Control
+GSE235777_P45,GSE235777,P45,phenotype_negative_comparator,MSL3 WT,MSL3 cKO,3,3,33044,18598,0,0.976665764208294,KO minus explicitly stated Control

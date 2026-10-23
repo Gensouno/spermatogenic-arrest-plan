@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "tables_matching": 12,
+  "compared_tables": [
+    "de/GSE259242_P9_de.csv",
+    "de/GSE117706_P2_de.csv",
+    "de/GSE117706_P7_de.csv",
+    "de/GSE235777_P45_de.csv",
+    "cohort_summary.csv",
+    "sample_sensitivity.csv",
+    "fixed_core_gene_correlations.csv",
+    "cross_cohort_leave_one_out.csv",
+    "GSE232415_file_identity_audit.csv",
+    "unresolved_count_units.csv",
+    "sorted_validation/fitted_weights.csv",
+    "sorted_validation/summary.csv"
+  ],
+  "scope": "New expansion outputs from copied frozen baseline effect/reference artifacts and raw expansion inputs; shared installed dependencies, no network or fresh installation.",
+  "retained": true
+}

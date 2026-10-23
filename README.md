@@ -14,7 +14,11 @@
 
 图中为 8,099 个共同受检基因的 Spearman 相关，不是对独立生物重复的显著性检验。TPM 与芯片作为敏感性分支，不能和计数效应完全等量解释。完整说明见 [结果与边界](docs/RESULTS.md)，精简表格见 [结果快照](results_snapshot/README.md)。
 
-## 数据与分析范围
+## 可选数据扩展（2026-10-23）
+
+原八队列基线保持不变。可选探索分支定向核查了 32 个 GEO 系列，接入 Dcaf2 P9、Pramef12 P2/P7（杂合子对照）和 Msl3 P45（表型阴性比较），新增 24 份全睾丸样本，另检查 20 份分选 WT 表达谱。不同角色不混为“新增阻滞病例”。方法、文件身份问题及复现范围见 [数据扩展记录](docs/DATA_EXPANSION.md)，结果在 `expansion_snapshot/`。
+
+## 数据与分析范围（冻结的八队列基线）
 
 | 队列 | 遗传扰动 | KO / WT | 数据类型 |
 |---|---|---:|---|
@@ -53,6 +57,10 @@ bash envs/python.sh scripts/export_snapshot.py --verify
 ```
 
 已有输入时用 `scripts/data_assets.py --verify` 检查；也可通过 `--import-from /path/to/existing-project` 从另一目录复制经校验的输入。已有输入若校验不符会停止，不自动覆盖。
+
+### 可选下载代理
+
+需要代理时，将 `envs/download-proxy.example` 复制为项目根目录的 `.download-proxy.local`，把其中 URL 改为本机 HTTP(S) 代理地址。该文件已被 Git 忽略，不提交代理地址或凭据。通过 `envs/python.sh`／`envs/rscript.sh` 运行的下载及依赖安装会继承它；代理不可用时应修复代理，不自动改为直连。未配置此文件时保留调用者的代理环境。直接运行系统 Python/R 不会读取此项目配置。
 
 本机另做了没有旧结果和中间文件的新目录重跑，关键结果表一致；此检查复用已安装的依赖，**不是**另一台机器或空依赖环境安装验证，也没有在删除原数据后测试全部首次网络下载。耗时和详细边界见 [复现记录](docs/REPRODUCIBILITY.md)。
 

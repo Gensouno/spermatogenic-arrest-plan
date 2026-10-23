@@ -1,0 +1,7 @@
+cohort,gse,sample_id,group,genotype,age,role,official_title,official_source,official_characteristics,metadata_sha256,id_type
+GSE259242_P9,GSE259242,GSM8111945,Control,control,P9,new_arrest_comparison,"Testes, Control-1, Day 9",Testes,tissue: Testes | genotype: control,74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20,ensembl_gene
+GSE259242_P9,GSE259242,GSM8111946,Control,control,P9,new_arrest_comparison,"Testes, Control-2, Day 9",Testes,tissue: Testes | genotype: control,74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20,ensembl_gene
+GSE259242_P9,GSE259242,GSM8111947,Control,control,P9,new_arrest_comparison,"Testes, Control-3, Day 9",Testes,tissue: Testes | genotype: control,74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20,ensembl_gene
+GSE259242_P9,GSE259242,GSM8111948,KO,conditional Dcaf2 knockout,P9,new_arrest_comparison,"Testes, cKO-1, Day 9",Testes,tissue: Testes | genotype: conditional Dcaf2 knockout,74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20,ensembl_gene
+GSE259242_P9,GSE259242,GSM8111949,KO,conditional Dcaf2 knockout,P9,new_arrest_comparison,"Testes, cKO-2, Day 9",Testes,tissue: Testes | genotype: conditional Dcaf2 knockout,74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20,ensembl_gene
+GSE259242_P9,GSE259242,GSM8111950,KO,conditional Dcaf2 knockout,P9,new_arrest_comparison,"Testes, cKO-3, Day 9",Testes,tissue: Testes | genotype: conditional Dcaf2 knockout,74e0038aac0d4cf0a58a756b9cc1aed43633a24d384c9bb3ebd60536138ccc20,ensembl_gene

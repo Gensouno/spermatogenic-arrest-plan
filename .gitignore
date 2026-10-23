@@ -12,6 +12,7 @@
 .mplcache/
 envs/vendor/
 envs/probe/
+.download-proxy.local
 
 # ---- 运行产物 ----
 logs/

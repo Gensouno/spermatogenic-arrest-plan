@@ -1,0 +1,3 @@
+gse,genes,samples,fraction_noninteger_values,decision
+GSE278121,54532,6,0.48138096285972765,unit_pending; not rounded or analyzed as raw counts
+GSE290783,22219,6,0.952113056393177,unit_pending; not rounded or analyzed as raw counts

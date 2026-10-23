@@ -1,0 +1,20 @@
+{
+  "scope": "Compatibility of 20 additional sorted WT expression profiles from three studies; 18 have a prespecified broad class, two preL transitions are unscored.",
+  "fixed_before_fit": [
+    "Only author-labeled WT populations; no KO profiles for validation.",
+    "Previously generated pooled references and their existing gene universe; same weighting method and no retuning.",
+    "FPKM and counts renormalized within the same shared genes; platform/genome build differences remain."
+  ],
+  "limitations": [
+    "Reference expression profiles were previously assessed on another external dataset; these new profiles were not used for refinement.",
+    "The reference gene universe was originally selected by availability in an earlier external table; this can limit generalization.",
+    "Replicate labels do not prove unique donor animals or independent preparation across stages.",
+    "A largest-class match is a diagnostic, not calibrated proportion accuracy or causal validation.",
+    "CNOT4 data use mm9 symbols; H3mm15 gene mapping uses current org.Mm.eg.db."
+  ],
+  "reference_sha256": {
+    "original_4": "bf9a6d79e94cc6e04284680b885c55eea1686e9862e2142d4d55e3694ec4b1ee",
+    "centroid_4": "b3a8e348e3b867d51db21a0131b606f08a8570f45fae458ed0d4f41d41f276a1",
+    "centroid_13": "2c8be23cab6514c23023cf7c2871ea32645705f34b75bf0342241af44ebe46ee"
+  }
+}
