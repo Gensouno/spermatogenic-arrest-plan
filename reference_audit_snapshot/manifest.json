@@ -1,0 +1,90 @@
+{
+  "scope": "Fixed reference compatibility on 20 sorted WT profiles and 32 age/preparation/QC/weighting profiles; not 52 independent animals.",
+  "source_sha256": {
+    "scripts/fetch_age_reference.py": "f040a9e7183dccc41d957fe2f06e3a7769118f4e8b77918a9b87ab4619a5e3fd",
+    "scripts/run_reference_audit.py": "f6e982b0c6fb4623502c190267dd0297b5419e66411e73c6f135653d5f24a849",
+    "scripts/check_reference_reproduction.py": "60470de73c58b1d32050ccfd1a3e2024ecd815fe3d29082e75db699e63d7de18",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "tests/test_reference_transfer.py": "686b61194149b4d08e9c17245cc4099e0f4ea91319dc2a4c5cee7251bae2581f",
+    "code/prepare_age_reference.py": "df5f1b862372a54dc2d49d2c26d9960eea29a14311df6dfde4f50a0546df1729",
+    "code/diagnose_reference_transfer.py": "aae3a5847edfc71372f7b96dc53019e86bb210bf00f22cea206214df0d7ae32b",
+    "code/check_sorted_expansion.py": "48d6f6eff5deae643d97d8f7c7274b61c292bb9e016f35f030216fa0355c4ab7",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "data/reference_audit_contract.json": "77869129acd68b0b2b9cd9e353c916f3ce727e5098d6def8e44c2e290b569be2"
+  },
+  "input_specification_sha256": {
+    "data/age_reference_assets.json": "8b0960ec8642aa552ddd46cf452f887c3363164576e209b9b72126e0dc34dab3"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1057,
+      "sha256": "913cad0e83cfd3efdd95d946f82847f9355289c54b9b98e8c880d350c8d07659"
+    },
+    {
+      "path": "author_sample_table.csv",
+      "bytes": 152,
+      "sha256": "8e0da1a2c097cc3d56b1833312729a242f41b1ae3423d055c77e9f9ca1134bd3"
+    },
+    {
+      "path": "design.json",
+      "bytes": 2321,
+      "sha256": "a2aff741387d5ab9dea52ba24eef8ab89e955ad653abaf22c9658f5253cacac5"
+    },
+    {
+      "path": "design_conditions.csv",
+      "bytes": 595,
+      "sha256": "a4fc3cbbe77356c8b1612e617e64560de85b5d72793fc06c2fc0273c2b37d641"
+    },
+    {
+      "path": "fine_vs_broad.csv",
+      "bytes": 6759,
+      "sha256": "ddf83974c92afeaf2013a924b60d592081c17edd52ed722ab22214cef050239a"
+    },
+    {
+      "path": "fold_weights.csv",
+      "bytes": 157191,
+      "sha256": "342c5d6cac191136cb1e1309f77c7ea19abc84784b3350a6f1144a31d35f1e12"
+    },
+    {
+      "path": "holdout_metrics.csv",
+      "bytes": 21695,
+      "sha256": "3c79774c4056048a6ecae284e1845e46273474b5020ec2b37cd95b412144c302"
+    },
+    {
+      "path": "holdout_summary.png",
+      "bytes": 58198,
+      "sha256": "7036d7d52d04a2817de57eaa034f09e0b8d4959d686f4381046d72cfb2274f6c"
+    },
+    {
+      "path": "library_QC.csv",
+      "bytes": 3241,
+      "sha256": "fa99cc571e37b0f81b08155dd13c231b7ee73bb72c5bb2207df89a44326218fc"
+    },
+    {
+      "path": "profile_evidence.csv",
+      "bytes": 2472,
+      "sha256": "3e12c67d6f99ea5fb944f679e52b14205749db018ef192e5ca20014e033aa768"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 786,
+      "sha256": "42dbd9a787052caee8edcedc1724b500269be359e54b6fbb2f5ad0a25678a087"
+    },
+    {
+      "path": "sorted_class_matches.csv",
+      "bytes": 1547,
+      "sha256": "927fc34b15926d59ad115a18330f9e1548a4f421c099572fd4b8dd498f3a1646"
+    },
+    {
+      "path": "source_audit.json",
+      "bytes": 1077,
+      "sha256": "557b2f54e5e7e0ffbe7edec577fa0b29592cea69556a709de017dd27989ddd55"
+    },
+    {
+      "path": "weight_ranges.csv",
+      "bytes": 18370,
+      "sha256": "1fc2a67f2c4cee66f21d61a5bd8cfcd5de5dfe95c43ab78e3fe0474beee64f74"
+    }
+  ]
+}

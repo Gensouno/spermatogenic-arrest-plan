@@ -1,0 +1,110 @@
+{
+  "scope": "16 early Lrh1 bulk samples; Ppp2ca four FPKM profiles audited only; prior snapshots unchanged.",
+  "gene_level_counts_preserved_before_DE": true,
+  "cell_proportions_validated": false,
+  "source_sha256": {
+    "scripts/fetch_followup.py": "ed2545d8dccf6ec4cac07ed9ec8431fad588ccd35ece5e0d972dbf5f7da5e211",
+    "scripts/run_followup.py": "e8fdca31b57a572ce585b914d04a6fba2792fe5a7e48b95d78c06384757db5fe",
+    "scripts/check_followup_reproduction.py": "7effb9d62e0052eae6b76634b26a5bdc42b5d6e5bc91d4fc35c637265c3fe112",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "code/prepare_followup.py": "641edbb52db3581545b202ce0ba718a3934a80ea0e1e417d2507b40ddcb1fa49",
+    "code/analyze_lrh1.R": "e10212cbe2075a1cee1d7230ad6bc299b4a2a3b743dcc34f731b237e6d1f1ad4",
+    "code/summarize_followup.py": "dc544ba9fdca8432481960edc270721403deed100a827dea018f5b8537c0ee3d",
+    "tests/test_followup.py": "5a41fe547341c64706418e84183c287a4e071f9bfdeec7deca22f8c9c0886598",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da"
+  },
+  "input_specification_sha256": {
+    "data/followup_assets.json": "c0821b406ee20fb160327076090b0b853472ff0e28be779f53d52af5ccbe8063",
+    "data/followup_contract.json": "1e987da4160befdab683ad622a3f6bfcdec88a03d0c1157452f5aa9d7ab76e33"
+  },
+  "frozen_baseline_effect_sha256": "e75706463d6ceb880b63b550c98606a8c0ef4141142de277eef248dd3cbcc91d",
+  "files": [
+    {
+      "path": "Lrh1_P1_NanosCre_design.csv",
+      "bytes": 169,
+      "sha256": "d55e4278f05d1b7eb1c13f780dabb1a4430eadd008c3bef12bff57315dbbb519"
+    },
+    {
+      "path": "Lrh1_P3_DhhCre_design.csv",
+      "bytes": 145,
+      "sha256": "51c5a41909da6697e8f80714cd152f4419a779a82446b8b5eab0745c50c7036a"
+    },
+    {
+      "path": "Lrh1_mapping_mass.csv",
+      "bytes": 972,
+      "sha256": "1544d2666226364862d4ba020075c1bf8665f033c1670a2d95255884686fb476"
+    },
+    {
+      "path": "Lrh1_samples.csv",
+      "bytes": 7098,
+      "sha256": "5473f06c807c7f556e8dbab042b649f94968e2c8e914252cb38329ed579c7471"
+    },
+    {
+      "path": "PCA.csv",
+      "bytes": 1760,
+      "sha256": "05b4f65fa557a882ec44c0bd4f0600d3fb2e83d6201d66da2081f47fa8506c08"
+    },
+    {
+      "path": "Ppp2ca_unit_audit.csv",
+      "bytes": 1245,
+      "sha256": "1e3e1807c3ea4e23f4235cc9439e43fb0181b0a3753bac1f5395e51faa9d2ba4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1162,
+      "sha256": "2412382d02e56929b73fbdf7940d48fe1cb90a6d4753b12c75d192f3ab5ea513"
+    },
+    {
+      "path": "baseline_correlations.csv",
+      "bytes": 857,
+      "sha256": "2c20d7e94ae4f4e74a64fbe5f51f6b5facc5c9c0833ef4b57aad988264b1dc53"
+    },
+    {
+      "path": "baseline_correlations.png",
+      "bytes": 89544,
+      "sha256": "e0da563f755cf98129a24737a33a6c23081efe0fa178fe769e2d8a9891ee9dd7"
+    },
+    {
+      "path": "baseline_ranges.csv",
+      "bytes": 1104,
+      "sha256": "6dba3a114bc648f1b476d478ce25117c29921694ae6cdf259e07dc09bf2c95eb"
+    },
+    {
+      "path": "batch_sensitivity.csv",
+      "bytes": 185,
+      "sha256": "2de8c7f9534db844e2bd1e71757eb0962903b69021199353bb25133ba8df4b0f"
+    },
+    {
+      "path": "cohort_summary.csv",
+      "bytes": 318,
+      "sha256": "e68be4f357000506f90486f3cd72805c3ddf49ae47da553327acbbb231640c3a"
+    },
+    {
+      "path": "leave_one_out.csv",
+      "bytes": 842,
+      "sha256": "9ff36d78ec54d409cbac631fe8c38d2785beefa4bfd1f52628ac1790c2b0d747"
+    },
+    {
+      "path": "method_sensitivity.csv",
+      "bytes": 233,
+      "sha256": "fe9a4c6b2d92ba6923b609ad29712e0f92686a048cf33a7d1ab0c5363baf5883"
+    },
+    {
+      "path": "paper_direction_checks.csv",
+      "bytes": 729,
+      "sha256": "c2b442959cccb8c21faf6ebaeb2a0308c3bfd7d6a2994857ce9ef9e951f00355"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 711,
+      "sha256": "dc575f80a23d887372cf37e079b2d251332d87ab6bbd66018b212177540a712c"
+    },
+    {
+      "path": "sample_QC.png",
+      "bytes": 94111,
+      "sha256": "af1dbe6d1a21211fe95176c07bf0b1f29ce1f5e1b0671affc1eeefc95cda234a"
+    }
+  ]
+}

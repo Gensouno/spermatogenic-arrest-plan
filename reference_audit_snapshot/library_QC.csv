@@ -1,0 +1,17 @@
+source_library,gsm,QC,cells,original_title,original_characteristics,total_counts
+PND06,GSM3449736,all_exported,4324,PND6_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 6,35604544
+PND14,GSM3449737,all_exported,1876,PND14_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 14,12414663
+PND18pre,GSM3449738,all_exported,1114,PND18pre_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion only | strain: B6D2F1/J | age: post-natal day 18,22212352
+PND18,GSM3449739,all_exported,1381,PND18_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 18,35131520
+PND25,GSM3449740,all_exported,1777,PND25_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 25,32207750
+PND30,GSM3449741,all_exported,1141,PND30_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 30,22129684
+Ad-Thy1,GSM3449742,all_exported,2594,Adult-Thy1sort_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: 8 weeks,36975759
+Ad-depleteSp,GSM3449743,all_exported,1675,Adult-depleteSp_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: 8 weeks,33746790
+PND06,GSM3449736,published_QC,3980,PND6_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 6,33564691
+PND14,GSM3449737,published_QC,1875,PND14_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 14,12409259
+PND18pre,GSM3449738,published_QC,1097,PND18pre_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion only | strain: B6D2F1/J | age: post-natal day 18,21928413
+PND18,GSM3449739,published_QC,1378,PND18_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 18,35110021
+PND25,GSM3449740,published_QC,1770,PND25_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 25,31601293
+PND30,GSM3449741,published_QC,1137,PND30_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: post-natal day 30,21803483
+Ad-Thy1,GSM3449742,published_QC,2591,Adult-Thy1sort_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: 8 weeks,36955630
+Ad-depleteSp,GSM3449743,published_QC,1665,Adult-depleteSp_scSEQ,sample type: Single cell suspension | sample processing: enzymatic digestion and Percoll gradient | strain: B6D2F1/J | age: 8 weeks,32540185

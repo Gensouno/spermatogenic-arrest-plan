@@ -1,0 +1,22 @@
+{
+  "cells_in_export": 15882,
+  "genes_in_export": 27998,
+  "libraries": 8,
+  "cells_passing_published_QC": 15493,
+  "profiles": 32,
+  "author_sample_table_rows": 8,
+  "author_sample_table_namespace": "ISO strict OOXML",
+  "author_code_executed": false,
+  "cell_type_truth_available": false,
+  "QC_definition": "500 < detected genes < 8000; 2000 < counts < 125000; mitochondrial fraction < 0.15; source Seurat_setup.R bounds.",
+  "author_Conditions_are_library_periods_not_cell_types": true,
+  "label_gap": "Author scripts save labeled Seurat/RDS objects, but these objects/per-cell labels are absent from the inspected public repository tree and GEO attachment list.",
+  "script_mentions_saved_labels": true,
+  "limitations": [
+    "Captured/enriched libraries are not unbiased in-vivo proportions.",
+    "Age and preparation/capture are confounded; no animal-level age p-values.",
+    "Raw count totals and equal-cell means define different targets.",
+    "QC sensitivity uses published thresholds; no independently known cell-type labels."
+  ],
+  "elapsed_seconds": 50.03
+}

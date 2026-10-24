@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "tables_matching": 11,
+  "design_JSON_matching": 2,
+  "compared_tables": [
+    "age_reference/author_sample_table.csv",
+    "age_reference/library_QC.csv",
+    "age_reference/profile_evidence.csv",
+    "age_reference/library_profiles.csv.gz",
+    "reference_transfer/holdout_metrics.csv",
+    "reference_transfer/fold_weights.csv",
+    "reference_transfer/design_conditions.csv",
+    "reference_transfer/sorted_class_matches.csv",
+    "reference_transfer/weight_ranges.csv",
+    "reference_transfer/fine_vs_broad.csv",
+    "reference_transfer/gene_folds.csv"
+  ],
+  "scope": "Raw GSE121904 matrix/source files reprocessed; frozen previously prepared H3mm15 matrix and reference tables reused; shared Python dependencies; no network or clean installation."
+}

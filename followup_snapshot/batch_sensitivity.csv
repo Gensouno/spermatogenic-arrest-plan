@@ -1,0 +1,3 @@
+cohort,variant,samples,genes,DEG_FDR05_absLFC1,spearman_with_batch_adjusted
+Lrh1_P1_NanosCre,unadjusted,8,15678,1,0.981286536045511
+Lrh1_P1_NanosCre,B2_only,6,15570,0,0.603397889496952

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "retrieved_utc": "2026-10-24T03:16:33.659251+00:00",
+  "scope": "One mouse developmental count matrix, eight GEO sample records and five author-source files; no per-cell truth labels assumed.",
+  "author_commit": "649d8aa4976915c834f195b79eff161cd10c38c6",
+  "author_code_executed": false,
+  "assets": [
+    {
+      "path": "data/raw/age_reference/GSE121904_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE121nnn/GSE121904/soft/GSE121904_family.soft.gz",
+      "bytes": 2605,
+      "sha256": "9911e09e25b64c5534e292af49fb45044cd4c061216f00d43e05dc3e23cf65dd"
+    },
+    {
+      "path": "data/raw/age_reference/GSE121904_testis_maturation_scRNAseq_raw_mapped_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE121nnn/GSE121904/suppl/GSE121904_testis_maturation_scRNAseq_raw_mapped_counts.csv.gz",
+      "bytes": 53793304,
+      "sha256": "42b1b82673db2c49d95432885652b5921ffc1580f126a7a84f00cbd80f8255b4"
+    },
+    {
+      "path": "data/raw/age_reference/author/README.md",
+      "url": "https://raw.githubusercontent.com/nyuhuyang/scRNAseq-SSCs/649d8aa4976915c834f195b79eff161cd10c38c6/README.md",
+      "bytes": 8275,
+      "sha256": "03082755173a8a6711b702ae821465620632f5c4c1c532be62b945d43987574f"
+    },
+    {
+      "path": "data/raw/age_reference/author/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/nyuhuyang/scRNAseq-SSCs/649d8aa4976915c834f195b79eff161cd10c38c6/LICENSE.md",
+      "bytes": 35146,
+      "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+    },
+    {
+      "path": "data/raw/age_reference/author/doc/20180530_sample_info.xlsx",
+      "url": "https://raw.githubusercontent.com/nyuhuyang/scRNAseq-SSCs/649d8aa4976915c834f195b79eff161cd10c38c6/doc/20180530_sample_info.xlsx",
+      "bytes": 10357,
+      "sha256": "a4ea81f98c1c4f6c7a2c96cb3cf604517676ddb826fcac2869a2cf031b752be4"
+    },
+    {
+      "path": "data/raw/age_reference/author/R/Seurat_setup.R",
+      "url": "https://raw.githubusercontent.com/nyuhuyang/scRNAseq-SSCs/649d8aa4976915c834f195b79eff161cd10c38c6/R/Seurat_setup.R",
+      "bytes": 8879,
+      "sha256": "fa038001e0929fa7c22c7d30a3ee9e408754df83b6b192cb525d7eda1b59eb46"
+    },
+    {
+      "path": "data/raw/age_reference/author/R/Identify_Cell_Types_Manually.R",
+      "url": "https://raw.githubusercontent.com/nyuhuyang/scRNAseq-SSCs/649d8aa4976915c834f195b79eff161cd10c38c6/R/Identify_Cell_Types_Manually.R",
+      "bytes": 11657,
+      "sha256": "2a4a02d33ed0a93093900cd91eb7d1f85c2a7f3032810fd026fc005e583d6b63"
+    }
+  ]
+}

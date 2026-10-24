@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "tables_matching": 16,
+  "compared_tables": [
+    "cohort_summary.csv",
+    "Lrh1_samples.csv",
+    "Ppp2ca_unit_audit.csv",
+    "batch_sensitivity.csv",
+    "method_sensitivity.csv",
+    "leave_one_out.csv",
+    "PCA.csv",
+    "baseline_correlations.csv",
+    "baseline_ranges.csv",
+    "paper_direction_checks.csv",
+    "de/Lrh1_P1_NanosCre.csv",
+    "de/Lrh1_P3_DhhCre.csv",
+    "de/Lrh1_P1_NanosCre_unadjusted.csv",
+    "de/Lrh1_P1_NanosCre_B2_only.csv",
+    "de/Lrh1_P1_NanosCre_edgeRQL.csv",
+    "de/Lrh1_P3_DhhCre_edgeRQL.csv"
+  ],
+  "scope": "Cached raw follow-up inputs and frozen baseline effect matrix; shared installed dependencies, no download or fresh installation."
+}

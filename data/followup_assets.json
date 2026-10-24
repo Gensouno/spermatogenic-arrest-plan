@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "retrieved_utc": "2026-10-24T02:29:18.322402+00:00",
+  "scope": "Targeted follow-up of GSE180204 and GSE181132, not exhaustive search",
+  "assets": [
+    {
+      "path": "data/raw/followup/metadata/GSE180204_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE180nnn/GSE180204/soft/GSE180204_family.soft.gz",
+      "bytes": 4087,
+      "sha256": "307c9af840aa5359a61c543beb299f337e19c96b34e7af95326131d1d2a66deb",
+      "gse": "GSE180204"
+    },
+    {
+      "path": "data/raw/followup/GSE180204/GSE180204_Agrimson_Lrh1_Supplemental_Tables.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE180nnn/GSE180204/suppl/GSE180204_Agrimson_Lrh1_Supplemental_Tables.xlsx",
+      "bytes": 2054812,
+      "sha256": "4db71b037d328fc8d473fef5a38533290afaa9b2bf88373eb1508c9e195e32c3",
+      "gse": "GSE180204"
+    },
+    {
+      "path": "data/raw/followup/GSE180204/GSE180204_Lrh1_p1_p3_RnaSeq_Agrimson.rdata.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE180nnn/GSE180204/suppl/GSE180204_Lrh1_p1_p3_RnaSeq_Agrimson.rdata.gz",
+      "bytes": 1909365,
+      "sha256": "467baaca7cbdb8de4654f22a035da80ed6fd44aa7c8398a83fc49a8ba836a341",
+      "gse": "GSE180204"
+    },
+    {
+      "path": "data/raw/followup/metadata/GSE181132_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181132/soft/GSE181132_family.soft.gz",
+      "bytes": 2437,
+      "sha256": "3f18a2528d63c0df180fbe7cacc523ed7b3b93a23715834b4c9b8c965f237b31",
+      "gse": "GSE181132"
+    },
+    {
+      "path": "data/raw/followup/GSE181132/GSE181132_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181132/suppl/GSE181132_RAW.tar",
+      "bytes": 337920,
+      "sha256": "5f0c7794ab29d4d78de4ace248f6a9cc20ee3e8e9d3cbe2c15e4633a5c0396e5",
+      "gse": "GSE181132"
+    }
+  ]
+}

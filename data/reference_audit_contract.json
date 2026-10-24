@@ -1,0 +1,22 @@
+{
+  "planned_date_local": "2026-10-24",
+  "scope": "Age/preparation compatibility and gene-holdout diagnostics, not new calibrated cell proportion estimates.",
+  "sources": ["GSE121904 eight capture libraries", "Previously checked 20 sorted WT profiles from GSE158471, GSE232415 and GSE290629"],
+  "age_reference_rules": [
+    "GEO library accession, author sample table and barcode prefix must reconcile without expression-based relabeling.",
+    "Do not infer author cell type labels from scripts alone; absent per-cell labels remain absent.",
+    "Stream integer counts in two passes with bounded memory; do not allocate a full dense cell-by-gene matrix.",
+    "Record detected genes, count totals and mitochondrial fraction. Source-code QC bounds (500 < detected genes < 8000, 2000 < counts < 125000, mitochondrial fraction <15%) are a sensitivity branch, not inferred independent ground truth; upper bounds were confirmed during source inspection before reference fitting.",
+    "Compare both summed-count RNA pseudobulks and equal-cell normalized mean profiles; neither is unbiased in-vivo cell composition.",
+    "Ages are confounded with preparation/capture, and libraries are not verified independent animals. No inferential age p-values or cell-level pseudoreplication."
+  ],
+  "fixed_reference_rules": [
+    "Reuse pooled original_4, centroid_4 and centroid_13 tables with their existing gene universe and no marker retuning.",
+    "Use shared genes and fixed inverse sqrt(centroid_4 mean + 1) weighting across all models.",
+    "Five deterministic gene folds from seed 20261024; fit on four folds and predict the fifth with no post-fit rescaling on held-out genes.",
+    "Report weighted and log2 holdout errors, fitted-weight ranges and design condition numbers; do not call errors proportion accuracy.",
+    "For 18 scored sorted profiles, retain prespecified broad labels; preL remains unscored; no winner selection based on agreement."
+  ],
+  "resource_limits": {"matrix_download_cap_bytes": 83886080, "reference_code_max_parallel_requests": 1, "no_gpu": true, "prefer_one_cpu_thread": true},
+  "prior_results": "Do not overwrite frozen eight-cohort, four-contrast expansion or Lrh1 follow-up outputs."
+}

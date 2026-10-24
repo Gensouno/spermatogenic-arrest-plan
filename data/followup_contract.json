@@ -1,0 +1,26 @@
+{
+  "planned_date_local": "2026-10-24",
+  "scope": "Targeted follow-up, not exhaustive search; original eight-cohort and four-contrast snapshots stay frozen.",
+  "primary_database": "NCBI GEO",
+  "organism": "Mus musculus, taxon 10090",
+  "targets": {
+    "GSE180204": {
+      "expected_samples": 16,
+      "contrasts": ["P1 Nanos3-Cre versus noCre, 4/4, flox/- controls", "P3 Dhh-Cre versus noCre, 4/4, flox/flox controls"],
+      "role": "Early developmental perturbation comparisons, not demonstrated meiotic-arrest tissue at collection",
+      "batch_plan": "Use author-supplied batch; adjust P1 for B1/B2, P3 single batch. Also examine P1 B2-only 3/3 as prespecified batch sensitivity; no automatic sample removal.",
+      "DE_plan": "Preserve original Ensembl gene counts, independent filterByExpr, TMM, voom, limma; FDR<0.05 and abs(log2FC)>1; KO minus explicitly stated noCre control. 16 leave-one-out refits; ranges are not confidence intervals.",
+      "annotation_review_before_DE": "Current symbol mapping covers 94.7-97.7% of count mass. An initial symbol-only import stopped at its coverage guard before any DE fit. Revised import preserves all original gene-ID counts; mapping is only used after DE for one-to-one cross-study comparisons, and no threshold was relaxed.",
+      "post_primary_diagnostic": "After observing significance disagreement with author DESeq2 tables, add robust edgeR quasi-likelihood fits with the same tested genes/design; explicitly sensitivity-only, never replace limma or select the method with more discoveries.",
+      "comparison_plan": "Intersect with the frozen original 8099-gene universe and original eight-cohort effects, no reselection based on agreement; no age-by-Cre causal interpretation.",
+      "paper_direction_checks": {"Slc25a42": "up", "Nxf2": "down", "Chodl": "up", "Cbln1": "up"}
+    },
+    "GSE181132": {
+      "expected_samples": 4,
+      "role": "Unit and sample-identity audit only; processed files are transcript FPKM, not integer gene counts. No rounding or primary-count admission."
+    }
+  },
+  "limits": {"files": 5, "max_bytes_per_file": 20971520, "max_api_requests_without_approval": 100},
+  "deferred": "GSE121904 mapped-count archive HEAD=53793304 bytes; not downloaded in this follow-up because independent cell-label/age-reference design is unresolved.",
+  "reference": "Agrimson et al. 2022, doi:10.1371/journal.pgen.1010088"
+}
