@@ -1,101 +1,107 @@
-# 生精阻滞跨模型转录组分析
+**English** | [简体中文](README.zh-CN.md)
 
-比较小鼠全睾丸转录组中的共性与异质性，并检验单细胞参考能否支持细胞组成解释。项目使用公开数据再分析，不包含自行开展的动物或测序实验。
+# Cross-model transcriptomic analysis of spermatogenic arrest
 
-当前是经过数据和方法核查的探索性分析：8 个队列、56 个主分析样本、7 种遗传扰动。没有将“方向符合预期”当作比例准确性验证，也没有把残差直接称为共享分子机制。
+This project compares shared and heterogeneous expression patterns in mouse whole-testis transcriptomes and tests whether single-cell references support interpretations based on cellular composition. It reanalyzes public data; no new animal or sequencing experiments were performed.
 
-## 主要结果
+The frozen baseline is an exploratory analysis with audited data and methods: **8 cohorts, 56 main-analysis samples, and 7 genetic perturbations**. Agreement with an expected direction is not treated as validation of cell-fraction accuracy, and residual expression is not equated with a shared molecular mechanism.
 
-- 部分模型表达效应呈稳定正相关，也有明显反向关系；不支持直接把所有阻滞模型归为同一个转录组反应。
-- 逐个删除 56 个样本，加上 TPM 伪计数及探针汇总变化，共检查 63 个变体。几个较强关联保持方向，Hnrnpgt 的弱关联不稳定；没有据此删除样本。
-- 单细胞参考在独立分选资料的早期减数分裂群体上存在失配；细分至 12 个生殖状态后仍未充分解决。因而不报告已验证的细胞数比例或因果组成贡献百分比。
+## Main findings
 
-![八队列共同受检基因的 KO−WT 效应相关](results_snapshot/all_cohort_comparison/eight_cohort_effects.png)
+- Some model pairs show stable positive expression-effect correlations, whereas others show clear inverse relationships. The evidence does not support treating every arrest model as the same transcriptomic response.
+- All 56 individual sample omissions, together with TPM-pseudocount and probe-summary alternatives, produced 63 sensitivity variants. Several stronger associations retained their direction; the weaker Hnrnpgt associations were unstable. Samples were not excluded on this basis.
+- Single-cell references mismatch early meiotic populations in independent sorted-cell data. Resolving the reference into 12 germ-cell states did not adequately resolve this problem. Validated cell-number fractions and causal percentages attributable to composition are therefore not reported.
 
-图中为 8,099 个共同受检基因的 Spearman 相关，不是对独立生物重复的显著性检验。TPM 与芯片作为敏感性分支，不能和计数效应完全等量解释。完整说明见 [结果与边界](docs/RESULTS.md)，精简表格见 [结果快照](results_snapshot/README.md)。
+![KO-minus-WT effect correlations across genes tested in all eight cohorts.](results_snapshot/all_cohort_comparison/eight_cohort_effects.png)
 
-## 可选数据扩展（2026-10-23）
+The figure shows Spearman correlations over 8,099 commonly tested genes, not significance tests based on independent biological replicates. TPM and microarray analyses are sensitivity branches and are not fully interchangeable with count-based effects. See [results and limitations](docs/RESULTS.md) and the [compact result snapshot](results_snapshot/README.md).
 
-原八队列基线保持不变。可选探索分支定向核查了 32 个 GEO 系列，接入 Dcaf2 P9、Pramef12 P2/P7（杂合子对照）和 Msl3 P45（表型阴性比较），新增 24 份全睾丸样本，另检查 20 份分选 WT 表达谱。不同角色不混为“新增阻滞病例”。方法、文件身份问题及复现范围见 [数据扩展记录](docs/DATA_EXPANSION.md)，结果在 `expansion_snapshot/`。
+## Optional data expansion (2026-10-23)
 
-## 数据与分析范围（冻结的八队列基线）
+The original eight-cohort baseline remains frozen. A targeted exploratory branch reviewed 32 GEO series and incorporated Dcaf2 P9, Pramef12 P2/P7 with heterozygous controls, and Msl3 P45 as a phenotype-negative comparison. This added 24 whole-testis samples and separately examined 20 sorted WT expression profiles. These distinct roles are not pooled as additional arrest cases. Methods, file-identity issues, and reproduction scope are documented in the [data expansion report](docs/DATA_EXPANSION.md); outputs are in `expansion_snapshot/`.
 
-2026-10-26 另完成 [Setx 发育序列与 Eef1g 分选细胞的新来源核查](docs/NEW_MODEL_CONTEXTS.md)：两条GEO查询返回61个去重系列，核查其中12个来源，下载并单独分析40份Setx全睾丸TPM及6份Eef1g分选L/Z计数谱。固定36个下调优先候选在Setx P14/P16/P18分别24、19、33个经留一仍保持同向1.5倍，但不能排除细胞构成；没有增加主检验票数。新目录复跑14张表、2份JSON和2张图一致；结果为 `new_models_snapshot/`，入口为 `scripts/run_new_models.py`。
+## Subsequent analyses and frozen baseline
 
-2026-10-26 完成 [跨遗传模型方向重复性与候选适用范围](docs/REPLICABILITY.md)：五个计数队列的 40 份样本按四个遗传单位检验，Rfx2 两年龄不重复计票。9,675 基因的完整方向假设族经 BY／BH 校正均为零发现；单列 105 个描述性候选及 36 个逐样本删除后稳定的下调优先候选，没有称作已证实共享机制。两个单细胞来源的阶段分歧和六个既有额外对比的事后覆盖检查均完整保留。新目录复跑 28 张表、4 份 JSON、3 张图一致；结果为 `replicability_snapshot/`，入口为 `scripts/run_replicability.py`。
+**2026-10-26 — [Setx developmental and Eef1g sorted-cell source audit](docs/NEW_MODEL_CONTEXTS.md).** Two GEO queries returned 61 distinct series; 12 sources were reviewed. The branch downloaded and separately analyzed 40 Setx whole-testis TPM profiles and 6 Eef1g sorted L/Z count profiles. Among the fixed 36 downward priorities, 24, 19, and 33 retained a same-direction change of at least 1.5-fold under all individual sample omissions at Setx P14, P16, and P18, respectively. Cellular composition remains a possible explanation; these sources add no votes to the primary test. Fresh-directory reproduction matched 14 tables, 2 JSON records, and 2 figures. Outputs: `new_models_snapshot/`; entry point: `scripts/run_new_models.py`.
 
-2026-10-25 完成 [细线期参考边界与独立 UMI 对账](docs/REFERENCE_LIMITS.md)：从 GSE107644 原始矩阵及作者 S1/S2 核对 1,136 个阶段明确细胞，补充基因集合、权重、长度敏感性和来源文库留出。简单增加 L/Z 参考不能稳定纠正外部失配，且会把部分精原细胞主要拟合为减数分裂；回查原二十份分选谱也未解决 Cnot4 LZ。结果单列 `reference_limits_snapshot/`，没有把候选提升为已校准细胞比例模型。检查入口为 `scripts/check_reference_limits.py`。
+**2026-10-26 — [Directional replication across genetic models and candidate applicability](docs/REPLICABILITY.md).** Five count cohorts containing 40 samples were tested as four genetic units; the two Rfx2 ages were not counted twice. The complete directional hypothesis family over 9,675 genes produced zero discoveries under both BY and BH adjustment. The 105 descriptive candidates and 36 downward priorities stable under individual sample omissions are reported separately, without being described as confirmed shared mechanisms. Stage disagreements between two single-cell resources and post-hoc coverage checks in six existing additional contrasts are retained. Fresh-directory reproduction matched 28 tables, 4 JSON records, and 3 figures. Outputs: `replicability_snapshot/`; entry point: `scripts/run_replicability.py`.
 
-2026-10-25 继续完成 [独立细线期来源诊断](docs/LEPTOTENE_FOLLOWUP.md)：核查四个候选研究，接入 GSE155967 阶段分开的六份 RNA 计数和 GSE83264 的四份混合 LZ／粗线期对照。两份明确细线期在细分参考下仍主要拟合为精原细胞，两份偶线期则转为减数分裂大类；保留同步化、年龄、分选、基因型记录及文库技术限制。PreL 不参与大类标签评分，没有据此训练新参考或改动八队列基线。结果为 `leptotene_snapshot/`，检查入口为 `scripts/check_leptotene.py`。
+**2026-10-25 — [Leptotene reference limits and independent UMI reconciliation](docs/REFERENCE_LIMITS.md).** The original GSE107644 matrix and author tables S1/S2 were reconciled for 1,136 cells with explicit stage labels, with additional gene-set, weighting, length, and source-library holdout sensitivities. Adding L/Z reference profiles did not reliably resolve external mismatches and could assign spermatogonial controls mainly to the meiotic class. Rechecking the original twenty sorted profiles did not resolve Cnot4 LZ. Outputs remain separate in `reference_limits_snapshot/`; the candidate reference is not promoted to a calibrated cell-fraction model. Check: `scripts/check_reference_limits.py`.
 
-2026-10-25 补齐 [完整 P15 EmptyDrops 早期细胞诊断](docs/EMPTYDROPS_P15.md)：逐细胞核对 13,168 个作者标注细胞。细分参考对全部 938 个偶线期、其中 672 个新增细胞的改善延续，但 907 个细线期仍主要拟合为精原细胞，不能宣布早期减数分裂失配整体解决。同条形码、同标签和同基因对照中，两版计数的汇总与拟合结果一致；新目录复跑 14 张表与两份设计／来源 JSON 一致。新结果单列 `emptydrops_p15_snapshot/`，不改变八队列基线；核查入口为 `scripts/check_emptydrops_p15.py`。
+**2026-10-25 — [Independent leptotene-source diagnostics](docs/LEPTOTENE_FOLLOWUP.md).** Four candidate studies were reviewed, incorporating six stage-separated RNA count profiles from GSE155967 and four mixed LZ/pachytene controls from GSE83264. The two explicitly labeled leptotene profiles were still assigned mainly to spermatogonia by the finer reference; the two zygotene profiles shifted to the broad meiotic class. Synchronization, age, sorting, genotype, and library-technical limitations are retained. PreL is excluded from broad-label scoring. No new reference was trained from these results, and the eight-cohort baseline was not changed. Outputs: `leptotene_snapshot/`; check: `scripts/check_leptotene.py`.
 
-2026-10-24 补充 [作者标签明确的三文库参考适配核查](docs/LABELED_REFERENCE.md)：完整核对成年 B6、P5、P15 共 8,791 个细胞，诊断作者标注的 38 个类型组；并定位到明确的细线／偶线期作者标签。已对有缓存表达的 266 个偶线期重叠细胞作独立敏感性分析，但大多数低复杂度细胞表达尚未获取，不能宣布 LZ 失配或细胞比例准确性已解决。快照为 `labeled_reference_snapshot/`，检查入口为 `scripts/check_labeled_snapshot.py`。
+**2026-10-25 — [Complete P15 EmptyDrops early-cell diagnostics](docs/EMPTYDROPS_P15.md).** All 13,168 author-labeled cells were reconciled. The finer reference's improvement extended to all 938 zygotene cells, including 672 newly incorporated cells, but 907 leptotene cells were still assigned mainly to spermatogonia. Early meiotic mismatch is therefore not considered resolved. Aggregation and fitting agreed between the two count versions when barcodes, labels, and genes were matched. Fresh-directory reproduction matched 14 tables and two design/provenance JSON records. Outputs remain separate in `emptydrops_p15_snapshot/`; check: `scripts/check_emptydrops_p15.py`.
 
-2026-10-24 另完成 [发育期来源核查与固定参考转移诊断](docs/REFERENCE_TRANSFER.md)：检查 8 个捕获文库及 15,882 个细胞，对 20 份已有分选谱与 32 种文库处理组合做留出基因预测。细分参考的预测误差有所改善，但未据此宣布细胞比例准确；仍缺逐细胞作者标签。统一离线完整性检查入口为 `scripts/check_project.py`。
+**2026-10-24 — [Reference compatibility with explicit author labels in three libraries](docs/LABELED_REFERENCE.md).** The adult B6, P5, and P15 libraries were reconciled for 8,791 cells, with diagnostics for 38 author-labeled type groups and identification of explicit leptotene/zygotene labels. An independent sensitivity examined 266 overlapping zygotene cells with cached expression. Expression for most low-complexity cells had not yet been retrieved in this branch, so it did not establish resolution of LZ mismatch or cell-fraction accuracy. Outputs: `labeled_reference_snapshot/`; check: `scripts/check_labeled_snapshot.py`.
 
-2026-10-24 另完成 [Lrh1 早期对比及 Ppp2ca 文件核查](docs/FOLLOWUP_LRH1.md)：16 份 Lrh1 样本分为两组独立比较，处理作者批次并保留方法敏感性；Ppp2ca 的转录本 FPKM 仅核查、不混入计数主分析。这部分为单独的后续探索，快照在 `followup_snapshot/`，不改变以下八队列范围。
+**2026-10-24 — [Developmental-source audit and fixed-reference transfer diagnostics](docs/REFERENCE_TRANSFER.md).** Eight capture libraries and 15,882 cells were audited. Held-out-gene prediction was evaluated over 20 existing sorted profiles and 32 library-processing combinations. The finer reference improved prediction error, without establishing cell-fraction accuracy; cell-level author labels were still missing in this branch. General offline integrity check: `scripts/check_project.py`.
 
-| 队列 | 遗传扰动 | KO / WT | 数据类型 |
+**2026-10-24 — [Early Lrh1 contrasts and Ppp2ca file audit](docs/FOLLOWUP_LRH1.md).** Sixteen Lrh1 samples were separated into two comparisons, retaining author-batch adjustment and method sensitivities. Ppp2ca transcript FPKM was audited but not mixed into the count-based primary analysis. These exploratory results are separate in `followup_snapshot/`.
+
+### Frozen eight-cohort baseline
+
+| Cohort | Genetic perturbation | KO / WT | Data type |
 |---|---|---:|---|
-| GSE236388 | XAP5，D16 睾丸臂 | 3 / 3 | 基因 counts |
-| GSE283904 | N6amt1 | 4 / 4 | 基因 counts |
-| GSE68283 | Rfx2，P29–30 | 4 / 5 | 基因 counts |
-| GSE68284 | Rfx2，P21 | 6 / 5 | 基因 counts |
-| GSE101511 | Hnrnpgt，18 dpp | 3 / 3 | 旧转录本特征 counts |
-| GSE294209 | Rnu11，P14 | 3 / 3 | 作者提供的 TPM |
-| GSE38096 | Sin3a，P0 | 2 / 2 | Agilent 单 Cy3 通道 |
-| GSE42601 | Dazap1，P21 | 3 / 3 | Affymetrix mouse4302 |
+| GSE236388 | XAP5, D16 testis arm | 3 / 3 | Gene counts |
+| GSE283904 | N6amt1 | 4 / 4 | Gene counts |
+| GSE68283 | Rfx2, P29–30 | 4 / 5 | Gene counts |
+| GSE68284 | Rfx2, P21 | 6 / 5 | Gene counts |
+| GSE101511 | Hnrnpgt, 18 dpp | 3 / 3 | Legacy transcript-feature counts |
+| GSE294209 | Rnu11, P14 | 3 / 3 | Author-provided TPM |
+| GSE38096 | Sin3a, P0 | 2 / 2 | Agilent, Cy3 channel only |
+| GSE42601 | Dazap1, P21 | 3 / 3 | Affymetrix mouse4302 |
 
-Rfx2 两年龄队列来自同一研究，不视作两种独立遗传模型。Sin3a 两个 HET 不纳入主对比；XAP5L 的 D56 附睾尾精子不纳入睾丸分析。N6amt1 年龄未由当前官方样本记录确认，不沿用旧表中未经确认的 adult 标签作年龄分析。阻滞分期并非每队列都已获得原始组织学证据，不据旧节点标签作分期因果推断。
+The two Rfx2 age cohorts come from the same study and are not independent genetic models. The two Sin3a HET samples are excluded from the main contrast; the XAP5L D56 cauda epididymal sperm arm is excluded from the testis analysis. Current official sample records do not confirm the N6amt1 age, so the unverified historical adult label is not used for age analyses. Original histological evidence has not been established for every cohort's arrest stage; historical node labels do not support causal stage assignments.
 
-各队列独立处理，合并的是基因效应而不是原始表达矩阵。组成探索只用于五个 counts 队列。22 份输入的官方 URL、大小与 SHA-256 见 [资产清单](data/analysis_assets.json)；来源和分组说明见 [数据说明](data/README.md)。
+Cohorts are processed independently. Gene-level effects, rather than raw expression matrices, are compared across cohorts. Composition exploration is restricted to the five count cohorts. Official URLs, sizes, and SHA-256 hashes for the 22 inputs are recorded in the [asset manifest](data/analysis_assets.json); source and group definitions are in the [data documentation](data/README.md).
 
-## 复现
+## Reproduction
 
-需要已安装的 Python、R 和 curl。当前实测 Python 3.14.7 / R 4.6.1；不同 R/Bioconductor 注释版本可能改变基因映射。依赖安装不需要移动系统解释器或使用 sudo。
+Python, R, and curl must already be installed. The recorded local runtime is Python 3.14.7 / R 4.6.1; different R/Bioconductor annotation versions may change gene mappings. Dependency installation does not require moving system interpreters or using sudo.
 
 ```bash
 git clone https://github.com/Gensouno/spermatogenic-arrest-plan.git
 cd spermatogenic-arrest-plan
 
-# 首次安装；已有环境可加 --check 仅检查
+# Initial installation; add --check to inspect an existing environment.
 bash envs/setup_analysis.sh
 
-# 下载缺失输入并检查冻结校验值
+# Download missing inputs and verify frozen checksums.
 bash envs/python.sh scripts/data_assets.py --download
 
-# 19 个阶段，从输入重算
+# Recompute the 19-stage baseline workflow from its inputs.
 bash envs/python.sh scripts/run_analysis.py
 
-# 检查随仓库提供的结果快照是否完整
+# Verify the compact result snapshot included in the repository.
 bash envs/python.sh scripts/export_snapshot.py --verify
 ```
 
-已有输入时用 `scripts/data_assets.py --verify` 检查；也可通过 `--import-from /path/to/existing-project` 从另一目录复制经校验的输入。已有输入若校验不符会停止，不自动覆盖。
+Use `scripts/data_assets.py --verify` to check existing inputs, or `--import-from /path/to/existing-project` to import verified inputs from another directory. A checksum mismatch stops processing instead of silently overwriting an existing file.
 
-### 可选下载代理
+### Optional download proxy
 
-需要代理时，将 `envs/download-proxy.example` 复制为项目根目录的 `.download-proxy.local`，把其中 URL 改为本机 HTTP(S) 代理地址。该文件已被 Git 忽略，不提交代理地址或凭据。通过 `envs/python.sh`／`envs/rscript.sh` 运行的下载及依赖安装会继承它；代理不可用时应修复代理，不自动改为直连。未配置此文件时保留调用者的代理环境。直接运行系统 Python/R 不会读取此项目配置。
+Copy `envs/download-proxy.example` to `.download-proxy.local` in the project root and replace its URL with the local HTTP(S) proxy address. This file is Git-ignored; do not commit proxy addresses or credentials. Downloads and dependency installation launched through `envs/python.sh` or `envs/rscript.sh` inherit the configuration. If the proxy fails, repair it instead of falling back silently to a direct connection. Without this file, the launchers preserve the caller's proxy environment. Direct system Python/R commands do not read this project-specific configuration.
 
-本机另做了没有旧结果和中间文件的新目录重跑，关键结果表一致；此检查复用已安装的依赖，**不是**另一台机器或空依赖环境安装验证，也没有在删除原数据后测试全部首次网络下载。耗时和详细边界见 [复现记录](docs/REPRODUCIBILITY.md)。
+A fresh local directory was also used to rerun the baseline without earlier outputs or intermediate files, and key result tables agreed. This reused installed dependencies: it is not a clean installation or a different-machine test, and it did not test every first-time download after deleting all original inputs. Timing and scope are documented in the [reproduction report](docs/REPRODUCIBILITY.md).
 
-## 项目导航
+## Project navigation
 
-- [Setx 年龄交互分析](docs/SETX_INTERACTION.md)：联合年龄／基因型模型、来源编号和条码限制、敏感性与复现。
-- [英文论文同步工作流](docs/PAPER_WORKFLOW.md)：持续写作、证据登记、检查、Word导出和私稿发布边界。
-- [METHODS](docs/METHODS.md)：分平台处理、基因集合、敏感性与组成检查。
-- [RESULTS](docs/RESULTS.md)：主要数字、负结果及解释边界。
-- [REPRODUCIBILITY](docs/REPRODUCIBILITY.md)：运行顺序、环境与验证范围。
-- [面试讲解提纲](docs/INTERVIEW.md)：帮助理解自己使用的数据、代码和局限。
-- [HISTORY](docs/HISTORY.md)：早期 AI 草稿、被推翻的假设与保留原因。
+The root README defaults to English; use the language links above for the Chinese edition. Some linked technical reports and historical source filenames remain in Chinese.
 
-`code/`、`scripts/` 为当前实现；`results_snapshot/` 为带校验值的精简成果；`results/` 为重算生成的完整产物，不入库。原始数据、依赖环境和大矩阵不提交。
+- [Setx age-interaction analysis](docs/SETX_INTERACTION.md): joint age/genotype model, source-code and barcode limitations, sensitivities, and reproduction.
+- [English manuscript synchronization workflow](docs/PAPER_WORKFLOW.md): incremental writing, evidence registration, checks, Word export, and private-release boundaries.
+- [Methods](docs/METHODS.md): platform-specific processing, gene universes, sensitivities, and composition diagnostics.
+- [Results](docs/RESULTS.md): numerical findings, negative results, and interpretive limitations.
+- [Reproducibility](docs/REPRODUCIBILITY.md): execution order, environment, and verification scope.
+- [Interview discussion guide](docs/INTERVIEW.md): datasets, code, and limitations.
+- [History](docs/HISTORY.md): earlier AI drafts, rejected assumptions, and reasons for retaining them.
 
-`PLAN.md`、编号 `docs/01`–`04`、`notes/` 及三个编号旧分析脚本是历史材料，不是当前执行方案。
+Current implementations are in `code/` and `scripts/`. The baseline's compact, checksummed outputs are in `results_snapshot/`; complete regenerated outputs in `results/` are Git-ignored. Original data, dependency environments, and large working matrices are not committed.
 
-## 来源与许可
+`PLAN.md`, numbered reports `docs/01`–`04`, `notes/`, and the three legacy numbered analysis scripts are historical material, not the current execution plan. [PLAN.md](PLAN.md) is available in English and retains its historical status.
 
-单细胞参考为 [Green et al., Dev Cell 2018](https://pubmed.ncbi.nlm.nih.gov/30146481/)，外部分选资料为 [da Cruz et al., BMC Genomics 2016](https://link.springer.com/article/10.1186/s12864-016-2618-1)。各队列出处见资产清单与逐样本 GEO 证据。
+## Sources and licensing
 
-原创代码使用 [MIT](LICENSE) 许可；上游数据、原论文与补充材料保留其原有许可和引用要求，不因本仓库软件许可而改变。
+The single-cell reference is [Green et al., Developmental Cell, 2018](https://pubmed.ncbi.nlm.nih.gov/30146481/); the external sorted-cell resource is [da Cruz et al., BMC Genomics, 2016](https://link.springer.com/article/10.1186/s12864-016-2618-1). Cohort-specific sources are recorded in the asset manifests and sample-level GEO evidence.
+
+Original code is released under the [MIT License](LICENSE). Upstream datasets, papers, and supplementary materials retain their original licenses and citation requirements; this repository's software license does not replace them.
