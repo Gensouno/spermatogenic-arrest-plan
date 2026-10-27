@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-27",
+  "scope": "Exploratory post-hoc Setx age-by-genotype analysis; conditional library-level inference, not a confirmatory biological discovery family. Earlier age-specific patterns were already inspected.",
+  "ages": [
+    "P10",
+    "P12",
+    "P14",
+    "P16",
+    "P18"
+  ],
+  "groups": [
+    "Control",
+    "KO"
+  ],
+  "model": "Ten categorical age-by-genotype cell means; contrast each later KO-Control difference against P10; joint four-df moderated F.",
+  "expression_filter": "TPM >= 1 in at least min(4,n_cell) libraries of any one cell, before candidate selection, repeated after omissions.",
+  "pseudocounts": [
+    0.5,
+    0.1,
+    1.0
+  ],
+  "moderation": {
+    "trend": true,
+    "robust": true
+  },
+  "multiplicity": "BY over all expressed original gene IDs for the single omnibus F per gene, separately per variant; BH sensitivity. Variant intersections are descriptive, not a new calibrated family.",
+  "ambiguous_pair_excluded_sensitivity": [
+    "GSM7034763",
+    "GSM7034783"
+  ],
+  "source_code_note": "7844 is a filename token of unconfirmed meaning, not a confirmed animal ID. Do not relabel or infer pairing.",
+  "omissions": "All 40 single-library omissions at pseudocount 0.5; effects only, missing genes fail descriptive retention.",
+  "candidate_rule": "Fixed earlier 105 candidates / 36 stable downward priorities; uniquely mapped symbols only; no candidate-only testing or adjustment.",
+  "effect_screen": "P18-P10 difference of KO-Control log2(TPM+pseudocount) means <= -log2(1.5), descriptive only.",
+  "technical_note": "Audit barcode nesting and rank; no barcode-adjusted genotype/age claim when design is aliased. Barcode tokens are not established batches.",
+  "independence": "Animals, pooling, and cross-age independence unconfirmed. No inferred pairing from expression.",
+  "primary_replication": "Existing four-unit directional analysis remains unchanged; Setx is not a new vote.",
+  "random_seed": null
+}

@@ -1,0 +1,22 @@
+{
+  "Eef1g_gene_rows": 54532,
+  "Eef1g_count_columns": [
+    "Ee_con1",
+    "Ee_con2",
+    "Ee_con3",
+    "Ee_cKO1",
+    "Ee_cKO2",
+    "Ee_cKO3"
+  ],
+  "Eef1g_samples": 6,
+  "Setx_genome_samples": 40,
+  "Setx_gene_rows": 55401,
+  "Setx_piRNA_members_excluded": 40,
+  "Setx_units": "Separate RSEM expected_count, effective_length and TPM. Descriptive analysis uses TPM only; estimates not rounded into raw counts.",
+  "sample_identity": "GEO titles/genotypes reconciled; Setx genome filename GSM exact. Eef1g source control/cKO and replicate suffix to source title, no gene-based relabelling.",
+  "limitations": [
+    "No source-independent confirmation of animals, pooling, or hidden batches.",
+    "Setx sampling ages from source titles; original library/annotation details not reconstructed.",
+    "Sorted L/Z mixture and whole testis are distinct contexts, never additional votes in the existing four-unit test."
+  ]
+}

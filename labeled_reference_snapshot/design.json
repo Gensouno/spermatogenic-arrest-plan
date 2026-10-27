@@ -1,0 +1,21 @@
+{
+  "scope": "Three preselected complete normal libraries: adult B6 do17815, P5 do26386, P15 do18195; author-labelled library/type groups with >=20 cells; two expression weighting views, not independent repeats.",
+  "label_validation": "Author transcriptomic annotations are external to this project fitting, not independently measured histological purity or cell-number ground truth.",
+  "reference_training": "No new reference trained and no markers retuned. Frozen prior 3 references and gene universe reused.",
+  "gene_folds_seed": 20261024,
+  "genes": 11856,
+  "normalization": "Shared-gene target/reference columns normalized once before gene splitting; held-out genes therefore contribute to column totals. Not a completely prospective missing-gene experiment.",
+  "prediction": "Four folds train, fifth predicts, no held-out-specific rescaling. Same weights and folds as prior transfer diagnosis.",
+  "not_claimed": [
+    "Complete atlas ingestion",
+    "Independent animal replication",
+    "Accurate in-vivo cell-number fractions",
+    "Age or genotype causal effects",
+    "New calibrated age-matched reference"
+  ],
+  "fixed_inputs_sha256": {
+    "results/stage_reference/pooled_original_4_reference.csv.gz": "bf9a6d79e94cc6e04284680b885c55eea1686e9862e2142d4d55e3694ec4b1ee",
+    "results/stage_reference/pooled_centroid_4_reference.csv.gz": "b3a8e348e3b867d51db21a0131b606f08a8570f45fae458ed0d4f41d41f276a1",
+    "results/stage_reference/pooled_centroid_13_reference.csv.gz": "2c8be23cab6514c23023cf7c2871ea32645705f34b75bf0342241af44ebe46ee"
+  }
+}

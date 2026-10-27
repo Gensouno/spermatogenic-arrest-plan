@@ -1,0 +1,7 @@
+cohort,unit,samples,Control,KO,tested_features,conditional_model_BH05_absLFC1,interpretation
+Eef1g_LZ_P12,counts,6,3,3,8513,771,Conditional on independent source libraries and model assumptions; no confirmatory biological claim
+Setx_P10,TPM,8,4,4,16055,0,Conditional on independent source libraries and model assumptions; no confirmatory biological claim
+Setx_P12,TPM,8,4,4,16283,9,Conditional on independent source libraries and model assumptions; no confirmatory biological claim
+Setx_P14,TPM,8,4,4,16733,222,Conditional on independent source libraries and model assumptions; no confirmatory biological claim
+Setx_P16,TPM,8,4,4,16482,931,Conditional on independent source libraries and model assumptions; no confirmatory biological claim
+Setx_P18,TPM,8,4,4,17363,7795,Conditional on independent source libraries and model assumptions; no confirmatory biological claim

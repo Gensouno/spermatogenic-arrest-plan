@@ -1,0 +1,29 @@
+{
+  "samples": 40,
+  "cells": 10,
+  "unique_source_codes": 39,
+  "repeated_source_code_rows": [
+    {
+      "gsm": "GSM7034763",
+      "age": "P16",
+      "group": "Control",
+      "source_code": "7844"
+    },
+    {
+      "gsm": "GSM7034783",
+      "age": "P16",
+      "group": "KO",
+      "source_code": "7844"
+    }
+  ],
+  "unique_barcode_tokens": 20,
+  "barcodes_nested_in_cells": true,
+  "cell_design_rank": 10,
+  "cell_design_columns": 10,
+  "cell_plus_barcode_rank": 20,
+  "cell_plus_barcode_columns": 30,
+  "interpretation": "Filename source-code meaning unconfirmed; barcode tokens are not proven batches. A model allowing arbitrary barcode effects cannot separately identify age/genotype cell effects. No animal pairing, relabeling, or technical-artifact diagnosis inferred.",
+  "source_genes": 55401,
+  "source_members_hash_matched": 40,
+  "TPM_reconstructed": "40 original GRCm38 gene RSEM members read; no cached matrix, piRNA or rounded counts used."
+}

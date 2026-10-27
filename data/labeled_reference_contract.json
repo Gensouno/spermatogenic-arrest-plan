@@ -1,0 +1,29 @@
+{
+  "date_local": "2026-10-24",
+  "scope": "Targeted primary-source lookup and compatibility check of E-MTAB-6946, not an exhaustive atlas search or calibrated in-vivo cell proportion analysis.",
+  "organism": "Mus musculus",
+  "secondary_annotation_sensitivity": "After the primary three-library analysis and EmptyDrops annotation inspection, join explicit P15Clusters to already cached P15 cells by Library+Barcode. Test only the matched Zygotene group if >=20 cells, keep Leptotene untested if below this existing threshold. No EmptyDrops-only expression is available; do not replace primary annotations or claim all author Zygotene/Leptotene cells were processed.",
+  "required_evidence": [
+    "Author per-cell annotations must be supplied independently of this project's expression fitting.",
+    "Cell count, metadata row order, gene order, and library/sample identities must reconcile with the author description and source files.",
+    "Exclude Tc1 and Tc0 transchromosomal-study samples from any normal developmental reference; do not treat Tc0 littermates as C57BL/6J wild types.",
+    "Keep author cell types, source sample names, library identifiers and age labels unchanged; no expression-based relabeling.",
+    "Human chromosome 21 features occur in the author's mixed reference genome: explicitly exclude human Ensembl features; do not merge cross-species symbols.",
+    "Inspect the CellRanger-selected author-labelled branch first; do not optimize filtering or choose cells based on fit quality.",
+    "Reuse frozen existing reference tables without marker tuning for initial compatibility diagnosis.",
+    "Pseudo-bulk profiles summarize captured cells, not independent animals or known tissue composition. No age p-values, causal composition percentages or fraction-accuracy claims."
+  ],
+  "retrieval": {
+    "primary_endpoint": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-6946",
+    "accession_conversion": "None; fixed ArrayExpress accession.",
+    "completeness": "Targeted accession; reconcile retrieved declared files, not all database studies.",
+    "maximum_requests": 100,
+    "maximum_download_bytes": 3221225472,
+    "download_cap_revision_before_fitting": "The legacy compressed archive returned HTTP 404. The official current original matrix is 3,012,455,192 bytes; retrieve this declared file rather than an unaudited repackaging. A 6-minute transfer deadline and 3 GiB total cap apply.",
+    "range_subset_before_fitting": "Full transfer was stopped for insufficient throughput before fitting. Preselect complete libraries do17815 (adult B6), do26386 (P5) and do18195 (P15), not cells/genes selected by expression. Retrieve exact byte windows by column-sorted MatrixMarket boundaries; verify all selected cell totals and detected features. This is not the complete atlas.",
+    "parallel_requests": 1,
+    "proxy_required": true,
+    "no_direct_fallback": true
+  },
+  "prior_results": "Keep all four published snapshots and their analysis sources unchanged. Save new work separately."
+}

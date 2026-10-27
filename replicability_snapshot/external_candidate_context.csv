@@ -1,0 +1,631 @@
+gene,tested_exact_unique_symbol,external_logFC,candidate_directional_external_log2FC,sign_matches,directional_1p5fold,available_LOO_variants,expected_LOO_variants,all_LOO_available,baseline_and_all_LOO_sign_match,baseline_and_all_LOO_1p5fold,cohort,model,age,role,candidate_direction,primary_LOO_priority
+1700018F24Rik,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+4932414N04Rik,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+4933421I07Rik,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Adad1,True,-1.51510471270762,1.51510471270762,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Adam11,True,-0.745306293975945,0.745306293975945,True,True,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Adam1b,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Adcy1,True,-1.23015355112022,1.23015355112022,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Alk,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Ankef1,True,-0.694012296767422,0.694012296767422,True,True,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Aqp9,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Aym1,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Bik,True,-0.96321499879499,-0.96321499879499,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Bsn,True,0.770470009380452,-0.770470009380452,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Cacna1e,True,0.531934772242888,-0.531934772242888,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Cacng8,True,-0.438880615534381,0.438880615534381,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Capn11,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Casz1,True,-1.17432739884657,1.17432739884657,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Catsperb,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Ccdc110,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Ccdc146,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Ccdc175,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Ccdc40,True,-1.12858667787113,1.12858667787113,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Ccdc77,True,-0.0011323521032744,0.0011323521032744,True,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Cdca2,True,-0.185214391283883,0.185214391283883,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Cdkl1,True,1.15334992518176,-1.15334992518176,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Cdkl2,True,-0.378033080965557,0.378033080965557,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Cep128,True,0.168937262374396,-0.168937262374396,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Cfap46,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Chgb,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Cyp2u1,True,-0.354042525056223,0.354042525056223,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Daw1,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Dlec1,True,-0.491666074924827,0.491666074924827,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Dmrta2,True,-1.29747078681058,-1.29747078681058,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Dnah10,True,-1.15401481703104,1.15401481703104,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Dnah12,True,-1.01664011768681,1.01664011768681,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Dnah17,True,-0.732793055931105,0.732793055931105,True,True,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Dnali1,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Drc1,False,,,False,False,1,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Drc7,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Efcab5,True,-1.50136628653895,1.50136628653895,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Efcab6,True,-0.794893175618813,0.794893175618813,True,True,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Efhc1,True,0.305189063191171,-0.305189063191171,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+En2,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Eps8l3,True,0.426771879109904,-0.426771879109904,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Erich6,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Exph5,True,1.22522109148664,-1.22522109148664,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Fbxo30,True,-0.352419003648851,0.352419003648851,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Fbxw10,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Fsip2,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Gadd45g,True,-0.488625889642969,-0.488625889642969,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Gdpd4,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Gfra4,True,-0.420633486461331,0.420633486461331,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Gm4871,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Gm5930,True,-1.64112429967549,1.64112429967549,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Gpr162,True,0.433526421640967,-0.433526421640967,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Hpcal4,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Idi1,True,-0.395278078230844,0.395278078230844,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Ints10,True,-0.361149219486886,0.361149219486886,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Iqub,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Katnal1,True,0.243868374775461,-0.243868374775461,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Kctd19,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Kdm4d,True,-0.568507217560548,0.568507217560548,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Kif6,True,-0.109157270940443,0.109157270940443,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Lrrc23,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Mgll,True,-0.565720496447409,0.565720496447409,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Mipep,True,-0.208794150614853,0.208794150614853,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Mroh2a,True,-0.734723483749099,0.734723483749099,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Ms4a13,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Msrb2,True,0.0106132494101325,0.0106132494101325,True,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Nkx2-4,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Nlrp14,True,-1.33963461850402,1.33963461850402,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Pdzd9,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Prdm8,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Prss43,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Prss44,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Rgs12,True,0.063816916159658,-0.063816916159658,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Rims3,True,-1.15689490782209,1.15689490782209,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Rp1,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Rtn1,True,-1.11543813218529,1.11543813218529,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Scx,True,0.20035195444478,0.20035195444478,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Sel1l2,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Slc6a11,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Spag1,True,-0.100712415671789,0.100712415671789,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Spag17,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Spata31d1a,False,,,False,False,2,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Spata6,True,0.108428278984637,-0.108428278984637,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Spats1,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Spef2,True,0.586680908938651,-0.586680908938651,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Srcin1,True,-0.981793085674751,0.981793085674751,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Stc1,True,-0.25768801832122,-0.25768801832122,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Sv2c,True,0.293365079153361,-0.293365079153361,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Tex21,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Tfr2,True,-0.882198010496024,0.882198010496024,True,True,6,6,True,True,True,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Tmc1,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Tmem160,True,-0.0766438068200636,-0.0766438068200636,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,up,False
+Tmem175,True,-0.0962618783684346,0.0962618783684346,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Ttc39d,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Ttc6,False,,,False,False,4,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Ttll6,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Wdpcp,True,-0.179499263926516,0.179499263926516,True,False,6,6,True,True,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Zbbx,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Zfp41,True,0.293641517341347,-0.293641517341347,False,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Zfp956,True,-0.0824193343481658,0.0824193343481658,True,False,6,6,True,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+Zmynd10,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,True
+Zswim2,False,,,False,False,0,6,False,False,False,GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,down,False
+1700018F24Rik,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+4932414N04Rik,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+4933421I07Rik,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Adad1,True,-0.245737417235519,0.245737417235519,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Adam11,True,-0.245241885899541,0.245241885899541,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Adam1b,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Adcy1,True,0.0165555710764177,-0.0165555710764177,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Alk,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Ankef1,True,0.637498543271659,-0.637498543271659,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Aqp9,False,,,False,False,2,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Aym1,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Bik,True,-0.922596619474503,-0.922596619474503,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Bsn,True,0.0573658090916955,-0.0573658090916955,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Cacna1e,True,-0.63053999760576,0.63053999760576,True,True,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Cacng8,True,-0.0258023343581597,0.0258023343581597,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Capn11,True,0.143162264992124,-0.143162264992124,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Casz1,True,-0.32418103738609,0.32418103738609,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Catsperb,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Ccdc110,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Ccdc146,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Ccdc175,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Ccdc40,True,-0.465875076437154,0.465875076437154,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Ccdc77,True,0.0673262775203023,-0.0673262775203023,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Cdca2,True,0.0183615133357346,-0.0183615133357346,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Cdkl1,True,-0.782280356840297,0.782280356840297,True,True,6,6,True,True,True,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Cdkl2,True,0.120969899182576,-0.120969899182576,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Cep128,True,0.0905869328866745,-0.0905869328866745,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Cfap46,True,0.41482031618525,-0.41482031618525,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Chgb,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Cyp2u1,True,-0.207384721917676,0.207384721917676,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Daw1,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Dlec1,True,-0.241080645010614,0.241080645010614,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Dmrta2,True,-0.687827096945937,-0.687827096945937,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Dnah10,True,0.0300145612792941,-0.0300145612792941,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Dnah12,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Dnah17,True,-0.0254506680204542,0.0254506680204542,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Dnali1,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Drc1,False,,,False,False,4,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Drc7,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Efcab5,True,0.832642565264056,-0.832642565264056,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Efcab6,True,0.0461561235656854,-0.0461561235656854,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Efhc1,True,0.08933053892694,-0.08933053892694,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+En2,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Eps8l3,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Erich6,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Exph5,True,-0.194926762559555,0.194926762559555,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Fbxo30,True,-0.168164099597803,0.168164099597803,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Fbxw10,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Fsip2,False,,,False,False,4,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Gadd45g,True,0.175018818880645,0.175018818880645,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Gdpd4,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Gfra4,True,-0.077372165787633,0.077372165787633,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Gm4871,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Gm5930,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Gpr162,True,0.0986169844794685,-0.0986169844794685,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Hpcal4,True,-0.40355589428697,0.40355589428697,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Idi1,True,-0.129409820527996,0.129409820527996,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Ints10,True,-0.107395384442691,0.107395384442691,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Iqub,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Katnal1,True,0.0808827628363774,-0.0808827628363774,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Kctd19,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Kdm4d,True,-0.239778493295577,0.239778493295577,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Kif6,True,-0.167247605298185,0.167247605298185,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Lrrc23,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Mgll,True,0.002619974580889,-0.002619974580889,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Mipep,True,0.0421583412526567,-0.0421583412526567,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Mroh2a,True,0.0487980468736688,-0.0487980468736688,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Ms4a13,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Msrb2,True,-0.119492141016829,-0.119492141016829,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Nkx2-4,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Nlrp14,True,-1.00824482086751,1.00824482086751,True,True,6,6,True,True,True,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Pdzd9,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Prdm8,True,0.446277809403469,-0.446277809403469,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Prss43,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Prss44,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Rgs12,True,0.0714895143193488,-0.0714895143193488,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Rims3,True,-0.308978582830424,0.308978582830424,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Rp1,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Rtn1,True,-0.15049240130549,0.15049240130549,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Scx,True,-0.0302421673064296,-0.0302421673064296,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Sel1l2,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Slc6a11,True,0.0900012300210417,-0.0900012300210417,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Spag1,True,-0.0487330079033314,0.0487330079033314,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Spag17,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Spata31d1a,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Spata6,True,0.139607219517624,-0.139607219517624,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Spats1,True,-0.231492939974369,0.231492939974369,True,False,6,6,True,True,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Spef2,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Srcin1,True,0.0277908893574082,-0.0277908893574082,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Stc1,True,-0.0407716748949195,-0.0407716748949195,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Sv2c,True,-0.265260244004171,0.265260244004171,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Tex21,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Tfr2,True,0.170871962139153,-0.170871962139153,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Tmc1,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Tmem160,True,-0.287815429460342,-0.287815429460342,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,up,False
+Tmem175,True,0.0503080263456642,-0.0503080263456642,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Ttc39d,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Ttc6,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Ttll6,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Wdpcp,True,0.0090108216981915,-0.0090108216981915,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Zbbx,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Zfp41,True,0.106311030693885,-0.106311030693885,False,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Zfp956,True,-0.0873871049778294,0.0873871049778294,True,False,6,6,True,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+Zmynd10,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,True
+Zswim2,False,,,False,False,0,6,False,False,False,GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,down,False
+1700018F24Rik,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+4932414N04Rik,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+4933421I07Rik,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Adad1,True,-0.144533696415072,0.144533696415072,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Adam11,True,-0.286163406240808,0.286163406240808,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Adam1b,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Adcy1,True,-1.19787963217597,1.19787963217597,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Alk,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Ankef1,True,-0.201947224420814,0.201947224420814,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Aqp9,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Aym1,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Bik,True,-0.673265126118579,-0.673265126118579,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Bsn,True,0.422489716911071,-0.422489716911071,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Cacna1e,True,-0.946075603272503,0.946075603272503,True,True,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Cacng8,True,-0.011663048322495,0.011663048322495,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Capn11,True,2.53114153977585,-2.53114153977585,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Casz1,True,-1.59505887691517,1.59505887691517,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Catsperb,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Ccdc110,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Ccdc146,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Ccdc175,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Ccdc40,True,-1.17969434241418,1.17969434241418,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Ccdc77,True,0.115957559729046,-0.115957559729046,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Cdca2,True,-0.316793229915035,0.316793229915035,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Cdkl1,True,0.403756864895014,-0.403756864895014,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Cdkl2,True,-0.518857425840955,0.518857425840955,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Cep128,True,-0.0221451839174887,0.0221451839174887,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Cfap46,True,0.0120837682834435,-0.0120837682834435,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Chgb,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Cyp2u1,True,-0.712675611385313,0.712675611385313,True,True,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Daw1,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Dlec1,True,-0.684522646698876,0.684522646698876,True,True,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Dmrta2,True,-0.838312078375348,-0.838312078375348,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Dnah10,True,-1.68305305590691,1.68305305590691,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Dnah12,True,-0.885821614933645,0.885821614933645,True,True,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Dnah17,True,-0.218978859024864,0.218978859024864,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Dnali1,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Drc1,False,,,False,False,4,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Drc7,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Efcab5,True,-1.33498800374709,1.33498800374709,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Efcab6,True,-0.180319645749476,0.180319645749476,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Efhc1,True,0.381374616584092,-0.381374616584092,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+En2,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Eps8l3,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Erich6,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Exph5,True,0.324094353421335,-0.324094353421335,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Fbxo30,True,-0.19871992833205,0.19871992833205,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Fbxw10,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Fsip2,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Gadd45g,True,0.155897136914224,0.155897136914224,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Gdpd4,True,1.4562558973933,-1.4562558973933,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Gfra4,True,-0.260208518757368,0.260208518757368,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Gm4871,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Gm5930,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Gpr162,True,-0.251664270093346,0.251664270093346,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Hpcal4,True,0.0101459982769841,-0.0101459982769841,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Idi1,True,-0.353769329112767,0.353769329112767,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Ints10,True,-0.279537292044819,0.279537292044819,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Iqub,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Katnal1,True,-0.039902226224712,0.039902226224712,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Kctd19,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Kdm4d,True,0.369484466866643,-0.369484466866643,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Kif6,True,-0.0321772818182465,0.0321772818182465,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Lrrc23,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Mgll,True,-0.471318867427446,0.471318867427446,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Mipep,True,0.0192152299448322,-0.0192152299448322,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Mroh2a,True,-0.329648821154293,0.329648821154293,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Ms4a13,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Msrb2,True,0.427536454663474,0.427536454663474,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Nkx2-4,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Nlrp14,True,-2.5986429596444,2.5986429596444,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Pdzd9,False,,,False,False,2,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Prdm8,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Prss43,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Prss44,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Rgs12,True,0.0040892452521223,-0.0040892452521223,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Rims3,True,-0.981017009206925,0.981017009206925,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Rp1,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Rtn1,True,-0.385006612069803,0.385006612069803,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Scx,True,0.329931032737798,0.329931032737798,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Sel1l2,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Slc6a11,True,-0.562499855380175,0.562499855380175,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Spag1,True,-0.380436046543871,0.380436046543871,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Spag17,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Spata31d1a,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Spata6,True,0.176857095470082,-0.176857095470082,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Spats1,True,-0.406504009376104,0.406504009376104,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Spef2,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Srcin1,True,-1.13427529828341,1.13427529828341,True,True,6,6,True,True,True,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Stc1,True,-0.0410870929992129,-0.0410870929992129,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Sv2c,True,-0.129725196570683,0.129725196570683,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Tex21,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Tfr2,True,-0.716453622552021,0.716453622552021,True,True,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Tmc1,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Tmem160,True,-0.272583409465259,-0.272583409465259,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,up,False
+Tmem175,True,0.0213227621740763,-0.0213227621740763,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Ttc39d,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Ttc6,False,,,False,False,4,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Ttll6,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Wdpcp,True,-0.0359978033088984,0.0359978033088984,True,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Zbbx,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Zfp41,True,0.0370217292866047,-0.0370217292866047,False,False,6,6,True,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Zfp956,True,-0.188512380026532,0.188512380026532,True,False,6,6,True,True,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+Zmynd10,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,True
+Zswim2,False,,,False,False,0,6,False,False,False,GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,down,False
+1700018F24Rik,True,-0.1349876449049,0.1349876449049,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+4932414N04Rik,True,0.112385013182075,-0.112385013182075,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+4933421I07Rik,True,0.0058669970650533,-0.0058669970650533,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Adad1,True,0.0530096141052653,-0.0530096141052653,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Adam11,True,0.101496790539979,-0.101496790539979,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Adam1b,True,0.185066666389552,-0.185066666389552,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Adcy1,True,0.103008411995442,-0.103008411995442,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Alk,True,0.23275645700722,-0.23275645700722,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Ankef1,True,0.0289543802190316,-0.0289543802190316,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Aqp9,True,-0.009763797460787,0.009763797460787,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Aym1,True,-0.108922283731696,0.108922283731696,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Bik,True,-0.185025508712055,-0.185025508712055,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Bsn,True,0.333751263464438,-0.333751263464438,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Cacna1e,True,0.0418098830837567,-0.0418098830837567,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Cacng8,True,0.0281882957755261,-0.0281882957755261,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Capn11,True,0.0889028976194691,-0.0889028976194691,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Casz1,True,0.143049133316382,-0.143049133316382,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Catsperb,True,-0.0470666383278526,0.0470666383278526,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Ccdc110,True,0.188558206551135,-0.188558206551135,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Ccdc146,True,0.222397235098711,-0.222397235098711,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Ccdc175,True,0.0810887252978401,-0.0810887252978401,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Ccdc40,True,0.229748388711549,-0.229748388711549,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Ccdc77,True,-0.0075501483031215,0.0075501483031215,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Cdca2,True,0.0306277838598996,-0.0306277838598996,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Cdkl1,True,0.0258741178039383,-0.0258741178039383,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Cdkl2,True,0.0584055046097463,-0.0584055046097463,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Cep128,True,0.195249446908414,-0.195249446908414,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Cfap46,True,0.232510009415873,-0.232510009415873,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Chgb,True,0.379227913097399,-0.379227913097399,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Cyp2u1,True,-0.0398226355075473,0.0398226355075473,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Daw1,True,-0.0971685575176893,0.0971685575176893,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Dlec1,True,0.23423969338887,-0.23423969338887,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Dmrta2,True,0.166628908110422,0.166628908110422,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Dnah10,True,0.406529350507167,-0.406529350507167,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Dnah12,True,0.303098420774747,-0.303098420774747,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Dnah17,True,0.394085254875274,-0.394085254875274,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Dnali1,True,0.0621964446277158,-0.0621964446277158,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Drc1,True,0.147396812675011,-0.147396812675011,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Drc7,True,0.168664548355245,-0.168664548355245,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Efcab5,True,0.241215771986209,-0.241215771986209,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Efcab6,True,0.0842211602347322,-0.0842211602347322,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Efhc1,True,0.102248504117016,-0.102248504117016,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+En2,True,-0.0162556114730318,0.0162556114730318,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Eps8l3,True,0.108147709396677,-0.108147709396677,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Erich6,True,0.0576753194183028,-0.0576753194183028,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Exph5,True,0.0486402362588094,-0.0486402362588094,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Fbxo30,True,0.053537452724765,-0.053537452724765,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Fbxw10,True,0.137967080862278,-0.137967080862278,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Fsip2,True,0.480954453629837,-0.480954453629837,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Gadd45g,True,-0.295524751572419,-0.295524751572419,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Gdpd4,True,0.0590195206924045,-0.0590195206924045,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Gfra4,True,-0.0403690644630003,0.0403690644630003,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Gm4871,True,-0.0702833738363706,0.0702833738363706,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Gm5930,True,-0.279756059542354,0.279756059542354,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Gpr162,True,0.215206188555054,-0.215206188555054,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Hpcal4,True,0.193998286725265,-0.193998286725265,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Idi1,True,-0.127470061977847,0.127470061977847,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Ints10,True,0.0145450833347021,-0.0145450833347021,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Iqub,True,0.0599412330887093,-0.0599412330887093,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Katnal1,True,0.0435622670766471,-0.0435622670766471,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Kctd19,True,0.0534802481347522,-0.0534802481347522,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Kdm4d,True,0.0388446437193869,-0.0388446437193869,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Kif6,True,0.0579149358839124,-0.0579149358839124,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Lrrc23,True,0.0421888821889525,-0.0421888821889525,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Mgll,True,-0.0771943020931607,0.0771943020931607,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Mipep,True,-0.157179013709179,0.157179013709179,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Mroh2a,True,0.153086455601521,-0.153086455601521,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Ms4a13,True,-0.249299556779257,0.249299556779257,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Msrb2,True,-0.0933788219552568,-0.0933788219552568,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Nkx2-4,True,-0.136327213517584,0.136327213517584,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Nlrp14,True,-0.116609382679275,0.116609382679275,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Pdzd9,True,-0.0795798295547303,0.0795798295547303,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Prdm8,True,-0.0735386671375044,0.0735386671375044,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Prss43,True,-0.0108933987991882,0.0108933987991882,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Prss44,True,-0.255102404443965,0.255102404443965,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Rgs12,True,0.167127767904065,-0.167127767904065,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Rims3,True,0.0836723567265135,-0.0836723567265135,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Rp1,True,-0.0359405694821737,0.0359405694821737,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Rtn1,True,0.0998695824546442,-0.0998695824546442,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Scx,True,0.0009472940969728,0.0009472940969728,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Sel1l2,True,-0.0428354354715893,0.0428354354715893,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Slc6a11,True,0.127406283485843,-0.127406283485843,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Spag1,True,0.114470957084525,-0.114470957084525,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Spag17,True,0.231362456776689,-0.231362456776689,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Spata31d1a,True,0.135684736667657,-0.135684736667657,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Spata6,True,-0.0870085688267257,0.0870085688267257,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Spats1,True,-0.0600748794817354,0.0600748794817354,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Spef2,True,0.253639892475572,-0.253639892475572,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Srcin1,True,0.0396888020659604,-0.0396888020659604,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Stc1,True,-1.20036130950192,-1.20036130950192,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Sv2c,True,0.0605735111468915,-0.0605735111468915,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Tex21,True,-0.0179613101461027,0.0179613101461027,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Tfr2,True,0.0139166530107437,-0.0139166530107437,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Tmc1,True,0.0976797143776125,-0.0976797143776125,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Tmem160,True,-0.373788058107265,-0.373788058107265,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",up,False
+Tmem175,True,0.0761644446246484,-0.0761644446246484,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Ttc39d,True,0.0212471859877131,-0.0212471859877131,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Ttc6,True,0.198647142469701,-0.198647142469701,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Ttll6,True,0.100631678306384,-0.100631678306384,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Wdpcp,True,-0.0556151726844171,0.0556151726844171,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Zbbx,True,0.0382879394008274,-0.0382879394008274,False,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Zfp41,True,-0.0285769863812016,0.0285769863812016,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Zfp956,True,-0.0942068975667142,0.0942068975667142,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+Zmynd10,True,-0.0169247596816547,0.0169247596816547,True,False,6,6,True,False,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,True
+Zswim2,True,-0.0899794795978753,0.0899794795978753,True,False,6,6,True,True,False,GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",down,False
+1700018F24Rik,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+4932414N04Rik,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+4933421I07Rik,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Adad1,True,-0.957002517044538,0.957002517044538,True,True,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Adam11,True,0.375968677554551,-0.375968677554551,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Adam1b,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Adcy1,True,-0.218269542235018,0.218269542235018,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Alk,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Ankef1,True,0.0387573678893633,-0.0387573678893633,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Aqp9,True,0.0075932229055176,-0.0075932229055176,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Aym1,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Bik,True,-0.794875772908053,-0.794875772908053,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Bsn,True,0.40552168426556,-0.40552168426556,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Cacna1e,True,0.0255990694416091,-0.0255990694416091,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Cacng8,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Capn11,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Casz1,True,-0.406898981113137,0.406898981113137,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Catsperb,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Ccdc110,True,-0.698635807458673,0.698635807458673,True,True,7,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Ccdc146,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Ccdc175,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Ccdc40,True,-0.229220727993249,0.229220727993249,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Ccdc77,True,0.0110245721353125,-0.0110245721353125,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Cdca2,True,-0.149244464585547,0.149244464585547,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Cdkl1,True,0.264783278476169,-0.264783278476169,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Cdkl2,True,-0.378478277569956,0.378478277569956,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Cep128,True,-0.22258951425585,0.22258951425585,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Cfap46,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Chgb,False,,,False,False,1,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Cyp2u1,True,-0.374765425125282,0.374765425125282,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Daw1,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Dlec1,True,-0.380520992082963,0.380520992082963,True,False,7,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Dmrta2,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Dnah10,True,-0.151037761175628,0.151037761175628,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Dnah12,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Dnah17,True,0.132296335284545,-0.132296335284545,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Dnali1,True,-0.147738463298854,0.147738463298854,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Drc1,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Drc7,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Efcab5,True,-0.35439128782223,0.35439128782223,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Efcab6,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Efhc1,True,0.251369757518089,-0.251369757518089,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+En2,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Eps8l3,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Erich6,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Exph5,True,0.0978386765014404,-0.0978386765014404,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Fbxo30,True,-0.11008716089916,0.11008716089916,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Fbxw10,True,0.595135465001298,-0.595135465001298,False,False,7,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Fsip2,True,0.25018146965657,-0.25018146965657,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Gadd45g,True,-0.0410773001584098,-0.0410773001584098,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Gdpd4,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Gfra4,True,0.11389763300272,-0.11389763300272,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Gm4871,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Gm5930,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Gpr162,True,0.127582325471852,-0.127582325471852,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Hpcal4,True,-0.6339012804155,0.6339012804155,True,True,6,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Idi1,True,-0.295958377982561,0.295958377982561,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Ints10,True,0.0893323828763424,-0.0893323828763424,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Iqub,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Katnal1,True,0.0931683353256656,-0.0931683353256656,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Kctd19,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Kdm4d,True,-0.0577748812371952,0.0577748812371952,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Kif6,True,0.835400181864906,-0.835400181864906,False,False,6,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Lrrc23,False,,,False,False,1,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Mgll,True,0.0873206365671593,-0.0873206365671593,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Mipep,True,-0.256559327440636,0.256559327440636,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Mroh2a,True,-0.217865312992205,0.217865312992205,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Ms4a13,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Msrb2,True,-0.0615207757266057,-0.0615207757266057,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Nkx2-4,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Nlrp14,True,-0.782474802956563,0.782474802956563,True,True,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Pdzd9,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Prdm8,True,0.118429010639602,-0.118429010639602,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Prss43,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Prss44,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Rgs12,True,0.106342775549395,-0.106342775549395,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Rims3,True,-0.449175922155885,0.449175922155885,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Rp1,False,,,False,False,2,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Rtn1,True,0.306479903212234,-0.306479903212234,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Scx,True,-0.0962557244027885,-0.0962557244027885,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Sel1l2,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Slc6a11,True,0.563061703861832,-0.563061703861832,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Spag1,True,-0.0392443492340373,0.0392443492340373,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Spag17,False,,,False,False,1,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Spata31d1a,True,-0.151681127213441,0.151681127213441,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Spata6,True,-0.129916813025574,0.129916813025574,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Spats1,True,-0.296399763082374,0.296399763082374,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Spef2,True,-0.78467123120436,0.78467123120436,True,True,7,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Srcin1,True,0.326400869803844,-0.326400869803844,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Stc1,True,-0.085969191078664,-0.085969191078664,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Sv2c,True,-0.572871432568536,0.572871432568536,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Tex21,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Tfr2,False,,,False,False,2,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Tmc1,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Tmem160,True,0.349995753487597,0.349995753487597,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",up,False
+Tmem175,True,0.107806466400903,-0.107806466400903,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Ttc39d,True,-0.136656378573626,0.136656378573626,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Ttc6,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Ttll6,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Wdpcp,True,-0.306334211917498,0.306334211917498,True,False,8,8,True,True,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Zbbx,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Zfp41,True,-0.0122200440688352,0.0122200440688352,True,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Zfp956,True,0.215841464669986,-0.215841464669986,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+Zmynd10,True,0.747927693058543,-0.747927693058543,False,False,8,8,True,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,True
+Zswim2,False,,,False,False,0,8,False,False,False,Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",down,False
+1700018F24Rik,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+4932414N04Rik,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+4933421I07Rik,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Adad1,True,0.0332649943477435,-0.0332649943477435,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Adam11,True,0.740498887046588,-0.740498887046588,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Adam1b,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Adcy1,True,0.549353822875547,-0.549353822875547,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Alk,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Ankef1,True,0.104091181963545,-0.104091181963545,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Aqp9,True,1.25817216865996,-1.25817216865996,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Aym1,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Bik,True,0.245192359343723,0.245192359343723,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Bsn,True,-1.20818259476122,1.20818259476122,True,True,8,8,True,True,True,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Cacna1e,True,0.356595619787939,-0.356595619787939,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Cacng8,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Capn11,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Casz1,True,-0.269981891411989,0.269981891411989,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Catsperb,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Ccdc110,False,,,False,False,5,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Ccdc146,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Ccdc175,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Ccdc40,True,0.125602459165089,-0.125602459165089,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Ccdc77,True,-0.251996817093101,0.251996817093101,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Cdca2,True,-0.646350137528485,0.646350137528485,True,True,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Cdkl1,True,0.0419125573522966,-0.0419125573522966,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Cdkl2,True,-0.131034274386781,0.131034274386781,True,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Cep128,True,-0.0240439554834558,0.0240439554834558,True,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Cfap46,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Chgb,True,0.456958216196451,-0.456958216196451,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Cyp2u1,True,-1.2078640139589,1.2078640139589,True,True,8,8,True,True,True,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Daw1,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Dlec1,True,-0.0336468098189957,0.0336468098189957,True,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Dmrta2,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Dnah10,True,0.29165055263183,-0.29165055263183,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Dnah12,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Dnah17,True,0.706824734354892,-0.706824734354892,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Dnali1,True,0.356973740446213,-0.356973740446213,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Drc1,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Drc7,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Efcab5,True,-0.0791085363056727,0.0791085363056727,True,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Efcab6,False,,,False,False,5,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Efhc1,True,0.318880400178668,-0.318880400178668,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+En2,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Eps8l3,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Erich6,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Exph5,True,0.541281826935497,-0.541281826935497,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Fbxo30,True,-0.0816560538185188,0.0816560538185188,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Fbxw10,True,-0.0127112967016126,0.0127112967016126,True,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Fsip2,True,0.291318241500212,-0.291318241500212,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Gadd45g,True,-0.0554938314313992,-0.0554938314313992,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Gdpd4,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Gfra4,True,0.271798754310835,-0.271798754310835,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Gm4871,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Gm5930,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Gpr162,True,0.817813554053221,-0.817813554053221,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Hpcal4,True,0.77861428505135,-0.77861428505135,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Idi1,True,-0.0302750961565559,0.0302750961565559,True,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Ints10,True,-0.318785500587435,0.318785500587435,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Iqub,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Katnal1,True,-0.161247504564989,0.161247504564989,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Kctd19,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Kdm4d,True,0.459498111441057,-0.459498111441057,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Kif6,True,-0.670699842369084,0.670699842369084,True,True,8,8,True,True,True,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Lrrc23,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Mgll,True,0.425418275216583,-0.425418275216583,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Mipep,True,-0.249839492429228,0.249839492429228,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Mroh2a,True,0.973164336631772,-0.973164336631772,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Ms4a13,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Msrb2,True,0.323594754899067,0.323594754899067,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Nkx2-4,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Nlrp14,True,0.12168253227555,-0.12168253227555,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Pdzd9,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Prdm8,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Prss43,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Prss44,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Rgs12,True,-0.426354854352105,0.426354854352105,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Rims3,True,0.0295080141088548,-0.0295080141088548,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Rp1,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Rtn1,True,0.503876723155407,-0.503876723155407,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Scx,True,-0.929889818624542,-0.929889818624542,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Sel1l2,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Slc6a11,True,-0.516938354524297,0.516938354524297,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Spag1,True,0.118544652366279,-0.118544652366279,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Spag17,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Spata31d1a,True,0.102020616386254,-0.102020616386254,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Spata6,True,0.184667926120406,-0.184667926120406,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Spats1,True,-0.85653479111949,0.85653479111949,True,True,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Spef2,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Srcin1,True,0.956892417478126,-0.956892417478126,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Stc1,True,-1.24371367782611,-1.24371367782611,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Sv2c,True,0.564532798329282,-0.564532798329282,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Tex21,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Tfr2,True,0.208292328335089,-0.208292328335089,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Tmc1,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Tmem160,True,0.324458480500217,0.324458480500217,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",up,False
+Tmem175,True,0.161497735941993,-0.161497735941993,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Ttc39d,True,0.120614149443507,-0.120614149443507,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Ttc6,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Ttll6,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Wdpcp,True,0.288995837910795,-0.288995837910795,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Zbbx,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Zfp41,True,-0.325910468797762,0.325910468797762,True,False,8,8,True,True,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Zfp956,True,0.0154342350106163,-0.0154342350106163,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False
+Zmynd10,True,0.236857830025096,-0.236857830025096,False,False,8,8,True,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,True
+Zswim2,False,,,False,False,0,8,False,False,False,Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",down,False

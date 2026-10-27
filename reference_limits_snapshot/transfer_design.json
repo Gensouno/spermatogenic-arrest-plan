@@ -1,0 +1,62 @@
+{
+  "scope": "Exploratory cross-study addition of stage-defined L/Z UMI prototypes; no target-driven marker selection.",
+  "target_profiles": 40,
+  "genes": 16929,
+  "models": {
+    "Green13": [],
+    "Green13_ChenL": [
+      "L"
+    ],
+    "Green13_ChenZ": [
+      "Z"
+    ],
+    "Green13_ChenLZ": [
+      "L",
+      "Z"
+    ],
+    "Green13_ChenBS": [
+      "BS"
+    ]
+  },
+  "prototype_weightings": [
+    "equal_cell_mean",
+    "RNA_sum"
+  ],
+  "training_source": "Only Chen Table S2 + WT QC stage-defined L, Z and BS profiles; never P15 or external sorted labels/counts.",
+  "evaluation_sources": "All 30 full P15 treatment views plus 10 prior sorted RNA profiles; no Chen source profile included in candidate evaluation.",
+  "control": "Chen BS provides a same-source spermatogonial extra-column control. It is not a random negative biological population.",
+  "feature_panel": {
+    "source_only_selected_genes": 3358,
+    "panel_genes_in_response_universe": 2971,
+    "definition": "Top 200 source-specific genes per 20 Chen stages plus 200 Green somatic-specific genes; source CPM>=10, deterministic symbol ties. Same union for all candidates; target labels/expression never rank features.",
+    "evaluation": "Panel fits predict all full-response held-out genes using unchanged common-gene normalization. Panel results are a secondary follow-up, not a target-tuned final model."
+  },
+  "gene_selection": "Deterministic shared genes across full Green references, all source prototypes and all external targets. No markers selected by target fit or class agreement.",
+  "metric": "Same target values, folds and scale across candidate models within each prototype/weighting view; no held-out-specific normalization.",
+  "normalization": "All common genes normalized before gene folds, so held-out totals influence column scaling; not completely prospective prediction.",
+  "selection_limitation": "Motivated by previously observed external mismatch; these are cross-study exploratory transfer checks, not an untouched confirmatory set.",
+  "not_claimed": [
+    "Accurate in-vivo cell-number proportions",
+    "Independent animal replication from cells or weighting views",
+    "A selected final optimal model",
+    "Causal interpretation of residuals"
+  ],
+  "fixed_prepared_inputs_sha256": {
+    "results/reference_limits/chen_stage_profiles.csv.gz": "280cbf72d70a8c78365a5012a7c5ec3c8cc735b75663269ec386eeb7755a8d41",
+    "results/reference_limits/chen_profile_evidence.csv": "56eaf702d658e80b48a230052b6dedbb947ce0f134f15bdd40dea6b82415ed13",
+    "results/reference_limits/chen_preparation_audit.json": "e03411fa852ea825eccb8dfd8c35c3ca05286a837e855f8f3ac651dadd9e6926",
+    "results/emptydrops_p15/type_profiles.csv.gz": "cecb742aa0141e258551cad0068b5a1581caa7b4b082204ec5e3f0feb8e870ac"
+  },
+  "generated_candidate_reference_sha256": {
+    "results/reference_limits/candidate_Green13_ChenBS_RNA_sum.csv.gz": "0cf384209bdd5b94b0d1b15a1e64200b706c793393c875c861df0a57a005d081",
+    "results/reference_limits/candidate_Green13_ChenBS_equal_cell_mean.csv.gz": "f4bd7a5dc0c14e79c68e422e83f5b127ba7254fcc00a7341af5b21daf2174c58",
+    "results/reference_limits/candidate_Green13_ChenLZ_RNA_sum.csv.gz": "8d81b7efd8784985734ca340fc5ff2a80967129d527e511157ce170341ad58db",
+    "results/reference_limits/candidate_Green13_ChenLZ_equal_cell_mean.csv.gz": "d9607ef4c7ccc5150c6d7c9ce8fe208e06084f9c079dda77b406ca4794d2d4d3",
+    "results/reference_limits/candidate_Green13_ChenL_RNA_sum.csv.gz": "baff680f99ba2f1884ca84b426575c2eecd6dbfbdfc4a0f78fc2f670a2c09604",
+    "results/reference_limits/candidate_Green13_ChenL_equal_cell_mean.csv.gz": "b34f3daea12e25b6f18a7f0a4486ef1661421f5cececbd4d363b0e8115ccfee9",
+    "results/reference_limits/candidate_Green13_ChenZ_RNA_sum.csv.gz": "a0461e8510952df0ad669b157f1579fa77aa6011eef4aa79324d6addf6336937",
+    "results/reference_limits/candidate_Green13_ChenZ_equal_cell_mean.csv.gz": "2b48c609957090933df5bbc964e36fdfc96d368e00810f3d3c7b2ca2561c70d2",
+    "results/reference_limits/candidate_Green13_RNA_sum.csv.gz": "79f9c37826d9f5713ae1c67335fb77a9e289623b84900059e89c8eaceba83a99",
+    "results/reference_limits/candidate_Green13_equal_cell_mean.csv.gz": "e367e7745362e76ec7ef55994c0cc2eddbec516cf464905fd8f7a48bb801ba80"
+  }
+}

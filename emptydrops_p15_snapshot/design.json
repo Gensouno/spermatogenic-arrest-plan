@@ -1,0 +1,23 @@
+{
+  "scope": "One complete P15 EmptyDrops library; all eligible author groups, complete/new/overlap strata, two weighting views and same-barcode CellRanger comparison.",
+  "genes": 11852,
+  "gene_folds_seed": 20261024,
+  "labels": "Original author P15Clusters, not independently measured purity or cell-number truth.",
+  "normalization": "Identical common genes for both count branches and every profile. Column totals normalized once before gene splitting; held-out genes contribute to totals.",
+  "references": "Three unchanged earlier references, fixed inverse-square-root centroid-4 weights, fixed five gene folds; no marker retuning or new reference training.",
+  "interpretation": "RNA coefficients are compatibility diagnostics, not in-vivo cell-number fractions. Largest-class matches are not calibrated classification accuracy.",
+  "selection": "Follow-up prompted by earlier overlapping Zygotene result, not untouched independent validation.",
+  "not_claimed": [
+    "Full atlas ingestion",
+    "Biological replication",
+    "Causal age/genotype effects",
+    "Reliable L/Z fractions",
+    "Resolution of Cnot4 LZ mismatch",
+    "Prospective missing-gene prediction"
+  ],
+  "fixed_inputs_sha256": {
+    "results/stage_reference/pooled_original_4_reference.csv.gz": "bf9a6d79e94cc6e04284680b885c55eea1686e9862e2142d4d55e3694ec4b1ee",
+    "results/stage_reference/pooled_centroid_4_reference.csv.gz": "b3a8e348e3b867d51db21a0131b606f08a8570f45fae458ed0d4f41d41f276a1",
+    "results/stage_reference/pooled_centroid_13_reference.csv.gz": "2c8be23cab6514c23023cf7c2871ea32645705f34b75bf0342241af44ebe46ee"
+  }
+}

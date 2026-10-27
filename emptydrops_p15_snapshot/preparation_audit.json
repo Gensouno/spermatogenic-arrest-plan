@@ -1,0 +1,116 @@
+{
+  "scope": "Complete do18195 P15 EmptyDrops library and matched CellRanger P15 count-branch comparison.",
+  "selected_cells": 13168,
+  "overlap_cells": 3487,
+  "emptydrops_only_cells": 9681,
+  "cellranger_P15_cells": 4258,
+  "emptydrops_nonzeros": 28013465,
+  "cellranger_nonzeros": 17007573,
+  "all_selected_cell_totals_and_detected_features_match": true,
+  "emptydrops_genes": 32105,
+  "emptydrops_unique_mouse_symbols": 32011,
+  "cellranger_unique_mouse_symbols": 32816,
+  "branch_common_symbols": 31706,
+  "matched_aggregate_count_comparison": [
+    {
+      "author_type": "Differentiating_Spermatogonia_1",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 3789650.0,
+      "CellRanger_common_gene_count_sum": 3789650.0
+    },
+    {
+      "author_type": "Differentiating_Spermatogonia_2",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 562478.0,
+      "CellRanger_common_gene_count_sum": 562478.0
+    },
+    {
+      "author_type": "Endothelial_cells",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 393911.0,
+      "CellRanger_common_gene_count_sum": 393911.0
+    },
+    {
+      "author_type": "Leydig_1",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 482417.0,
+      "CellRanger_common_gene_count_sum": 482417.0
+    },
+    {
+      "author_type": "PTM",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 1018968.0,
+      "CellRanger_common_gene_count_sum": 1018968.0
+    },
+    {
+      "author_type": "Pachytene_1",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 7182732.0,
+      "CellRanger_common_gene_count_sum": 7182732.0
+    },
+    {
+      "author_type": "Pachytene_2",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 39952977.0,
+      "CellRanger_common_gene_count_sum": 39952977.0
+    },
+    {
+      "author_type": "Sertoli_1",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 182857.0,
+      "CellRanger_common_gene_count_sum": 182857.0
+    },
+    {
+      "author_type": "Sertoli_2",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 3882712.0,
+      "CellRanger_common_gene_count_sum": 3882712.0
+    },
+    {
+      "author_type": "Undifferentiated_Spermatogonia",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 1889347.0,
+      "CellRanger_common_gene_count_sum": 1889347.0
+    },
+    {
+      "author_type": "Zygotene",
+      "genes": 31706,
+      "different_gene_sums": 0,
+      "max_absolute_gene_sum_difference": 0.0,
+      "EmptyDrops_common_gene_count_sum": 2807523.0,
+      "CellRanger_common_gene_count_sum": 2807523.0
+    }
+  ],
+  "count_comparison_scope": "Gene-wise aggregated counts for identical eligible barcode groups; not a per-cell gene-count identity assertion.",
+  "author_outliers_excluded": 211,
+  "included_profile_groups": 51,
+  "weighting_views": 2,
+  "profiles": 102,
+  "source_age_days": 15,
+  "source_genotype": "wild type genotype",
+  "source_strain": "C57BL6J",
+  "SDRF_cell_count_scope": "The SDRF count describes CellRanger, not EmptyDrops; not used as an EmptyDrops count assertion.",
+  "label_provenance": "Unmodified author P15Clusters, matched by Library+Barcode. Same labels applied to both count branches.",
+  "replication": "One library; strata overlap and weighting views are not independent biological replicates.",
+  "elapsed_seconds": 12.89
+}

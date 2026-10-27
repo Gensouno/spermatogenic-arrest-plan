@@ -20,6 +20,18 @@
 
 ## 数据与分析范围（冻结的八队列基线）
 
+2026-10-26 另完成 [Setx 发育序列与 Eef1g 分选细胞的新来源核查](docs/NEW_MODEL_CONTEXTS.md)：两条GEO查询返回61个去重系列，核查其中12个来源，下载并单独分析40份Setx全睾丸TPM及6份Eef1g分选L/Z计数谱。固定36个下调优先候选在Setx P14/P16/P18分别24、19、33个经留一仍保持同向1.5倍，但不能排除细胞构成；没有增加主检验票数。新目录复跑14张表、2份JSON和2张图一致；结果为 `new_models_snapshot/`，入口为 `scripts/run_new_models.py`。
+
+2026-10-26 完成 [跨遗传模型方向重复性与候选适用范围](docs/REPLICABILITY.md)：五个计数队列的 40 份样本按四个遗传单位检验，Rfx2 两年龄不重复计票。9,675 基因的完整方向假设族经 BY／BH 校正均为零发现；单列 105 个描述性候选及 36 个逐样本删除后稳定的下调优先候选，没有称作已证实共享机制。两个单细胞来源的阶段分歧和六个既有额外对比的事后覆盖检查均完整保留。新目录复跑 28 张表、4 份 JSON、3 张图一致；结果为 `replicability_snapshot/`，入口为 `scripts/run_replicability.py`。
+
+2026-10-25 完成 [细线期参考边界与独立 UMI 对账](docs/REFERENCE_LIMITS.md)：从 GSE107644 原始矩阵及作者 S1/S2 核对 1,136 个阶段明确细胞，补充基因集合、权重、长度敏感性和来源文库留出。简单增加 L/Z 参考不能稳定纠正外部失配，且会把部分精原细胞主要拟合为减数分裂；回查原二十份分选谱也未解决 Cnot4 LZ。结果单列 `reference_limits_snapshot/`，没有把候选提升为已校准细胞比例模型。检查入口为 `scripts/check_reference_limits.py`。
+
+2026-10-25 继续完成 [独立细线期来源诊断](docs/LEPTOTENE_FOLLOWUP.md)：核查四个候选研究，接入 GSE155967 阶段分开的六份 RNA 计数和 GSE83264 的四份混合 LZ／粗线期对照。两份明确细线期在细分参考下仍主要拟合为精原细胞，两份偶线期则转为减数分裂大类；保留同步化、年龄、分选、基因型记录及文库技术限制。PreL 不参与大类标签评分，没有据此训练新参考或改动八队列基线。结果为 `leptotene_snapshot/`，检查入口为 `scripts/check_leptotene.py`。
+
+2026-10-25 补齐 [完整 P15 EmptyDrops 早期细胞诊断](docs/EMPTYDROPS_P15.md)：逐细胞核对 13,168 个作者标注细胞。细分参考对全部 938 个偶线期、其中 672 个新增细胞的改善延续，但 907 个细线期仍主要拟合为精原细胞，不能宣布早期减数分裂失配整体解决。同条形码、同标签和同基因对照中，两版计数的汇总与拟合结果一致；新目录复跑 14 张表与两份设计／来源 JSON 一致。新结果单列 `emptydrops_p15_snapshot/`，不改变八队列基线；核查入口为 `scripts/check_emptydrops_p15.py`。
+
+2026-10-24 补充 [作者标签明确的三文库参考适配核查](docs/LABELED_REFERENCE.md)：完整核对成年 B6、P5、P15 共 8,791 个细胞，诊断作者标注的 38 个类型组；并定位到明确的细线／偶线期作者标签。已对有缓存表达的 266 个偶线期重叠细胞作独立敏感性分析，但大多数低复杂度细胞表达尚未获取，不能宣布 LZ 失配或细胞比例准确性已解决。快照为 `labeled_reference_snapshot/`，检查入口为 `scripts/check_labeled_snapshot.py`。
+
 2026-10-24 另完成 [发育期来源核查与固定参考转移诊断](docs/REFERENCE_TRANSFER.md)：检查 8 个捕获文库及 15,882 个细胞，对 20 份已有分选谱与 32 种文库处理组合做留出基因预测。细分参考的预测误差有所改善，但未据此宣布细胞比例准确；仍缺逐细胞作者标签。统一离线完整性检查入口为 `scripts/check_project.py`。
 
 2026-10-24 另完成 [Lrh1 早期对比及 Ppp2ca 文件核查](docs/FOLLOWUP_LRH1.md)：16 份 Lrh1 样本分为两组独立比较，处理作者批次并保留方法敏感性；Ppp2ca 的转录本 FPKM 仅核查、不混入计数主分析。这部分为单独的后续探索，快照在 `followup_snapshot/`，不改变以下八队列范围。
@@ -70,6 +82,8 @@ bash envs/python.sh scripts/export_snapshot.py --verify
 
 ## 项目导航
 
+- [Setx 年龄交互分析](docs/SETX_INTERACTION.md)：联合年龄／基因型模型、来源编号和条码限制、敏感性与复现。
+- [英文论文同步工作流](docs/PAPER_WORKFLOW.md)：持续写作、证据登记、检查、Word导出和私稿发布边界。
 - [METHODS](docs/METHODS.md)：分平台处理、基因集合、敏感性与组成检查。
 - [RESULTS](docs/RESULTS.md)：主要数字、负结果及解释边界。
 - [REPRODUCIBILITY](docs/REPRODUCIBILITY.md)：运行顺序、环境与验证范围。

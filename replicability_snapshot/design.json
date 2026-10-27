@@ -1,0 +1,52 @@
+{
+  "scope": "Four genetic-unit directional expression replication; whole-testis effects only.",
+  "primary_count_cohorts": [
+    "GSE236388",
+    "GSE283904",
+    "GSE68283",
+    "GSE68284",
+    "GSE101511"
+  ],
+  "genetic_units": {
+    "XAP5": [
+      "GSE236388"
+    ],
+    "N6amt1": [
+      "GSE283904"
+    ],
+    "Rfx2": [
+      "GSE68283",
+      "GSE68284"
+    ],
+    "Hnrnpgt": [
+      "GSE101511"
+    ]
+  },
+  "count_samples": 40,
+  "primary_common_tested_genes": 9675,
+  "legacy_common_tested_genes": 8099,
+  "primary_hypothesis_family_size": 38700,
+  "directions": [
+    "up",
+    "down"
+  ],
+  "replicability_levels": [
+    3,
+    4
+  ],
+  "Rfx2": "Maximum of age-specific directional P-values; both ages required for that unit. Sign/effect screens use age-wise min for positive and max for negative, never an average hiding disagreement.",
+  "test": "Bonferroni partial conjunction min(1,(n-r+1)*p_(r)), n=4; valid under arbitrary component dependence if component P-values are valid.",
+  "multiplicity": "BY across all genes x both directions x both r levels jointly within each universe. BH is a sensitivity requiring additional dependence assumptions. Primary claims refer to hypothesis-level family, not a separately guaranteed FDR for a filtered/deduplicated gene subset.",
+  "Pvalue_source": "Moderated-t one-sided pt() tails from recomputed source fits; original logFC/t/two-sided/adjusted P-values reconciled first.",
+  "effect_screen": "Thresholds 0, log2(1.5), 1 are separate descriptive summaries. Do not use an effect or LOO filter to imply a new FDR guarantee.",
+  "LOO": "All 40 count one-sample-deletion variants recomputed from prepared matrices and reconciled with the prior cache; filtering changes can remove genes. Completeness required before marking a unit stable. Not independent replication or uncertainty intervals.",
+  "limitations": [
+    "Source limma/filtering assumptions and P-value validity are required; no empirical biological FDR calibration.",
+    "Limited Hnrnpgt power and unconfirmed N6amt1 age remain.",
+    "Bulk effects can reflect cellular makeup; no cell-intrinsic mechanism, composition-adjusted effect or severity ranking inferred.",
+    "No new raw preprocessing, transcript annotation reconstruction or array normalization in this branch."
+  ],
+  "primary_BY_discovery_hypotheses": 0,
+  "primary_BY_unique_genes": 0,
+  "descriptive_1p5fold_candidate_genes": 105
+}

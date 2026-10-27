@@ -1,0 +1,7 @@
+cohort,source_tested_unique_symbols,primary_common_genes,primary_covered,primary_not_covered,primary_up_1p5fold,primary_down_1p5fold,expected_LOO_variants
+GSE259242_P9,14247,9675,9296,379,484,830,6
+GSE117706_P2,14904,9675,9270,405,33,128,6
+GSE117706_P7,15167,9675,9338,337,87,489,6
+GSE235777_P45,18598,9675,9669,6,8,14,6
+Lrh1_P1_NanosCre,15075,9675,9193,482,90,186,8
+Lrh1_P3_DhhCre,15044,9675,9261,414,797,673,8

@@ -1,0 +1,24 @@
+{
+  "retrieved_UTC": "2026-10-26T09:31:53.534348+00:00",
+  "assets": [
+    {
+      "gse": "GSE307441",
+      "role": "FACS-sorted L/Z P12 WT 3 / Eef1g cKO 3 library labels; animal independence and L/Z mix not established by GEO metadata alone",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307441/suppl/GSE307441_raw_counts.txt.gz",
+      "path": "data/raw/replicability_discovery/GSE307441_raw_counts.txt.gz",
+      "maximum_bytes": 20000000,
+      "bytes": 2076829,
+      "sha256": "6e93e40b6057d6f4dc1549fbaee7fdc64352ab48185fea0a75cfd54053c3b427"
+    },
+    {
+      "gse": "GSE224875",
+      "role": "Whole-testis Setx P10/P12/P14/P16/P18 each 4 WT / 4 KO source labels; source describes TPM, not raw gene counts",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224875/suppl/GSE224875_RAW.tar",
+      "path": "data/raw/replicability_discovery/GSE224875_RAW.tar",
+      "maximum_bytes": 60000000,
+      "bytes": 48732160,
+      "sha256": "8efd3a397c8f65b5ea915fba422ee83e4e92d080b554ef8f3b67cef83c9c46b0"
+    }
+  ],
+  "URL_conversion": "GEO ftp supplementary links converted to same-host HTTPS; no data-content conversion."
+}

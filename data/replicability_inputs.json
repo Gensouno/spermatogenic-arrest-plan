@@ -1,0 +1,210 @@
+{
+  "scope": "Prepared expression re-fit and 40 primary count omissions; frozen historical results are comparators. Six external contexts use frozen prior fits/LOO without re-fitting. No raw preprocessing or independent biological validation.",
+  "assets": [
+    {
+      "path": "data/bulk/GSE101511_matrix.tsv.gz",
+      "bytes": 339577,
+      "sha256": "9915f42d9f168abe584d6fded5e4b0e83d667129dad4186169fd312b0a33dbcf"
+    },
+    {
+      "path": "data/bulk/GSE101511_samples.tsv",
+      "bytes": 808,
+      "sha256": "9d08aed8ce271ea7c4dfe72a9758b9328df29294c9f383fc586403984b657e68"
+    },
+    {
+      "path": "data/bulk/GSE236388_matrix.tsv.gz",
+      "bytes": 285894,
+      "sha256": "e741961922217819a9c66d172505e969f2dded3092e0ad284f8808308014362b"
+    },
+    {
+      "path": "data/bulk/GSE236388_samples.tsv",
+      "bytes": 847,
+      "sha256": "6207b7bb8ce73ba5bbfc29c9aa6c5ab03317760212a6121a0effe53ba5ead09e"
+    },
+    {
+      "path": "data/bulk/GSE283904_matrix.tsv.gz",
+      "bytes": 347483,
+      "sha256": "1500e38bff619f2e79c8032dba91804b7bff4b449b51b9d3cfc555d891aedab6"
+    },
+    {
+      "path": "data/bulk/GSE283904_samples.tsv",
+      "bytes": 896,
+      "sha256": "efcd6543494b4c3df8aa0b3e7f590e93a1c178724872abab17a3f4ca4a6087fd"
+    },
+    {
+      "path": "data/bulk/GSE294209_matrix.tsv.gz",
+      "bytes": 1841914,
+      "sha256": "9fdd765143825c4619a415c40f442ec2b61028736204874cfd11c59cecf04541"
+    },
+    {
+      "path": "data/bulk/GSE294209_samples.tsv",
+      "bytes": 955,
+      "sha256": "ebc38db8de7ac07687a08ef5b1d87511a21cf1eaa6c108b34af077f5292972cd"
+    },
+    {
+      "path": "data/bulk/GSE68283_matrix.tsv.gz",
+      "bytes": 362089,
+      "sha256": "f72ed65802d0541d2b4face5779ad8f06e4b39947898e454ac160952a956e1d0"
+    },
+    {
+      "path": "data/bulk/GSE68283_samples.tsv",
+      "bytes": 1093,
+      "sha256": "493a1955a5a4fbdddc7d7161e716f0f5f94041e4fe7ea8b38a324e3bd771ce67"
+    },
+    {
+      "path": "data/bulk/GSE68284_matrix.tsv.gz",
+      "bytes": 442058,
+      "sha256": "3eb35905fa7a3569708d7a6d10ec3822a76ce85b0e38a72f0c06ebf8818677d5"
+    },
+    {
+      "path": "data/bulk/GSE68284_samples.tsv",
+      "bytes": 1246,
+      "sha256": "a8221597d5fe694ad632eb7b5a64af2c02a98909f25b85695a620a8955160494"
+    },
+    {
+      "path": "data/raw/ref/GSE112393_MergedAdultMouseST25_12GermCellClusters_AllGeneExp.xlsx",
+      "bytes": 11357441,
+      "sha256": "295913d010621fd59225824bef6b730149d8dd0e4c05498d41447744280da853"
+    },
+    {
+      "path": "reference_limits_snapshot/transfer_design.json",
+      "bytes": 4272,
+      "sha256": "eceee9510b800a3e2ac1b4368bb918fed1c95ca98ff158ad16fc61bc0382de18"
+    },
+    {
+      "path": "results/all_cohort_comparison/common_logFC.csv.gz",
+      "bytes": 579693,
+      "sha256": "e75706463d6ceb880b63b550c98606a8c0ef4141142de277eef248dd3cbcc91d"
+    },
+    {
+      "path": "results/arrays/GSE38096_log2_expression.tsv.gz",
+      "bytes": 707712,
+      "sha256": "0da4c35d9f62d9bb3e2b093209f0b15c09a098dbc8b055cc478d0d8d2b292ff2"
+    },
+    {
+      "path": "results/arrays/GSE38096_samples.tsv",
+      "bytes": 741,
+      "sha256": "f69b98cf174656f3446965e1fc577629a9e813f958b720ad80733edf6047d87a"
+    },
+    {
+      "path": "results/arrays/GSE42601_log2_expression.tsv.gz",
+      "bytes": 1100691,
+      "sha256": "3f1289f1603a300d0dc03565c323d1413dfc3e52d1a00cc01079c1665a9a86dd"
+    },
+    {
+      "path": "results/arrays/GSE42601_samples.tsv",
+      "bytes": 1276,
+      "sha256": "f164ac200252ee3cbf3a0727c687637b80151678b84acec52a36d7ff101b4795"
+    },
+    {
+      "path": "results/data_expansion/de/GSE117706_P2_de.csv",
+      "bytes": 1707027,
+      "sha256": "a558a836979557d68884aaea5918d40be3d70e955308801bbbb52aebf0ad7b1f"
+    },
+    {
+      "path": "results/data_expansion/de/GSE117706_P7_de.csv",
+      "bytes": 1740183,
+      "sha256": "4ca4ab58bff78db9fabe863f47bf43d6bb414005ef0c555ea2693ec95504e138"
+    },
+    {
+      "path": "results/data_expansion/de/GSE235777_P45_de.csv",
+      "bytes": 2138282,
+      "sha256": "063e78360961926ab061dac99ae9b35ac4e8c55bad1254776b7cfda944efc711"
+    },
+    {
+      "path": "results/data_expansion/de/GSE259242_P9_de.csv",
+      "bytes": 1632963,
+      "sha256": "243258134c810278647fe033c7226a44fc2350b5b36d287d5ee45353f7374d51"
+    },
+    {
+      "path": "results/data_expansion/leave_one_out_logFC.csv.gz",
+      "bytes": 5565777,
+      "sha256": "dcd4141f49478585c6ba2f5ba69c31953dce340f46ddc2d9a7780d1d7a1e3e20"
+    },
+    {
+      "path": "results/de/GSE101511_de.csv",
+      "bytes": 1479648,
+      "sha256": "faba301f739187f2bd1244b593893d764099e1746e5e2627acef25ebce298055"
+    },
+    {
+      "path": "results/de/GSE236388_de.csv",
+      "bytes": 1948133,
+      "sha256": "29f4f680a5083e98997af7a708324d29834439378815c2461e59e15826c28509"
+    },
+    {
+      "path": "results/de/GSE283904_de.csv",
+      "bytes": 1967199,
+      "sha256": "78316733655a839c839de6785f8ff1365427d88bc7376aa4b912ee776ba8b1bd"
+    },
+    {
+      "path": "results/de/GSE294209_de.csv",
+      "bytes": 2042165,
+      "sha256": "2c7a4fa125e81c5d8692e1d0145931c9d3573a72641b6596c7fb569a112aa598"
+    },
+    {
+      "path": "results/de/GSE38096_de.csv",
+      "bytes": 2531505,
+      "sha256": "4e0dbc6be8393b7c85675cba7887414c8a6907907ae67359f8dbaca8770bc3f3"
+    },
+    {
+      "path": "results/de/GSE42601_de.csv",
+      "bytes": 2383038,
+      "sha256": "9095b7c9e861483b1c5607b077526ad519230f01e4d3d23bdfab576fb421bb44"
+    },
+    {
+      "path": "results/de/GSE68283_de.csv",
+      "bytes": 1731208,
+      "sha256": "e16f0c962883e88e23538a44b68c54cb5337c63136a1166aa659556b1af0947f"
+    },
+    {
+      "path": "results/de/GSE68284_de.csv",
+      "bytes": 1753271,
+      "sha256": "08fffd13fe51811e9ca26527d76376b3373fbc3c997c420f9f6b0e89ea21c9ad"
+    },
+    {
+      "path": "results/followup/Lrh1_mapping.csv",
+      "bytes": 1735079,
+      "sha256": "dad0d39727c5a8e07bb4691a4f66e9112314e7cffe30e85a096b22e40758c5a7"
+    },
+    {
+      "path": "results/followup/de/Lrh1_P1_NanosCre.csv",
+      "bytes": 2230857,
+      "sha256": "d20b874da080e502aa17128fe9450a102061658ceddca92eb3105712cdacc656"
+    },
+    {
+      "path": "results/followup/de/Lrh1_P3_DhhCre.csv",
+      "bytes": 2206982,
+      "sha256": "3495444659660bd86fa99d9f383dd76a6e2714c289829117c892cae9163dd74e"
+    },
+    {
+      "path": "results/followup/leave_one_out_effects.csv.gz",
+      "bytes": 3587479,
+      "sha256": "00de5a66b66d54802207f3758d03ae3a58f97671b0c2cb7b4f32c186c0668240"
+    },
+    {
+      "path": "results/reference_limits/chen_preparation_audit.json",
+      "bytes": 1124,
+      "sha256": "e03411fa852ea825eccb8dfd8c35c3ca05286a837e855f8f3ac651dadd9e6926"
+    },
+    {
+      "path": "results/reference_limits/chen_profile_evidence.csv",
+      "bytes": 9396,
+      "sha256": "56eaf702d658e80b48a230052b6dedbb947ce0f134f15bdd40dea6b82415ed13"
+    },
+    {
+      "path": "results/reference_limits/chen_stage_profiles.csv.gz",
+      "bytes": 3679483,
+      "sha256": "280cbf72d70a8c78365a5012a7c5ec3c8cc735b75663269ec386eeb7755a8d41"
+    },
+    {
+      "path": "results/robustness/leave_one_out_logFC.csv.gz",
+      "bytes": 13230859,
+      "sha256": "7fdf3e2d302ddff599abfd8f9cffe5dc1504ad54634ab82548ce9569cefc570c"
+    },
+    {
+      "path": "results_snapshot/stage_reference/provenance.json",
+      "bytes": 2002,
+      "sha256": "4e2f4ecd4b36fa311ce61f89ccfd91ee562255d79b7f6861099860443ff1b457"
+    }
+  ]
+}

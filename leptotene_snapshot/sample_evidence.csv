@@ -1,0 +1,11 @@
+profile,gse,stage,expected_broad_class,unit,genome_build,original_title,preparation,genotype_status,original_column,mapping_expression_mass,common_gene_expression_mass_of_mapped
+GSM5252960,GSE155967,Preleptotene,,HTSeq gene counts,mm10,PreL1_RNA-seq,10-day-old unsynchronized mice,not explicitly specified per RNA sample,GSM5252960_PreL1.counts.txt.gz,0.9927826831441007,0.9231908702621314
+GSM5252961,GSE155967,Preleptotene,,HTSeq gene counts,mm10,PreL2_RNA-seq,10-day-old unsynchronized mice,not explicitly specified per RNA sample,GSM5252961_PreL2.counts.txt.gz,0.9918625762089329,0.9312007997256391
+GSM5252962,GSE155967,Leptotene,Meiotic,HTSeq gene counts,mm10,L1_RNA-seq,"16-day-old synchronized mice, WIN 18,446 then RA",not explicitly specified per RNA sample,GSM5252962_L1.counts.txt.gz,0.9948842016820469,0.9316717471584511
+GSM5252963,GSE155967,Leptotene,Meiotic,HTSeq gene counts,mm10,L2_RNA-seq,"16-day-old synchronized mice, WIN 18,446 then RA",not explicitly specified per RNA sample,GSM5252963_L2.counts.txt.gz,0.9937208195438646,0.9230019566224732
+GSM5252964,GSE155967,Zygotene,Meiotic,HTSeq gene counts,mm10,Z1_RNA-seq,2-week-old unsynchronized mice,not explicitly specified per RNA sample,GSM5252964_Z1.counts.txt.gz,0.9936618948836761,0.9164556560620062
+GSM5252965,GSE155967,Zygotene,Meiotic,HTSeq gene counts,mm10,Z2_RNA-seq,2-week-old unsynchronized mice,not explicitly specified per RNA sample,GSM5252965_Z2.counts.txt.gz,0.9939218207656321,0.9197475055811559
+GSM2197870,GSE83264,LZ,Meiotic,HTSeq gene counts,mm9,purified leptotene/zygotene spermatocytes RNA_n1,Purified adult 70-80 day spermatocytes; LZ is a mixed population,explicit wild type,LZn1WT,1.0,0.870474737029377
+GSM2197871,GSE83264,LZ,Meiotic,HTSeq gene counts,mm9,purified leptotene/zygotene spermatocytes RNA_n2,Purified adult 70-80 day spermatocytes; LZ is a mixed population,explicit wild type,LZn2WT,1.0,0.8874539425175753
+GSM2197872,GSE83264,Pachytene,Meiotic,HTSeq gene counts,mm9,purified pachytene spermatocytes RNA_n1,Purified adult 70-80 day spermatocytes; LZ is a mixed population,explicit wild type,Pachn1WT,1.0,0.8917436317036174
+GSM2197873,GSE83264,Pachytene,Meiotic,HTSeq gene counts,mm9,purified pachytene spermatocytes RNA_n2,Purified adult 70-80 day spermatocytes; LZ is a mixed population,explicit wild type,Pachn2WT,1.0,0.8948892942610154

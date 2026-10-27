@@ -1,0 +1,28 @@
+{
+  "source_contract": "data/new_model_audit_contract.json",
+  "fixed_prior_inputs_sha256": {
+    "results/replicability/candidate_stage_context.csv": "da41b0095777c502b6d8c7724c57acfad3d976c733bfdbf3337cb5f33f40bd51",
+    "results/replicability/primary_gene_summary.csv.gz": "b816655b410f5b88ea245fe4bcb8c636ae169e8ac175da98aba14799f512125a"
+  },
+  "contrasts": [
+    "Eef1g_LZ_P12",
+    "Setx_P10",
+    "Setx_P12",
+    "Setx_P14",
+    "Setx_P16",
+    "Setx_P18"
+  ],
+  "primary_genetic_votes_added": 0,
+  "fixed_candidates": 105,
+  "fixed_priorities": 36,
+  "filter": "Eef1g filterByExpr before TMM/voom/limma; Setx TPM>=1 in at least the smaller group size, log2(TPM+0.5), limma trend and robust. Re-filter in every omission.",
+  "annotation": "Eef1g original provided gene_name; Setx current installed org.Mm.eg.db unique ENSEMBL->SYMBOL. Fit every retained original gene ID; exclude all duplicated symbols separately within each full or omitted fit for cross-study mapping.",
+  "multiplicity": "Conditional model adjusted P-values apply to source gene features, not confirmatory candidate-list replication. No biological FDR or cell-intrinsic mechanism claim.",
+  "limits": [
+    "Public processed expression, not raw-read remapping or source DESeq2 reproduction.",
+    "Replicate titles do not establish independent animals, pooling or hidden batches; model P-values are conditional on those assumptions.",
+    "Setx five ages are one gene model; do not infer age-specific interactions from separate fits.",
+    "Eef1g FACS L/Z mixture is not whole testis or pure fixed stage; sorting and state makeup remain potential confounders.",
+    "No causal composition explanation or validation of prior deconvolution."
+  ]
+}

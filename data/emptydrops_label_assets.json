@@ -1,0 +1,11 @@
+{
+  "scope": "One author EmptyDrops annotation file only; no EmptyDrops expression matrix downloaded or analysed.",
+  "assets": [
+    {
+      "path": "data/raw/labeled_reference/cell_metadata_emptyDrops.txt",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/cell_metadata_emptyDrops.txt",
+      "bytes": 12219948,
+      "sha256": "415640ee41322086988d9010bcadfdc16bca4938d12e1a4876ac608d66fa5c5e"
+    }
+  ]
+}

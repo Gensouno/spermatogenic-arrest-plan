@@ -1,0 +1,40 @@
+{
+  "scope": "Previously cached sorted-profile inputs checked against the pre-existing reference audit; no new network retrieval.",
+  "assets": [
+    {
+      "path": "data/raw/expansion_assets/GSE158471/GSE158471_RAW.tar",
+      "bytes": 1116160,
+      "sha256": "be4eca6690d8146d8c849e4256b3b6c927f1b3dcf3c417f70368865e0040ae8a"
+    },
+    {
+      "path": "results/data_expansion/GSE158471_metadata.json",
+      "bytes": 16802,
+      "sha256": "0114c50d412ce8566b9a6e7f6f24e0c3cd62b443de8bcad5434d822ff32044e3"
+    },
+    {
+      "path": "data/raw/expansion_assets/GSE232415/GSE232415_RAW.tar",
+      "bytes": 2805760,
+      "sha256": "221db20cfc003cab75266aa202f4699e288054571c6254d781c96258ea384a07"
+    },
+    {
+      "path": "results/data_expansion/GSE232415_metadata.json",
+      "bytes": 40110,
+      "sha256": "f37482c53b8e98f106371ac3175aa60949d43602c0f426655f33824d10835d59"
+    },
+    {
+      "path": "data/interim/expansion/H3mm15_sorted_symbol_counts.tsv.gz",
+      "bytes": 895255,
+      "sha256": "d011b2f45979f6da46cfa82b141e21f67fafdfd4f155fdbd0b246d8ac2dd6bb4"
+    },
+    {
+      "path": "results/data_expansion/sorted_validation/source_sample_evidence.csv",
+      "bytes": 5088,
+      "sha256": "7ae31c4b453cbfb27209d2dbd96d2e76f2fa03e4df6f099c58380c4255c65aad"
+    },
+    {
+      "path": "reference_audit_snapshot/design.json",
+      "bytes": 2321,
+      "sha256": "a2aff741387d5ab9dea52ba24eef8ab89e955ad653abaf22c9658f5253cacac5"
+    }
+  ]
+}

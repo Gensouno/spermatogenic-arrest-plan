@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "tables_matching": 28,
+  "design_JSON_matching": 4,
+  "figure_files_matching": 3,
+  "scope": "Fresh-directory offline re-fit of 8 prepared expression cohorts, all 40 primary count one-sample omissions, four-unit replicability and expression-context annotation. Six external contexts recomputed only from frozen prior fits/LOO caches, without external refits. Installed dependencies and frozen prepared input matrices reused. No raw CEL normalization, transcript annotation rebuild, clean installation, fresh download or biological validation."
+}

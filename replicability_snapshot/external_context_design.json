@@ -1,0 +1,25 @@
+{
+  "status": "Post-hoc contextual transfer of a fixed descriptive list, not preregistration, untouched validation or a primary replication vote.",
+  "contract_sha256": "5d6284ea2b15cee0e2ae5684894873b9783cca9c54afc41f76e1b104a0f42659",
+  "source_sha256": {
+    "results/data_expansion/de/GSE259242_P9_de.csv": "243258134c810278647fe033c7226a44fc2350b5b36d287d5ee45353f7374d51",
+    "results/data_expansion/de/GSE117706_P2_de.csv": "a558a836979557d68884aaea5918d40be3d70e955308801bbbb52aebf0ad7b1f",
+    "results/data_expansion/de/GSE117706_P7_de.csv": "4ca4ab58bff78db9fabe863f47bf43d6bb414005ef0c555ea2693ec95504e138",
+    "results/data_expansion/de/GSE235777_P45_de.csv": "063e78360961926ab061dac99ae9b35ac4e8c55bad1254776b7cfda944efc711",
+    "results/followup/de/Lrh1_P1_NanosCre.csv": "d20b874da080e502aa17128fe9450a102061658ceddca92eb3105712cdacc656",
+    "results/followup/de/Lrh1_P3_DhhCre.csv": "3495444659660bd86fa99d9f383dd76a6e2714c289829117c892cae9163dd74e",
+    "results/followup/leave_one_out_effects.csv.gz": "00de5a66b66d54802207f3758d03ae3a58f97671b0c2cb7b4f32c186c0668240",
+    "results/followup/Lrh1_mapping.csv": "dad0d39727c5a8e07bb4691a4f66e9112314e7cffe30e85a096b22e40758c5a7",
+    "results/data_expansion/leave_one_out_logFC.csv.gz": "dcd4141f49478585c6ba2f5ba69c31953dce340f46ddc2d9a7780d1d7a1e3e20"
+  },
+  "candidate_genes": 105,
+  "contrasts": 6,
+  "additional_independent_primary_votes": 0,
+  "scope": "Frozen previously fitted effects and LOO caches only; no external refit or new inferential test in this branch.",
+  "limitations": [
+    "Sources and prior effect correlations were seen in earlier exploratory work; not an untouched holdout.",
+    "Early P1-P9 tissues cannot be treated as equivalent to later meiotic-arrest tissues.",
+    "Two Pramef12 ages and two Lrh1 Cre experiments are not four independent genetic models.",
+    "No inference that failure to transfer disproves shared biology, that a sign match proves a mechanism, or that Msl3 supplies a known statistical null."
+  ]
+}

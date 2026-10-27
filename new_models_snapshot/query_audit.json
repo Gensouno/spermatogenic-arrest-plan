@@ -1,0 +1,147 @@
+{
+  "retrieved_UTC": "2026-10-26T09:25:58.458861+00:00",
+  "scope": "Targeted GEO search for future age-appropriate independent whole-testis models, not exhaustive systematic review or automatic inclusion.",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+  "queries": [
+    {
+      "query": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (\"meiotic arrest\" OR \"spermatogenic arrest\")",
+      "server_count": 37,
+      "retrieved_unique_UIDs": 37,
+      "retstart": 0,
+      "retmax": 200,
+      "query_translation": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (\"meiotic arrest\"[All Fields] OR \"spermatogenic arrest\"[All Fields])"
+    },
+    {
+      "query": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Meioc OR Ythdc2 OR Taf7l OR Tex11 OR Dmrt7 OR Setx)",
+      "server_count": 28,
+      "retrieved_unique_UIDs": 28,
+      "retstart": 0,
+      "retmax": 200,
+      "query_translation": "gse[ETYP] AND \"Mus musculus\"[Organism] AND ((\"testis\"[MeSH Terms] OR testis[All Fields]) OR (\"testis\"[MeSH Terms] OR testes[All Fields])) AND (Meioc[All Fields] OR Ythdc2[All Fields] OR Taf7l[All Fields] OR Tex11[All Fields] OR Dmrt7[All Fields] OR Setx[All Fields])"
+    }
+  ],
+  "deduplicated_UIDs": 61,
+  "resolved_series": 61,
+  "HTTP_requests_this_run": 4,
+  "public_unauthenticated": true,
+  "request_provenance": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28%22meiotic+arrest%22+OR+%22spermatogenic+arrest%22%29&retmode=json&retmax=200&retstart=0",
+      "cache_path": "data/raw/replicability_discovery/e9ddd512d5661d218c1e47a1819e61567d84c459a53e9d08d9ae746efc5bf306.json",
+      "bytes": 1108,
+      "sha256": "de7f1daae513c0a9e421064e873ea67f3da056c7243275407f16779fcd7f3d6f",
+      "reused": false
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Meioc+OR+Ythdc2+OR+Taf7l+OR+Tex11+OR+Dmrt7+OR+Setx%29&retmode=json&retmax=200&retstart=0",
+      "cache_path": "data/raw/replicability_discovery/a059f7f94d49e61488ce10577698d85ebbc08c87ee4cd4295ff5e45360a67da1.json",
+      "bytes": 2018,
+      "sha256": "2d3cff8da51ca3c9ec8a732e2c5055c699f83eabbe9defb3a74f0e07fc79596d",
+      "reused": false
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200005510%2C200005668%2C200018610%2C200019453%2C200021763%2C200023431%2C200028025%2C200031985%2C200041707%2C200042601%2C200050807%2C200066880%2C200090702%2C200093533%2C200093566%2C200093567%2C200095225%2C200096920%2C200096921%2C200098085%2C200102346%2C200104850%2C200108044%2C200118913%2C200120994%2C200134033%2C200144144%2C200158977%2C200158978%2C200158979%2C200172157%2C200172160%2C200172171%2C200175734%2C200184208%2C200186296%2C200190979%2C200190980%2C200190981%2C200196427&retmode=json",
+      "cache_path": "data/raw/replicability_discovery/698ce4d250f6f3298232a667b16cdbabdef0a273722d992b23f73c6a9e15cca6.json",
+      "bytes": 105049,
+      "sha256": "186ea498991aec51e084c26f9072f8ede5aa1ac995bf9b3dc5a2b57d80d0a9cd",
+      "reused": false
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200196779%2C200201190%2C200219200%2C200222283%2C200224875%2C200224946%2C200224954%2C200230743%2C200230746%2C200230747%2C200234068%2C200239997%2C200246296%2C200280638%2C200283904%2C200307441%2C200307886%2C200311349%2C200314213%2C200314480%2C200347428&retmode=json",
+      "cache_path": "data/raw/replicability_discovery/80a41e455356ecfaa2621419d202c4c40bc99e9aa83e7cfb82c10d5b95f11aaf.json",
+      "bytes": 54614,
+      "sha256": "54080c0cdf47ddda140524248b0bf7c57090c4a9e726b1ff7e001d61b96adb8c",
+      "reused": false
+    }
+  ],
+  "limits": "Text search coverage only; age, tissue, phenotype, control, biological independence and units not yet verified.",
+  "metadata_records_reconciled_to_original_SOFT": 12,
+  "metadata_HTTP_requests_this_run": 12,
+  "metadata_sources": [
+    {
+      "accession": "GSE224875",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224875/soft/GSE224875_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE224875_family.soft.gz",
+      "bytes": 4239,
+      "sha256": "ecb28467fc4612e2939bc483e8548bbba1014b89d8f9f45af7ff6d79fc6014dd"
+    },
+    {
+      "accession": "GSE93566",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE93nnn/GSE93566/soft/GSE93566_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE93566_family.soft.gz",
+      "bytes": 3494,
+      "sha256": "33f6fd1134e2c10b0c37d0ee503e5bbfeda00cc70689460b00e6f2a265379f03"
+    },
+    {
+      "accession": "GSE108044",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSE108044/soft/GSE108044_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE108044_family.soft.gz",
+      "bytes": 4005,
+      "sha256": "6e66feb61feb881a0ebc4e02e33aad10fc08b5e153050b59e78c7bd2a38723d4"
+    },
+    {
+      "accession": "GSE190980",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190980/soft/GSE190980_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE190980_family.soft.gz",
+      "bytes": 2934,
+      "sha256": "1f133e7efa2286bf4942e8d9c051e45ac4e61f3f89d877e8f9906e6ba36841c1"
+    },
+    {
+      "accession": "GSE222283",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222283/soft/GSE222283_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE222283_family.soft.gz",
+      "bytes": 3383,
+      "sha256": "e636dc9facbb07b7d8340a68dd9b670c8de63adb6eee5c7c4667b1fef00c3eca"
+    },
+    {
+      "accession": "GSE307441",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307441/soft/GSE307441_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE307441_family.soft.gz",
+      "bytes": 2758,
+      "sha256": "8bc381a154dac65e25e89acc0aa1242dfced07fd7cae1c21011e859d03fa97ad"
+    },
+    {
+      "accession": "GSE246296",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE246nnn/GSE246296/soft/GSE246296_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE246296_family.soft.gz",
+      "bytes": 5159,
+      "sha256": "d53d9456dc435c293a89210d0756cdbbb0f2e455a3accb6372c3ac583f2f3b78"
+    },
+    {
+      "accession": "GSE175734",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE175nnn/GSE175734/soft/GSE175734_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE175734_family.soft.gz",
+      "bytes": 3001,
+      "sha256": "3c9c4a615e53282feb0a18cc0a740e5a8f936a2ceba9b6c29957dc1a72a92d38"
+    },
+    {
+      "accession": "GSE120994",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120994/soft/GSE120994_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE120994_family.soft.gz",
+      "bytes": 3467,
+      "sha256": "6c282964fa4adf3ada2574dcd077dc7bc052e52a5764951f38721bb2def390dc"
+    },
+    {
+      "accession": "GSE196427",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE196nnn/GSE196427/soft/GSE196427_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE196427_family.soft.gz",
+      "bytes": 7861,
+      "sha256": "87dcf489c90d9f86ccf92c8f532d76252830f125c12004fd5ebca5a09880489a"
+    },
+    {
+      "accession": "GSE102346",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE102nnn/GSE102346/soft/GSE102346_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE102346_family.soft.gz",
+      "bytes": 6133,
+      "sha256": "b9fa98aad695717b1f06cfd6ae352bf47faf97eaa095e0431df6f98b6226b76a"
+    },
+    {
+      "accession": "GSE98085",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE98nnn/GSE98085/soft/GSE98085_family.soft.gz",
+      "path": "data/raw/replicability_discovery/GSE98085_family.soft.gz",
+      "bytes": 4723,
+      "sha256": "a4706a618eb294f6803ff5f6827299717951f5c5742cb34f3536f29a30ce6cab"
+    }
+  ],
+  "identifier_resolution": "Entrez UID to returned ESummary accession field; no arithmetic conversion."
+}

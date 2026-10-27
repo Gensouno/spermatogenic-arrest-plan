@@ -1,0 +1,9 @@
+gse,unit,tested_genes,in_primary_common,in_legacy_common,role
+GSE101511,counts,12902,9675,8099,Primary count cohort
+GSE236388,counts,16821,9675,8099,Primary count cohort
+GSE283904,counts,17109,9675,8099,Primary count cohort
+GSE294209,TPM,17866,8879,8099,Sensitivity annotation only
+GSE38096,array,22039,9024,8099,Sensitivity annotation only
+GSE42601,array,20478,9334,8099,Sensitivity annotation only
+GSE68283,counts,15151,9675,8099,Primary count cohort
+GSE68284,counts,15288,9675,8099,Primary count cohort

@@ -1,0 +1,163 @@
+{
+  "retrieved_utc": "2026-10-25T11:48:22.116569+00:00",
+  "scope": "Four candidate metadata files, six stage-separated RNA count files, one mixed-LZ comparator matrix, one barcode annotation file. No single-cell atlas expression ingested.",
+  "selections": [
+    {
+      "accession": "GSE155967",
+      "gsm": "GSM5252960",
+      "stage": "Preleptotene",
+      "expected_broad_class": null,
+      "path": "data/raw/leptotene/expression/GSM5252960_PreL1.counts.txt.gz",
+      "original_title": "PreL1_RNA-seq",
+      "characteristics": [
+        "strain: C57BL/6",
+        "cell type: Preleptotene"
+      ],
+      "genotype_evidence": "No per-sample genotype field; primary paper source/preparation must be audited before interpretation."
+    },
+    {
+      "accession": "GSE155967",
+      "gsm": "GSM5252961",
+      "stage": "Preleptotene",
+      "expected_broad_class": null,
+      "path": "data/raw/leptotene/expression/GSM5252961_PreL2.counts.txt.gz",
+      "original_title": "PreL2_RNA-seq",
+      "characteristics": [
+        "strain: C57BL/6",
+        "cell type: Preleptotene"
+      ],
+      "genotype_evidence": "No per-sample genotype field; primary paper source/preparation must be audited before interpretation."
+    },
+    {
+      "accession": "GSE155967",
+      "gsm": "GSM5252962",
+      "stage": "Leptotene",
+      "expected_broad_class": "Meiotic",
+      "path": "data/raw/leptotene/expression/GSM5252962_L1.counts.txt.gz",
+      "original_title": "L1_RNA-seq",
+      "characteristics": [
+        "strain: C57BL/6",
+        "cell type: Leptotene"
+      ],
+      "genotype_evidence": "No per-sample genotype field; primary paper source/preparation must be audited before interpretation."
+    },
+    {
+      "accession": "GSE155967",
+      "gsm": "GSM5252963",
+      "stage": "Leptotene",
+      "expected_broad_class": "Meiotic",
+      "path": "data/raw/leptotene/expression/GSM5252963_L2.counts.txt.gz",
+      "original_title": "L2_RNA-seq",
+      "characteristics": [
+        "strain: C57BL/6",
+        "cell type: Leptotene"
+      ],
+      "genotype_evidence": "No per-sample genotype field; primary paper source/preparation must be audited before interpretation."
+    },
+    {
+      "accession": "GSE155967",
+      "gsm": "GSM5252964",
+      "stage": "Zygotene",
+      "expected_broad_class": "Meiotic",
+      "path": "data/raw/leptotene/expression/GSM5252964_Z1.counts.txt.gz",
+      "original_title": "Z1_RNA-seq",
+      "characteristics": [
+        "strain: C57BL/6",
+        "cell type: Zygotene"
+      ],
+      "genotype_evidence": "No per-sample genotype field; primary paper source/preparation must be audited before interpretation."
+    },
+    {
+      "accession": "GSE155967",
+      "gsm": "GSM5252965",
+      "stage": "Zygotene",
+      "expected_broad_class": "Meiotic",
+      "path": "data/raw/leptotene/expression/GSM5252965_Z2.counts.txt.gz",
+      "original_title": "Z2_RNA-seq",
+      "characteristics": [
+        "strain: C57BL/6",
+        "cell type: Zygotene"
+      ],
+      "genotype_evidence": "No per-sample genotype field; primary paper source/preparation must be audited before interpretation."
+    }
+  ],
+  "assets": [
+    {
+      "path": "data/raw/leptotene/metadata/GSE155967_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155967/soft/GSE155967_family.soft.gz",
+      "bytes": 7749,
+      "sha256": "20b12090d48e0e64d0e10a111df6b1d16b95fb4bf9783897c8b9437b1a4d726c"
+    },
+    {
+      "path": "data/raw/leptotene/metadata/GSE107644_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107644/soft/GSE107644_family.soft.gz",
+      "bytes": 8035,
+      "sha256": "37e6c13736f5928950fa98fd63e7c8e19ceb28069a35ae95571332e89bc6c36f"
+    },
+    {
+      "path": "data/raw/leptotene/metadata/GSE109033_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE109nnn/GSE109033/soft/GSE109033_family.soft.gz",
+      "bytes": 4759,
+      "sha256": "5d33e894a87ae83275eb357f6343c558e9f4c959ad05525c3590552484912287"
+    },
+    {
+      "path": "data/raw/leptotene/metadata/GSE83264_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83264/soft/GSE83264_family.soft.gz",
+      "bytes": 4696,
+      "sha256": "ab607174e9ca75f0ae667ce579474edda3f5024d3b0fdae72c81742ff8e2e9ca"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSM5252960_PreL1.counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5252nnn/GSM5252960/suppl/GSM5252960_PreL1.counts.txt.gz",
+      "bytes": 203295,
+      "sha256": "1c3dc7eaa5901b2c13dbf83bb9966067ba1426cc10759e1ae9caf1f07595cd7a"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSM5252961_PreL2.counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5252nnn/GSM5252961/suppl/GSM5252961_PreL2.counts.txt.gz",
+      "bytes": 200737,
+      "sha256": "5e61ac2fc2e60df180182aeb740f93aefa492a692565ce80a2dda8bdd2db0b4a"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSM5252962_L1.counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5252nnn/GSM5252962/suppl/GSM5252962_L1.counts.txt.gz",
+      "bytes": 199651,
+      "sha256": "8887b356a0e459f7d6a5bd9f3a7509610acd6356bb1b693740f3fce2dff10b43"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSM5252963_L2.counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5252nnn/GSM5252963/suppl/GSM5252963_L2.counts.txt.gz",
+      "bytes": 202079,
+      "sha256": "906e5c455808bfd1f174e0d5d3362567f8b0982e56c0cb80d998dd2f6e7ac4d2"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSM5252964_Z1.counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5252nnn/GSM5252964/suppl/GSM5252964_Z1.counts.txt.gz",
+      "bytes": 207353,
+      "sha256": "47cb4eb3eab2f9ac4801032f4fa5acff5292e4aefd9062897ac8dca44a31a43d"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSM5252965_Z2.counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5252nnn/GSM5252965/suppl/GSM5252965_Z2.counts.txt.gz",
+      "bytes": 202255,
+      "sha256": "3faf139614dfbaabc1d24cb47f0d5d26ee82a612159193c21c2054b066a1eaf8"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSE83264_mRNA_genes_merged_counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83264/suppl/GSE83264_mRNA_genes_merged_counts.txt.gz",
+      "bytes": 390450,
+      "sha256": "fa03e7f216eea9e8373c8d43ce41bcd09b8b944c92e18177f61dbe96394d183c"
+    },
+    {
+      "path": "data/raw/leptotene/expression/GSE107644_barcode_information.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107644/suppl/GSE107644_barcode_information.txt.gz",
+      "bytes": 5458,
+      "sha256": "9eeb048459df2ec6469e3d2980a37a20f3b54c6b7cd577eeb9eb5e3491a08327"
+    }
+  ],
+  "count_reconciliation": {
+    "candidate_series": 4,
+    "GSE155967_RNA_seq_samples": 6,
+    "selected_RNA_count_files": 6
+  }
+}

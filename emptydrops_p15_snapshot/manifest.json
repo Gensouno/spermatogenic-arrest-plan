@@ -1,0 +1,108 @@
+{
+  "scope": "One complete P15 EmptyDrops library; all eligible author groups, complete/new/overlap strata, two weighting views and same-barcode CellRanger comparison.",
+  "source_sha256": {
+    "scripts/emptydrops_range_client.py": "6b276ad760ec69af40ec005393cc0c8fab57c92e040338dfd42b68fa35c6e960",
+    "scripts/fetch_emptydrops_p15.py": "143bf24e67b1b7d35967a59f5a21319b760f708ae8fcd75f67da66563221e02e",
+    "scripts/run_emptydrops_p15.py": "c6514726d01dbce4d99c112baf213b0f23e31f84898f8c01bcd07f9ab16c67bb",
+    "scripts/check_emptydrops_p15.py": "743315ba8e605057375db32d5384c9e49637486da03758b11f7fae05082419a1",
+    "scripts/check_emptydrops_reproduction.py": "9ce0a08920297e19d5c557c31604d820171090ea8c46ff02452438a69a1457c9",
+    "scripts/export_emptydrops_p15.py": "3cd6a921e95a2765c2cb6743bfa28ec54f5ac6080d4434f3283c1d0443ac30d0",
+    "code/prepare_emptydrops_p15.py": "ccb000309a683b0370ed002b8812b04aa1d0a79274b6fc6442f0ee56e9df4e0d",
+    "code/diagnose_emptydrops_p15.py": "6bcea90e3e5f95623b0eb8e329dad43a99002f7b48552488d2693dd75b47d7e5",
+    "tests/test_emptydrops_p15.py": "f091c48c8318dbb3dee261ba966932cf205ccd3f2fbb8b884064df09585fe99e",
+    "code/prepare_labeled_reference.py": "25723d650e4f02f75222ed4dbde04ed7a9e85e0a81f1492de9a6ec7e0b16a16a",
+    "code/diagnose_reference_transfer.py": "aae3a5847edfc71372f7b96dc53019e86bb210bf00f22cea206214df0d7ae32b",
+    "code/check_sorted_expansion.py": "48d6f6eff5deae643d97d8f7c7274b61c292bb9e016f35f030216fa0355c4ab7",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "scripts/fetch_labeled_reference.py": "5ec841a991274d199ea48542f827a4c2e2b3ae602643a4a05260affe5a6c96f7",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "data/emptydrops_p15_contract.json": "b126cef059ae939a9805bfc8b4ba8663d7109a9623c62356869cd79b3b0c403c"
+  },
+  "input_specification_sha256": {
+    "data/emptydrops_p15_assets.json": "55619e2253abf2804a02a834034b65a8ed9b535c6b5126b5eedf944a8a8ad721",
+    "data/labeled_reference_assets.json": "b9ab17937be5d779ea616882eb072c3453f4ae93260bf005e1aacce2cb954bc8",
+    "labeled_reference_snapshot/design.json": "eda01752c7eb7d31b0500a46ebdd973e625212c7b7f0ca04ec00200609f5d6a7"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1339,
+      "sha256": "97273a4ca580e1684d2ef6865be8c581ff5c36dbb0c42b36fa7638e6094e5869"
+    },
+    {
+      "path": "cell_complexity_summary.csv",
+      "bytes": 1202,
+      "sha256": "ff0960d603a86775b6a0d286f9c135ac646583037f449a3ddfd67362bf6f8050"
+    },
+    {
+      "path": "design.json",
+      "bytes": 1617,
+      "sha256": "2f013f23e37c356dfe392aab55d137f356a490491615fe0ab285e85d73428734"
+    },
+    {
+      "path": "design_conditions.csv",
+      "bytes": 143,
+      "sha256": "9dc80a9aed859cd81602c7864b2b2f4373294134bd745ce52fa895b828d5ff41"
+    },
+    {
+      "path": "early_meiotic_comparison.csv",
+      "bytes": 22642,
+      "sha256": "7a35daedd863157821ec95be0fade98cc20c092599d8436b21ba64a4437bd30d"
+    },
+    {
+      "path": "early_meiotic_diagnostics.png",
+      "bytes": 194682,
+      "sha256": "c1390c49f26d59793bbcd9dda6a0235f56a268b731820169e5ccbc74f30ad8b0"
+    },
+    {
+      "path": "fold_weights.csv",
+      "bytes": 471260,
+      "sha256": "263e9392b86f089a860171192faa672c15ef7a4803f0da878a5f44e20b73c625"
+    },
+    {
+      "path": "full_fit_weights.csv",
+      "bytes": 78975,
+      "sha256": "642c4f61d5d322d58346b5c202a71415d01c74c6e18b099c77a92bb8c749078f"
+    },
+    {
+      "path": "gene_design.csv.gz",
+      "bytes": 152217,
+      "sha256": "5e287b898b7074b7c184fa44b0eedcbb71e5b9c724a85832e3c166ba75cd0d77"
+    },
+    {
+      "path": "group_inventory.csv",
+      "bytes": 3288,
+      "sha256": "6b7873d3bd5e83de317df534ee17be6adcecff76bf0a227c6f5e804b5498bfd7"
+    },
+    {
+      "path": "holdout_metrics.csv",
+      "bytes": 80000,
+      "sha256": "5f67bb28c4db7be6b3185a10fe600f7ba3b7558659ac2fb3479bd5bf3ff16fd5"
+    },
+    {
+      "path": "matched_count_branch_comparison.csv",
+      "bytes": 33801,
+      "sha256": "83473ba556da2d77bee169881895ce5c6994f2513e3060ebf57af790390d1ba5"
+    },
+    {
+      "path": "preparation_audit.json",
+      "bytes": 4149,
+      "sha256": "672a0aad107fe598529d1fc89a6158d2ff4f0ea269a358f09741427bbfdaea9e"
+    },
+    {
+      "path": "profile_evidence.csv",
+      "bytes": 15397,
+      "sha256": "fb08c7c8a8f665d449f8188ead4ef247381210456e619325d7bc584694599385"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 301,
+      "sha256": "4f8edb9fc6ce734dd8f20aa60c7591f978ee018d5d052d8fd4cd6b3153d300b0"
+    },
+    {
+      "path": "stratum_summary.csv",
+      "bytes": 2184,
+      "sha256": "8c6378ae2ded1205221a93985f786181eda89e5f0707424a4e18bb3aff3c27d2"
+    }
+  ]
+}

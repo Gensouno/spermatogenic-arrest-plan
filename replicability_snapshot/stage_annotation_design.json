@@ -1,0 +1,76 @@
+{
+  "source_sha256": {
+    "results/reference_limits/chen_stage_profiles.csv.gz": "280cbf72d70a8c78365a5012a7c5ec3c8cc735b75663269ec386eeb7755a8d41",
+    "results/reference_limits/chen_profile_evidence.csv": "56eaf702d658e80b48a230052b6dedbb947ce0f134f15bdd40dea6b82415ed13",
+    "results/reference_limits/chen_preparation_audit.json": "e03411fa852ea825eccb8dfd8c35c3ca05286a837e855f8f3ac651dadd9e6926",
+    "data/raw/ref/GSE112393_MergedAdultMouseST25_12GermCellClusters_AllGeneExp.xlsx": "295913d010621fd59225824bef6b730149d8dd0e4c05498d41447744280da853"
+  },
+  "Chen_groups": {
+    "Spermatogonia": [
+      "A1",
+      "In",
+      "BS",
+      "BG2"
+    ],
+    "Preleptotene": [
+      "G1",
+      "ePL",
+      "mPL",
+      "lPL"
+    ],
+    "Meiotic": [
+      "L",
+      "Z",
+      "eP",
+      "mP",
+      "lP",
+      "D",
+      "MI",
+      "MII"
+    ],
+    "Postmeiotic": [
+      "RS2",
+      "RS4",
+      "RS6",
+      "RS8"
+    ]
+  },
+  "Green_groups": {
+    "Spermatogonia": [
+      "GC1"
+    ],
+    "Meiotic_or_transition": [
+      "GC2",
+      "GC3",
+      "GC4",
+      "GC5",
+      "GC6",
+      "GC7",
+      "GC8"
+    ],
+    "Postmeiotic": [
+      "GC9",
+      "GC10",
+      "GC11",
+      "GC12"
+    ]
+  },
+  "source_genes": {
+    "Chen": 23154,
+    "Green_valid_symbols": 24448,
+    "Green_excluded_nonstring_rows": 27
+  },
+  "Green_natural_log_identity_error": 2.763622664048171e-13,
+  "primary_genes_annotated": 9675,
+  "descriptive_candidates": 105,
+  "LOO_stable_candidates": 36,
+  "aggregation": "Chen equal-cell-normalized CPM; Green linearized mean normalized CPM. Equal-stage/centroid arithmetic means within each predefined group, no renormalization over selected genes.",
+  "matching": "Exact symbols only; missing, measured all-zero, tied groups/stages and incomparable preleptotene explicit.",
+  "high_dominance_flag": "Unique peak, group mean >=10 CPM and peak/sum(group means)>=0.5. Descriptive only; no validated marker or inferential filtering.",
+  "limitations": [
+    "Stage samples/centroids are expression context, not independent animals for a gene-enrichment test.",
+    "Both sources are germ-cell views; missing somatic types, age/protocol and symbol differences limit interpretation.",
+    "Green GC2-GC8 is meiotic-or-transition, not exact leptotene/zygotene.",
+    "No cell-number proportions, causal composition mediation or cell-intrinsic shared mechanism inferred."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "date_local":"2026-10-26",
+  "scope":"Targeted GEO search for future age-appropriate independent whole-testis models, not exhaustive systematic review or automatic inclusion.",
+  "database":"NCBI GEO via E-utilities gds",
+  "taxon":10090,
+  "queries":[
+    "gse[ETYP] AND \"Mus musculus\"[Organism] AND (\"meiotic arrest\" OR \"spermatogenic arrest\")",
+    "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Meioc OR Ythdc2 OR Taf7l OR Tex11 OR Dmrt7 OR Setx)"
+  ],
+  "server_filters":"Series and Mus musculus; text terms only, not reliable tissue/age/assay/phenotype validation.",
+  "local_review_criteria":[
+    "Whole testis bulk RNA sequencing rather than only purified cells, single-cell, ChIP, or another organ.",
+    "Prefer sampling at P10-P30 with source-confirmed age; keep other ages explicit, never guess adult.",
+    "At least three biological control and perturbation samples in a compatible age/target contrast; source repeat labels alone do not establish animal independence.",
+    "Explicit genotype/control/Cre and count-file units; no normalized noninteger matrix admitted as raw counts by rounding.",
+    "Require primary paper or histology evidence before calling an age-specific contrast an established spermatogenic-arrest model.",
+    "Prioritize new genetic models; same model ages are not extra independent votes. Do not select by correlation with primary results."
+  ],
+  "limits":{"maximum_search_records_per_query":200,"maximum_total_API_requests":100,"maximum_new_SOFT_records":12},
+  "output":"Exact query responses, complete UID count reconciliation within each bounded query, accession/title/summary inventory, then explicit targeted metadata review. No automatic changes to primary analysis.",
+  "identifier_resolution":"Resolve numerical Entrez UIDs through ESummary accession fields; no UID arithmetic.",
+  "targeted_metadata_accessions":["GSE224875","GSE93566","GSE108044","GSE190980","GSE222283","GSE307441","GSE246296","GSE175734","GSE120994","GSE196427","GSE102346","GSE98085"],
+  "metadata_selection":"Twelve RNA-expression-labelled candidate series in the returned inventory, spanning proposed Setx, Ythdc2, Eef1g, Ash2l, TDP-43 and CFP1 contexts. These names are search leads, not verified eligibility. Selected before inspecting sample-level expression or candidate concordance.",
+  "access":"Public unauthenticated API, serialized <=2 requests/sec; downloads must use configured HTTP(S) proxy from first attempt, no direct fallback."
+}

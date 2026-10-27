@@ -1,0 +1,18 @@
+{
+  "scope": "Separate exploratory recheck of all 20 prior sorted WT profiles, two preL unscored; no untouched-validation claim.",
+  "profiles": 20,
+  "assessable": 18,
+  "genes": 14674,
+  "source_only_panel_genes": 2546,
+  "candidate_prototypes": "Fixed equal-cell means only; same five candidates as the primary transfer branch.",
+  "normalization": "Common-gene response normalized before gene folds; within-branch candidates have identical response, genes and scales. Do not directly compare cross-branch RMSE with different gene universes.",
+  "source_status": "Three study sources, mixed LZ not pure L, FPKM vs counts and purification/age confounders retained.",
+  "input_hashes_verified_against": "reference_audit_snapshot/design.json",
+  "fixed_candidate_reference_sha256": {
+    "results/reference_limits/candidate_Green13_ChenBS_equal_cell_mean.csv.gz": "f4bd7a5dc0c14e79c68e422e83f5b127ba7254fcc00a7341af5b21daf2174c58",
+    "results/reference_limits/candidate_Green13_ChenLZ_equal_cell_mean.csv.gz": "d9607ef4c7ccc5150c6d7c9ce8fe208e06084f9c079dda77b406ca4794d2d4d3",
+    "results/reference_limits/candidate_Green13_ChenL_equal_cell_mean.csv.gz": "b34f3daea12e25b6f18a7f0a4486ef1661421f5cececbd4d363b0e8115ccfee9",
+    "results/reference_limits/candidate_Green13_ChenZ_equal_cell_mean.csv.gz": "2b48c609957090933df5bbc964e36fdfc96d368e00810f3d3c7b2ca2561c70d2",
+    "results/reference_limits/candidate_Green13_equal_cell_mean.csv.gz": "e367e7745362e76ec7ef55994c0cc2eddbec516cf464905fd8f7a48bb801ba80"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "tables_matching": 14,
+  "source_design_JSON_matching": 4,
+  "scope": "Three cached original byte windows reprocessed in a fresh directory, frozen references and shared installed Python dependencies reused; no new network transfer, full-atlas reprocessing or clean installation."
+}

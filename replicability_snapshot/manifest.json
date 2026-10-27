@@ -1,0 +1,208 @@
+{
+  "scope": "Directional hypothesis replication and descriptive stage-context priorities, not a validated mechanism.",
+  "source_sha256": {
+    "code/analyze_replicability.py": "2875aa3c099f324c36a91a92cc302b10f3dc8bd699c408c23ca68ab6a25436ae",
+    "code/annotate_replicability.py": "e315022b05aa0ecf05f7c469c0a12c30868c27d061cfd8512bde9d59a3a14faa",
+    "code/check_replicability_context.py": "37d4686f3321f9cdd8aad1baf8c0ca4532d22a2fd76a25d57525253c042330b8",
+    "code/check_stage_reference.py": "56c7bc1d24323e263d708b99ac00581cd0e205c3e4b2611f640691cb534d594d",
+    "code/plot_replicability.py": "6d826098e435902d694f761fa4d948ce7a211621c73e4d83c668a031518e5e5b",
+    "code/replicability_statistics.py": "3317a5bc768aac2c37a901a08ddbf77c86f4015da0b3a73ad84b32e3d7e45154",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/check_replicability.py": "ed1d5be65809b6583f0b2dade55484c52b714af8cd4433b8f4f00c80314e84b9",
+    "scripts/check_replicability_reproduction.py": "1546af6f23a826d64ada851bc50b1faad07d625aec2489cd696eddee91060b63",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/export_replicability.py": "ecbb56b8a970b1bd30759824dcfdd91311e09847da5f6a24bdab7fc369aa3880",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/freeze_replicability_inputs.py": "725d39ef8544b1ffdd1f3f7005246f9b29447021e0d227309a5019118f23d341",
+    "scripts/run_replicability.py": "f8aa1b5ff3423c0df01a55d799578bc6cc1ec9ad270bacfc20a4294e7a8c1c09",
+    "tests/test_replicability.py": "d5e2cb0b19483213a7d946ec37b944f613c9edcf73066b03193a94a6f1ce1fad",
+    "code/audit_replicability_statistics.R": "c67abd2040ed5dad3c71aa3ac70c86ee1c3af7841ea64901198bc88d5585568d",
+    "code/audit_replicability_LOO.R": "8a4b13f1654d51258153a89eb47ca0c2f7c828b21a04c744a265a816f834e0d5",
+    "code/audit_replicability_adjustments.R": "cae140d53f8d1f86f7bac2b5d5ece84c997885c8b57e6d40b0699ce6da392153"
+  },
+  "input_specification_sha256": {
+    "data/replicability_contract.json": "844f4c079d41c11f11520e2df407aed941cd55af70e8dcee72e441e898a41c32",
+    "data/replicability_inputs.json": "7fc8dbd412d7a5f38bfa6d2dff2e1ad751b771192ac84b1ccc2dbba5be52b053",
+    "data/replicability_context_contract.json": "5d6284ea2b15cee0e2ae5684894873b9783cca9c54afc41f76e1b104a0f42659",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da"
+  },
+  "files": [
+    {
+      "path": "LOO_gene_cohort_summary.csv.gz",
+      "bytes": 1111643,
+      "sha256": "873fb5f4ac0f0625119ec6f70fd09343afe222196ac606c91f1333eb45167d2e"
+    },
+    {
+      "path": "LOO_gene_unit_summary.csv.gz",
+      "bytes": 895238,
+      "sha256": "092fdc309c68a8507b7b85befebc85328693dd74d989792f640c29e2ea433f92"
+    },
+    {
+      "path": "LOO_recomputation_audit.csv",
+      "bytes": 2508,
+      "sha256": "46c9ae6d94d495e4833285334a1a6e161a3c52c08dc106983c9930cd0f71fd09"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2414,
+      "sha256": "a2247c3eed93c5f36b534ebcea7e359926f69114b9766ce788246b151ff210b9"
+    },
+    {
+      "path": "R_adjustment_audit.csv",
+      "bytes": 113,
+      "sha256": "fff0ecd64666d766b9a7b89441057ea0f997f6603cc565914f24bf559d951538"
+    },
+    {
+      "path": "all_primary_gene_stage_context.csv.gz",
+      "bytes": 1421957,
+      "sha256": "f738dcf9862f9656b3ace696f4f286c7cafaa99dc47eb8efce56ad9447cfc833"
+    },
+    {
+      "path": "candidate_stage_context.csv",
+      "bytes": 96260,
+      "sha256": "da41b0095777c502b6d8c7724c57acfad3d976c733bfdbf3337cb5f33f40bd51"
+    },
+    {
+      "path": "candidate_unit_support.csv",
+      "bytes": 31837,
+      "sha256": "d299b0b99fec2f81d8e93ac0b1a1043f314f275892de9bcafa0aa0aacf18d863"
+    },
+    {
+      "path": "counts_primary_unit_evidence.csv.gz",
+      "bytes": 1246356,
+      "sha256": "ecec52aca69afa33367fe33dc7094ee388ec713fda81852eac80e3a23347387b"
+    },
+    {
+      "path": "descriptive_1p5fold_candidates.csv.gz",
+      "bytes": 17302,
+      "sha256": "fcc8079f1a6abf02927477f08f6b1165485f45c3cf35443aa9888a28bf756daa"
+    },
+    {
+      "path": "descriptive_support.png",
+      "bytes": 53157,
+      "sha256": "bdf93553a751c885d015a3fbe5c7d94e02f6f4b7ade698da0f63369f3daf3bb9"
+    },
+    {
+      "path": "descriptive_support_counts.csv",
+      "bytes": 2838,
+      "sha256": "63cef4600ecec0e6d657344bd48cd3b56f48efcd88ec289471fa3b46d6dca173"
+    },
+    {
+      "path": "design.json",
+      "bytes": 2424,
+      "sha256": "ec9289d98d7eec0ea191ae99c84543efef2e14652f544aa732fa079ca2f7309a"
+    },
+    {
+      "path": "direction_patterns.csv",
+      "bytes": 591,
+      "sha256": "c8d1f346ca23b6e9f763a4827cf6d2340d7e9b8a0cc67ddded2e2cc6d8e354c9"
+    },
+    {
+      "path": "directional_replicability_tests.csv.gz",
+      "bytes": 651966,
+      "sha256": "576bc2bebf85c2a593c40a25d53032001dc82613e1b5abfb8c38dddd01cc84c7"
+    },
+    {
+      "path": "external_candidate_context.csv",
+      "bytes": 122658,
+      "sha256": "3f96e0670bc440463a150d241767b240220f41c442d0bd4be74325cf57f46488"
+    },
+    {
+      "path": "external_context_coverage.csv",
+      "bytes": 412,
+      "sha256": "841b2f5b537dd5c973608ec4f3407df889d8eb061de532ef44aa55fae45c64bb"
+    },
+    {
+      "path": "external_context_coverage.png",
+      "bytes": 69048,
+      "sha256": "9d2b6aa04b5b23f98a571c622fb03e3f9f5181124506ceff398b54cad0200e42"
+    },
+    {
+      "path": "external_context_design.json",
+      "bytes": 2025,
+      "sha256": "06861bfb902d61782fe2a7fc43db15a527071d8908294024c724fc709dc65171"
+    },
+    {
+      "path": "external_context_summary.csv",
+      "bytes": 5764,
+      "sha256": "06af338e8e6734ce9410ebb8e6cdbf0828e730edb76fca345d15c41bf15f5103"
+    },
+    {
+      "path": "gene_coverage.csv",
+      "bytes": 506,
+      "sha256": "91d1e21f898d0f3583a3b7b822fd5f5f4223d60d68ba0b1bfdb68b7ada7ff5fc"
+    },
+    {
+      "path": "legacy_eight_cohort_sensitivity_unit_evidence.csv.gz",
+      "bytes": 1043233,
+      "sha256": "d03fb1eea9b47b0fed0202b511bd85b7a55971f7af2791f06a6182017ba04826"
+    },
+    {
+      "path": "primary_BY_findings.csv",
+      "bytes": 519,
+      "sha256": "fca43f346ef1f7c942960a53a57345d677a2367f282e29e2375465b4d0216198"
+    },
+    {
+      "path": "primary_gene_summary.csv.gz",
+      "bytes": 1513334,
+      "sha256": "b816655b410f5b88ea245fe4bcb8c636ae169e8ac175da98aba14799f512125a"
+    },
+    {
+      "path": "replicability_summary.csv",
+      "bytes": 596,
+      "sha256": "1b1bd5cba6087bf23759a6910f6ca2b4b2192991ab5753ae3e94fbd8a6d218e2"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 574,
+      "sha256": "6d0d20ce1f5bd89b138b98d3157ba87c8e726c618f1251212f6ae7104e6d6b7c"
+    },
+    {
+      "path": "runtime_Python_versions.json",
+      "bytes": 87,
+      "sha256": "8e6d32a07cbccf36cd1dc2f751eb4ff11d6c06ff5f58cdf737fcde22fb209cfb"
+    },
+    {
+      "path": "runtime_R_versions.csv",
+      "bytes": 72,
+      "sha256": "51bb1971345516b4a7bcc3de6fbef818155c92b832d7385c71297dcf5ba137db"
+    },
+    {
+      "path": "source_statistics_audit.csv",
+      "bytes": 1958,
+      "sha256": "798c0bfafa07c160445789aaf2f25702e2346e5ca6c93e8608021cb9cc0e793c"
+    },
+    {
+      "path": "stable_descriptive_priorities.csv",
+      "bytes": 33803,
+      "sha256": "038d27e6f972ba91866d86510ea40a63fca3369981e070ac52064b76293e71a7"
+    },
+    {
+      "path": "stable_priority_context.png",
+      "bytes": 147004,
+      "sha256": "018e9a0563dbc124955632ef9e9205590a5694037128148bf860f03379406f44"
+    },
+    {
+      "path": "stage_annotation_design.json",
+      "bytes": 2410,
+      "sha256": "b9cb91f569c6bac93759d8c48873d640950ba296f7290380d5b674e282d8ba28"
+    },
+    {
+      "path": "stage_context_summary.csv",
+      "bytes": 1805,
+      "sha256": "2473cdd140ee8f1c24db5db5c44ace9869ea5a2d8b6601f9a14a15fd59ac2764"
+    },
+    {
+      "path": "stage_source_cross_counts.csv",
+      "bytes": 2333,
+      "sha256": "603107807dab3a13d48c8ce894429dcf7289688270f59027eb2a4edae88d4c86"
+    },
+    {
+      "path": "top_ranked_hypotheses.csv",
+      "bytes": 14035,
+      "sha256": "892b4086652f9374fef3e3db5d102c9422d964cd10cd48ed499f4a6e0a7fe96d"
+    }
+  ]
+}

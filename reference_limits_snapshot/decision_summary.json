@@ -1,0 +1,21 @@
+{
+  "source_library_control": [
+    {
+      "candidate_model": "Green13",
+      "groups": 8,
+      "matches": 6
+    },
+    {
+      "candidate_model": "Green13_ChenLZ",
+      "groups": 8,
+      "matches": 5
+    }
+  ],
+  "source_BS_groups_falsely_meiotic_with_added_LZ": 3,
+  "source_L_groups_matching_after_added_LZ": 2,
+  "external_Leptotene_primary_largest_classes": {
+    "Spermatogonia": 20
+  },
+  "decision": "Do not promote any added L/Z prototype to a calibrated production reference: limited external improvement and same-source spermatogonial false positives.",
+  "not_claimed": "Causal technology effects, independent donor confidence intervals, reliable in-vivo cell fractions, or resolution of older Cnot4 LZ validation."
+}

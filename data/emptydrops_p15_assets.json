@@ -1,0 +1,346 @@
+{
+  "schema": 1,
+  "retrieved_utc": "2026-10-25T11:15:29.989591+00:00",
+  "scope": "One complete P15 author-called EmptyDrops library; not the complete atlas or raw sequencing reads.",
+  "source_matrix": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/raw_counts_emptyDrops.mtx",
+    "bytes": 2224359116,
+    "etag": "\"849506cc-60eafe3ab8b80\"",
+    "header": [
+      "%%MatrixMarket matrix coordinate integer general",
+      "32105 68937 163091514"
+    ],
+    "full_matrix_sha256_available": false
+  },
+  "window": {
+    "library": "do18195",
+    "first_column": 25833,
+    "last_column": 39000,
+    "start_byte": 797347902,
+    "end_byte_exclusive": 1183894246,
+    "cells": 13168,
+    "nonzeros": 28013465
+  },
+  "range_requests_this_run": 54,
+  "probe_and_transfer_ranges": [
+    {
+      "start": 0,
+      "end": 4095,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 817480642,
+      "end": 817611713,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 797539078,
+      "end": 797670149,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 797293872,
+      "end": 797424943,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1199548370,
+      "end": 1199679441,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1184121528,
+      "end": 1184252599,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1183841350,
+      "end": 1183972421,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 797347902,
+      "end": 805736509,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 805736510,
+      "end": 814125117,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 814125118,
+      "end": 822513725,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 822513726,
+      "end": 830902333,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 830902334,
+      "end": 839290941,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 839290942,
+      "end": 847679549,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 847679550,
+      "end": 856068157,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 856068158,
+      "end": 864456765,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 864456766,
+      "end": 872845373,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 872845374,
+      "end": 881233981,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 881233982,
+      "end": 889622589,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 889622590,
+      "end": 898011197,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 898011198,
+      "end": 906399805,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 906399806,
+      "end": 914788413,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 914788414,
+      "end": 923177021,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 923177022,
+      "end": 931565629,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 931565630,
+      "end": 939954237,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 939954238,
+      "end": 948342845,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 948342846,
+      "end": 956731453,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 956731454,
+      "end": 965120061,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 965120062,
+      "end": 973508669,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 973508670,
+      "end": 981897277,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 981897278,
+      "end": 990285885,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 990285886,
+      "end": 998674493,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 998674494,
+      "end": 1007063101,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1007063102,
+      "end": 1015451709,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1015451710,
+      "end": 1023840317,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1023840318,
+      "end": 1032228925,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1032228926,
+      "end": 1040617533,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1040617534,
+      "end": 1049006141,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1049006142,
+      "end": 1057394749,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1057394750,
+      "end": 1065783357,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1065783358,
+      "end": 1074171965,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1074171966,
+      "end": 1082560573,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1082560574,
+      "end": 1090949181,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1090949182,
+      "end": 1099337789,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1099337790,
+      "end": 1107726397,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1107726398,
+      "end": 1116115005,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1116115006,
+      "end": 1124503613,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1124503614,
+      "end": 1132892221,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1132892222,
+      "end": 1141280829,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1141280830,
+      "end": 1149669437,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1149669438,
+      "end": 1158058045,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1158058046,
+      "end": 1166446653,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1166446654,
+      "end": 1174835261,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1174835262,
+      "end": 1183223869,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    },
+    {
+      "start": 1183223870,
+      "end": 1183894245,
+      "etag": "\"849506cc-60eafe3ab8b80\""
+    }
+  ],
+  "verified_transfer_chunks": 47,
+  "assets": [
+    {
+      "path": "data/raw/labeled_reference/study.json",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-6946",
+      "bytes": 39518,
+      "sha256": "444d8d0cd5457de7507f77cf293dd9853905be28653fec719a5f3639bf8f3bc6"
+    },
+    {
+      "path": "data/raw/labeled_reference/cell_metadata.txt",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/cell_metadata.txt",
+      "bytes": 7166353,
+      "sha256": "8ddb6ac45e34b996e94f4935899476df91db09f8c3c977e9961e6808019a8865"
+    },
+    {
+      "path": "data/raw/labeled_reference/E-MTAB-6946.sdrf.txt",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/E-MTAB-6946.sdrf.txt",
+      "bytes": 906958,
+      "sha256": "77a42522114d4471798afd611cb5a0907da8e90313e54b319668a157f942828b"
+    },
+    {
+      "path": "data/raw/labeled_reference/cell_metadata_emptyDrops.txt",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/cell_metadata_emptyDrops.txt",
+      "bytes": 12219948,
+      "sha256": "415640ee41322086988d9010bcadfdc16bca4938d12e1a4876ac608d66fa5c5e"
+    },
+    {
+      "path": "data/raw/emptydrops_p15/genes_emptyDrops.tsv",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/genes_emptyDrops.tsv",
+      "bytes": 986878,
+      "sha256": "e5aa1851c7405a8907215cffa10a0f0a88c7faa8b0e765ee83b65fd353ec1e02"
+    },
+    {
+      "path": "data/raw/emptydrops_p15/do18195_emptyDrops.triplets",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/raw_counts_emptyDrops.mtx",
+      "range": {
+        "library": "do18195",
+        "first_column": 25833,
+        "last_column": 39000,
+        "start_byte": 797347902,
+        "end_byte_exclusive": 1183894246,
+        "cells": 13168,
+        "nonzeros": 28013465
+      },
+      "etag": "\"849506cc-60eafe3ab8b80\"",
+      "bytes": 386546344,
+      "sha256": "a4f25a71f2abad0a3ece69a2946048587b7b937352cbf3b73dcfa8ecd5fef818"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Exploratory post-hoc conditional library-level interaction; not biological confirmation.",
+  "fixed_candidates": 105,
+  "fixed_stable_priorities": 36,
+  "main_tested_genes": 17624,
+  "main_conditional_BY05": 8472,
+  "all_four_variant_BY05_overlap": 8119,
+  "fixed_priorities_complete": 36,
+  "fixed_priorities_negative_all_variants": 35,
+  "fixed_priorities_down_1p5fold_all_variants": 32,
+  "fixed_priorities_main_conditional_BY05": 32,
+  "all_variant_count": 44,
+  "omission_count": 40,
+  "interpretation": "The complete-gene family is adjusted before fixed candidates are annotated. P18-P10 deltas compare KO-Control differences; a negative delta is not itself a KO-Control decrease at either age. No subgroup FDR guarantee, animal-independence verification, barcode-effect separation or shared-mechanism claim."
+}

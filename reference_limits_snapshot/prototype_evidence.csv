@@ -1,0 +1,7 @@
+prototype,prototype_weighting,source_cells,source_libraries,expected_class,source_profile
+Chen_L,equal_cell_mean,49,2,Meiotic,Chen:L:equal_cell_mean
+Chen_Z,equal_cell_mean,65,3,Meiotic,Chen:Z:equal_cell_mean
+Chen_BS,equal_cell_mean,67,3,Spermatogonia,Chen:BS:equal_cell_mean
+Chen_L,RNA_sum,49,2,Meiotic,Chen:L:RNA_sum
+Chen_Z,RNA_sum,65,3,Meiotic,Chen:Z:RNA_sum
+Chen_BS,RNA_sum,67,3,Spermatogonia,Chen:BS:RNA_sum

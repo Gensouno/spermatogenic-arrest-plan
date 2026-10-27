@@ -1,0 +1,40 @@
+{
+  "scope": "Existing frozen source identities; raw TAR re-read into TPM independently of cached prepared matrices.",
+  "assets": [
+    {
+      "path": "data/raw/replicability_discovery/GSE224875_RAW.tar",
+      "bytes": 48732160,
+      "sha256": "8efd3a397c8f65b5ea915fba422ee83e4e92d080b554ef8f3b67cef83c9c46b0"
+    },
+    {
+      "path": "results/replicability_discovery/GSE224875_metadata.json",
+      "bytes": 54584,
+      "sha256": "8a846b62da7f55262d1009d1aad4b45a1eec87b7510919143c9b7e4c6d941325"
+    },
+    {
+      "path": "new_models_snapshot/Setx_archive_audit.csv",
+      "bytes": 8679,
+      "sha256": "e29fcf871563d9caf84e52b2f98107f76b8a6a01f6a9ac2ae529bafe9bf7bbd5"
+    },
+    {
+      "path": "new_models_snapshot/sample_evidence.csv",
+      "bytes": 7195,
+      "sha256": "6bfab4ad929dedd7ee65a2cb73c6bda8b4610222776d0e6931d9b8c8ca8c9b2c"
+    },
+    {
+      "path": "new_models_snapshot/gene_annotation.csv",
+      "bytes": 3381799,
+      "sha256": "a2964e224baceb3128b48b44b22e2801ed3ffbaa08ce4a6946ae7fbacf2bcebf"
+    },
+    {
+      "path": "replicability_snapshot/candidate_stage_context.csv",
+      "bytes": 96260,
+      "sha256": "da41b0095777c502b6d8c7724c57acfad3d976c733bfdbf3337cb5f33f40bd51"
+    },
+    {
+      "path": "replicability_snapshot/stable_descriptive_priorities.csv",
+      "bytes": 33803,
+      "sha256": "038d27e6f972ba91866d86510ea40a63fca3369981e070ac52064b76293e71a7"
+    }
+  ]
+}

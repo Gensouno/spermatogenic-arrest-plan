@@ -1,0 +1,5 @@
+gse,samples_in_GEO,admitted_RNA_profiles,assessable_broad_labels,decision
+GSE155967,22,6,4,"Stage-separated external diagnosis; preL unscored, synchronization and incomplete per-sample genotype evidence retained."
+GSE83264,20,4,4,Independent mixed LZ and pachytene comparators only; six whole-testis RNA and ten small-RNA profiles excluded.
+GSE107644,106,0,0,Inspected public barcode information has raw_file/processed_file/cell/barcode only; no explicit fine stage labels in that file. Atlas expression deferred; no stage inferred from cell names.
+GSE109033,8,0,0,"GEO sample labels identify enrichments, not per-cell leptotene. Annotated Loupe data mentioned by paper require separate audit; no atlas ingested."

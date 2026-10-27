@@ -1,0 +1,4 @@
+# Install in ignored .paper-tools/packages, not the shared analysis environment.
+PyYAML==6.0.3
+bibtexparser==1.4.4
+pypandoc_binary==1.17

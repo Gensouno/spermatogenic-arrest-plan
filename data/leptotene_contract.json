@@ -1,0 +1,13 @@
+{
+  "date_local": "2026-10-25",
+  "scope": "Targeted source audit and fixed-reference diagnostics for independent mouse early-meiotic profiles; not a systematic review or a new trained reference.",
+  "organism": "Mus musculus",
+  "candidates_before_expression_fitting": ["GSE155967", "GSE107644", "GSE109033", "GSE83264"],
+  "source_selection": "Candidates found from primary GEO records and original-paper data availability; explicit Leptotene separate from Zygotene preferred. Mixed LZ is a comparator, never a pure leptotene substitute. Green GSE112393 and Ernst E-MTAB-6946 are not independent of earlier reference/diagnostics.",
+  "primary_database": "NCBI GEO",
+  "metadata_endpoint": "https://ftp.ncbi.nlm.nih.gov/geo/series/{GSE_bucket}/{GSE}/soft/{GSE}_family.soft.gz",
+  "filters": ["Require explicit mouse, source cell type, RNA-seq strategy, age/preparation and source file/sample identity before fitting.", "Keep preleptotene distinct from leptotene and LZ; mutant zygotene-like is not WT zygotene.", "Verify integer count semantics and gene identifiers, and record all exclusions; do not select profiles by fit quality.", "Record synchronization and purification as confounders; no in-vivo pure-cell fraction truth or animal-level p-values inferred.", "Keep original three references, full-universe five-fold seed and inverse-square-root centroid-4 weights fixed; no markers retuned.", "New source must be held out from reference construction if used as validation. This turn only diagnoses fixed references, without training."],
+  "limits": {"metadata_candidates": 4, "maximum_network_requests": 40, "metadata_compressed_per_file_bytes": 16777216, "metadata_decompressed_per_file_bytes": 134217728, "expression_total_download_bytes": 52428800, "parallel_downloads": 1, "proxy_required": true, "direct_fallback": false, "cpu_threads": 1},
+  "prior_work": "Preserve all six older snapshots and their bound source/specification files. Store separately under results/leptotene_followup and leptotene_snapshot.",
+  "discovery_limitation": "Scite plugin returned a transport error; official GEO and primary-paper records used as fallback. Discovery is targeted and not comprehensive."
+}

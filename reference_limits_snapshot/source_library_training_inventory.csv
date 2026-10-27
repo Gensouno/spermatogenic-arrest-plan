@@ -1,0 +1,15 @@
+excluded_library,stage,retained_cells,retained_libraries,below_20_cell_sensitivity
+SpSC10,L,49,"SpSC11,SpSC27",False
+SpSC10,Z,48,"SpSC11,SpSC28",False
+SpSC11,L,39,SpSC27,False
+SpSC11,Z,59,"SpSC10,SpSC28",False
+SpSC2,L,49,"SpSC11,SpSC27",False
+SpSC2,Z,65,"SpSC10,SpSC11,SpSC28",False
+SpSC24,L,49,"SpSC11,SpSC27",False
+SpSC24,Z,65,"SpSC10,SpSC11,SpSC28",False
+SpSC25,L,49,"SpSC11,SpSC27",False
+SpSC25,Z,65,"SpSC10,SpSC11,SpSC28",False
+SpSC27,L,10,SpSC11,True
+SpSC27,Z,65,"SpSC10,SpSC11,SpSC28",False
+SpSC28,L,49,"SpSC11,SpSC27",False
+SpSC28,Z,23,"SpSC10,SpSC11",False

@@ -1,0 +1,30 @@
+{
+  "date_local": "2026-10-25",
+  "continuation_date_local": "2026-10-26",
+  "scope": "Exploratory cross-perturbation directional replicability of whole-testis expression effects, not a shared cell-intrinsic mechanism or composition-adjusted effect estimate.",
+  "primary_cohorts": ["GSE236388", "GSE283904", "GSE68283", "GSE68284", "GSE101511"],
+  "genetic_units": {"XAP5": ["GSE236388"], "N6amt1": ["GSE283904"], "Rfx2": ["GSE68283", "GSE68284"], "Hnrnpgt": ["GSE101511"]},
+  "primary_universe": "All genes tested with finite effects and valid P-values in all five count cohorts, irrespective of TPM/array availability. Do not restrict the primary set to the legacy eight-cohort 8099-gene universe.",
+  "sensitivity_universe": "Legacy eight-cohort common tested genes, analysed separately without choosing the more favourable universe.",
+  "hypotheses_before_combination": [
+    "Directional positive and negative effects in at least three of four genetic units (primary shared-effect question), and in all four (stricter question).",
+    "Recompute original limma fits from frozen prepared expression, verify original t/logFC/two-sided P-values, and use fitted moderated-t degrees of freedom and pt() for numerically stable one-sided tails. Check the tails agree with the original two-sided P-values and sign. No inference if source reconstruction differs.",
+    "For Rfx2, directional unit P-value is the maximum across both age-cohort directional P-values (intersection-union). Mixed-age signs remain mixed; do not average them into a common directional effect or count ages twice.",
+    "Use the dependence-robust Bonferroni partial-conjunction P-value min(1,(n-r+1)*p_sorted[r-1]). This tests support in at least r units, not a common pooled effect magnitude.",
+    "Primary multiplicity adjustment is Benjamini-Yekutieli over all genes x two directions x two r levels jointly within the primary universe, at 0.05. Benjamini-Hochberg is a labelled sensitivity only. Apply the same complete family in the separate legacy-universe sensitivity.",
+    "Report exact directional patterns and per-cohort logFC/P-values for every gene. Fold-change thresholds 0, log2(1.5) and 1 are descriptive support summaries, never substitutes for the replicability test or a selectively re-adjusted family.",
+    "Leave-one-sample-out cached effects supply directional and effect-size stability, with missing/re-filtered genes explicit; no new inferential P-values or independent-validation claim from these variants.",
+    "Do not use TPM or microarray P-values as extra primary count-model votes. Retain their effects/directions as separate sensitivity annotation; Sin3a P0 and other age differences remain confounded.",
+    "No candidate threshold tuned to obtain a nonempty list; preserve zero-discovery outcomes and all denominator/coverage counts."
+  ],
+  "limitations": ["False-discovery statements depend on valid original moderated-t P-values and model/filtering assumptions; they are not empirically established biological error rates.", "Hnrnpgt has low power; absence of a four-model discovery does not prove absence of shared biology.", "N6amt1 age is unconfirmed; Rfx2 ages, genetic perturbation, platform and tissue cellular makeup are confounded.", "Replication of bulk expression direction does not prove cell-intrinsic regulation, a causal shared mechanism, or a phenotype severity ranking."],
+  "continuation_checks_before_annotation": [
+    "Recompute all 40 count-cohort one-sample-deletion effects from the original prepared matrices and reconcile every gene/variant with the old cached effects before using them as stability evidence. This is computational reproduction, not independent biological replication.",
+    "Annotate ALL 9675 count-common genes with independent Chen twenty-stage and Green twelve-centroid expression context before summarizing candidate subsets; exact symbols only, missing and unexpressed separate.",
+    "Use equal-cell-normalized source profiles and equal-stage means within predefined broad groups; no captured-cell-number weighting across stages. Chen groups: spermatogonia A1/In/BS/BG2, preleptotene G1/ePL/mPL/lPL, meiotic L/Z/eP/mP/lP/D/MI/MII, postmeiotic RS2/RS4/RS6/RS8. Green groups retain GC2-GC8 as meiotic-or-transition, never exact L/Z.",
+    "Record peak-group mean CPM, dominance share and ties for every mapped gene. A descriptive high-dominance flag uses source peak >=10 CPM and share >=0.5; it does not filter inferential findings or define validated marker genes.",
+    "Describe candidate stage distributions without enrichment P-values or treating correlated genes/stage views as independent biological replicates. Expression context does not establish cell-number change or causal composition mediation.",
+    "A follow-up priority table may mark the fixed 1.5-fold, three-unit descriptive screen retained in every relevant one-sample-deletion variant. Do not label that selected subset FDR-controlled or experimentally validated."
+  ],
+  "preservation": "Do not change earlier code, input specifications or eight existing snapshots. New results under results/replicability and replicability_snapshot."
+}

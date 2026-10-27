@@ -1,0 +1,17 @@
+{
+  "date_local": "2026-10-26",
+  "analysis_status": "Post-hoc contextual transfer of a fixed descriptive list, not preregistration, untouched validation or a primary replication vote.",
+  "fixed_primary_gene_family": "All 9675 count-common genes; retain the complete 105 descriptive candidates and 36 baseline-plus-LOO priorities without choosing external matches.",
+  "contrasts": [
+    {"cohort":"GSE259242_P9","gse":"GSE259242","model":"Dcaf2","age":"P9","role":"Early whole-testis perturbation; source control genotype retained as control","source":"results/data_expansion/de/GSE259242_P9_de.csv","symbol_column":"gene"},
+    {"cohort":"GSE117706_P2","gse":"GSE117706","model":"Pramef12","age":"P2","role":"Heterozygote-control early-development context; not WT and not an independent vote from P7","source":"results/data_expansion/de/GSE117706_P2_de.csv","symbol_column":"gene"},
+    {"cohort":"GSE117706_P7","gse":"GSE117706","model":"Pramef12","age":"P7","role":"Heterozygote-control early-development context; not WT and not an independent vote from P2","source":"results/data_expansion/de/GSE117706_P7_de.csv","symbol_column":"gene"},
+    {"cohort":"GSE235777_P45","gse":"GSE235777","model":"Msl3","age":"P45","role":"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case","source":"results/data_expansion/de/GSE235777_P45_de.csv","symbol_column":"gene"},
+    {"cohort":"Lrh1_P1_NanosCre","gse":"GSE180204","model":"Lrh1","age":"P1","role":"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted","source":"results/followup/de/Lrh1_P1_NanosCre.csv","symbol_column":"symbol"},
+    {"cohort":"Lrh1_P3_DhhCre","gse":"GSE180204","model":"Lrh1","age":"P3","role":"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model","source":"results/followup/de/Lrh1_P3_DhhCre.csv","symbol_column":"symbol"}
+  ],
+  "mapping": "Exact symbols. For Lrh1 exclude every duplicated nonempty symbol among tested Ensembl genes; no largest-effect selection or identifier guessing. Repeat this rule separately in every cached LOO variant.",
+  "effects": "Use frozen previously fitted KO-minus-source-control logFC and cached leave-one-out effects. This branch does not re-fit these external cohorts, rebuild annotations or repeat their raw preprocessing.",
+  "summaries": "Coverage, matching nonzero sign and at least log2(1.5) in the fixed candidate direction, with complete availability required before all-LOO retention. Missing is never zero. Report every contrast with explicit denominators, without enrichment P-values or independence assumptions over genes.",
+  "limitations": ["Sources and prior effect correlations were seen in earlier exploratory work; not an untouched holdout.", "Early P1-P9 tissues cannot be treated as equivalent to later meiotic-arrest tissues.", "Two Pramef12 ages and two Lrh1 Cre experiments are not four independent genetic models.", "No inference that failure to transfer disproves shared biology, that a sign match proves a mechanism, or that Msl3 supplies a known statistical null."]
+}

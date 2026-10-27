@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "tables_matching": 10,
+  "source_design_JSON_matching": 2,
+  "scope": "Fresh-directory offline recomputation of 10 source RNA profiles from frozen raw counts/metadata, original paper XML, fixed gene mapping and unchanged references; shared installed dependencies, not a clean installation or new network-transfer validation."
+}

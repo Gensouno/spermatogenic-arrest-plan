@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "tables_matching": 6,
+  "JSON_matching": 2,
+  "figures_matching": 1,
+  "original_genome_members_reprocessed": 40,
+  "conditional_omnibus_fits": 4,
+  "effect_only_omission_fits": 40,
+  "scope": "Fresh directory, original frozen source TAR and metadata re-read, all fits and fixed-candidate summaries regenerated. Installed dependencies and frozen gene annotation reused; no raw-read alignment, clean installation, new download, animal-independence verification or empirical biological FDR validation."
+}

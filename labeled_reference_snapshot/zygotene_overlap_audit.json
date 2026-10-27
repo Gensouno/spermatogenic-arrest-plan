@@ -1,0 +1,35 @@
+{
+  "scope": "Secondary author-label reassignment sensitivity on already cached CellRanger P15 expression; no EmptyDrops expression matrix processed.",
+  "matched_P15_barcodes": 3487,
+  "matched_author_fine_label_counts": {
+    "Pachytene_2": 1280,
+    "Differentiating_Spermatogonia_1": 502,
+    "Sertoli_2": 395,
+    "Pachytene_1": 319,
+    "Zygotene": 266,
+    "Undifferentiated_Spermatogonia": 250,
+    "PTM": 132,
+    "Outliers": 93,
+    "Differentiating_Spermatogonia_2": 73,
+    "Leydig_1": 68,
+    "Endothelial_cells": 51,
+    "Sertoli_1": 28,
+    "Leydig_2": 17,
+    "Leptotene": 13
+  },
+  "Zygotene_cells_with_cached_expression": 266,
+  "all_author_EmptyDrops_Zygotene_cells": 938,
+  "Leptotene_cells_with_cached_expression": 13,
+  "Leptotene_not_fitted": "Below prespecified >=20 cells/group threshold; do not merge with Zygotene to conceal coverage gap.",
+  "Zygotene_original_AnnotatedClusters": {
+    "eP1": 263,
+    "Sertoli": 2,
+    "eP2": 1
+  },
+  "matched_cell_counts_and_detected_features_verified": true,
+  "limitations": [
+    "The matched Zygotene subset excludes most EmptyDrops-only low-complexity cells and is not representative of all 938 author-labelled Zygotene cells.",
+    "Author fine labels come from a different call/filter/annotation branch; this is an explicit sensitivity join, not replacement of the original primary labels.",
+    "One library, two weighting views, no animal replication or in-vivo cell-fraction accuracy."
+  ]
+}

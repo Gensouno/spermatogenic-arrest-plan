@@ -1,0 +1,5 @@
+component,version
+R,4.6.1
+limma,3.68.5
+data.table,1.18.6.1
+statmod,1.5.2

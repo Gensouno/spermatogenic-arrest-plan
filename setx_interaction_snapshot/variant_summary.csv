@@ -1,0 +1,5 @@
+variant,pseudocount,samples,design_rank,residual_df,interaction_df,tested_genes,conditional_BY05,conditional_BH05,direct_coefficient_max_error,nested_F_max_relative_error
+main,0.5,40,10,30,4,17624,8472,11650,8.88178419700125e-15,4.77206131939483e-14
+pseudo_0p1,0.1,40,10,30,4,17624,8339,11587,1.06581410364015e-14,5.85898040349603e-14
+pseudo_1,1,40,10,30,4,17624,8481,11616,8.88178419700125e-15,8.31557045444242e-14
+exclude_ambiguous_pair,0.5,38,10,28,4,17712,9224,12067,8.88178419700125e-15,5.67323965583455e-14

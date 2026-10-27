@@ -1,0 +1,116 @@
+{
+  "scope": "Three preselected complete normal libraries: adult B6 do17815, P5 do26386, P15 do18195; author-labelled library/type groups with >=20 cells; two expression weighting views, not independent repeats.",
+  "source_sha256": {
+    "scripts/fetch_labeled_reference.py": "5ec841a991274d199ea48542f827a4c2e2b3ae602643a4a05260affe5a6c96f7",
+    "scripts/fetch_labeled_ranges.py": "a086085e0245e0c6d62ff8423a962c23c4bef9502eba829171855fa2d1c0cb01",
+    "scripts/run_labeled_reference.py": "23baf0bea767d2d5b85d22a7129da36c8e38297d9a301e69db07d726a7af579d",
+    "scripts/audit_emptydrops_labels.py": "7315580acff121c00d2ed1a09fe44e6212cad91ad70132630aa4bfb47b98a5ea",
+    "scripts/check_labeled_reproduction.py": "d9972176f622a8217af2749bc7acc51203d35c3e4162e14a8a571592fd22df64",
+    "scripts/check_labeled_snapshot.py": "5083d5b0764a68a26c3144b553d0542d91d54a51f0d938e18c0ce0c05ce6d2e5",
+    "tests/test_labeled_reference.py": "0aa6ffcfb365457f527949afa3300a20b638e88610621b5cd2d5deded6ace72c",
+    "code/prepare_labeled_reference.py": "25723d650e4f02f75222ed4dbde04ed7a9e85e0a81f1492de9a6ec7e0b16a16a",
+    "code/diagnose_labeled_reference.py": "0099c4aa5d94dcc3e7ca9b94d1424e9082267b71379a9fe0ee93a0ba66a5f256",
+    "code/diagnose_reference_transfer.py": "aae3a5847edfc71372f7b96dc53019e86bb210bf00f22cea206214df0d7ae32b",
+    "code/check_author_zygotene.py": "ab52f2e6951839b291c44cc7864a6419d8bb231a80391471ee3b0d52b5b7cc6a",
+    "code/check_sorted_expansion.py": "48d6f6eff5deae643d97d8f7c7274b61c292bb9e016f35f030216fa0355c4ab7",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "data/labeled_reference_contract.json": "42b2ff1ce7eb517ef25b221c964858767d5ac055fba0294718838a1d82ba1fd7"
+  },
+  "input_specification_sha256": {
+    "data/labeled_reference_assets.json": "b9ab17937be5d779ea616882eb072c3453f4ae93260bf005e1aacce2cb954bc8",
+    "data/emptydrops_label_assets.json": "b9e094b402cb692ae04c1444d27f8732938b446a1a1190de217ffccf0bfd6722"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1316,
+      "sha256": "b2fa4d1faf036f0be0da6d770196d7b4a3105a37ac5ba683bfa89e25c70b8a87"
+    },
+    {
+      "path": "all_group_inventory.csv",
+      "bytes": 7991,
+      "sha256": "210477b2337d0796c4a30cfc330266b560076d5ed5c9d9219ad1474d006b9cc8"
+    },
+    {
+      "path": "author_label_compatibility.png",
+      "bytes": 153245,
+      "sha256": "ed503ede0fc1b9142d6cf4414a439af7b341c8e669fb6e172be02cf0176573dc"
+    },
+    {
+      "path": "design.json",
+      "bytes": 1563,
+      "sha256": "eda01752c7eb7d31b0500a46ebdd973e625212c7b7f0ca04ec00200609f5d6a7"
+    },
+    {
+      "path": "design_conditions.csv",
+      "bytes": 145,
+      "sha256": "8a2a6accb2ff557eaad3a60f8344991fe1d1ab3cf1684d44e872f4286e778871"
+    },
+    {
+      "path": "emptydrops_label_audit.json",
+      "bytes": 3372,
+      "sha256": "02759e9403917a929440793041c69f366552724d04029cf74a4d662a8b378006"
+    },
+    {
+      "path": "fold_summary.csv",
+      "bytes": 3080,
+      "sha256": "e55e69a30133854b11befdd02309e652a5117cc5eee5f8ba2c6b62d96850f88b"
+    },
+    {
+      "path": "full_fit_weights.csv",
+      "bytes": 44977,
+      "sha256": "b6f6a6b86ee82f9b3f3cc2a0e24cd4ccfc3f5f42f6ef6651c3fceedc07a90bbd"
+    },
+    {
+      "path": "holdout_metrics.csv",
+      "bytes": 40185,
+      "sha256": "ad04370deb5bafe30550d918c4aeec5660dd94239046a1ac03c85d842d715a1f"
+    },
+    {
+      "path": "label_summary.csv",
+      "bytes": 14644,
+      "sha256": "911656be34a8db0d80806c64076d0a8fa6f489eeed2a9428b9316ed0b8a06e73"
+    },
+    {
+      "path": "library_evidence.csv",
+      "bytes": 1062,
+      "sha256": "1d8ec86082a4bb046d732df823cb61802a236f824095187135b6ce26ba4e13b8"
+    },
+    {
+      "path": "library_summary.csv",
+      "bytes": 1488,
+      "sha256": "877bb888ae05b8e71a620d58e3b40c90ef4a00022fa90df24f51621b2c2f14b5"
+    },
+    {
+      "path": "preparation_audit.json",
+      "bytes": 1084,
+      "sha256": "30c85073d80da2e8ffe8fdb4387766158bb7413d8bdd8e9ed1637fad56a71860"
+    },
+    {
+      "path": "profile_evidence.csv",
+      "bytes": 7890,
+      "sha256": "aee28ad1e6a80a30cb176832e6eb44c47abda5a8d471789184fe1ceb8c63ff20"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 310,
+      "sha256": "7fad14bd4085c90ced2a393e2092426e79224c5bb25309a100aea08b39615694"
+    },
+    {
+      "path": "zygotene_overlap_audit.json",
+      "bytes": 1467,
+      "sha256": "f587bb84351a50aba97df3c01ebef13214d62bc547bf713f651b1aec9bb2ddc7"
+    },
+    {
+      "path": "zygotene_overlap_metrics.csv",
+      "bytes": 357,
+      "sha256": "6d676f334ad4cb2297d00309b73919f3fdc515b651c0facb27cdc14946068f55"
+    },
+    {
+      "path": "zygotene_overlap_weights.csv",
+      "bytes": 4684,
+      "sha256": "b3f5e28698daca991471fd4ad5d583b1808f5dbca879f92bd3f42c4c6f06d448"
+    }
+  ]
+}

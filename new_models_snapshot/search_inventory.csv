@@ -1,0 +1,62 @@
+UID,accession,title,assay,samples,publication_date,targeted_metadata_review
+200005510,GSE5510,Expression data from wild type and Taf7l mutant testes,Expression profiling by array,4,2007/08/09,False
+200005668,GSE5668,Identification and characterization of the changed and stable transcripts during mouse oocyte maturation,Expression profiling by array,6,2006/09/05,False
+200018610,GSE18610,Expression profiling of mouse ing2 -/- mice with spermatogenic arrest and infertility,Expression profiling by array,8,2010/11/19,False
+200019453,GSE19453,Transcriptional profiling of luteinising hormone receptor deficient mice before and after testosterone treatment,Expression profiling by array,38,2009/12/14,False
+200021763,GSE21763,Mouse MOV10L1 associates with Piwi proteins and is an essential component of the piRNA pathway,Non-coding RNA profiling by high throughput sequencing,3,2010/06/13,False
+200023431,GSE23431,Sertoli cell specific testicular gene expression of Connexin 43 knockout mice,Expression profiling by array,12,2011/01/06,False
+200028025,GSE28025,Comparative gene expression analysis of repro9/repro9 and wild type testes from 14 and 17 day mice,Expression profiling by array,18,2011/10/19,False
+200031985,GSE31985,Comparison of transcriptomes between Marf1+/+ (WT) and Marf1 ENU/ENU (Mutant) fully-grown oocytes (FGO),Expression profiling by array,6,2012/03/31,False
+200041707,GSE41707,Expression profiles in testis of mouse inter-subspecific hybrids,Expression profiling by array,23,2012/11/07,False
+200042601,GSE42601,Expression data from wild-type and Dazap1 mutant mouse testes,Expression profiling by array,6,2013/06/01,False
+200050807,GSE50807,Taf7l cooperates with Trf2 to regulate spermiogenesis,Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing,5,2013/09/29,False
+200066880,GSE66880,Expression data from gonads of Meioc+/+ and Meioc-/-mice,Expression profiling by array,8,2015/11/19,False
+200090702,GSE90702,"Identification of the embryonic germ cell Meioc-/- transcriptome, MEIOC targets in postnatal testis, and YTHDC2 targets in postnatal testis in mouse",Expression profiling by high throughput sequencing; Other,26,2017/03/22,False
+200093533,GSE93533,Regulation of the transition from mitosis to meiosis by the conserved RNA-helicase YTHDC2/BGCN [RIP-Seq],Expression profiling by high throughput sequencing,8,2017/11/15,False
+200093566,GSE93566,Regulation of the transition from mitosis to meiosis by the conserved RNA-helicase YTHDC2/BGCN [RNA-Seq],Expression profiling by high throughput sequencing,12,2017/11/15,True
+200093567,GSE93567,Regulation of the transition from mitosis to meiosis by the conserved RNA-helicase YTHDC2/BGCN,Expression profiling by high throughput sequencing,20,2017/11/15,False
+200095225,GSE95225,EZH1 in Germ Cells Safeguards the Function of PRC2 during Spermatogenesis,Genome binding/occupancy profiling by high throughput sequencing,6,2017/03/07,False
+200096920,GSE96920,Identification of MEIOC targets in mouse postnatal testis,Other,14,2017/03/22,False
+200096921,GSE96921,Identification of YTHDC2 targets in mouse postnatal testis,Other,6,2017/03/22,False
+200098085,GSE98085,YTHDC2 regulates spermatogenesis through promoting the translation of N6-methyladenosine-modified RNA,Other,16,2017/08/01,True
+200102346,GSE102346,Regulation of m6A transcripts by the 3ʹ→5ʹ RNA helicase YTHDC2 is essential for a successful meiotic program in the mammalian germline,Expression profiling by high throughput sequencing; Other,32,2017/10/14,True
+200104850,GSE104850,Interrogating the functions of PRDM9 domains in meiosis,Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing,28,2018/04/27,False
+200108044,GSE108044,ketu mutant mice uncover an essential meiotic function for the ancient RNA helicase YTHDC2,Expression profiling by high throughput sequencing,16,2017/12/19,True
+200118913,GSE118913,ANKRD31 anchors meiotic double-strand break formation as a direct partner of REC114,Genome binding/occupancy profiling by high throughput sequencing,11,2019/12/25,False
+200120994,GSE120994,CFP1 safeguards male meiotic progression by regulating meiotic gene expression,Genome binding/occupancy profiling by high throughput sequencing,6,2018/10/10,True
+200134033,GSE134033,LIN28A binds to meiotic gene transcripts and modulates their translation in male germ cells,Expression profiling by high throughput sequencing; Other,9,2020/06/08,False
+200144144,GSE144144,Sexual dimorphism in the meiotic requirement for PRDM9: a mammalian evolutionary safeguard,Genome binding/occupancy profiling by high throughput sequencing; Third-party reanalysis; Other,7,2020/10/23,False
+200158977,GSE158977,Rescue of Male Infertility through Correcting a Genetic Mutation Causing Meiotic arrest in Spermatogonial Stem Cells [RNA-seq],Expression profiling by high throughput sequencing,4,2020/10/05,False
+200158978,GSE158978,Rescue of Male Infertility through Correcting a Genetic Mutation Causing Meiotic arrest in Spermatogonial Stem Cells [WGS],Other,2,2020/10/05,False
+200158979,GSE158979,Rescue of Male Infertility through Correcting a Genetic Mutation Causing Meiotic arrest in Spermatogonial Stem Cells,Expression profiling by high throughput sequencing; Other,6,2020/10/05,False
+200172157,GSE172157,Single cell RNA-seq of spermatogenesis in WT and Zfp541-KO mice (10x Chromium),Expression profiling by high throughput sequencing,2,2021/04/16,False
+200172160,GSE172160,Characterization of ZFP541's occupency sites on genome in pachytene and diplotene spermatocytes,Genome binding/occupancy profiling by high throughput sequencing,5,2021/04/16,False
+200172171,GSE172171,Transcriptome analysis of early and late pachytene spermatocytes in WT and Zfp541-KO mice (Smart-Seq2),Expression profiling by high throughput sequencing,12,2021/04/16,False
+200175734,GSE175734,Loss of TDP-43 in male germ cells causes meiotic failure and impairs fertility in mice,Expression profiling by high throughput sequencing,6,2022/03/22,True
+200184208,GSE184208,PRC1-mediated epigenetic programming is required to generate the ovarian reserve,Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing,18,2022/06/26,False
+200186296,GSE186296,Genetic characterization of a missense mutation in the X-linked TAF7L gene in an oligozoospermic man,Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing,18,2022/08/03,False
+200190979,GSE190979,YTHDC2 CLIP,Other,18,2022/01/20,False
+200190980,GSE190980,RNA-seq and Ribo-seq of Ythdc2KO and Ythdc2-WLA mutants,Expression profiling by high throughput sequencing; Other,30,2022/01/20,True
+200190981,GSE190981,YTHDC2 CLIP and RNA-seq and Ribo-seq of Ythdc2KO and Ythdc2-WLA mutants,Expression profiling by high throughput sequencing; Other,48,2022/01/20,False
+200196427,GSE196427,The XRN1-regulated RNA helicase activity of YTHDC2 ensures mouse fertility independently of m6A recognition,Expression profiling by high throughput sequencing; Other,25,2022/03/22,True
+200196779,GSE196779,Nucleolar migration regulates meiotic sex chromosome inactivation via phase separation during mammalian spermatogenesis,Expression profiling by high throughput sequencing; Other,30,2026/02/11,False
+200201190,GSE201190,The RNA-binding protein RBM46 is essential for gametogenesis and functions in post-transcriptional roles affecting meiotic cohesin subunits,Other,4,2022/04/23,False
+200219200,GSE219200,In vivo PIWI slicing in mouse testes deviates from rules established in vitro,Expression profiling by high throughput sequencing; Other,26,2023/10/23,False
+200222283,GSE222283,The RNA-helicase YTHDC2 serves a late role in spermatocytes during germ cell differentiation,Expression profiling by high throughput sequencing,16,2023/03/02,True
+200224875,GSE224875,Effect of Setx depletion on gene expression in the testis during the first-wave of spermatogenesis,Expression profiling by high throughput sequencing,40,2023/12/31,True
+200224946,GSE224946,Epigenomic profiling of SETX and Rloops in meiotic germ cells by CUT&Tag,Genome binding/occupancy profiling by high throughput sequencing,16,2023/12/31,False
+200224954,GSE224954,Epigenomic profiling of SETX in meiotic germ cells by ChIP-seq,Genome binding/occupancy profiling by high throughput sequencing,5,2023/12/31,False
+200230743,GSE230743,The role of MEIOC at the transition from mitosis to meiosis during mammalian spermatogenesis [bulkRNAseq],Expression profiling by high throughput sequencing,7,2024/04/16,False
+200230746,GSE230746,The role of MEIOC at the transition from mitosis to meiosis during mammalian spermatogenesis [scRNA],Expression profiling by high throughput sequencing,4,2024/04/16,False
+200230747,GSE230747,The role of MEIOC at the transition from mitosis to meiosis during mammalian spermatogenesis,Expression profiling by high throughput sequencing,11,2024/04/15,False
+200234068,GSE234068,Meiotic completion of the spermatocytes requires the kinase WNK1,Expression profiling by high throughput sequencing,4,2023/08/27,False
+200239997,GSE239997,RPA and RAD51 ChIP-seq from genetically modified Dmc1-knockout B6xCAST PRDM9-Humanized/CAST mouse testes,Genome binding/occupancy profiling by high throughput sequencing,2,2023/10/16,False
+200246296,GSE246296,The KMT2 complex protein ASH2L controls meiosis through silencing transposon,Other; Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing,20,2024/10/19,True
+200280638,GSE280638,Polycomb Repressive Complex 1 Primes Non-Growing Oocytes for Growth and Early Embryogenesis [RNA-Seq],Expression profiling by high throughput sequencing,12,2026/02/23,False
+200283904,GSE283904,N-6 adenine-specific DNA methyltransferase 1 is essential for meiosis prophase I progression during spermatogenesis,Expression profiling by high throughput sequencing,8,2025/05/30,False
+200307441,GSE307441,Eukaryotic translation elongation factor EEF1G orchestrates the translational program to ensure meiotic progression in transcriptionally silent spermatocytes,Expression profiling by high throughput sequencing,6,2025/09/10,True
+200307886,GSE307886,Eukaryotic translation elongation factor EEF1G orchestrates the translational program to ensure meiotic progression in transcriptionally silent spermatocytes [Ribo-Seq],Other,4,2025/09/13,False
+200311349,GSE311349,Polycomb Repressive Complex 1 Primes Non-Growing Oocytes for Growth and Early Embryogenesis [CUT&Tag],Genome binding/occupancy profiling by high throughput sequencing,32,2026/02/23,False
+200314213,GSE314213,SIRT7 links H3K36ac epigenetic regulation with genome maintenance in the aging mouse testis,Genome binding/occupancy profiling by high throughput sequencing,12,2026/03/31,False
+200314480,GSE314480,SIRT7 links H3K36ac epigenetic regulation with genome maintenance in the aging mouse testis [ATAC-Seq],Genome binding/occupancy profiling by high throughput sequencing,6,2026/03/31,False
+200347428,GSE347428,Transcriptional and signaling dynamics of early folliculogenesis revealed by staged ovarian follicle profiling,Expression profiling by high throughput sequencing,22,2026/09/22,False

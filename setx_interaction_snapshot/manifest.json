@@ -1,0 +1,73 @@
+{
+  "scope": "Post-hoc conditional source-library age-by-genotype interaction; not confirmatory biological validation.",
+  "source_sha256": {
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/check_setx_interaction.py": "3824801260c0f31cd7b3c5b5c9599aee4a5e42275c8d65d35b19a72e840ea97c",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/export_setx_interaction.py": "1fc2c833aa50fffaf002cc637c4817024484206e82ffd64833b10f2436215cd0",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/run_setx_interaction.py": "165934ea03f474aca481e7da6914adee9047b7d0518dcab1119c9eef7f7e55a7",
+    "tests/test_setx_interaction.py": "640e19c9eec5cb59a9625d085be4dd040bd8eb176b8be3702c18f9e4268f163f",
+    "code/analyze_setx_interaction.R": "813efd5fac641bea7465c40a9df1532d41d5974454ff896dd1b970a662b46c56"
+  },
+  "input_specification_sha256": {
+    "data/setx_interaction_contract.json": "ca4c96345fa3b68897e2f49d3e06bbc3f2ac6c136f9b7a744b9fd19685ac6b01",
+    "data/setx_interaction_inputs.json": "1a1f7eba1077f90aa86e7a4df930f8ae35eeaaaf98d62bba036c8db9ae2e585e",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da",
+    "docs/SETX_INTERACTION.md": "480f3d6de822bc4fddb672e5c1945798085f8e4f5bcc23b9f701dc5c4126b357"
+  },
+  "files": [
+    {
+      "path": "all_gene_statistics.csv.gz",
+      "bytes": 8436710,
+      "sha256": "65d1e604a6ae946223580aeceb23eb44e1fa13a875393f7cf4fd545dacf558d8"
+    },
+    {
+      "path": "candidate_effects.csv.gz",
+      "bytes": 203646,
+      "sha256": "0404197a84a99e26a0d6ed95412d6bee38ab50cd5489e30d38ce50d3d0a34b8c"
+    },
+    {
+      "path": "candidate_stability.csv",
+      "bytes": 13670,
+      "sha256": "0cc456adb3aec7da09e923402ef9efa0ca864996e6d5c0074dbbd2dedbba3714"
+    },
+    {
+      "path": "design_audit.json",
+      "bytes": 966,
+      "sha256": "4416d0cc3d203f5ad5bedf787e19ed31e409c033250dc065a47ef6d2e9b79c22"
+    },
+    {
+      "path": "fixed_priorities_interaction.png",
+      "bytes": 121977,
+      "sha256": "6b880531348bd4d46d3ed04715accd397303786c48ccbfcd6d022d2407a8dd58"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 531,
+      "sha256": "a641643cfc979f5beb2f31394a80c57959a21f8b9c74698e05dd610d4583cb1a"
+    },
+    {
+      "path": "runtime_R_versions.csv",
+      "bytes": 73,
+      "sha256": "52304e9ef85052dd570f750ed22812142be91b06f35a1d86d5ef44c5738ac018"
+    },
+    {
+      "path": "sample_design.csv",
+      "bytes": 4740,
+      "sha256": "4d4170e53321e9ba52bc63e956310264cca8e82787732ee1773fcfc08dcc5582"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 832,
+      "sha256": "1e10e05d1fe9da1d5deb5316175b4b9e9a699e9fa6f11c584aa3a05b7860ee19"
+    },
+    {
+      "path": "variant_summary.csv",
+      "bytes": 513,
+      "sha256": "26ede375c2d23bb987567b9290d859ed6a697fc73b09046b98bcfc335f309528"
+    }
+  ]
+}

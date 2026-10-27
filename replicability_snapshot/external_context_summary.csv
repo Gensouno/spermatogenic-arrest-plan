@@ -1,0 +1,37 @@
+cohort,model,age,role,subset,candidate_direction,fixed_genes,tested_exact_unique_symbol,all_LOO_available,sign_matches,directional_1p5fold,baseline_and_all_LOO_sign_match,baseline_and_all_LOO_1p5fold
+GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,all_candidates,all,105,57,57,38,18,35,14
+GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,all_candidates,up,7,7,7,2,0,1,0
+GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,all_candidates,down,98,50,50,36,18,34,14
+GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,primary_LOO_priorities,all,36,15,15,11,6,11,6
+GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,primary_LOO_priorities,up,0,0,0,0,0,0,0
+GSE259242_P9,Dcaf2,P9,Early whole-testis perturbation; source control genotype retained as control,primary_LOO_priorities,down,36,15,15,11,6,11,6
+GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,all_candidates,all,105,59,59,26,3,18,2
+GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,all_candidates,up,7,7,7,1,0,1,0
+GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,all_candidates,down,98,52,52,25,3,17,2
+GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,primary_LOO_priorities,all,36,16,16,9,1,7,1
+GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,primary_LOO_priorities,up,0,0,0,0,0,0,0
+GSE117706_P2,Pramef12,P2,Heterozygote-control early-development context; not WT and not an independent vote from P7,primary_LOO_priorities,down,36,16,16,9,1,7,1
+GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,all_candidates,all,105,60,60,41,13,32,8
+GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,all_candidates,up,7,7,7,3,0,3,0
+GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,all_candidates,down,98,53,53,38,13,29,8
+GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,primary_LOO_priorities,all,36,16,16,9,6,9,4
+GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,primary_LOO_priorities,up,0,0,0,0,0,0,0
+GSE117706_P7,Pramef12,P7,Heterozygote-control early-development context; not WT and not an independent vote from P2,primary_LOO_priorities,down,36,16,16,9,6,9,4
+GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",all_candidates,all,105,105,105,33,0,22,0
+GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",all_candidates,up,7,7,7,2,0,1,0
+GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",all_candidates,down,98,98,98,31,0,21,0
+GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",primary_LOO_priorities,all,36,36,36,8,0,6,0
+GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",primary_LOO_priorities,up,0,0,0,0,0,0,0
+GSE235777_P45,Msl3,P45,"Reported phenotype-negative comparator, not known zero transcriptomic effect or an arrest case",primary_LOO_priorities,down,36,36,36,8,0,6,0
+Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",all_candidates,all,105,62,56,31,5,18,0
+Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",all_candidates,up,7,6,6,1,0,1,0
+Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",all_candidates,down,98,56,50,30,5,17,0
+Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",primary_LOO_priorities,all,36,19,15,11,3,5,0
+Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",primary_LOO_priorities,up,0,0,0,0,0,0,0
+Lrh1_P1_NanosCre,Lrh1,P1,"Germ-cell-targeted early context; cKO minus flox/- noCre, batch-adjusted",primary_LOO_priorities,down,36,19,15,11,3,5,0
+Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",all_candidates,all,105,61,61,23,5,17,3
+Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",all_candidates,up,7,6,6,3,0,3,0
+Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",all_candidates,down,98,55,55,20,5,14,3
+Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",primary_LOO_priorities,all,36,16,16,6,1,4,1
+Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",primary_LOO_priorities,up,0,0,0,0,0,0,0
+Lrh1_P3_DhhCre,Lrh1,P3,"Somatic-cell-targeted early context; cKO minus flox/flox noCre; same gene as P1, not a separate genetic model",primary_LOO_priorities,down,36,16,16,6,1,4,1

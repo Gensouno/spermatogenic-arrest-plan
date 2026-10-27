@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "tables_matching": 14,
+  "source_design_JSON_matching": 2,
+  "scope": "Fresh-directory offline rerun from cached complete P15 EmptyDrops and CellRanger windows, unchanged references and shared installed dependencies; not a clean installation or full atlas reprocessing."
+}

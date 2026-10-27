@@ -1,0 +1,29 @@
+{
+  "total_cells": 53510,
+  "normal_B6_cells": 30485,
+  "excluded_Tc_cells": 23025,
+  "matrix_genes": 33226,
+  "full_matrix_nonzeros_declared": 220823435,
+  "selected_window_nonzeros": 31035165,
+  "selected_libraries": [
+    "do17815",
+    "do18195",
+    "do26386"
+  ],
+  "selected_cells": 8791,
+  "all_selected_cell_totals_and_detected_genes_match": true,
+  "mouse_features": 32875,
+  "human_features_excluded": 351,
+  "unique_mouse_symbols": 32816,
+  "normal_libraries": 10,
+  "normal_labels_excluding_outliers": 28,
+  "all_normal_nonoutlier_groups": 174,
+  "included_groups_min20": 38,
+  "profiles": 76,
+  "included_cells": 8126,
+  "author_outliers_excluded": 588,
+  "small_group_cells_excluded": 77,
+  "label_provenance": "Original AnnotatedClusters supplied by authors; broad crosswalk fixed before expression fitting.",
+  "order_evidence": "Author README binds metadata rows to matrix columns and gene table rows to matrix rows; all selected per-cell total and detected-feature counts independently reconciled. No full-matrix content hash claimed.",
+  "elapsed_seconds": 8.22
+}

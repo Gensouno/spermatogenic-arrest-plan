@@ -1,0 +1,9 @@
+gse,unit,samples,WT,KO,tested_genes,max_logFC_error,max_t_error,max_P_error,max_adjusted_P_error,min_df,max_df,scope
+GSE236388,counts,6,3,3,16821,3.90798504668055e-14,5.15143483426073e-14,5.55111512312578e-16,5.55111512312578e-16,8.772335225596,8.772335225596,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE283904,counts,8,4,4,17109,5.10702591327572e-15,7.105427357601e-15,6.66133814775094e-16,6.66133814775094e-16,9.65905357065469,9.65905357065469,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE68283,counts,9,5,4,15151,5.32907051820075e-15,5.32907051820075e-14,6.66133814775094e-16,6.66133814775094e-16,11.7578079081733,11.7578079081733,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE68284,counts,11,5,6,15288,5.32907051820075e-15,4.9737991503207e-14,5.55111512312578e-16,6.66133814775094e-16,11.1762425775993,11.1762425775993,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE101511,counts,6,3,3,12902,5.10702591327572e-15,1.77635683940025e-14,6.66133814775094e-16,5.55111512312578e-16,8.77487740879601,8.77487740879601,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE294209,TPM,6,3,3,17866,8.43769498715119e-15,8.83737527601625e-14,5.88418203051333e-14,5.52891066263328e-14,4.16715570972282,8.85003211772093,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE38096,array,4,2,2,22039,9.46985545535739e-14,1.81721304670646e-12,1.02329256179701e-12,1.18016707517654e-12,3.15545275078376,6.09921833714886,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"
+GSE42601,array,6,3,3,20478,7.90478793533112e-14,5.04485342389671e-12,7.31192884018128e-13,8.47544256998845e-13,5.59820082922956,8.44164545642921,"Prepared expression re-fit, not raw-array preprocessing or annotation regeneration"

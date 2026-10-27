@@ -1,0 +1,7 @@
+cohort,tested_gene_features,tested_unique_symbols,primary_genes,primary_covered,candidate_genes,candidate_covered,not_unique_or_unmapped_tested_features
+Eef1g_LZ_P12,8513,8511,9675,5975,105,22,2
+Setx_P10,16055,14220,9675,9093,105,50,1835
+Setx_P12,16283,14408,9675,9161,105,56,1875
+Setx_P14,16733,14708,9675,9290,105,83,2025
+Setx_P16,16482,14525,9675,9231,105,70,1957
+Setx_P18,17363,15097,9675,9404,105,101,2266

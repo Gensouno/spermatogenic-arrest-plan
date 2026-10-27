@@ -1,0 +1,13 @@
+{
+  "date_local":"2026-10-26",
+  "scope":"New processed-file identity/unit audit plus exploratory Eef1g sorted-cell expression context; no change to primary whole-testis replication family.",
+  "assets":[
+    {"gse":"GSE307441","role":"FACS-sorted L/Z P12 WT 3 / Eef1g cKO 3 library labels; animal independence and L/Z mix not established by GEO metadata alone","url":"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307441/suppl/GSE307441_raw_counts.txt.gz","path":"data/raw/replicability_discovery/GSE307441_raw_counts.txt.gz","maximum_bytes":20000000},
+    {"gse":"GSE224875","role":"Whole-testis Setx P10/P12/P14/P16/P18 each 4 WT / 4 KO source labels; source describes TPM, not raw gene counts","url":"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224875/suppl/GSE224875_RAW.tar","path":"data/raw/replicability_discovery/GSE224875_RAW.tar","maximum_bytes":60000000}
+  ],
+  "selection":"Chosen by source tissue, age and file availability before inspecting expression concordance with primary candidates.",
+  "expected_context":"For sorted Eef1g retain all original 105 descriptive candidates and 36 stable priorities, with missing genes explicit, one-sample omissions and effect direction. No automatic addition to whole-testis votes or claim of cell-intrinsic shared mechanism. Stage mix, sorting, source biological independence and perturbation differ.",
+  "Setx":"Audit identity, titles, archive members, expression units and values before designing a separate TPM time-course sensitivity. Do not round or feed TPM to the count workflow.",
+  "analysis_after_archive_schema_audit":"Setx archive contains 40 GRCm38 RSEM gene tables plus 40 separate piRNA tables. Select exactly one GRCm38 table per source GSM; preserve expected_count, effective_length and TPM separately. RSEM expected counts are estimated, not automatically raw integers. Perform a separate descriptive TPM sensitivity at each of P10/P12/P14/P16/P18, never add five genetic votes. Use log2(TPM+0.5), >=1 TPM in at least the smaller group size, limma trend/robust and all 40 one-sample omissions. Eef1g uses source featureCounts gene counts, filterByExpr/TMM/voom/limma and all six omissions. Preserve complete original gene IDs for fitting, exclude all ambiguous symbols only for cross-source annotation. Neither source's biological independence is established by replicate labels alone. Model P-values depend on that assumption; no new confirmatory discovery claim.",
+  "limits":"Public file downloads through configured proxy; no direct fallback. Bounded downloads and no archive path extraction. File label raw counts is a claim to check against both source method and numeric content."
+}

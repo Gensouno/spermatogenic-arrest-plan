@@ -1,0 +1,9 @@
+universe,direction,r,tested_hypotheses,BY_rejections,BH_rejections_sensitivity,minimum_raw_P,minimum_BY_q
+counts_primary,down,3,9675,0,0,0.0002610268075016,1.0
+counts_primary,down,4,9675,0,0,0.004791990202204,1.0
+counts_primary,up,3,9675,0,0,0.0283735338684356,1.0
+counts_primary,up,4,9675,0,0,0.0797340486430401,1.0
+legacy_eight_cohort_sensitivity,down,3,8099,0,0,0.0002610268075016,1.0
+legacy_eight_cohort_sensitivity,down,4,8099,0,0,0.0139877425965981,1.0
+legacy_eight_cohort_sensitivity,up,3,8099,0,0,0.031921845796913,1.0
+legacy_eight_cohort_sensitivity,up,4,8099,0,0,0.0797340486430401,1.0

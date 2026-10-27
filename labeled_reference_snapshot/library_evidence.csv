@@ -1,0 +1,18 @@
+Library,age_days,strain,genotype,declared_cells,Sample,normal_B6
+do15983,67,129S2/SvPas x (129S8 x C57BL/6J),Tc(HSA21)1TybEmcf,3182,Tc0,False
+do15984,67,129S2/SvPas x (129S8 x C57BL/6J),Tc1,2467,Tc1,False
+do17622,63,129S2/SvPas x (129S8 x C57BL/6J),Tc(HSA21)1TybEmcf,3968,Tc0,False
+do17623,63,129S2/SvPas x (129S8 x C57BL/6J),Tc1,3605,Tc1,False
+do17815,67,C57BL6J,wild type genotype,1157,B6,True
+do17816,67,C57BL6J,wild type genotype,2198,B6,True
+do17821,10,C57BL6J,wild type genotype,3213,P10,True
+do17824,20,C57BL6J,wild type genotype,1775,P20,True
+do17825,30,C57BL6J,wild type genotype,2278,P30,True
+do17827,35,C57BL6J,wild type genotype,3160,P35,True
+do18195,15,C57BL6J,wild type genotype,4258,P15,True
+do18196,25,C57BL6J,wild type genotype,4334,P25,True
+do18197,61,129S2/SvPas x (129S8 x C57BL/6J),Tc1,4073,Tc1,False
+do18198,61,129S2/SvPas x (129S8 x C57BL/6J),Tc1,3203,Tc1,False
+do18199,62,129S2/SvPas x (129S8 x C57BL/6J),Tc(HSA21)1TybEmcf,2527,Tc0,False
+do26386,5,C57BL6J,wild type genotype,3376,P5,True
+do26387,5,C57BL6J,wild type genotype,4736,P5,True

@@ -1,0 +1,17 @@
+profile,author_type,library,weighting,cells
+Chen:BS:SpSC2:RNA_sum,BS,SpSC2,RNA_sum,16
+Chen:BS:SpSC24:RNA_sum,BS,SpSC24,RNA_sum,10
+Chen:BS:SpSC25:RNA_sum,BS,SpSC25,RNA_sum,41
+Chen:L:SpSC11:RNA_sum,L,SpSC11,RNA_sum,10
+Chen:L:SpSC27:RNA_sum,L,SpSC27,RNA_sum,39
+Chen:Z:SpSC10:RNA_sum,Z,SpSC10,RNA_sum,17
+Chen:Z:SpSC11:RNA_sum,Z,SpSC11,RNA_sum,6
+Chen:Z:SpSC28:RNA_sum,Z,SpSC28,RNA_sum,42
+Chen:BS:SpSC2:equal_cell_mean,BS,SpSC2,equal_cell_mean,16
+Chen:BS:SpSC24:equal_cell_mean,BS,SpSC24,equal_cell_mean,10
+Chen:BS:SpSC25:equal_cell_mean,BS,SpSC25,equal_cell_mean,41
+Chen:L:SpSC11:equal_cell_mean,L,SpSC11,equal_cell_mean,10
+Chen:L:SpSC27:equal_cell_mean,L,SpSC27,equal_cell_mean,39
+Chen:Z:SpSC10:equal_cell_mean,Z,SpSC10,equal_cell_mean,17
+Chen:Z:SpSC11:equal_cell_mean,Z,SpSC11,equal_cell_mean,6
+Chen:Z:SpSC28:equal_cell_mean,Z,SpSC28,equal_cell_mean,42

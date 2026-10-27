@@ -1,0 +1,22 @@
+{
+  "scope": "Complete author S2 stage/QC-selected set, not all experiments or animals in GSE107644.",
+  "author_selected_cells": 1136,
+  "verified_matrix_cells": 1136,
+  "all_selected_cell_UMI_and_detected_gene_QC_match": true,
+  "source_libraries": 34,
+  "source_matrix_cells": 1204,
+  "all_library_common_gene_symbols": 23154,
+  "source_matrix_gene_counts": [
+    23154
+  ],
+  "author_stages": 20,
+  "profiles": 40,
+  "explicit_source_cell_ID_aliases_verified_with_QC": 43,
+  "mutation_exclusion": "Only author S2 cells intersected with explicit Wild-type QC sheet; Sox30-cKO and Spo11-cKO sheets are not used.",
+  "mapping": "Source unique symbols retained without alias guessing; all library-common genes used, no missing-feature zero imputation.",
+  "limitations": [
+    "Stage-sorted synchronized transgenic-marker cells, not unbiased normal-tissue sampling.",
+    "Source libraries and captured cells are not verified independent animals. Preleptotene is not broad-label scored.",
+    "Reference construction and transfer below are exploratory follow-ups informed by prior mismatch, not untouched validation."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Leave one source processing library out of both Chen L/Z prototypes; unmodified equal-cell means, all fixed shared genes and inverse-sqrt Green4 weights.",
+  "source_libraries": [
+    "SpSC10",
+    "SpSC11",
+    "SpSC2",
+    "SpSC24",
+    "SpSC25",
+    "SpSC27",
+    "SpSC28"
+  ],
+  "held_source_stage_groups": 8,
+  "external_profiles": 40,
+  "genes": 16929,
+  "source_positive_control": "Held-library stage pseudobulks contain no cells used in that variant L/Z prototype. Broad labels from author S2. This controls source-library generalization only, not independent animals or cross-study calibration.",
+  "low_N": "Retained source groups below 20 cells explicitly marked as sensitivity, not a selected production reference.",
+  "no_panel_leakage": "No source-selected marker panel in this stage. Full fixed gene universe and independent Green weights only.",
+  "interpretation": "External variants share the same source and target cells; ranges are processing sensitivity, not confidence intervals. Same-source success does not validate external reference transfer or cell-number fractions."
+}

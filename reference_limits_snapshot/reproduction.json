@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "tables_matching": 38,
+  "source_design_JSON_matching": 6,
+  "scope": "Fresh-directory offline reprocessing of 34 original Chen UMI matrices and author workbooks; technical sensitivity, candidate transfer and source-library holdout recomputed. Frozen earlier prepared P15 profiles and reference class sums, prior sorted counts and installed dependencies reused. Not a full main-project rerun, clean installation or fresh network test."
+}

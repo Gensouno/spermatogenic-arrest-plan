@@ -1,0 +1,139 @@
+{
+  "scope": "Targeted source eligibility audit and exploratory sorted-count / whole-testis TPM contexts; not confirmation of shared mechanism.",
+  "source_sha256": {
+    "code/check_replicability_context.py": "37d4686f3321f9cdd8aad1baf8c0ca4532d22a2fd76a25d57525253c042330b8",
+    "code/prepare_new_models.py": "f6bb8388612a60ad8661491c55c0e0915827021a3d8425abe51745586ba4f291",
+    "code/summarize_new_models.py": "258bd73449bad75f3fa3aae90f61b8408a2a1d366216ad0fcb77a2b7c75ada07",
+    "scripts/check_new_models.py": "2ab9a1d448676d080cbf2b33eecf37d244759899f9f353d90225047ed5669f6e",
+    "scripts/check_new_models_reproduction.py": "1e0b81f9068b84f9203df0ce73000cc6be99def4be01f6734b20a1936bbd9378",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "scripts/discover_replicability_data.py": "aee7004511d8e34023bc02e648ca402ab3d93647e5343be4291202aea6edcfc5",
+    "scripts/export_new_models.py": "06e8056dcd59e27063f5385cc224ecff558e8536f11fa0e8a6703a3a8d5b7de3",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/fetch_new_model_audit.py": "e33f0e93e5b911673f3d2df34dcb92e7f759ffd0ebd5cdde4f20db6bbb1e94ee",
+    "scripts/freeze_new_model_inputs.py": "7a924abfb167ac699397c76b4fc0a809433285be7e3d325d83bbc187903f530b",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/freeze_replicability_inputs.py": "725d39ef8544b1ffdd1f3f7005246f9b29447021e0d227309a5019118f23d341",
+    "scripts/review_replicability_metadata.py": "edb3cfabf2df293ae6138e296992e5383cfdb6ce8d5bc73a876b1f3722feb8fc",
+    "scripts/run_new_models.py": "9fe3df903cdf38272abe3edfa877ef5da126c74d12b6bb9fdd20c397228e014b",
+    "tests/test_new_models.py": "a80041e865373fd1710887db47a4c679c8c9425244a886f779fe0ba5028af459",
+    "code/analyze_new_models.R": "78db4da0c191ad7d00f65ab83a224dadf82a9b694884b86dd1ef5b63559fa526"
+  },
+  "input_specification_sha256": {
+    "data/new_model_audit_contract.json": "de86b2ce47499f7a9fbc0d87654c5271624ff79939486c2cd7cd747f67580910",
+    "data/new_model_inputs.json": "816a49a192468807396ef24bd58ab454cffb82e0cde11f3707f684be10130dfa",
+    "data/replicability_discovery_contract.json": "d885c051f8fc630a46c658893860226e7183669e457cd2690e94dc82aecfc647",
+    "data/new_model_review.json": "25834b3df272aaae66a48695b42e82af7c8644fe5c0b05ee825237592b0d63ca",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da"
+  },
+  "files": [
+    {
+      "path": "Eef1g_source_annotation.csv",
+      "bytes": 1464809,
+      "sha256": "b91f28282ad867c6c1fd1ac4cf8e1a9b22f1a13057df03880b99e6c27d9773ba"
+    },
+    {
+      "path": "PCA.csv",
+      "bytes": 4496,
+      "sha256": "64db5dcf901b2ed1522311857a6c08ae2221db01f6e5a5a13aea9c4677da59c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1491,
+      "sha256": "df8876ff4f6f091a497e93b82598e30072507575616612c43afa9a540f212871"
+    },
+    {
+      "path": "Setx_archive_audit.csv",
+      "bytes": 8679,
+      "sha256": "e29fcf871563d9caf84e52b2f98107f76b8a6a01f6a9ac2ae529bafe9bf7bbd5"
+    },
+    {
+      "path": "candidate_context.csv",
+      "bytes": 67206,
+      "sha256": "8b7ffe2e556a6cbc546b0fa8f323cbb60bb0d8d3d12bc0cb428faf831d589316"
+    },
+    {
+      "path": "cohort_summary.csv",
+      "bytes": 870,
+      "sha256": "e25978ef379baebb8d9806541c41b21bae6af5d2590738f68bead9b976d8fb86"
+    },
+    {
+      "path": "context_summary.csv",
+      "bytes": 2382,
+      "sha256": "8957a847b4c719f173901ffe7ba36fbe9aaa0db3feea8474d77ea7df7b632807"
+    },
+    {
+      "path": "design.json",
+      "bytes": 1724,
+      "sha256": "f99e9fe552c6ea14ebcac8a5eeec8eb7e8a92b7ef2fe71e221b3b761417f9609"
+    },
+    {
+      "path": "fixed_priorities_context.png",
+      "bytes": 118629,
+      "sha256": "e3606a09d8055e405c4a657bbc7f9c6e50744f459c6a552e35cbec69560c2d1b"
+    },
+    {
+      "path": "gene_annotation.csv",
+      "bytes": 3381799,
+      "sha256": "a2964e224baceb3128b48b44b22e2801ed3ffbaa08ce4a6946ae7fbacf2bcebf"
+    },
+    {
+      "path": "gene_coverage.csv",
+      "bytes": 411,
+      "sha256": "35d790154f426f965e22a2a678105afb1c742040ad60e5931e74f2f6b91be9da"
+    },
+    {
+      "path": "metadata_review.csv",
+      "bytes": 3555,
+      "sha256": "359107e3d1c8995869808d6f4f8b2fe7c513f82bc8e3873098037ec9ed887221"
+    },
+    {
+      "path": "new_assets.json",
+      "bytes": 1171,
+      "sha256": "1135672e0490b86d5da469ad1d4692aad8cee2ac25d0579c7f59058991de9f0b"
+    },
+    {
+      "path": "preparation_audit.json",
+      "bytes": 923,
+      "sha256": "628988c2d38e7b0c167b2aa18616fd5394a95ff9d6a9e3e89ba83852f207e968"
+    },
+    {
+      "path": "query_audit.json",
+      "bytes": 8248,
+      "sha256": "4bb3475d4b04b531d40fe3ac3b5b288c6d5811430a7293ff1d88f9ba53bbe970"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 494,
+      "sha256": "9d583dce6be33ff3d3a9438d4d43936599fe5285d67fe21911fee4297c4a0902"
+    },
+    {
+      "path": "runtime_R_versions.csv",
+      "bytes": 72,
+      "sha256": "9915fdbdf8f9d27d0e4d739b2679a560754784299feee8fcfaa50fbeab07857b"
+    },
+    {
+      "path": "sample_QC.png",
+      "bytes": 154185,
+      "sha256": "740c61c4ba13d20da7e308a837a3436d702a72b453320e834ce1cc727df771a8"
+    },
+    {
+      "path": "sample_evidence.csv",
+      "bytes": 7195,
+      "sha256": "6bfab4ad929dedd7ee65a2cb73c6bda8b4610222776d0e6931d9b8c8ca8c9b2c"
+    },
+    {
+      "path": "search_inventory.csv",
+      "bytes": 11355,
+      "sha256": "d7ab2fa54b3803a5fcceaf3a91bc8b5142b8a0eb8427c65c0cc4be735a15ef0f"
+    },
+    {
+      "path": "source_mapping_mass.csv",
+      "bytes": 4102,
+      "sha256": "5a09bae040d705b269ae5e37275e970e3894c625a2b5914323f5b0a9a40b8733"
+    }
+  ]
+}

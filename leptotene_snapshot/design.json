@@ -1,0 +1,49 @@
+{
+  "scope": "Two new study sources; 6 stage-separated and 4 mixed-LZ/pachytene RNA profiles, 8 broad-label assessable and 2 preleptotene unscored.",
+  "source_paper": {
+    "doi": "10.1038/s41467-021-26033-0",
+    "source_url": "https://www.nature.com/articles/s41467-021-26033-0",
+    "Preleptotene": "10-day-old unsynchronized mice",
+    "Leptotene": "16-day-old synchronized mice, WIN 18,446 then RA",
+    "Zygotene": "2-week-old unsynchronized mice",
+    "replication": "Paper describes two independent biological samples per RNA stage; animal pooling and exact per-sample IDs not resolved.",
+    "genotype": "Primary methods describe C57BL/6J and a separate SUN1 W151R experiment; RNA sample metadata do not contain an explicit genotype field. Do not promote to genotype-verified WT validation.",
+    "purity": "Paper reports enriched sorted populations, not 100% pure cell-fraction truth."
+  },
+  "source_metadata_counts": {
+    "GSE155967": 22,
+    "GSE107644": 106,
+    "GSE109033": 8,
+    "GSE83264": 20
+  },
+  "GSE107644_barcode_rows": 1292,
+  "GSE107644_barcode_columns": [
+    "raw_file",
+    "processed_file",
+    "cell",
+    "barcode"
+  ],
+  "genes": 11654,
+  "gene_folds_seed": 20261024,
+  "identifier_conversion": "Exact unversioned mouse Ensembl IDs to unique mouse symbols from previously frozen author genes.tsv; no online ID conversion, no effect-based alias choice.",
+  "mapping_scope": "Old annotation may omit newer IDs; all exclusions and expression-mass coverage recorded. Direct source symbols in GSE83264 retained without alias remapping.",
+  "normalization": "Same common-gene columns normalized before five gene folds; held-out genes contribute to totals. No held-out-specific scaling.",
+  "reference_training": "No new reference trained or markers retuned. Three old reference hashes checked against the pre-existing frozen design.",
+  "technical_caveat": "Full-length bulk HTSeq counts have gene-length/library-preparation effects unlike 3-prime UMI references; no lengths available for a validated correction. Compatibility results do not isolate biological stage mismatch.",
+  "interpretation": "RNA weights are not cell-number fractions; broad label matches are not calibrated accuracy or proof of 100% purity. Mixed LZ is not a pure leptotene truth set.",
+  "replication": "Two source-reported biological samples per stage; no inferential animal p-values, no gene-as-animal tests, no inference of exact animal counts from sample count.",
+  "fixed_inputs_sha256": {
+    "results/stage_reference/pooled_original_4_reference.csv.gz": "bf9a6d79e94cc6e04284680b885c55eea1686e9862e2142d4d55e3694ec4b1ee",
+    "results/stage_reference/pooled_centroid_4_reference.csv.gz": "b3a8e348e3b867d51db21a0131b606f08a8570f45fae458ed0d4f41d41f276a1",
+    "results/stage_reference/pooled_centroid_13_reference.csv.gz": "2c8be23cab6514c23023cf7c2871ea32645705f34b75bf0342241af44ebe46ee",
+    "data/raw/labeled_reference/genes.tsv": "b8072971fda1a873bcd0a3726d903e8f0dd527044a4ec26de0e3ce650e8af010",
+    "data/raw/leptotene/paper/PMC8501046.xml": "3bb3cad0df6f26ef55516e874ebe797e7b814d91a75e72bfa8582db69c3a9e4c"
+  },
+  "not_claimed": [
+    "Genotype-verified WT status for every GSE155967 RNA sample",
+    "Calibrated cell proportions",
+    "A newly validated leptotene reference",
+    "Systematic literature coverage",
+    "Scite verification after plugin transport failure"
+  ]
+}

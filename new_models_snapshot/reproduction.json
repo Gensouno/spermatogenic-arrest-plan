@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "tables_matching": 14,
+  "design_JSON_matching": 2,
+  "figure_files_matching": 2,
+  "scope": "Original Eef1g processed gene-count file and Setx TAR genome profiles re-read, all 6 + 40 omissions re-fit, 10 TPM pseudocount alternatives and fixed-list contexts regenerated. Frozen prior candidate tables and installed dependencies reused. No raw-read alignment, fresh network test, clean installation, source DESeq2 reproduction or animal-independence verification."
+}

@@ -1,0 +1,7 @@
+model,weighting,cells,genes,holdout_log2_RMSE
+original_4,RNA_sum,266,11856,2.047292807676191
+original_4,equal_cell_mean,266,11856,2.049898146979244
+centroid_4,RNA_sum,266,11856,2.0833651238496835
+centroid_4,equal_cell_mean,266,11856,2.085569889258154
+centroid_13,RNA_sum,266,11856,1.7464972421018623
+centroid_13,equal_cell_mean,266,11856,1.7438549166845256

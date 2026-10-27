@@ -1,0 +1,97 @@
+{
+  "scope": "Two new study sources; 6 stage-separated and 4 mixed-LZ/pachytene RNA profiles, 8 broad-label assessable and 2 preleptotene unscored.",
+  "source_sha256": {
+    "code/diagnose_leptotene.py": "663ab67aeb471d000faf51718382050978a8e005238face2c432067bee08a983",
+    "scripts/discover_leptotene.py": "856619012ea653a1c4deeb57babcde4c3accdbce73d70395f2d65d4ed023f8d2",
+    "scripts/fetch_leptotene.py": "7c703f96986fb860d797f6f2350d926b4e608d0b707e67df3f4b82907b66594f",
+    "scripts/run_leptotene.py": "de9bbf56da90d0d23d727278a224bdd31ba2947893a01f5f6fa231cddc34669a",
+    "scripts/export_leptotene.py": "c9407603ddaa35df53880f548d9c471b0cb04a4b074ae2b1df3e66d0fb242549",
+    "scripts/check_leptotene.py": "e1b04a7150588f8b8f22d6950d960718f9182bc4c63a15541d822ab82b276f2e",
+    "scripts/check_leptotene_reproduction.py": "3e32201118da7747a516ecc29caa90bef6608d3840c9ad6341b7c41ac06e2137",
+    "tests/test_leptotene.py": "0102e53cd41e9f6de3bf47d21ae0f94269e28953629af81fbeec73dfd0506b6b",
+    "code/diagnose_reference_transfer.py": "aae3a5847edfc71372f7b96dc53019e86bb210bf00f22cea206214df0d7ae32b",
+    "code/check_sorted_expansion.py": "48d6f6eff5deae643d97d8f7c7274b61c292bb9e016f35f030216fa0355c4ab7",
+    "code/prepare_expansion.py": "3ffc6c53e37b483b2992e940cae50a1564f427eac1640b2df6df9d03a84e0e41",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "data/leptotene_contract.json": "2e3b70bcece25b0490e6e94e398c6404b88121c8e9ea54e928a645326a8533d3"
+  },
+  "input_specification_sha256": {
+    "data/leptotene_assets.json": "b8d48d03f78c355f2c3f8827f825d642546da963cfadca141606bb025e4c3372",
+    "data/leptotene_paper_asset.json": "d52b2b03abad27f3bc03f91ef013e3e226f6819d5644eeed993d2c54c2c13493",
+    "data/labeled_reference_assets.json": "b9ab17937be5d779ea616882eb072c3453f4ae93260bf005e1aacce2cb954bc8",
+    "labeled_reference_snapshot/design.json": "eda01752c7eb7d31b0500a46ebdd973e625212c7b7f0ca04ec00200609f5d6a7"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1415,
+      "sha256": "b3f5fc238f6f3310f008cbe721f5cd836fdb1f4ca1e97a635cc6d2564e919470"
+    },
+    {
+      "path": "candidate_review.csv",
+      "bytes": 714,
+      "sha256": "7a5a5d15bbbec1a6c2ed4e3dcfa7d2c028ea241bf504394094508de76935d095"
+    },
+    {
+      "path": "design.json",
+      "bytes": 3400,
+      "sha256": "6fb22847bac00ccd1ebf9e7e75dd03aca696ee1198d7b0e07c9ea69501a3ba89"
+    },
+    {
+      "path": "design_conditions.csv",
+      "bytes": 146,
+      "sha256": "b029965d7227375fa44f376a61ef3ea574a801b957f5c85b80bfe71cadbaf47e"
+    },
+    {
+      "path": "fold_weights.csv",
+      "bytes": 58568,
+      "sha256": "d3182cbbcf6efaccce65ba4223e560c41f0fb43603c7e3cb6abb6300f2daf28a"
+    },
+    {
+      "path": "full_fit_weights.csv",
+      "bytes": 10019,
+      "sha256": "61cf9fd3479a83bcee794e25e399e22be2a02245398a35a08b0db0f26a40e4aa"
+    },
+    {
+      "path": "gene_design.csv.gz",
+      "bytes": 149771,
+      "sha256": "dcbe36f2fdcf683b8c90232de262ef89eadf60b652e18dc44528f624b4399e83"
+    },
+    {
+      "path": "holdout_metrics.csv",
+      "bytes": 8370,
+      "sha256": "795fee39d5d4a3e9cb2ee879c304a03f743ee4ee0c44d8ba7d117e02dfe1a052"
+    },
+    {
+      "path": "mapping_audit.json",
+      "bytes": 4595,
+      "sha256": "51f3ac5db04225f37c407e5e44d0689fb370aeb5658bcc3744d178196cb3adbd"
+    },
+    {
+      "path": "replicate_concordance.csv",
+      "bytes": 381,
+      "sha256": "e0379e16be9001bd950c9efc4eaaf4405df6aea307a3ecf3944654fc0d1f2f96"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 356,
+      "sha256": "459bc1d0d416318a0c6486f03e8cdbba8db69c06707f750130faac63c63e3719"
+    },
+    {
+      "path": "sample_evidence.csv",
+      "bytes": 2343,
+      "sha256": "a3eb2243eeccda89700a0a20bf2d5444188d627545e9a59bfbd939237a8da431"
+    },
+    {
+      "path": "stage_comparison.csv",
+      "bytes": 11184,
+      "sha256": "fe79ba6c02b8af419d53e7ac6c1f4bf7199ffe64783616208579e168606dc195"
+    },
+    {
+      "path": "stage_diagnostics.png",
+      "bytes": 188950,
+      "sha256": "90a91316789ff444ac1b6a0fa60888a84e3c78ec698cded7506c6c30e4f0489e"
+    }
+  ]
+}

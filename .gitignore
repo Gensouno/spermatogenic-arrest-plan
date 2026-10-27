@@ -45,3 +45,12 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
+
+# Unpublished academic material: separate authorization/private destination needed.
+/paper/
+/research/
+/.paper-tools/
+/.paper-private/
+/.github-sync.local.json
+.env
+.env.*

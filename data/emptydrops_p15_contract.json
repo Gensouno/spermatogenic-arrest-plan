@@ -1,0 +1,32 @@
+{
+  "date_local": "2026-10-25",
+  "scope": "Targeted follow-up of complete author-called P15 EmptyDrops library do18195 in E-MTAB-6946. Not a complete atlas ingestion or an untouched independent validation after the previous 266-cell result.",
+  "organism": "Mus musculus",
+  "primary_source": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-6946",
+  "identifier_conversion": "None; retain Library+Barcode, original matrix column numbers, author P15Clusters and original Ensembl IDs.",
+  "selection_before_fitting": [
+    "Retrieve the entire contiguous P15 do18195 library, all 13,168 author-called cells and all source gene rows, not only favourable cell types or known marker genes.",
+    "Use explicit P15Clusters unchanged. Exclude author Outliers and fit groups with at least 20 cells; retain excluded groups in inventories.",
+    "Report full, CellRanger-overlap and EmptyDrops-only strata. They overlap by construction and are not independent experimental replicates.",
+    "Prespecify Leptotene, Zygotene, Pachytene_1 and Pachytene_2 as the focal early-meiotic diagnostics; report all eligible author types regardless of fit agreement.",
+    "Verify every selected cell count total and detected-feature number against the author EmptyDrops metadata before fitting.",
+    "Exclude human Ensembl features and all ambiguous mouse symbols, never choose an annotation mapping based on effect size or classification."
+  ],
+  "fixed_reference_design": [
+    "Keep original_4, centroid_4 and centroid_13 references unchanged; no marker retuning or new reference training.",
+    "Keep the prior inverse sqrt(centroid_4 mean+1) weights and seed 20261024 five-fold gene split, no held-out-specific calibration.",
+    "Use the same common-gene universe across all three reference models; record gene counts and expression-mass coverage.",
+    "Evaluate both RNA-sum and equal-cell normalized means, but do not count these views as replication.",
+    "For controlled P15 early-meiotic comparisons, reaggregate the same overlapping barcodes in old CellRanger counts and new EmptyDrops counts, using identical genes, folds, weights and normalization. Keep this comparison separate from comparisons whose gene universe differs."
+  ],
+  "interpretation": [
+    "This is a follow-up prompted by an observed exploratory result, not a preregistered or untouched external validation.",
+    "Author transcriptomic labels are external to this project's fitting but are not independently measured histological purity or cell-number proportions.",
+    "One P15 source library does not support animal-level age/genotype p-values or a general claim that Cnot4 LZ mismatch is resolved.",
+    "Lower gene-prediction error and more plausible maximum classes do not establish accurate cell-number fractions or causal composition contributions.",
+    "Column normalization uses shared genes before gene splitting; held-out counts contribute to total normalization, so this is not fully prospective missing-gene prediction."
+  ],
+  "retrieval_limits": {"study_records": 1, "max_network_requests": 90, "max_download_bytes": 629145600, "matrix_window_max_bytes": 524288000, "parallel_requests": 1, "proxy_required": true, "no_direct_fallback": true},
+  "resources": {"threads": 1, "stream_triplets": true, "no_full_dense_gene_by_cell_matrix": true},
+  "prior_work": "Do not overwrite any previous snapshot or its bound analysis sources. Save this work under results/emptydrops_p15 and emptydrops_p15_snapshot."
+}

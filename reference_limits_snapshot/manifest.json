@@ -1,0 +1,267 @@
+{
+  "scope": "Technical sensitivities, reconciled Chen UMI resource and exploratory transfer failure controls; not a calibrated cell-fraction method.",
+  "source_sha256": {
+    "code/calibrate_reference_batches.py": "0d4a06459b808fff6c30a3facf03b91aab118c78d53089303ada8ff601a2c7e6",
+    "code/check_chen_library_holdout.py": "3b405b1f772044c576fefa63be7a842b814edc0d6e9e5a3b1754760b0e5815e1",
+    "code/check_chen_transfer.py": "e60034ccfc11f89a5fa374356bbc17bda833e8ab7dc923c623417595fcc7b77e",
+    "code/check_legacy_sorted_transfer.py": "e8220cabf7ad9750837d9de210e31b7c8505dd1005c2acf6cf0f0201bde27165",
+    "code/check_sorted_expansion.py": "48d6f6eff5deae643d97d8f7c7274b61c292bb9e016f35f030216fa0355c4ab7",
+    "code/check_stage_reference.py": "56c7bc1d24323e263d708b99ac00581cd0e205c3e4b2611f640691cb534d594d",
+    "code/diagnose_leptotene.py": "663ab67aeb471d000faf51718382050978a8e005238face2c432067bee08a983",
+    "code/diagnose_reference_limits.py": "3aa58597d0e836a37b3b3ac08370033b5cb9182658f3d249667e4cb0e4190432",
+    "code/diagnose_reference_transfer.py": "aae3a5847edfc71372f7b96dc53019e86bb210bf00f22cea206214df0d7ae32b",
+    "code/plot_reference_limits.py": "1ef581e63ba2b248bd4d5cfb11f1e9c940f3028d420d8969a91383381fd164c0",
+    "code/prepare_chen_reference.py": "f9d5933eb14ddf901952a412734fb7142be12e613e265706b39c1b99da18c710",
+    "code/prepare_expansion.py": "3ffc6c53e37b483b2992e940cae50a1564f427eac1640b2df6df9d03a84e0e41",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/check_reference_limits.py": "a7e056f3ef3243d126b81275a35f83db57c898fcc58b6bd1585c9e8cc94ddc1e",
+    "scripts/check_reference_limits_reproduction.py": "48ba8bf74b2ebf09b6d94598097405d30e8b501be766794b95df1dddd6dce1c5",
+    "scripts/discover_expansion.py": "5f612c01abcc4f15fede8bed4cd11bf489257233b6c2bb09bf79adcdd0e541ed",
+    "scripts/discover_leptotene.py": "856619012ea653a1c4deeb57babcde4c3accdbce73d70395f2d65d4ed023f8d2",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/fetch_chen_umi.py": "3543ea25505bd6cfdf4a71cd46239bd342fabe6bddb13665d4013817f80d7f2c",
+    "scripts/fetch_leptotene.py": "7c703f96986fb860d797f6f2350d926b4e608d0b707e67df3f4b82907b66594f",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/run_reference_limits.py": "e41eaaf2d9a4d247133416f9bce0f735a095e61371c5209e4ed2721918091476",
+    "tests/test_reference_limits.py": "4dcf3dd10f30b62db470f11060bec135b3a83244e90137197dc014786be760fd"
+  },
+  "input_specification_sha256": {
+    "data/reference_limits_contract.json": "08166a1582c992959993f835aee45136ef86bc8e7d012362d990011c6956b92d",
+    "data/reference_limits_inputs.json": "01e0bb436f430eccfcd650ee6a73c5c39101aaf277ae383494cf7542e19d1bf7",
+    "data/reference_limits_sorted_inputs.json": "be3b60b3a2215ff546589d13e7359b398d1f88abedd7edeb6a25198e484aa8d1",
+    "data/chen_umi_assets.json": "a2bc0f65489cc467d84635cf5321d89e29446213066d73231706494e2f0e0fdf",
+    "data/leptotene_assets.json": "b8d48d03f78c355f2c3f8827f825d642546da963cfadca141606bb025e4c3372"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1542,
+      "sha256": "262545c44373671835597b22ff4c50317f29786e2c3348b43503800e0a243039"
+    },
+    {
+      "path": "candidate_transfer_diagnostics.png",
+      "bytes": 117211,
+      "sha256": "5ee59a2030fb603c046d6b8b5f5c1a39ab3aaadb25302246a77f498a5309f9c8"
+    },
+    {
+      "path": "chen_batch_evidence.csv",
+      "bytes": 850,
+      "sha256": "59302395650e6a3f2778e1cc8c11320be9262df1eeeead6d5bd7ab6a92b9321d"
+    },
+    {
+      "path": "chen_cell_QC.csv.gz",
+      "bytes": 17055,
+      "sha256": "3e13872082c01568c22c7b2f11017587be9e1a5046c06c87b9594c467ba5eedd"
+    },
+    {
+      "path": "chen_library_inventory.csv",
+      "bytes": 1174,
+      "sha256": "77ee43bfd59f65506a84698b45bf6b1ea500543d3e6accc2f9bd2cc182aef75f"
+    },
+    {
+      "path": "chen_preparation_audit.json",
+      "bytes": 1124,
+      "sha256": "e03411fa852ea825eccb8dfd8c35c3ca05286a837e855f8f3ac651dadd9e6926"
+    },
+    {
+      "path": "chen_profile_evidence.csv",
+      "bytes": 9396,
+      "sha256": "56eaf702d658e80b48a230052b6dedbb947ce0f134f15bdd40dea6b82415ed13"
+    },
+    {
+      "path": "chen_stage_inventory.csv",
+      "bytes": 547,
+      "sha256": "d5baf4ea09624610801f6c0021c64dbc89e3e6712142d2a19ead4c366c14d68d"
+    },
+    {
+      "path": "chen_unresolved_cells.csv",
+      "bytes": 177,
+      "sha256": "09e998890b5c0cbfb3f7a152c066e4c9283415eb69a23e32288f2eded71d7464"
+    },
+    {
+      "path": "decision_summary.json",
+      "bytes": 735,
+      "sha256": "41f215676396805f13d7a7628860934252926f6eb194f408f04f9b275fba4911"
+    },
+    {
+      "path": "gene_union_exon_lengths.csv.gz",
+      "bytes": 202369,
+      "sha256": "ba012938449a1f25a4ad5bd5666a0240022d53dffad8a52bea8a52c37ea3f5e6"
+    },
+    {
+      "path": "legacy_sorted_comparison.csv",
+      "bytes": 91632,
+      "sha256": "b3602cabd8e1ea9572ce13a481304a69462e9e2acf6446c38338a1d0ad589021"
+    },
+    {
+      "path": "legacy_sorted_conditions.csv",
+      "bytes": 1485,
+      "sha256": "f3bc7750172240ba193579690114b819cbb32b7be22917edc98f6c3d6c9b9075"
+    },
+    {
+      "path": "legacy_sorted_design.json",
+      "bytes": 1520,
+      "sha256": "1b325115b4ba889a37342828789deb58b59ed377ef50fa9201ab3eab6636b9b2"
+    },
+    {
+      "path": "legacy_sorted_fold_weights.csv.gz",
+      "bytes": 45814,
+      "sha256": "7af4ee5f772bd7f8c9f19aa4a698adbb5e9e514226293ce1354bb97545216f8d"
+    },
+    {
+      "path": "legacy_sorted_gene_design.csv.gz",
+      "bytes": 46702,
+      "sha256": "3540829e1f8625f69f36c485be4e24f7ebe32b6f163241fb48086e5fb35b8fc2"
+    },
+    {
+      "path": "legacy_sorted_samples.csv",
+      "bytes": 836,
+      "sha256": "5f1c546341d13ae51f018b2441dc12071feca042fa371714d8a142db02a29585"
+    },
+    {
+      "path": "prototype_evidence.csv",
+      "bytes": 412,
+      "sha256": "31924a8dc19330978177ca04a4765e15a13b4858db5c0843e5fc4edf486a4907"
+    },
+    {
+      "path": "reference_limit_diagnostics.png",
+      "bytes": 120051,
+      "sha256": "7257912370bc515d8e96a4a8c1f19df5bad0278e379c1c50ff731696e1bbcfe7"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 466,
+      "sha256": "c6b4f23891caf699a4bbe1f3a36cfede62c87755caaf0221ce6f91e20d30545e"
+    },
+    {
+      "path": "source_holdout_controls.csv",
+      "bytes": 5645,
+      "sha256": "a2f8e77a3af0a74043e4602762759015f2864ae97a15551154420327b2cf2c9c"
+    },
+    {
+      "path": "source_library_conditions.csv",
+      "bytes": 711,
+      "sha256": "5c57eec6eaed248ac5cc97266618990859711903202ea3e84068213772d80ede"
+    },
+    {
+      "path": "source_library_design.json",
+      "bytes": 1111,
+      "sha256": "e946b5fcc69a30fe4fc7b47f4753a9c7f5775028338888bc364a57d4a979de51"
+    },
+    {
+      "path": "source_library_external_ranges.csv",
+      "bytes": 13266,
+      "sha256": "8ab092f963037738aef04cc457972ae6761c990e1be3a3553a4bf627bccca8eb"
+    },
+    {
+      "path": "source_library_holdout.csv",
+      "bytes": 209789,
+      "sha256": "13164a18199137e4e5769375e95e651ccbf1ce160a09634c7c5fcf4f295b5fe2"
+    },
+    {
+      "path": "source_library_holdout_folds.csv.gz",
+      "bytes": 219801,
+      "sha256": "e403c51a76e43da72539b26b6b3c316a44511186f9c5450caf5f7be37a332e1c"
+    },
+    {
+      "path": "source_library_training_inventory.csv",
+      "bytes": 566,
+      "sha256": "3d99951eea666ac94dc042a0b6d806f71b83dc651ac55b275ce6024ed0203475"
+    },
+    {
+      "path": "target_evidence.csv",
+      "bytes": 5589,
+      "sha256": "1315dc905dc285b694d68d57e459f182882b64b8c9928964a6272730d64fa115"
+    },
+    {
+      "path": "technical_comparison.csv",
+      "bytes": 285128,
+      "sha256": "f4e5245d4797f8f07de9fcc425e2f2f739c8e8380aa630a897ba37aed1216790"
+    },
+    {
+      "path": "technical_conditions.csv",
+      "bytes": 2710,
+      "sha256": "5d2578b00e39a6823609642336b7e0de04d33d5c9a73ff6c8d0b80c837075db5"
+    },
+    {
+      "path": "technical_design.json",
+      "bytes": 5637,
+      "sha256": "171175ccf9486462f1b1f3558d6f4c64fe86b331cc0659b430e5363384d18d82"
+    },
+    {
+      "path": "technical_focal_summary.csv",
+      "bytes": 21338,
+      "sha256": "3120e3bbb386bf61bde5c671aeb65d6b60404e600c71213473a9e3ef2871acb0"
+    },
+    {
+      "path": "technical_fold_weights.csv.gz",
+      "bytes": 232826,
+      "sha256": "b17a172d874954e3e99f1d5aca64dd82e700cc963558fa997ead1dfb9e176f9b"
+    },
+    {
+      "path": "technical_full_fit_weights.csv",
+      "bytes": 223068,
+      "sha256": "ee61e1a7be483956abfca081766b482d24d1d0883ff2ade1b6537c5714a27986"
+    },
+    {
+      "path": "technical_gene_design.csv.gz",
+      "bytes": 1543941,
+      "sha256": "14e5079688615a29103b5f16263196a1566186ee4fe69d402c384056ebcb4b74"
+    },
+    {
+      "path": "technical_holdout_metrics.csv",
+      "bytes": 182531,
+      "sha256": "798fbc073386b2aae6eb1503b896b9da6594c49ed1f5d97caa2b6a05bb614063"
+    },
+    {
+      "path": "training_marker_panel.csv.gz",
+      "bytes": 106347,
+      "sha256": "53da2a2d6638b1c5bd2797fd274e49007df2447518319153cdc45871d08a772b"
+    },
+    {
+      "path": "transfer_comparison.csv",
+      "bytes": 641571,
+      "sha256": "39b19aa12b5cb0654d67e78e5d18442bd8dca4d5561cb5288f3c7edf1bd61140"
+    },
+    {
+      "path": "transfer_conditions.csv",
+      "bytes": 3508,
+      "sha256": "5a68bfec43587da3ad99d38521aa3cbb0e97bf4857d5b87f09f3b710543d2196"
+    },
+    {
+      "path": "transfer_design.json",
+      "bytes": 4272,
+      "sha256": "eceee9510b800a3e2ac1b4368bb918fed1c95ca98ff158ad16fc61bc0382de18"
+    },
+    {
+      "path": "transfer_focal_summary.csv",
+      "bytes": 119755,
+      "sha256": "a02f15a0b4d68f16c7f303a50cc13d3ca5af5bc1d6bfe3ddaf3b00ac1fae4dbb"
+    },
+    {
+      "path": "transfer_fold_weights.csv.gz",
+      "bytes": 610623,
+      "sha256": "17aeaf83625a7c206d725e13a62410844e9c86c209232b9caf4b465ed1cb4f8f"
+    },
+    {
+      "path": "transfer_full_weights.csv",
+      "bytes": 581952,
+      "sha256": "9c5569f255f60795c8670388f8e1ec08eb83848e470b94fa1fb995eed9b95464"
+    },
+    {
+      "path": "transfer_gene_folds.csv.gz",
+      "bytes": 54769,
+      "sha256": "29aee52c6895fac81c2aface4fc19d22d6dcd7ca9cda9dd944b6dc6eb8b75e57"
+    },
+    {
+      "path": "transfer_holdout_metrics.csv",
+      "bytes": 295768,
+      "sha256": "e58d9934bbe3e788c5da38511d54a13a83c025e3294c3bfa1ef2852a35c6ce2e"
+    },
+    {
+      "path": "transfer_label_summary.csv",
+      "bytes": 13548,
+      "sha256": "f94aad7615e8173b508491e5029d2de64ec2fe4bf0019b9cd87d764e4c0eb7d4"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "retrieved_utc": "2026-10-24T05:29:20.043510+00:00",
+  "author_commit": "5d10fe6017651e4cc583d12ba0bac49c51717329",
+  "scope": "Three complete prespecified normal libraries from original column-sorted matrix; not the complete atlas or all raw sequencing.",
+  "source_matrix": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/raw_counts.mtx",
+    "bytes": 3012455192,
+    "etag": "\"b38e6b18-60eafe462a680\"",
+    "header": [
+      "%%MatrixMarket matrix coordinate integer general",
+      "33226 53510 220823435"
+    ],
+    "full_matrix_sha256_available": false
+  },
+  "author_code_executed": false,
+  "range_requests": 20,
+  "probe_and_transfer_ranges": [
+    {
+      "start": 0,
+      "end": 255,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 77304698,
+      "end": 77435769,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 67241395,
+      "end": 67372466,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 67820998,
+      "end": 67952069,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1678223408,
+      "end": 1678354479,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1657822107,
+      "end": 1657953178,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1657668943,
+      "end": 1657800014,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1792282036,
+      "end": 1792413107,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1773066173,
+      "end": 1773197244,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1772858222,
+      "end": 1772989293,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2074952283,
+      "end": 2075083354,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2058687498,
+      "end": 2058818569,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2058453501,
+      "end": 2058584572,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2306968194,
+      "end": 2307099265,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2294225139,
+      "end": 2294356210,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2293983402,
+      "end": 2294114473,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2293917873,
+      "end": 2294048944,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 71,
+      "end": 67831705,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 1657675465,
+      "end": 1772911007,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "start": 2058469338,
+      "end": 2293975849,
+      "etag": "\"b38e6b18-60eafe462a680\""
+    }
+  ],
+  "assets": [
+    {
+      "path": "data/raw/labeled_reference/study.json",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-6946",
+      "bytes": 39518,
+      "sha256": "444d8d0cd5457de7507f77cf293dd9853905be28653fec719a5f3639bf8f3bc6"
+    },
+    {
+      "path": "data/raw/labeled_reference/author_README.md",
+      "url": "https://raw.githubusercontent.com/MarioniLab/Spermatogenesis2018/5d10fe6017651e4cc583d12ba0bac49c51717329/README.md",
+      "bytes": 6531,
+      "sha256": "5adf1ef6b3aecabc2e765bbefaaa29d5bfdd9637cdb00ad594093a52f14250b9"
+    },
+    {
+      "path": "data/raw/labeled_reference/cell_metadata.txt",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/cell_metadata.txt",
+      "bytes": 7166353,
+      "sha256": "8ddb6ac45e34b996e94f4935899476df91db09f8c3c977e9961e6808019a8865"
+    },
+    {
+      "path": "data/raw/labeled_reference/genes.tsv",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/genes.tsv",
+      "bytes": 1021304,
+      "sha256": "b8072971fda1a873bcd0a3726d903e8f0dd527044a4ec26de0e3ce650e8af010"
+    },
+    {
+      "path": "data/raw/labeled_reference/E-MTAB-6946.sdrf.txt",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6946/E-MTAB-6946.sdrf.txt",
+      "bytes": 906958,
+      "sha256": "77a42522114d4471798afd611cb5a0907da8e90313e54b319668a157f942828b"
+    },
+    {
+      "path": "data/raw/labeled_reference/do17815.triplets",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/raw_counts.mtx",
+      "bytes": 67831635,
+      "sha256": "a8fba2d0e87fbca7f5043026e16fbaa55b5a6948af34e4ab6a81ba17c74c947f",
+      "range": {
+        "library": "do17815",
+        "first_column": 1,
+        "last_column": 1157,
+        "start_byte": 71,
+        "end_byte_exclusive": 67831706,
+        "cells": 1157,
+        "nonzeros": 5666698
+      },
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "path": "data/raw/labeled_reference/do26386.triplets",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/raw_counts.mtx",
+      "bytes": 115235543,
+      "sha256": "3762f9944bb96abb7718852267f6f8bb61ad34716b39b682c87a2be059cb56a5",
+      "range": {
+        "library": "do26386",
+        "first_column": 26381,
+        "last_column": 29756,
+        "start_byte": 1657675465,
+        "end_byte_exclusive": 1772911008,
+        "cells": 3376,
+        "nonzeros": 8360894
+      },
+      "etag": "\"b38e6b18-60eafe462a680\""
+    },
+    {
+      "path": "data/raw/labeled_reference/do18195.triplets",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/946/E-MTAB-6946/Files/raw_counts.mtx",
+      "bytes": 235506512,
+      "sha256": "d78bbcbe77b2a89454fcdaa6f578c6b98ecdfd7d8344e628f00d3a248a03f0ff",
+      "range": {
+        "library": "do18195",
+        "first_column": 37706,
+        "last_column": 41963,
+        "start_byte": 2058469338,
+        "end_byte_exclusive": 2293975850,
+        "cells": 4258,
+        "nonzeros": 17007573
+      },
+      "etag": "\"b38e6b18-60eafe462a680\""
+    }
+  ]
+}

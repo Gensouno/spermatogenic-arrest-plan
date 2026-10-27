@@ -1,0 +1,149 @@
+{
+  "scope": "One author EmptyDrops annotation file only; no EmptyDrops expression matrix downloaded or analysed.",
+  "rows": 68937,
+  "columns": [
+    "Sample",
+    "Barcode",
+    "Library",
+    "is_cell_control",
+    "total_features_by_counts",
+    "log10_total_features_by_counts",
+    "total_counts",
+    "log10_total_counts",
+    "pct_counts_in_top_50_features",
+    "pct_counts_in_top_100_features",
+    "pct_counts_in_top_200_features",
+    "pct_counts_in_top_500_features",
+    "AnnotatedClusters",
+    "P15Clusters"
+  ],
+  "P15_rows": 13168,
+  "library_counts": [
+    {
+      "Sample": "B6",
+      "Library": "do17815",
+      "cells": 3400
+    },
+    {
+      "Sample": "B6",
+      "Library": "do17816",
+      "cells": 4608
+    },
+    {
+      "Sample": "P10",
+      "Library": "do17821",
+      "cells": 4202
+    },
+    {
+      "Sample": "P15",
+      "Library": "do18195",
+      "cells": 13168
+    },
+    {
+      "Sample": "P20",
+      "Library": "do17824",
+      "cells": 7491
+    },
+    {
+      "Sample": "P25",
+      "Library": "do18196",
+      "cells": 6802
+    },
+    {
+      "Sample": "P30",
+      "Library": "do17825",
+      "cells": 4958
+    },
+    {
+      "Sample": "P35",
+      "Library": "do17827",
+      "cells": 10686
+    },
+    {
+      "Sample": "P5",
+      "Library": "do26386",
+      "cells": 5498
+    },
+    {
+      "Sample": "P5",
+      "Library": "do26387",
+      "cells": 8124
+    }
+  ],
+  "annotation_columns": [
+    "AnnotatedClusters",
+    "P15Clusters"
+  ],
+  "P15_annotation_values": {
+    "AnnotatedClusters": {
+      "NewCell": 9681,
+      "Spermatogonia": 820,
+      "lP1": 579,
+      "mP": 435,
+      "Sertoli": 372,
+      "eP1": 332,
+      "Outliers": 260,
+      "lP2": 225,
+      "eP2": 177,
+      "PTM": 124,
+      "Endothelial_cells": 51,
+      "Leydig_2": 48,
+      "Leydig_1": 48,
+      "D": 14,
+      "Fetal_Leydig_2": 1,
+      "Interstitial_tMg": 1
+    },
+    "P15Clusters": {
+      "Immature_Leydig": 2224,
+      "Pachytene_2": 1282,
+      "Differentiating_Spermatogonia_1": 1190,
+      "Leydig_1": 1083,
+      "Differentiating_Spermatogonia_2": 1030,
+      "Sertoli_2": 1000,
+      "Zygotene": 938,
+      "Sertoli_1": 928,
+      "Leptotene": 907,
+      "Undifferentiated_Spermatogonia": 727,
+      "Pachytene_1": 488,
+      "PTM": 475,
+      "Interstitial_tMg": 321,
+      "Endothelial_cells": 238,
+      "Outliers": 211,
+      "Leydig_2": 126
+    }
+  },
+  "CellRanger_library_barcode_overlap": 29555,
+  "P15_CellRanger_rows": 4258,
+  "P15_CellRanger_overlap": 3487,
+  "P15_EmptyDrops_only_barcodes": 9681,
+  "P15_CellRanger_only_barcodes": 771,
+  "explicit_P15_LZ_author_labels_present": true,
+  "P15_LZ_author_label_counts": {
+    "Zygotene": 938,
+    "Leptotene": 907
+  },
+  "P15_LZ_versus_generic_annotations": {
+    "NewCell": {
+      "Leptotene": 894,
+      "Zygotene": 672
+    },
+    "Sertoli": {
+      "Leptotene": 2,
+      "Zygotene": 2
+    },
+    "Spermatogonia": {
+      "Leptotene": 10,
+      "Zygotene": 0
+    },
+    "eP1": {
+      "Leptotene": 1,
+      "Zygotene": 263
+    },
+    "eP2": {
+      "Leptotene": 0,
+      "Zygotene": 1
+    }
+  },
+  "warning": "Use explicit P15Clusters Leptotene/Zygotene, never relabel all NewCell as L/Z. Processed public CellRanger and EmptyDrops barcode sets are not strict subsets; do not infer gains from simple total-row subtraction.",
+  "expression_matrix_processed": false
+}
