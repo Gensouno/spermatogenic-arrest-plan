@@ -1,0 +1,9 @@
+{
+  "contexts": 4,
+  "libraries": 24,
+  "fits": 28,
+  "fixed_priorities": 36,
+  "all_contexts_all_omissions_down_1p5fold": 2,
+  "primary_added_votes": 0,
+  "scope": "Exploratory separate-source contexts, no expanded primary test or subgroup FDR control."
+}

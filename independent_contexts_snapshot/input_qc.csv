@@ -1,0 +1,5 @@
+cohort,source_rows,gene_rows,excluded_repeat_rows,selected_RNA_libraries,noninteger_values,duplicate_gene_ids
+Rif1_P14,50763,50763,0,6,0,0
+Hormad_dsfb_P19,55487,55487,0,6,0,0
+Mael_P16,5158855,20620,5138235,6,0,0
+Morc1_P14p5,26385,26385,0,6,0,0

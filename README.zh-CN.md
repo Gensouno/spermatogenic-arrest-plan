@@ -85,6 +85,9 @@ bash envs/python.sh scripts/export_snapshot.py --verify
 ## 项目导航
 
 - [Setx 年龄交互分析](docs/SETX_INTERACTION.md)：联合年龄／基因型模型、来源编号和条码限制、敏感性与复现。
+- [Setx 来源与长度核查](docs/SETX_SOURCE_AND_LENGTH.md)：数据库身份、等位基因背景和长度校正计数敏感性（英文报告）。
+- [Setx 逐样本稳定性](docs/SETX_STABILITY.md)：计数模型留一检查、同基因集合诊断及模型依赖（英文报告）。
+- [新增全睾丸背景](docs/INDEPENDENT_CONTEXTS.md)：Rif1、Hormad1/2、Mael 和 Morc1 来源核查与独立计数分析；原有主要检验集合保持不变（英文报告）。
 - [英文论文同步工作流](docs/PAPER_WORKFLOW.md)：持续写作、证据登记、检查、Word导出和私稿发布边界。
 - [METHODS](docs/METHODS.md)：分平台处理、基因集合、敏感性与组成检查。
 - [RESULTS](docs/RESULTS.md)：主要数字、负结果及解释边界。

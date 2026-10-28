@@ -89,6 +89,9 @@ A fresh local directory was also used to rerun the baseline without earlier outp
 The root README defaults to English; use the language links above for the Chinese edition. Some linked technical reports and historical source filenames remain in Chinese.
 
 - [Setx age-interaction analysis](docs/SETX_INTERACTION.md): joint age/genotype model, source-code and barcode limitations, sensitivities, and reproduction.
+- [Setx source and length audit](docs/SETX_SOURCE_AND_LENGTH.md): archive identities, allele context, and length-aware count sensitivity.
+- [Setx omission stability](docs/SETX_STABILITY.md): count omissions, matched-universe diagnostics, and explicit model dependence.
+- [Additional whole-testis contexts](docs/INDEPENDENT_CONTEXTS.md): source audits and separate Rif1, Hormad1/2, Mael and Morc1 count analyses; the primary family remains frozen.
 - [English manuscript synchronization workflow](docs/PAPER_WORKFLOW.md): incremental writing, evidence registration, checks, Word export, and private-release boundaries.
 - [Methods](docs/METHODS.md): platform-specific processing, gene universes, sensitivities, and composition diagnostics.
 - [Results](docs/RESULTS.md): numerical findings, negative results, and interpretive limitations.

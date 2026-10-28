@@ -1,0 +1,103 @@
+UID,accession,title,assay,samples,publication_date
+200000014,GSE14,Cancer Genome Anatomy Project (CGAP) SAGE Libraries,Expression profiling by SAGE,765,2001/11/29
+200018824,GSE18824,Expression data from 17 day old testes of wild type and UBR2-/- mice,Expression profiling by array,2,2009/12/31
+200019162,GSE19162,Expression profiling of BORIS knockout mice testis,Expression profiling by array,5,2010/03/31
+200021524,GSE21524,HORMAD1 mutation disrupts synaptonemal complex formation and chromosomal segregation in fertilized eggs,Expression profiling by array,6,2010/04/27
+200024438,GSE24438,Genome wide maps of Dmc1 in testis of Hop2 null mice.,Genome binding/occupancy profiling by high throughput sequencing,20,2011/04/04
+200027582,GSE27582,Mouse adult testes: Total RNA vs. IP RNA,Other,2,2013/04/01
+200030461,GSE30461,Gene expression in 16 dpp Tex19.1-/- mouse testes,Expression profiling by array,8,2012/04/27
+200034592,GSE34592,Sequencing-based ssDNA detection,Genome binding/occupancy profiling by high throughput sequencing,11,2012/02/21
+200035498,GSE35498,Genetic recombination is directed away from functional genetic sites in mice.,Genome binding/occupancy profiling by high throughput sequencing,17,2012/05/22
+200038891,GSE38891,Deregulated sex chromosome gene expression with male germ cell-specific loss of Dicer1 (gene array data),Expression profiling by array,6,2012/09/10
+200038895,GSE38895,Deregulated sex chromosome gene expression with male germ cell-specific loss of Dicer1 (miRNA array data),Non-coding RNA profiling by array,5,2012/09/10
+200038896,GSE38896,Deregulated sex chromosome gene expression with male germ cell-specific loss of Dicer1,Expression profiling by array; Non-coding RNA profiling by array,11,2012/09/10
+200039480,GSE39480,The mouse cytosine-5 RNA methyltransferase NSun2 is a component of the chromatoid body and required for testis differentiation,Expression profiling by array,24,2013/02/07
+200039545,GSE39545,An RNA-interacting protein network regulates pluripotency in mammalian primordial germ cells (Dazl testis RNA-IP),Expression profiling by array,8,2013/12/31
+200048493,GSE48493,Supression of genetic recombination in the pseudoautosomal region and at subtelomeres in mice with a hypomorphic spo11 allele,Genome variation profiling by high throughput sequencing; Other,9,2013/09/11
+200051334,GSE51334,DNA replication-timing boundaries separate stable chromosome domains with cell-type-specific functions,Other,993,2014/11/20
+200063048,GSE63048,MORC1 represses transposable elements in the mouse male germ line,Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing; Methylation profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other,64,2014/12/12
+200073833,GSE73833,Humanized PRDM9 Mouse Testis H3K4me3 and DMC1 ChIP-seq,Genome binding/occupancy profiling by high throughput sequencing; Genome variation profiling by high throughput sequencing; Third-party reanalysis,18,2016/02/02
+200075419,GSE75419,The evolutionary dynamics of meiotic recombination initiation in mice,Genome binding/occupancy profiling by high throughput sequencing,31,2016/02/03
+200077309,GSE77309,Emi2 is essential for mouse spermatogenesis,Expression profiling by array,16,2017/12/01
+200088972,GSE88972,A high-resolution binding profile of meiotic cohesin in murine spermatocytes reveals accumulation at rDNA loci,Genome binding/occupancy profiling by high throughput sequencing,4,2016/10/21
+200093955,GSE93955,In vivo binding of PRDM9 reveals interaction with non-canonical genomic sites,Genome binding/occupancy profiling by high throughput sequencing,32,2017/02/08
+200097195,GSE97195,Deep sequencing and high-throughput analysis of PIWI-associated small RNAs,Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing; Other,4,2017/05/25
+200099921,GSE99921,Extensive sex differences at the initiation of meiotic recombination,Genome binding/occupancy profiling by high throughput sequencing; Other; Third-party reanalysis; Methylation profiling by high throughput sequencing,22,2018/09/20
+200106424,GSE106424,Ezh2 is essential for activation-induced CD8+ T cell cycle progression via repressing Cdkn1a and Cdkn2c expression (Part I),Expression profiling by array,13,2018/05/11
+200108953,GSE108953,PRDM9 methyltransferase is essential for meiotic DSB formation,Genome binding/occupancy profiling by high throughput sequencing,16,2018/02/09
+200109874,GSE109874,Histone methyltransferase PRDM9 is not essential for meiosis in male mice,Genome binding/occupancy profiling by high throughput sequencing,12,2019/06/07
+200112110,GSE112110,"Genome wide map of DMC1 in testis of Stag3-/-, Rec8-/- and Stag3-/-Rec8-/- mice.",Genome binding/occupancy profiling by high throughput sequencing; Third-party reanalysis,14,2019/03/07
+200113293,GSE113293,Phenotyping spermatogenic defects by single-cell expression profiling,Expression profiling by high throughput sequencing,27,2019/06/30
+200118913,GSE118913,ANKRD31 anchors meiotic double-strand break formation as a direct partner of REC114,Genome binding/occupancy profiling by high throughput sequencing,11,2019/12/25
+200119176,GSE119176,Mammalian SWI/SNF collaborates with a polycomb-associated protein to regulate germ line transcription in the mouse [ATAC-seq],Genome binding/occupancy profiling by high throughput sequencing,6,2019/05/09
+200119177,GSE119177,Mammalian SWI/SNF collaborates with a polycomb-associated protein to regulate germ line transcription in the mouse [ChIP-seq],Genome binding/occupancy profiling by high throughput sequencing,17,2019/05/09
+200121240,GSE121240,CFP1 safeguards male meiotic progression by regulating meiotic gene expression [array],Expression profiling by array,6,2018/10/16
+200124991,GSE124991,DMC1 ChIP-seq from B6xCAST F1 PRDM9-Humanized/CAST testes,Other; Genome binding/occupancy profiling by high throughput sequencing,3,2019/03/18
+200125326,GSE125326,Crossovers from B6xCAST F1 PRDM9-Humanized/CAST testes,Genome variation profiling by high throughput sequencing,219,2019/03/18
+200125327,GSE125327,B6xCAST F1 PRDM9-Humanized/CAST testes,Genome binding/occupancy profiling by high throughput sequencing; Genome variation profiling by high throughput sequencing,220,2019/03/18
+200126443,GSE126443,ANKRD31  regulates  spatiotemporal  patterning  of  meiotic  recombination  initiation  and    ensures recombination between heterologous sex chromosomes in mice,Genome binding/occupancy profiling by high throughput sequencing,12,2019/06/07
+200132446,GSE132446,Refined spatial temporal epigenomic profiling reveals intrinsic connection between PRDM9-mediated H3K4me3 and the fate of double-stranded breaks,Genome binding/occupancy profiling by high throughput sequencing; Methylation profiling by high throughput sequencing,186,2020/02/12
+200135896,GSE135896,HELLS and PRDM9 from a pioneer complex to open chromatin at meiotic recombination hotspots,Genome binding/occupancy profiling by high throughput sequencing; Other,51,2019/12/17
+200138915,GSE138915,ATM and PRDM9 Regulate SPO11-bound Recombination Intermediates During Meiosis,Genome binding/occupancy profiling by high throughput sequencing; Other,32,2020/02/20
+200139289,GSE139289,Dual Histone Methyl Reader ZCWPW1 Facilitates Repair of PRDM9-Induced Meiotic Double Strand Breaks,Genome binding/occupancy profiling by high throughput sequencing; Other,10,2020/05/12
+200141340,GSE141340,piRNA-independent Function of PIWIL1 as a Novel co-activator for Anaphase Promoting Complex/Cyclosome (APC/C) to Drive Pancreatic Cancer Metastasis,Non-coding RNA profiling by high throughput sequencing,6,2020/02/01
+200141516,GSE141516,"Genome-wide maps of ZCWPW1 in HEK293T cells with or without PRDM9, plus DMC1 ChIP-seq in ZCWPW1 KO mouse",Genome binding/occupancy profiling by high throughput sequencing; Third-party reanalysis,6,2020/08/01
+200141850,GSE141850,Molecular structures and mechanisms of DNA break processing in mouse meiosis,Other; Genome binding/occupancy profiling by high throughput sequencing,34,2020/07/10
+200143582,GSE143582,RPA and RAD51 ChIP-seq from B6 and B6xCAST F1 PRDM9-Humanized/CAST mouse testes,Genome binding/occupancy profiling by high throughput sequencing,5,2020/06/30
+200144144,GSE144144,Sexual dimorphism in the meiotic requirement for PRDM9: a mammalian evolutionary safeguard,Genome binding/occupancy profiling by high throughput sequencing; Third-party reanalysis; Other,7,2020/10/23
+200145768,GSE145768,PRDM9 activity depends on HELLS and promotes 5-Hydroxymethylcytosine enrichment,Genome binding/occupancy profiling by high throughput sequencing; Methylation profiling by high throughput sequencing,14,2020/11/19
+200146873,GSE146873,RNA m6A methylation of 3ʹ splice site prevents binding of U2AF35 to inhibit splicing,Expression profiling by high throughput sequencing,42,2021/04/29
+200148327,GSE148327,Meiotic recombination mirrors patterns of germline replication in mice and humans,Genome binding/occupancy profiling by high throughput sequencing; Other,49,2021/07/02
+200163916,GSE163916,ZFP541 ChIP-seq targets during male meiotic prophase,Genome binding/occupancy profiling by high throughput sequencing,3,2020/12/29
+200163917,GSE163917,Transcriptome analysis of meiotic prophase spermatocytes in Zfp541 +/-  and Zfp541 KO mice,Expression profiling by high throughput sequencing,4,2020/12/29
+200172157,GSE172157,Single cell RNA-seq of spermatogenesis in WT and Zfp541-KO mice (10x Chromium),Expression profiling by high throughput sequencing,2,2021/04/16
+200172160,GSE172160,Characterization of ZFP541's occupency sites on genome in pachytene and diplotene spermatocytes,Genome binding/occupancy profiling by high throughput sequencing,5,2021/04/16
+200172171,GSE172171,Transcriptome analysis of early and late pachytene spermatocytes in WT and Zfp541-KO mice (Smart-Seq2),Expression profiling by high throughput sequencing,12,2021/04/16
+200180966,GSE180966,DMC1 and H3K4me3 ChIP-seq from testes of B6xSPRETUS and B6xSTUS mice with genetically modified PRDM9 binding properties,Genome binding/occupancy profiling by high throughput sequencing,19,2021/09/07
+200182518,GSE182518,The NMD endonuclease SMG6 co-operates with the piRNA pathway in germ granules to shape the male germ cell transcriptome,Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing,35,2022/09/27
+200183360,GSE183360,A maternal high-fat diet induces fetal origins of NASH-HCC in mice,Expression profiling by array,4,2022/07/29
+200185740,GSE185740,Transcriptome analysis in the Zfp541 Het and Zfp541 KO testes,Expression profiling by high throughput sequencing,18,2021/12/10
+200185741,GSE185741,GFP CUT&Tag from P18 wild type and Zfp541-EGFP mouse testes,Genome binding/occupancy profiling by high throughput sequencing,4,2021/12/10
+200185742,GSE185742,ZFP541 is indispensable for pachytene progression by interacting with KCTD19 and activates meiotic gene expression in mouse spermatogenesis,Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing,22,2021/12/10
+200190043,GSE190043,Single-cell RNA sequencing on the testis from the rete testis-specific Sox17 conditioinal knockout (cKO) mice and the controls at P14.,Expression profiling by high throughput sequencing,4,2022/11/27
+200191105,GSE191105,NAT10-mediated N4-Acetylcytidine is Required for Spermatogenesis and Male Fertility,Expression profiling by high throughput sequencing,17,2022/11/16
+200194126,GSE194126,Transcriptome analysis in the P14 Kctd19 Het and Kctd19 KO testes.,Expression profiling by high throughput sequencing,4,2022/01/24
+200196427,GSE196427,The XRN1-regulated RNA helicase activity of YTHDC2 ensures mouse fertility independently of m6A recognition,Expression profiling by high throughput sequencing; Other,25,2022/03/22
+200211390,GSE211390,Transcriptional Metabolic Reprograming Drives Meiotic Fate Decision in Mammalian Germ Cells,Expression profiling by high throughput sequencing,4,2023/10/03
+200217621,GSE217621,The non-redundant functions of PIWI family proteins in gametogenesis in golden hamsters,Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing,214,2023/07/13
+200222283,GSE222283,The RNA-helicase YTHDC2 serves a late role in spermatocytes during germ cell differentiation,Expression profiling by high throughput sequencing,16,2023/03/02
+200222415,GSE222415,Effect of upregulation of LINE-1 retrotransposon on translation in the mouse testis,Expression profiling by high throughput sequencing; Other,12,2023/05/25
+200226550,GSE226550,SRSF1-mediated alternative splicing is required for spermatogonial stem cell differentiation and mitotic-to-meiotic transition [RNA-Seq],Expression profiling by high throughput sequencing,6,2024/03/31
+200226551,GSE226551,SRSF1-mediated alternative splicing is required for spermatogonial stem cell differentiation and mitotic-to-meiotic transition [LACE-seq],Other,4,2024/03/31
+200227303,GSE227303,SRSF1 is crucial for male meiosis through alternative splicing during homologous pairing and synapsis in mice [CLIP-seq],Other,4,2024/01/08
+200227403,GSE227403,SRSF1 is crucial for male meiosis through alternative splicing during homologous pairing and synapsis in mice [RNA-seq],Expression profiling by high throughput sequencing,6,2024/01/09
+200227944,GSE227944,FIGNL1 AAA+ ATPase remodels RAD51 and DMC1 filaments in meiotic DNA replication and recombination,Genome binding/occupancy profiling by high throughput sequencing,10,2023/03/31
+200231983,GSE231983,RNA helicase D1PAS1 resolves R-loops and forms a complex for mouse pachytene piRNA biogenesis required for male fertility,Expression profiling by high throughput sequencing; Other; Non-coding RNA profiling by high throughput sequencing,36,2024/11/06
+200232417,GSE232417,Genome-wide R-loops dynamics and its alteration by Nkapl knockout in mouse testes with ssDRIP-seq,Other,10,2024/12/12
+200236785,GSE236785,FOXL2 interaction with different binding partners regulates the dynamics of granulosa cell differentiation across ovarian development [ATAC-Seq],Genome binding/occupancy profiling by high throughput sequencing,9,2024/03/24
+200236859,GSE236859,FOXL2 interaction with different binding partners regulates the dynamics of granulosa cell differentiation across ovarian development [RNA-Seq],Expression profiling by high throughput sequencing,9,2024/03/24
+200236860,GSE236860,FOXL2 interaction with different binding partners regulates the dynamics of granulosa cell differentiation across ovarian development [ChIP-Seq],Genome binding/occupancy profiling by high throughput sequencing,12,2024/03/24
+200239997,GSE239997,RPA and RAD51 ChIP-seq from genetically modified Dmc1-knockout B6xCAST PRDM9-Humanized/CAST mouse testes,Genome binding/occupancy profiling by high throughput sequencing,2,2023/10/16
+200244586,GSE244586,Spatial Transcriptomic Profiling of Male Germ Cells from Control and Cbfb cKO mice,Expression profiling by high throughput sequencing; Other,54,2024/12/31
+200252075,GSE252075,PCBP1/2 and TDP43 Function As NAT10 Adaptors In ac4C Writer Complex Towards mRNAs in Mammalian Cells [acRIPseq],Other,9,2024/12/27
+200252077,GSE252077,PCBP1/2 and TDP43 Function As NAT10 Adaptors In ac4C Writer Complex Towards mRNAs in Mammalian Cells,Other,26,2024/12/27
+200259242,GSE259242,DCAF2 regulates the proliferation and differentiation of mouse progenitor spermatogonia by targeting p21 and thymine DNA glycosylase,Expression profiling by high throughput sequencing,6,2024/05/01
+200262343,GSE262343,Principles of chromosome organization for meiotic recombination,Genome binding/occupancy profiling by high throughput sequencing,65,2024/04/23
+200266271,GSE266271,Mouse MRE11-RAD50-NBS1 is needed to start and extend meiotic DNA end resection [SSDS],Genome binding/occupancy profiling by high throughput sequencing,12,2024/05/06
+200268829,GSE268829,Genome-wide distribution of REC8 cohesin is correlated with active transcription and regulated by transcription suppressor BEND2 during early meiosis [ATAC-seq],Genome binding/occupancy profiling by high throughput sequencing,2,2026/06/30
+200268830,GSE268830,Genome-wide distribution of REC8 cohesin is correlated with active transcription and regulated by transcription suppressor BEND2 during early meiosis [CUT&Tag],Genome binding/occupancy profiling by high throughput sequencing,12,2026/06/30
+200274491,GSE274491,RNA-sequencing of testes from control and Hormad1&2SFB/SFB mice,Expression profiling by high throughput sequencing,6,2025/02/12
+200280363,GSE280363,The m6A methylome is remodeled in Alkbh5 knockout spermatocytes from P18 males,Methylation profiling by high throughput sequencing,12,2026/06/19
+200284142,GSE284142,Male specific conserved LncRNA TSCL1 regulated target mRNA translation by interaction with PIWIL1 [lncRNA-seq],Non-coding RNA profiling by high throughput sequencing,9,2024/12/17
+200284143,GSE284143,Male specific conserved LncRNA TSCL1 regulated target mRNA translation by interaction with PIWIL1 [Ribo-seq],Other,3,2024/12/17
+200284312,GSE284312,Transfer RNA acetylation regulates in vivo mammalian stress signaling [tissues],Expression profiling by high throughput sequencing,24,2025/02/10
+200294151,GSE294151,Expression profiling of mouse testes on postnatal day 14 (P14) with conditional knockout of Rif1 in pre-meiotic germ cells.,Expression profiling by high throughput sequencing,6,2026/04/01
+200296269,GSE296269,ChIP analysis of H3K9me3 and H3K4me3 for mouse spermatogonia and leptotene/zygotene spermatocytes defficient in Dnmt3l and Pld6.,Genome binding/occupancy profiling by high throughput sequencing,18,2025/12/04
+200297600,GSE297600,Meiotic cohesin RAD21L shapes 3D genome structure and transcription in the male germline [HiC],Other,7,2025/09/01
+200297601,GSE297601,Meiotic cohesin RAD21L shapes 3D genome structure and transcription in the male germline [scRNA-seq],Expression profiling by high throughput sequencing,2,2025/09/01
+200313963,GSE313963,Transposase-assisted in situ capture of recombination DSB hotspots (TAID-seq) [CUT&Tag],Genome binding/occupancy profiling by high throughput sequencing,45,2026/01/06
+200313965,GSE313965,Transposase-assisted in situ capture of recombination DSB hotspots (TAID-seq) [TAID-seq],Other,52,2026/01/06
+200327624,GSE327624,Heat shock factor 5 is indispensable for pachynema progression and LINE1 silencing during spermatogenesis in mice [smallRNA-Seq],Non-coding RNA profiling by high throughput sequencing,4,2026/04/17
+200333547,GSE333547,ZNHIT1-dependent H2A.Z deposition at meiotic prophase I underlies pachytene gene expression and meiotic progression during male meiosis [scRNA-seq],Expression profiling by high throughput sequencing,4,2026/05/31
+200333548,GSE333548,ZNHIT1-dependent H2A.Z deposition at meiotic prophase I underlies pachytene gene expression and meiotic progression during male meiosis [H2A.Z ChIP-seq],Genome binding/occupancy profiling by high throughput sequencing,8,2026/05/31
+200334745,GSE334745,ZNHIT1-dependent H2A.Z deposition at meiotic prophase I underlies pachytene gene expression and meiotic progression during male meiosis [RNA-seq],Expression profiling by high throughput sequencing,4,2026/06/08

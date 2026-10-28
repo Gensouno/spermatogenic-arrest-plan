@@ -1,0 +1,48 @@
+{
+  "recorded_on": "2026-10-28",
+  "primary_article_evidence": [
+    {
+      "cohort": "Hormad_dsfb_P19",
+      "DOI": "10.1038/s41467-025-57702-z",
+      "PMID": "40050306",
+      "PMCID": "PMC11885488",
+      "source": "Cached full-text JATS Results section and RNA-sequencing methods",
+      "finding": "Male tagged-allele animals show mid-pachytene arrest; P19 testes used for RNA-seq. This is a source-reported model phenotype, not independent phenotyping of deposited samples.",
+      "control_note": "GEO labels control; manuscript uses WT comparator. No individual animal or batch crosswalk established."
+    },
+    {
+      "cohort": "Mael_P16",
+      "DOI": "10.1371/journal.pgen.1010797",
+      "PMID": "37307272",
+      "source": "Cached publisher JATS, Fig 6 and ribosome profiling methods",
+      "finding": "P16 total RNA taken alongside ribosome profiling; Mael+/- and Mael-/- testes described as comparable tissue complexity. Do not equate this sampled context with established arrest.",
+      "repeat_note": "Only 20620 rows lacking all repeat annotations are treated as gene features; repeat loci excluded."
+    },
+    {
+      "cohort": "Morc1_P14p5",
+      "DOI": "10.1038/ncomms6795",
+      "PMID": "25503965",
+      "PMCID": "PMC4268658",
+      "source": "GEO GSM1547662-GSM1547667 processing and extraction; cached article JATS",
+      "finding": "P14.5 whole-testis HET/tg mutants, one mouse per library per GEO. Source states germ cells fail meiotic pairing. Counts from seventh column, never eighth RPKM. GEO KO retained as source alias; article uses tg allele.",
+      "erratum_status": "Full-text erratum reviewed: production switched Fig2f and Fig2g bars. No figure values used here; this analysis extracts the deposited raw-read columns.",
+      "erratum_PMID": "26159654",
+      "erratum_PMCID": "PMC5784397"
+    }
+  ],
+  "unresolved": [
+    {
+      "cohort": "Rif1_P14",
+      "finding": "GEO citation missing; bounded search did not locate linked primary publication. P14 from series design; sKO/Cre allele details and matrix-to-library-name crosswalk unresolved.",
+      "mapping": "Matrix con/scKO columns align with GEO WT/sKO group counts and suffixes; tentative aliases only. Fits and omissions use native matrix labels."
+    }
+  ],
+  "limitations": [
+    "Each Morc1 library is one mouse according to GEO extraction; distinct animals across all libraries, pooling/litter/batch structures and source-specific phenotypes remain not independently certified.",
+    "No source independently certifies batch, litter pairing or pooling identities for all samples.",
+    "Three contexts selected using metadata/schema before differential-expression inspection; targeted search is incomplete.",
+    "No primary replication family expansion or biological validation."
+  ],
+  "selection_timing": "First three contexts specified before their differential fits. Morc1 added after those outcomes, from preselected metadata on explicit raw-read schema and per-mouse library statement, before Morc1 fitting.",
+  "Zotero_check": "Local API preference enabled but localhost23119 refused connection; no library lookup/import completed. DOI identity verified via Crossref, source interpretation via JATS."
+}

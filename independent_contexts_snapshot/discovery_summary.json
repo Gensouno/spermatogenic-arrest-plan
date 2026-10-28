@@ -1,0 +1,99 @@
+{
+  "query_counts": [
+    13,
+    17,
+    30,
+    50
+  ],
+  "unique_series": 102,
+  "selected_metadata_records": 9,
+  "unreviewed_at_sample_level": 93,
+  "targeted_not_systematic": true,
+  "HTTP_search_requests": 11,
+  "queries": [
+    {
+      "query": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Rif1 OR Mettl16 OR Nat10 OR Usp7 OR Zcwpw1 OR Zcwpw2)",
+      "server_count": 13,
+      "retrieved": 13,
+      "retstart": 0,
+      "retmax": 500,
+      "query_translation": "gse[ETYP] AND \"Mus musculus\"[Organism] AND ((\"testis\"[MeSH Terms] OR testis[All Fields]) OR (\"testis\"[MeSH Terms] OR testes[All Fields])) AND (Rif1[All Fields] OR Mettl16[All Fields] OR Nat10[All Fields] OR Usp7[All Fields] OR Zcwpw1[All Fields] OR Zcwpw2[All Fields])"
+    },
+    {
+      "query": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Zfp541 OR Kctd19 OR Hormad1 OR Meiob OR Spata22 OR Ubr2)",
+      "server_count": 17,
+      "retrieved": 17,
+      "retstart": 0,
+      "retmax": 500,
+      "query_translation": "gse[ETYP] AND \"Mus musculus\"[Organism] AND ((\"testis\"[MeSH Terms] OR testis[All Fields]) OR (\"testis\"[MeSH Terms] OR testes[All Fields])) AND (Zfp541[All Fields] OR Kctd19[All Fields] OR Hormad1[All Fields] OR Meiob[All Fields] OR Spata22[All Fields] OR Ubr2[All Fields])"
+    },
+    {
+      "query": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (P14 OR P16 OR P18 OR P21 OR \"14 dpp\" OR \"16 dpp\") AND (knockout OR deficient)",
+      "server_count": 30,
+      "retrieved": 30,
+      "retstart": 0,
+      "retmax": 500,
+      "query_translation": "gse[ETYP] AND \"Mus musculus\"[Organism] AND ((\"testis\"[MeSH Terms] OR testis[All Fields]) OR (\"testis\"[MeSH Terms] OR testes[All Fields])) AND (P14[All Fields] OR P16[All Fields] OR P18[All Fields] OR P21[All Fields] OR \"14 dpp\"[All Fields] OR \"16 dpp\"[All Fields]) AND (knockout[All Fields] OR deficient[All Fields])"
+    },
+    {
+      "query": "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Rnf212b OR Trip13 OR Dmc1 OR Rad21l OR Rec8 OR Piwil1)",
+      "server_count": 50,
+      "retrieved": 50,
+      "retstart": 0,
+      "retmax": 500,
+      "query_translation": "gse[ETYP] AND \"Mus musculus\"[Organism] AND ((\"testis\"[MeSH Terms] OR testis[All Fields]) OR (\"testis\"[MeSH Terms] OR testes[All Fields])) AND (Rnf212b[All Fields] OR Trip13[All Fields] OR Dmc1[All Fields] OR Rad21l[All Fields] OR Rec8[All Fields] OR Piwil1[All Fields])"
+    }
+  ],
+  "selection": {
+    "specified_on": "2026-10-28",
+    "scope": "Nine targeted metadata records selected from 102 retrieved series; no claim of full 102-source sample review.",
+    "sources": [
+      {
+        "accession": "GSE294151",
+        "title": "Expression profiling of mouse testes on postnatal day 14 (P14) with conditional knockout of Rif1 in pre-meiotic germ cells.",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE185740",
+        "title": "Transcriptome analysis in the Zfp541 Het and Zfp541 KO testes",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE191105",
+        "title": "NAT10-mediated N4-Acetylcytidine is Required for Spermatogenesis and Male Fertility",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE226550",
+        "title": "SRSF1-mediated alternative splicing is required for spermatogonial stem cell differentiation and mitotic-to-meiotic transition [RNA-Seq]",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE227403",
+        "title": "SRSF1 is crucial for male meiosis through alternative splicing during homologous pairing and synapsis in mice [RNA-seq]",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE274491",
+        "title": "RNA-sequencing of testes from control and Hormad1&2SFB/SFB mice",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE222415",
+        "title": "Effect of upregulation of LINE-1 retrotransposon on translation in the mouse testis",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE63048",
+        "title": "MORC1 represses transposable elements in the mouse male germ line",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      },
+      {
+        "accession": "GSE146873",
+        "title": "RNA m6A methylation of 3\u02b9 splice site prevents binding of U2AF35 to inhibit splicing",
+        "selection_reason": "Expression-labelled source with possible relevant genetic/age contrast, selected before inspecting candidate expression; mixed modalities and eligibility unresolved."
+      }
+    ],
+    "additional_analysis_selection": "Morc1 P14.5 raw-read column discovered during detailed metadata audit; specified before its expression analysis, after first three context outcomes."
+  }
+}

@@ -1,0 +1,25 @@
+{
+ "schema_version": 1,
+ "specified_on": "2026-10-28",
+ "scope": "Targeted extension of prior public mouse whole-testis source discovery, not an exhaustive systematic review. Source selection must precede candidate-expression inspection.",
+ "organism": "Mus musculus, taxon 10090",
+ "queries": [
+  "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Rif1 OR Mettl16 OR Nat10 OR Usp7 OR Zcwpw1 OR Zcwpw2)",
+  "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Zfp541 OR Kctd19 OR Hormad1 OR Meiob OR Spata22 OR Ubr2)",
+  "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (P14 OR P16 OR P18 OR P21 OR \"14 dpp\" OR \"16 dpp\") AND (knockout OR deficient)",
+  "gse[ETYP] AND \"Mus musculus\"[Organism] AND (testis OR testes) AND (Rnf212b OR Trip13 OR Dmc1 OR Rad21l OR Rec8 OR Piwil1)"
+ ],
+ "server_filters": "GEO series plus mouse and literal search terms; tissue, age, phenotype, library type and eligibility must be reviewed locally.",
+ "eligibility": [
+  "Prioritize unselected whole-testis bulk RNA profiles at source-confirmed P10-P30; keep other ages and sorted/synchronized populations distinct.",
+  "Prefer at least three control and three perturbation biological samples; source replicate labels do not prove animal independence.",
+  "Explicit genotype, control/Cre, source age and assay labels; retain mixed control types, pairing and batches.",
+  "Require a gene-by-sample matrix of documented raw integer counts, or explicitly distinguish estimated/normalized values. Never round unidentified normalized data into counts.",
+  "Check primary phenotype evidence before calling the sampled state an established arrest phenotype.",
+  "Keep original four-unit primary family frozen. New contexts do not become extra independent votes without a separate, fully specified family. No selection by correlation or candidate concordance."
+ ],
+ "limits": {"maximum_API_requests": 80, "maximum_series_per_query": 500, "maximum_metadata_records": 12, "maximum_supplement_download_MB_each": 100, "maximum_supplement_download_MB_total": 250},
+ "discovery_lead": {"accession": "GSE294151", "source": "Official GEO search result describes P14 Rif1 conditional knockout and six-sample FeatureCounts matrix; this is a lead requiring sample/file/phenotype verification."},
+ "outputs": "Exact bounded query responses/count reconciliation, source-selection and exclusion records, frozen sample/asset identities, and exploratory fixed-list follow-up only for eligible sources.",
+ "access": "Proxy required from first request via project launcher. No direct fallback; no author contact or controlled-access request."
+}

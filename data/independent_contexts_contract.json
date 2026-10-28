@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-28",
+  "timing": "First three selected after schema inspection and before their differential analysis. Morc1 added after those first outcomes on per-mouse/raw-read source evidence, before Morc1 fitting. Exploratory and post hoc, not preregistered.",
+  "contexts": [
+    {
+      "cohort": "Rif1_P14",
+      "accession": "GSE294151",
+      "age": "P14 (series design only)",
+      "control": "GEO wild type; matrix con",
+      "perturbation": "sKO (matrix scKO)",
+      "mapping": "Group labels and replicate suffixes support tentative GSM aliases; no explicit library-name-to-matrix crosswalk. Omission units are matrix columns.",
+      "phenotype": "Unresolved; no linked publication located; cannot establish arrest at P14."
+    },
+    {
+      "cohort": "Hormad_dsfb_P19",
+      "accession": "GSE274491",
+      "age": "P19",
+      "control": "GEO control; source paper WT comparator",
+      "perturbation": "Hormad1&2 SFB/SFB tagged alleles, not a double knockout",
+      "mapping": "Exact sample title to matrix column",
+      "phenotype": "Source article reports male mid-pachytene arrest; does not independently validate every P19 sample."
+    },
+    {
+      "cohort": "Mael_P16",
+      "accession": "GSE222415",
+      "age": "P16",
+      "control": "Mael+/- heterozygous",
+      "perturbation": "Mael-/-",
+      "mapping": "Exact GEO sample description to matrix column; exclude ribofootprint columns",
+      "phenotype": "piRNA-deficient context; source describes comparable tissue complexity at P16. Not equated with established arrest at sampling."
+    },
+    {
+      "cohort": "Morc1_P14p5",
+      "accession": "GSE63048",
+      "age": "P14.5",
+      "control": "Morc1 tg/+ heterozygous (GEO het)",
+      "perturbation": "Morc1 tg/tg (GEO KO)",
+      "mapping": "Exact GSM-specific deposited per-library file; Ensembl gene features only; seventh column is raw reads, eighth is RPKM and excluded.",
+      "phenotype": "Source article describes meiotic pairing failure; GEO extraction states each library is one individual mouse. Independent phenotyping not performed.",
+      "selection_timing": "Selected from the nine metadata records after the three initial contexts were fitted, based on documented counts and per-mouse libraries, before inspecting Morc1 expression outcomes."
+    }
+  ],
+  "method": "Separate six-library source-gene count models (four contexts); edgeR filterByExpr, TMM, limma voom and eBayes. Refilter and renormalize full and each of six single-column omissions. No data-dependent outlier removal. BY and BH over all source genes tested within each fit, no pooled cross-context family or fixed-list FDR claim.",
+  "gene_handling": "Mael: only rows with all three repeat annotations missing; repeated-element rows excluded. Native source gene IDs fitted before annotation. Hormad Ensembl to org.Mm.eg.db SYMBOL with ambiguous mappings missing; other exact source symbols retained. Only globally unique symbols may enter candidate follow-up. Morc1: retain source ENSMUSG rows and column seven raw reads, exclude RPKM, fit source IDs before unique-symbol annotation.",
+  "fixed_list": "36 frozen descriptive priorities from replicability_snapshot/stable_descriptive_priorities.csv; missing/filtered/ambiguous genes fail complete-seven-fit retention; sign <0 and magnitude <=-log2(1.5), descriptive only.",
+  "independence": "Source-reported biological replicates retained, animal/pooling/pairing/batch identities not independently established. Separate sources are new contexts, not extra votes in primary family.",
+  "primary_policy": "Original four-unit primary family and zero formal discoveries unchanged; no expanded confirmatory inference.",
+  "random_seed": null
+}

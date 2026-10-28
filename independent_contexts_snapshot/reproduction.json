@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "Fresh-directory numerical reconstruction from the same cached inputs; not independent animals or biological validation.",
+  "tables": [
+    "samples.csv",
+    "input_qc.csv",
+    "full_statistics.csv.gz",
+    "priority_effects.csv.gz",
+    "fit_summary.csv",
+    "PCA.csv",
+    "gene_annotation.csv.gz",
+    "normalization.csv",
+    "runtime_R_versions.csv",
+    "priority_stability.csv",
+    "priority_summary.csv"
+  ],
+  "json_files": [
+    "summary.json",
+    "source_metadata.json"
+  ],
+  "figures": [
+    "priority_context.png",
+    "sample_PCA.png"
+  ],
+  "matrices": [
+    "Rif1_P14",
+    "Hormad_dsfb_P19",
+    "Mael_P16",
+    "Morc1_P14p5"
+  ],
+  "rtol": 1e-09,
+  "atol": 1e-10
+}

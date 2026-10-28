@@ -1,0 +1,25 @@
+cohort,matrix_sample,gsm_alias,alias_scope,group,library_count_sum
+Rif1_P14,con-1,GSM8899502,tentative group/suffix alias; not explicit source crosswalk,Control,18156109
+Rif1_P14,con-2,GSM8899503,tentative group/suffix alias; not explicit source crosswalk,Control,16665816
+Rif1_P14,con-3,GSM8899504,tentative group/suffix alias; not explicit source crosswalk,Control,15941672
+Rif1_P14,scKO-1,GSM8899505,tentative group/suffix alias; not explicit source crosswalk,Perturbation,16819064
+Rif1_P14,scKO-2,GSM8899506,tentative group/suffix alias; not explicit source crosswalk,Perturbation,16605787
+Rif1_P14,scKO-3,GSM8899507,tentative group/suffix alias; not explicit source crosswalk,Perturbation,18296594
+Hormad_dsfb_P19,control_1,GSM8450234,exact GEO title/description,Control,23983373
+Hormad_dsfb_P19,control_2,GSM8450236,exact GEO title/description,Control,27707291
+Hormad_dsfb_P19,control_3,GSM8450238,exact GEO title/description,Control,25684743
+Hormad_dsfb_P19,dsfb_1,GSM8450240,exact GEO title/description,Perturbation,17306363
+Hormad_dsfb_P19,dsfb_2,GSM8450242,exact GEO title/description,Perturbation,15335130
+Hormad_dsfb_P19,dsfb_3,GSM8450244,exact GEO title/description,Perturbation,15957354
+Mael_P16,geneCount_mrna_het_1,GSM6923077,exact GEO title/description,Control,23484975
+Mael_P16,geneCount_mrna_het_2,GSM6923078,exact GEO title/description,Control,27123131
+Mael_P16,geneCount_mrna_het_3,GSM6923079,exact GEO title/description,Control,26448231
+Mael_P16,geneCount_mrna_mael_1,GSM6923080,exact GEO title/description,Perturbation,13697267
+Mael_P16,geneCount_mrna_mael_2,GSM6923081,exact GEO title/description,Perturbation,20042864
+Mael_P16,geneCount_mrna_mael_3,GSM6923082,exact GEO title/description,Perturbation,27462358
+Morc1_P14p5,GSM1547662,GSM1547662,exact GSM-specific source file,Control,25213602
+Morc1_P14p5,GSM1547663,GSM1547663,exact GSM-specific source file,Control,27325926
+Morc1_P14p5,GSM1547664,GSM1547664,exact GSM-specific source file,Control,23529706
+Morc1_P14p5,GSM1547665,GSM1547665,exact GSM-specific source file,Perturbation,25851886
+Morc1_P14p5,GSM1547666,GSM1547666,exact GSM-specific source file,Perturbation,24423702
+Morc1_P14p5,GSM1547667,GSM1547667,exact GSM-specific source file,Perturbation,22509570

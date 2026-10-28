@@ -1,0 +1,10 @@
+accession,model,age,population,replicates,unit,decision,limitation
+GSE294151,Rif1,P14,whole testis,3+3,counts,exploratory provisional,No linked publication; matrix con/scKO group and suffix aliases tentative; age series-only; control/Cre detail unresolved
+GSE274491,Hormad1&2 tagged alleles,P19,whole testis,3+3,counts,exploratory arrest-model context,"Tagged alleles, not double KO; source reports male mid-pachytene arrest; source sample title exact; animal/batch identities unverified"
+GSE222415,Mael,P16,whole testis,"3+3 RNA, plus 3+3 Ribo excluded",counts,exploratory piRNA-deficient context,Heterozygous controls; discard repeat loci and ribofootprint columns; not established arrest at P16
+GSE185740,Zfp541,P14/P18,testicular cells and purified spermatocytes,3+3 per context,RPKM/FPKM,defer count analysis,Normalized units explicitly declared; retain ages and sorted context separately
+GSE191105,Nat10,not established,spermatogonia/PreL/LZ,17 mixed-stage samples,count matrix,exclude whole-testis analysis,Stage-selected spermatogenic populations
+GSE226550,Srsf1,P10 design; one KO attr P12,testes,3+3,bigwig,defer,Age contradiction GSM7078649 title P10 vs attr P12; no count matrix declared
+GSE227403,Srsf1,not established,STRA8+ cells,3+3,FPKM,exclude whole-testis analysis,Selected cells and normalized units
+GSE63048,Morc1 and others,P10.5/P14.5 and fetal,whole and sorted mixed,multiple,Separate raw-read and RPKM columns,exploratory P14.5 count context,"Only GSM1547662-GSM1547667 P14.5 HET3/KO3 used; native source allele tg, not engineered deletion; each library one mouse per GEO method; all other ages/assays excluded"
+GSE146873,METT10,adult and mixed,worm/mouse/insect RNA mixture,42 mixed samples,mixed,exclude genetic whole-testis analysis,Mouse WT RNA mixed equimolarly with other species; mutation comparison in worms
