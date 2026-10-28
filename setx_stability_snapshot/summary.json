@@ -1,0 +1,22 @@
+{
+  "scope": "Post-hoc same-library stability and diagnostic comparison; no biological confirmation.",
+  "fixed_candidates": 105,
+  "fixed_priorities": 36,
+  "count_variants": 42,
+  "single_library_omissions": 40,
+  "priorities_complete": 36,
+  "priorities_always_negative": 35,
+  "priorities_always_negative_1p5fold": 33,
+  "priorities_conditional_BY05_all_variants_descriptive": 13,
+  "priorities_1p5fold_both_count_and_TPM_suites": 31,
+  "matched_models": 3,
+  "matched_tested_genes": 16853,
+  "caveats": [
+    "A missing/re-filtered/non-unique candidate fails retention.",
+    "Omission ranges are not confidence intervals or independent replication.",
+    "Per-variant adjusted-threshold intersections and candidate subsets have no additional FDR guarantee.",
+    "Zero-length-offset counterfactual is a diagnostic, not a recommended estimate-count workflow.",
+    "Matched-count fits share normalization but reestimate dispersions; this does not fully attribute the original TPM/count discrepancy.",
+    "Animal independence, pooling, source code 7844 and barcode nesting remain unresolved; no primary genetic-unit vote added."
+  ]
+}

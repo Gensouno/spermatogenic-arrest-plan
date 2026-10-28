@@ -1,0 +1,31 @@
+{
+  "fixed_priorities": 36,
+  "length_offset_only": [
+    "Drc7"
+  ],
+  "zero_offset_counterfactual_only": [
+    "Casz1",
+    "Cyp2u1",
+    "Fsip2",
+    "Spef2"
+  ],
+  "both": [
+    "Ccdc146",
+    "Ccdc40",
+    "Cdkl2",
+    "Dlec1",
+    "Dnah10",
+    "Efhc1",
+    "Gdpd4",
+    "Gm5930",
+    "Hpcal4",
+    "Ints10",
+    "Kdm4d",
+    "Prdm8",
+    "Rgs12",
+    "Rtn1",
+    "Tmc1",
+    "Ttc6"
+  ],
+  "scope": "Threshold membership on the fixed common universe; no additional subgroup FDR guarantee or preferred zero-offset workflow."
+}

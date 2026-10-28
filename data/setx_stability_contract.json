@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-28",
+  "scope": "Post-hoc same-library stability and matched-universe diagnostics. Previous count/TPM outcomes already inspected; no independent biological replication.",
+  "omission_suite": {
+    "variants": "Full 40-library length-offset fit, both-ambiguous-P16-record exclusion, and each of 40 single-library omissions: 42 fits total.",
+    "filtering": "Repeat the frozen length_fit filtering, positive-length checks and normalization independently after every omission.",
+    "effects": "P18-P10 change in mutant-Control contrast; sign and at-most -log2(1.5) descriptive magnitude. A missing/non-unique gene fails retention.",
+    "inference": "Full-gene-family BY/BH per variant; cross-variant threshold retention is descriptive, with no additional subgroup or intersection FDR claim."
+  },
+  "diagnostic": {
+    "universe": "Intersection of original gene IDs tested in the preceding full TPM and full length-offset count models, fixed before these diagnostic fits.",
+    "fits": [
+      "matched_TPM_limma",
+      "matched_count_length_offset",
+      "matched_count_zero_offset_counterfactual"
+    ],
+    "count_comparison": "Same count matrix, genes, ten-cell design, library sizes and TMM factors for both count fits; same robust edgeR v4 QL policy, prior.count=0.125; only centered gene/sample length prior toggled. Dispersions reestimated under each offset.",
+    "TPM": "log2(TPM+0.5), limma trend=TRUE robust=TRUE on fixed common genes without refiltering.",
+    "warning": "Zero-offset fit is an intentionally incomplete diagnostic, not a recommended alternative pipeline. Matched comparisons do not fully decompose the original TPM/count difference; model family, scale and normalization still differ."
+  },
+  "frozen_priorities": "Original 105 candidates and 36 stable downward priorities; unique symbol matching after complete-gene tests. No new candidate selection.",
+  "random_seed": null,
+  "limitations": [
+    "Biological animal/pooling and barcode/source-code uncertainty persists.",
+    "No confidence intervals inferred from omission ranges.",
+    "No genes substituted for animals, no new primary genetic-unit vote.",
+    "Counts remain RSEM estimates, never rounded; no inferential replicates supplied."
+  ]
+}

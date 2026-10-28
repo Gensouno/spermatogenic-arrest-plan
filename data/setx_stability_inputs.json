@@ -1,0 +1,50 @@
+{
+  "scope": "Earlier frozen input identities checked before new analysis; no replacement hashes for altered files.",
+  "assets": [
+    {
+      "path": "data/raw/replicability_discovery/GSE224875_RAW.tar",
+      "bytes": 48732160,
+      "sha256": "8efd3a397c8f65b5ea915fba422ee83e4e92d080b554ef8f3b67cef83c9c46b0"
+    },
+    {
+      "path": "new_models_snapshot/Setx_archive_audit.csv",
+      "bytes": 8679,
+      "sha256": "e29fcf871563d9caf84e52b2f98107f76b8a6a01f6a9ac2ae529bafe9bf7bbd5"
+    },
+    {
+      "path": "new_models_snapshot/gene_annotation.csv",
+      "bytes": 3381799,
+      "sha256": "a2964e224baceb3128b48b44b22e2801ed3ffbaa08ce4a6946ae7fbacf2bcebf"
+    },
+    {
+      "path": "setx_interaction_snapshot/sample_design.csv",
+      "bytes": 4740,
+      "sha256": "4d4170e53321e9ba52bc63e956310264cca8e82787732ee1773fcfc08dcc5582"
+    },
+    {
+      "path": "setx_interaction_snapshot/all_gene_statistics.csv.gz",
+      "bytes": 8436710,
+      "sha256": "65d1e604a6ae946223580aeceb23eb44e1fa13a875393f7cf4fd545dacf558d8"
+    },
+    {
+      "path": "setx_interaction_snapshot/candidate_stability.csv",
+      "bytes": 13670,
+      "sha256": "0cc456adb3aec7da09e923402ef9efa0ca864996e6d5c0074dbbd2dedbba3714"
+    },
+    {
+      "path": "setx_length_snapshot/all_gene_statistics.csv.gz",
+      "bytes": 4395132,
+      "sha256": "cbf8cdfcf162b8342fa45ddb541a416e8eca26e6032f4f9ac9b0ecee28015daf"
+    },
+    {
+      "path": "replicability_snapshot/candidate_stage_context.csv",
+      "bytes": 96260,
+      "sha256": "da41b0095777c502b6d8c7724c57acfad3d976c733bfdbf3337cb5f33f40bd51"
+    },
+    {
+      "path": "replicability_snapshot/stable_descriptive_priorities.csv",
+      "bytes": 33803,
+      "sha256": "038d27e6f972ba91866d86510ea40a63fca3369981e070ac52064b76293e71a7"
+    }
+  ]
+}

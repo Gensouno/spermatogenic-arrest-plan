@@ -1,0 +1,90 @@
+{
+  "scope": "Same-source post-hoc omission stability and matched-universe diagnostics, not biological validation.",
+  "source_sha256": {
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/check_setx_stability.py": "93282be37227f970c23b0920ba6eb8cf5b49106741bc76ff74c00ac222ffa5e7",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/export_setx_stability.py": "d8f9af6e48a8ef62df60eab8ed886430b760d45ddaedb7e0c79d1b57e9b64467",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/run_setx_stability.py": "feec12badbe5578fa3b1929d4f9cf5dab1f34705fcc1211c7f8003205d0d0a65",
+    "tests/test_setx_stability.py": "7872163f1b3eedc4594f4dbe74c4016d53edf8b810a891ed7f0f67cf1f341389",
+    "code/analyze_setx_stability.R": "dbec73326fa5dac43371c091829ce5afd9e7c3c0294f767b3866e225adb87997",
+    "code/analyze_setx_length.R": "35914adbce98549d80806346076c1b86cafe8e1000e898b9f10e1207d6b2fd1f",
+    "code/analyze_setx_interaction.R": "813efd5fac641bea7465c40a9df1532d41d5974454ff896dd1b970a662b46c56"
+  },
+  "input_specification_sha256": {
+    "data/setx_stability_contract.json": "5464c2b28d2cde9b5dbd86d9ce16619cbede62cc9bab7868883c9abe8eaf2daf",
+    "data/setx_stability_inputs.json": "cf51e6792b49ecf860790f40426a4c8d256b5e6f731ce5bd44c151f43dc38013",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da",
+    "docs/SETX_STABILITY.md": "e3abaebb15678078f23d4bfeab5c21c3ffa50dfe9a002914d8b66213f069dce1"
+  },
+  "files": [
+    {
+      "path": "candidate_omissions.csv.gz",
+      "bytes": 497424,
+      "sha256": "c37d4327362e2a4de4411c3477842af0697a0385b5bbff4622e83832f243f7f8"
+    },
+    {
+      "path": "candidate_stability.csv",
+      "bytes": 12372,
+      "sha256": "7aa4ad2b89a08e247dc5bc2b36602a1fbc1826da2914b42b99dd54f6e3faaa76"
+    },
+    {
+      "path": "matched_count_normalization.csv",
+      "bytes": 1638,
+      "sha256": "b28ccd0f97ea5f6a82d070605fe0978477cd63d1758a0630b47a91b1491b2027"
+    },
+    {
+      "path": "matched_design_audit.csv",
+      "bytes": 84,
+      "sha256": "03636882411fae24dc7ff4ee989af68960dd2d5a82ad6b8183e7157739b5337a"
+    },
+    {
+      "path": "matched_diagnostics.csv.gz",
+      "bytes": 2600014,
+      "sha256": "f9abc9a590dc1bf588d9e2b03adc6738a0cbbb58b10b4304e69fa0f89aaed795"
+    },
+    {
+      "path": "matched_summary.csv",
+      "bytes": 347,
+      "sha256": "5dfadb7427236845cfc82514742e86218b89d8a7b2e89613ddad0929a7608436"
+    },
+    {
+      "path": "matched_threshold_transitions.json",
+      "bytes": 532,
+      "sha256": "7a47fa12f387103b67c4d2185be0dd16f2ce0b9d81e952f9c0380b1bc2520023"
+    },
+    {
+      "path": "omission_models.csv",
+      "bytes": 2944,
+      "sha256": "56a6aa6f757fda46e1f35dacb4030d6b6771aa0ba200e17757bcea9aecf75881"
+    },
+    {
+      "path": "previous_fit_agreement.csv",
+      "bytes": 108,
+      "sha256": "5495ea83da6d6db142e95b61a87c2c4678baebbba85ade7112e48cfa272d6d0d"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 454,
+      "sha256": "656a96bed32b2bfd55ee3b8b49055df44bb0e221bb310e821cc3146e9f8426bf"
+    },
+    {
+      "path": "runtime_versions.csv",
+      "bytes": 52,
+      "sha256": "70193c4601276edd49428c4009d85afa2f9ba2f22f23d48ba089d0d0a70ad359"
+    },
+    {
+      "path": "stability_and_matched_models.png",
+      "bytes": 150548,
+      "sha256": "72bc2c43333bb2d3f1f3c0fac843a9c9d19062ef9198b015a3d60d0fd82a3250"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1140,
+      "sha256": "0698c369fd97553ab028547ea5f15e10f4b6e09622ba1405d4726a37f7a5720d"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "tables_matching": 10,
+  "JSON_matching": 2,
+  "figures_matching": 1,
+  "original_genome_members_reprocessed": 40,
+  "count_omission_suite_fits": 42,
+  "matched_universe_fits": 3,
+  "scope": "Original processed RSEM TAR re-read and all fits refit in a fresh directory with installed dependencies and frozen prior annotation/TPM comparison. No network rerun, clean installation, raw-read alignment or biological validation."
+}

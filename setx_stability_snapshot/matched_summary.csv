@@ -1,0 +1,4 @@
+variant,tested_genes,conditional_BY05,conditional_BH05,fixed_priorities_measured,fixed_priorities_negative,fixed_priorities_negative_1p5fold,fixed_priorities_conditional_BY05
+matched_TPM_limma,16853,8419,11485,36,35,33,32
+matched_count_length_offset,16853,5857,8921,36,36,34,17
+matched_count_zero_offset_counterfactual,16853,6745,9746,36,36,36,20
