@@ -1,0 +1,3 @@
+gsm,age,source_group_label,source_genotype,replicate_label,filename_source_code,barcode_token,biosample,sra_experiment,sra_sample,run,library_name,layout,instrument,source_title,read_count,base_count,source_identity_reconciled,individual_animal_identity_confirmed
+GSM7034763,P16,Control,wt,2,7844,AGTTCC,SAMN33213895,SRX19315358,SRS16714095,SRR23374748,GSM7034763,PAIRED,Illumina HiSeq 2500,"wt testis, 16dpp, rep2",27295329,5459065800,True,False
+GSM7034783,P16,KO,SetxKO,2,7844,CCGTCC,SAMN33213875,SRX19315378,SRS16714115,SRR23374728,GSM7034783,PAIRED,Illumina HiSeq 2500,"SetxKO testis, 16dpp, rep2",28168035,5633607000,True,False

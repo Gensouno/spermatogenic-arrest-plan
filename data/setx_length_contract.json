@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-27",
+  "scope": "Post-hoc model-form sensitivity on the same Setx source libraries; no independent biological replication or primary-family extension.",
+  "input": "Original gene-level RSEM expected_count, effective_length and TPM; do not round estimated counts.",
+  "implementation": "edgeR 4.10.6 DGEListFromTximport with countsFromAbundance=no and existing gene-level effective lengths; no transcript re-quantification or tximport package installation.",
+  "filter": "Preliminary edgeR filterByExpr with ten categorical cell means, then require positive finite effective lengths in every retained library; record exclusions, do not impute zero lengths.",
+  "fit": "Native DGEListFromTximport length-offset prior, filterByExpr, normLibSizes(TMM), glmQLFit(robust=TRUE, legacy=FALSE), four-column interaction contrast from the prior frozen model.",
+  "variants": [
+    "length_offset_40",
+    "length_offset_exclude_pair_38"
+  ],
+  "multiplicity": "BY over every expressed original gene ID for the joint four-df quasi-likelihood F test, separately per variant; BH sensitivity.",
+  "effect_comparison": "Map fixed 105/36 symbols uniquely after testing; P18-P10 genotype-contrast signs and magnitudes compared descriptively to prior TPM model. No new subset FDR.",
+  "uncertainties": [
+    "No inferential replicates or quantification-uncertainty correction available.",
+    "Source animal/pooling and barcode/technical limitations persist.",
+    "Count and TPM filter universes and effect estimands differ; compare matched genes explicitly.",
+    "No count-based single-library omission suite in this sensitivity; no inherited all-omission stability claim."
+  ]
+}

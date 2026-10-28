@@ -1,0 +1,3 @@
+samples,design_rank,interaction_df,preliminary_expressed,excluded_nonpositive_length,second_filter_excluded,tested_genes,conditional_BY05,conditional_BH05,noninteger_source_values,length_offset_max_error,counts_rounded,variant
+40,10,4,18207,0,0,18207,5891,9098,115150,0,FALSE,length_offset_40
+38,10,4,18470,0,0,18470,6599,9515,109587,0,FALSE,length_offset_exclude_pair_38

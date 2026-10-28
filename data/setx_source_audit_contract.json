@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-27",
+  "target": "GSE224875 / PRJNA932833 mouse Setx spcar3 developmental source",
+  "scope": "Targeted primary-source metadata and publication audit, not an exhaustive literature search or new biological experiment.",
+  "organism": "Mus musculus, taxon 10090",
+  "questions": ["Reconcile all 40 frozen GEO sample identities to BioSample/SRA/ENA metadata and sequence runs.", "Trace repeated filename source code 7844 without assuming animal identity or relabeling libraries.", "Distinguish nested barcode tokens from documented sequencing lanes, flowcells, batches and animal replicates.", "Verify the specific mutant allele, histology and developmental timing in the matching original publication; do not equate mutant homozygotes with an engineered knockout without qualification."],
+  "required_fields": ["GSM", "source title", "age", "genotype", "BioSample", "SRA experiment", "run", "library layout", "instrument", "library name", "sample alias", "sequencing header metadata if exposed", "publication identifiers and source location"],
+  "retrieval": {"GEO": "Current series SOFT; compare against frozen record, preserve differences", "ENA": "Discover return/search fields; count project run records first, then retrieve bounded set; reconcile experiment/sample IDs", "publication": "Published article first; openly accessible preprint explicitly distinguished if needed", "request_limit": 50, "record_limit": 1000, "download_limit_per_request_MB": 12, "proxy": "Required through project launcher from first request; no direct fallback"},
+  "inference_boundaries": ["Distinct accessions do not prove distinct animals.", "Absence of an attribute is not evidence that a factor was absent.", "Author-reported histology is external source evidence, not new experimental validation.", "Archived numerical branches and their sources remain unchanged."]
+}

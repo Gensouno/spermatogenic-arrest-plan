@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "tables_matching": 8,
+  "JSON_matching": 4,
+  "original_genome_members_reprocessed": 40,
+  "length_offset_models_refitted": 2,
+  "scope": "Fresh-directory metadata audit and original RSEM estimate/length reconstruction; installed dependencies, frozen prior annotations and TPM comparison reused. No network rerun, raw-read alignment, clean installation or biological validation."
+}

@@ -1,0 +1,230 @@
+{
+  "scope": "Targeted lookup; URLs contain no credentials. Failed downloads and invalid responses are retained explicitly.",
+  "requests": 23,
+  "http_failures": 3,
+  "logical_response_rejections": 1,
+  "records": [
+    {
+      "name": "ena_return_fields.json",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/returnFields?result=read_run&format=json",
+      "accessed_UTC": "2026-10-27T13:49:08Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/portal/api/returnFields?result=read_run&format=json",
+      "content_type": "application/json",
+      "bytes": 19766,
+      "sha256": "816ba0adec4e7fcd508ffc5f1c42ecaf868143d7204eefe4e16ebdfc8c6fd27b"
+    },
+    {
+      "name": "ena_search_fields.json",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/searchFields?result=read_run&format=json",
+      "accessed_UTC": "2026-10-27T13:49:10Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/portal/api/searchFields?result=read_run&format=json",
+      "content_type": "application/json",
+      "bytes": 16644,
+      "sha256": "9600587831c5c8cbcb16c0d1aa9c7ccae51a10e661b6d90041c5ddb5ca7e7f2c"
+    },
+    {
+      "name": "ena_count.txt",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=study_accession%3D%22PRJNA932833%22",
+      "accessed_UTC": "2026-10-27T13:49:14Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=study_accession%3D%22PRJNA932833%22",
+      "content_type": "text/plain",
+      "bytes": 9,
+      "sha256": "b45c04f93f6e7b4fb60cb9896e23a59a327db04171fc95ad18a30c0988bb0b9f"
+    },
+    {
+      "name": "geo_series.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224875&targ=all&form=text&view=full",
+      "accessed_UTC": "2026-10-27T13:49:17Z",
+      "status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224875&targ=all&form=text&view=full",
+      "content_type": "geo/text",
+      "bytes": 11245097,
+      "sha256": "dfc0182a60e931a7faf4a851295aade711d9c1dd7de269421c89fa7b288b2bd3"
+    },
+    {
+      "name": "published_article.html",
+      "url": "https://academic.oup.com/reproduction/article/166/6/437/8217225",
+      "accessed_UTC": "2026-10-27T13:49:24Z",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "pubmed.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37801077&retmode=xml",
+      "accessed_UTC": "2026-10-27T13:49:25Z",
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37801077&retmode=xml",
+      "content_type": "text/xml; charset=UTF-8",
+      "bytes": 8601,
+      "sha256": "02001a4a242a4f7ea8e152ae648f403f5e366bcb477a85454497e94e9b02973c"
+    },
+    {
+      "name": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1530/REP-23-0166",
+      "accessed_UTC": "2026-10-27T13:49:26Z",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1530/REP-23-0166",
+      "content_type": "application/json",
+      "bytes": 21495,
+      "sha256": "98545da5ce34775f36e6b545631c1f29bf2e64de95d39a6dedf177690aca705e"
+    },
+    {
+      "name": "preprint_metadata.json",
+      "url": "https://api.biorxiv.org/details/biorxiv/2023.04.12.536672",
+      "accessed_UTC": "2026-10-27T13:49:27Z",
+      "status": 200,
+      "final_url": "https://api.biorxiv.org/details/biorxiv/2023.04.12.536672",
+      "content_type": "application/json",
+      "bytes": 79,
+      "sha256": "977e2a9f9976cd24d2b4d685faf791783ef4e999560dd5632847c83a66fcc3e4",
+      "response_validation": "Rejected: HTTP success but API returned non-numeric value error; not used as scientific evidence."
+    },
+    {
+      "name": "skill_citation.html",
+      "url": "https://arxiv.org/abs/2609.00065",
+      "accessed_UTC": "2026-10-27T13:49:28Z",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.00065",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 42868,
+      "sha256": "87e5d6378d900a1a9299aaf8c9e13ea37db5de5bebd0c7f7af29255b457402d7"
+    },
+    {
+      "name": "ena_runs.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=study_accession%3D%22PRJNA932833%22&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csecondary_sample_accession%2Csample_alias%2Csample_title%2Cstudy_accession%2Csecondary_study_accession%2Clibrary_name%2Clibrary_layout%2Clibrary_strategy%2Clibrary_selection%2Clibrary_source%2Cinstrument_model%2Cread_count%2Cbase_count%2Ccenter_name%2Csubmitted_ftp%2Csubmitted_format%2Cfastq_ftp%2Ctax_id&limit=100&format=tsv",
+      "accessed_UTC": "2026-10-27T13:50:48Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=study_accession%3D%22PRJNA932833%22&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csecondary_sample_accession%2Csample_alias%2Csample_title%2Cstudy_accession%2Csecondary_study_accession%2Clibrary_name%2Clibrary_layout%2Clibrary_strategy%2Clibrary_selection%2Clibrary_source%2Cinstrument_model%2Cread_count%2Cbase_count%2Ccenter_name%2Csubmitted_ftp%2Csubmitted_format%2Cfastq_ftp%2Ctax_id&limit=100&format=tsv",
+      "content_type": "text/plain",
+      "bytes": 14404,
+      "sha256": "f39010c2dc314ffaace50b0811c1fa58e60bfa8636250101483c1048a86564d1"
+    },
+    {
+      "name": "experiment_WT_P16.xml",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX19315358",
+      "accessed_UTC": "2026-10-27T13:50:50Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX19315358",
+      "content_type": "application/xml",
+      "bytes": 2944,
+      "sha256": "5931a29cb4e1729c118643988219cccc5c25344f560ce00e6209d42ce8722269"
+    },
+    {
+      "name": "experiment_Mut_P16.xml",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX19315378",
+      "accessed_UTC": "2026-10-27T13:50:52Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX19315378",
+      "content_type": "application/xml",
+      "bytes": 2948,
+      "sha256": "ee98fa2c8be3afb0b0e10993a64fe75a752fde9aff4756eadf4a175bb2c773e0"
+    },
+    {
+      "name": "article_legacy.html",
+      "url": "https://rep.bioscientifica.com/view/journals/rep/166/6/REP-23-0166.xml",
+      "accessed_UTC": "2026-10-27T13:50:54Z",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "published_article.pdf",
+      "url": "https://academic.oup.com/reproduction/article-pdf/166/6/437/64910641/rep-23-0166.pdf",
+      "accessed_UTC": "2026-10-27T13:50:57Z",
+      "error_type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "name": "preprint_metadata_doi.json",
+      "url": "https://api.biorxiv.org/details/biorxiv/10.1101/2023.04.12.536672",
+      "accessed_UTC": "2026-10-27T13:51:11Z",
+      "status": 200,
+      "final_url": "https://api.biorxiv.org/details/biorxiv/10.1101/2023.04.12.536672",
+      "content_type": "application/json",
+      "bytes": 2029,
+      "sha256": "c1a4fbe4917523ca7c8b387bfc2f054a2a72eb58261377a5222862a73a485604"
+    },
+    {
+      "name": "preprint.html",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.04.12.536672v1.full",
+      "accessed_UTC": "2026-10-27T13:51:18Z",
+      "status": 200,
+      "final_url": "https://www.biorxiv.org/content/10.1101/2023.04.12.536672v1.full",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 364406,
+      "sha256": "4249a0f1cb0976517c8852171bd0ee5b332374647357b03656b92a49004cc406"
+    },
+    {
+      "name": "GSM7034763_sample.xml",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRS16714095",
+      "accessed_UTC": "2026-10-27T13:53:48Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRS16714095",
+      "content_type": "application/xml",
+      "bytes": 3078,
+      "sha256": "acbb4cf903435b0f2d7b2aefc380a8d0c2e782c635e6764ecca2c797cc61d37a"
+    },
+    {
+      "name": "GSM7034763_run.xml",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR23374748",
+      "accessed_UTC": "2026-10-27T13:53:49Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR23374748",
+      "content_type": "application/xml",
+      "bytes": 2149,
+      "sha256": "9aec0a5c4a92558d98f66f41cd782336f8bbb5694521a30c1ea2a3e108550e90"
+    },
+    {
+      "name": "GSM7034783_sample.xml",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRS16714115",
+      "accessed_UTC": "2026-10-27T13:53:51Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRS16714115",
+      "content_type": "application/xml",
+      "bytes": 3086,
+      "sha256": "35b8843ea1e563c37fba83312ea56e9ce7ccd73c91f9939817c2fa0a123f8baf"
+    },
+    {
+      "name": "GSM7034783_run.xml",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR23374728",
+      "accessed_UTC": "2026-10-27T13:53:53Z",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR23374728",
+      "content_type": "application/xml",
+      "bytes": 2153,
+      "sha256": "ea709f9ac4eb1d85cb99a8dc705be790dfc5581802aabdb893539db37d0a59c5"
+    },
+    {
+      "name": "preprint_crossref.json",
+      "url": "https://api.crossref.org/works/10.1101/2023.04.12.536672",
+      "accessed_UTC": "2026-10-27T13:53:55Z",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1101/2023.04.12.536672",
+      "content_type": "application/json",
+      "bytes": 18979,
+      "sha256": "c748aa499eac488134f0a9f7be89a5ae5e20cd1202977e43d05513495ca84ad0"
+    },
+    {
+      "name": "preprint_source.xml",
+      "url": "https://www.biorxiv.org/content/early/2023/04/13/2023.04.12.536672.source.xml",
+      "accessed_UTC": "2026-10-27T13:53:56Z",
+      "status": 200,
+      "final_url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/13/2023.04.12.536672.source.xml",
+      "content_type": "application/xml",
+      "bytes": 171094,
+      "sha256": "dbadad37c65979d2d71aaab267e0a3974b2aad7c24d31908f58e321426b2df6e"
+    },
+    {
+      "name": "tximport_vignette.html",
+      "url": "https://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html",
+      "accessed_UTC": "2026-10-27T13:53:58Z",
+      "status": 200,
+      "final_url": "https://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 904574,
+      "sha256": "53c4f263fc5b61bda6bf09797466f20df99de69b538c35188a103ff498f400a8"
+    }
+  ]
+}

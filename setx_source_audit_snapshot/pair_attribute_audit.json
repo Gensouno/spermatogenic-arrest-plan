@@ -1,0 +1,40 @@
+[
+  {
+    "gsm": "GSM7034763",
+    "sample_attributes": {
+      "collection_date": "missing",
+      "INSDC secondary accession": "SRS16714095",
+      "NCBI submission package": "Generic.1.0",
+      "organism": "Mus musculus",
+      "geo_loc_name": "missing",
+      "tissue": "testis",
+      "cell type": "testicular cells",
+      "source_name": "testis",
+      "genotype": "WT",
+      "BioSampleModel": "Generic",
+      "ENA-FIRST-PUBLIC": "2023-12-31",
+      "ENA-LAST-UPDATE": "2023-12-31"
+    },
+    "animal_identity_confirmed": false,
+    "interpretation": "Distinct archive records; repeated filename code remains unresolved. No label correction inferred."
+  },
+  {
+    "gsm": "GSM7034783",
+    "sample_attributes": {
+      "collection_date": "missing",
+      "INSDC secondary accession": "SRS16714115",
+      "NCBI submission package": "Generic.1.0",
+      "organism": "Mus musculus",
+      "geo_loc_name": "missing",
+      "tissue": "testis",
+      "cell type": "testicular cells",
+      "source_name": "testis",
+      "genotype": "SetxKO",
+      "BioSampleModel": "Generic",
+      "ENA-FIRST-PUBLIC": "2023-12-31",
+      "ENA-LAST-UPDATE": "2023-12-31"
+    },
+    "animal_identity_confirmed": false,
+    "interpretation": "Distinct archive records; repeated filename code remains unresolved. No label correction inferred."
+  }
+]

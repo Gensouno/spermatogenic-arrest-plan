@@ -1,0 +1,36 @@
+{
+  "scope": "Same-source post-hoc length-aware estimated-count sensitivity, not independent biological replication.",
+  "original_gene_rows": 55401,
+  "source_genome_members": 40,
+  "variants": 2,
+  "estimated_counts_rounded": false,
+  "quantification_inferential_replicates_available": false,
+  "candidate_summary": [
+    {
+      "variant": "length_offset_40",
+      "fixed_priorities": 36,
+      "measured": 36,
+      "matched_to_TPM": 36,
+      "negative_delta": 36,
+      "negative_delta_1p5fold": 34,
+      "same_delta_sign_as_TPM": 35,
+      "conditional_BY05": 17
+    },
+    {
+      "variant": "length_offset_exclude_pair_38",
+      "fixed_priorities": 36,
+      "measured": 36,
+      "matched_to_TPM": 36,
+      "negative_delta": 36,
+      "negative_delta_1p5fold": 34,
+      "same_delta_sign_as_TPM": 35,
+      "conditional_BY05": 24
+    }
+  ],
+  "limitations": [
+    "No count-based single-sample omission suite in this branch.",
+    "Count and TPM filtering/effect estimands differ.",
+    "Animal independence, pooling and barcode/source limitations persist.",
+    "No new primary genetic-unit vote, subgroup FDR guarantee or causal mechanism inference."
+  ]
+}

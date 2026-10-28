@@ -1,0 +1,18 @@
+{
+  "scope": "Primary source identity, author-reported phenotype and version-aware publication audit; not biological validation.",
+  "frozen_GEO_samples": 40,
+  "current_GEO_samples": 40,
+  "ENA_count": 40,
+  "ENA_runs": 40,
+  "reconciled_samples": 40,
+  "unique_biosamples": 40,
+  "unique_experiments": 40,
+  "unique_runs": 40,
+  "paired_libraries": 40,
+  "HiSeq2500_libraries": 40,
+  "repeated_filename_code_samples": 2,
+  "independent_animals_confirmed": false,
+  "source_labels_unchanged": true,
+  "barcode_confounding_resolved": false,
+  "conclusion": "All sample/run identities reconcile; separate accessions do not resolve filename code 7844 or prove independent animals. The original RNA-seq source reports biological replication at P18 in preprint v1, without a complete cross-age animal/pooling manifest. Source KO label is retained as a mutant-contrast alias; the biological allele is spcar3."
+}

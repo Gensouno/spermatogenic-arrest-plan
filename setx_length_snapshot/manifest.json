@@ -1,0 +1,68 @@
+{
+  "scope": "Source reconciliation and conditional model sensitivity; not biological validation.",
+  "source_sha256": {
+    "scripts/audit_setx_sources.py": "f0e191a7375a89da6254454f8a96874310d17088b337f3cc5082c22822e57b91",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/check_setx_followup.py": "91c6e67ed69e6b337b1c79185aa0959eb3bdb6a6ec2cec922abd4c7059a9e660",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/export_setx_followup.py": "71b85bb627539974bcd113d3f13a0b0a47d2fccc487d905f1c8f561f9b0e207c",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/run_setx_interaction.py": "165934ea03f474aca481e7da6914adee9047b7d0518dcab1119c9eef7f7e55a7",
+    "scripts/run_setx_length.py": "341e2918ec8a20f7e2ff8a255086c555bfcce6e59ec40117ce3c17a2e4f4a853",
+    "tests/test_setx_followup.py": "9877a28ba6708597288b742a80b37fa2e732e6d2fa59ba290a3e8aaa3d08f8b5",
+    "code/analyze_setx_length.R": "35914adbce98549d80806346076c1b86cafe8e1000e898b9f10e1207d6b2fd1f",
+    "code/analyze_setx_interaction.R": "813efd5fac641bea7465c40a9df1532d41d5974454ff896dd1b970a662b46c56"
+  },
+  "input_specification_sha256": {
+    "data/setx_source_audit_contract.json": "46c4377313f0eb52c494fcf1fb80016ed364f0441bac109eedb7b573b687f4c7",
+    "data/setx_source_audit_inputs.json": "6986236db8bc152e8ef590f55de5c73ad0f4314cb81b43aef6d3f8d7b9fecf29",
+    "data/setx_length_contract.json": "bf23582ae847ca5efe004780423cf8b5fe215df011f207b7c185bbb6a1140a7d",
+    "data/setx_length_inputs.json": "c0e7dc57b5cfd56c39395270af7827a4dac8b45e48c69e86883dd0027c3cda27",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da",
+    "docs/SETX_SOURCE_AND_LENGTH.md": "a9c9c2bdf1c0a54ae46624425a3e8c024f572a6ea6e114fddea2aa800e55cecc"
+  },
+  "files": [
+    {
+      "path": "all_gene_statistics.csv.gz",
+      "bytes": 4395132,
+      "sha256": "cbf8cdfcf162b8342fa45ddb541a416e8eca26e6032f4f9ac9b0ecee28015daf"
+    },
+    {
+      "path": "candidate_context.csv",
+      "bytes": 68547,
+      "sha256": "50c44b2ee092067ca87f45351d4496de55a0060b849af825c5ae20915f2e59cb"
+    },
+    {
+      "path": "candidate_summary.csv",
+      "bytes": 216,
+      "sha256": "3609deb3dfa1a4672a7ba01142f7be5b19f7057de01d01dc0993a89f0024786a"
+    },
+    {
+      "path": "matched_universe_comparison.csv",
+      "bytes": 222,
+      "sha256": "0cbd1ecfa8d73a1d4f14321b11a078bed1bbbaae90d772fd49c3f3d08889a586"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 410,
+      "sha256": "bd790c358e44cb1cc1f7097551e9fa2ae499e936af9dc2dcc78617664bddf6ca"
+    },
+    {
+      "path": "runtime_versions.csv",
+      "bytes": 52,
+      "sha256": "70193c4601276edd49428c4009d85afa2f9ba2f22f23d48ba089d0d0a70ad359"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1173,
+      "sha256": "d099e885d4296bd20e056fb24fc83acad327c429e6143ea093b0b626f91978f5"
+    },
+    {
+      "path": "variant_summary.csv",
+      "bytes": 372,
+      "sha256": "c0318cc46b983496585a61fb678ee128125b6971a989e0476278c17494bac9fc"
+    }
+  ]
+}

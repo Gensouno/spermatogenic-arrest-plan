@@ -1,0 +1,100 @@
+{
+  "scope": "Frozen source responses and prior identities; invalid API response and failed downloads are not scientific evidence.",
+  "assets": [
+    {
+      "path": "data/raw/setx_source_audit/geo_series.soft",
+      "bytes": 11245097,
+      "sha256": "dfc0182a60e931a7faf4a851295aade711d9c1dd7de269421c89fa7b288b2bd3"
+    },
+    {
+      "path": "data/raw/setx_source_audit/ena_runs.tsv",
+      "bytes": 14404,
+      "sha256": "f39010c2dc314ffaace50b0811c1fa58e60bfa8636250101483c1048a86564d1"
+    },
+    {
+      "path": "data/raw/setx_source_audit/ena_count.txt",
+      "bytes": 9,
+      "sha256": "b45c04f93f6e7b4fb60cb9896e23a59a327db04171fc95ad18a30c0988bb0b9f"
+    },
+    {
+      "path": "data/raw/setx_source_audit/experiment_WT_P16.xml",
+      "bytes": 2944,
+      "sha256": "5931a29cb4e1729c118643988219cccc5c25344f560ce00e6209d42ce8722269"
+    },
+    {
+      "path": "data/raw/setx_source_audit/experiment_Mut_P16.xml",
+      "bytes": 2948,
+      "sha256": "ee98fa2c8be3afb0b0e10993a64fe75a752fde9aff4756eadf4a175bb2c773e0"
+    },
+    {
+      "path": "data/raw/setx_source_audit/GSM7034763_sample.xml",
+      "bytes": 3078,
+      "sha256": "acbb4cf903435b0f2d7b2aefc380a8d0c2e782c635e6764ecca2c797cc61d37a"
+    },
+    {
+      "path": "data/raw/setx_source_audit/GSM7034783_sample.xml",
+      "bytes": 3086,
+      "sha256": "35b8843ea1e563c37fba83312ea56e9ce7ccd73c91f9939817c2fa0a123f8baf"
+    },
+    {
+      "path": "data/raw/setx_source_audit/GSM7034763_run.xml",
+      "bytes": 2149,
+      "sha256": "9aec0a5c4a92558d98f66f41cd782336f8bbb5694521a30c1ea2a3e108550e90"
+    },
+    {
+      "path": "data/raw/setx_source_audit/GSM7034783_run.xml",
+      "bytes": 2153,
+      "sha256": "ea709f9ac4eb1d85cb99a8dc705be790dfc5581802aabdb893539db37d0a59c5"
+    },
+    {
+      "path": "data/raw/setx_source_audit/pubmed.xml",
+      "bytes": 8601,
+      "sha256": "02001a4a242a4f7ea8e152ae648f403f5e366bcb477a85454497e94e9b02973c"
+    },
+    {
+      "path": "data/raw/setx_source_audit/crossref.json",
+      "bytes": 21495,
+      "sha256": "98545da5ce34775f36e6b545631c1f29bf2e64de95d39a6dedf177690aca705e"
+    },
+    {
+      "path": "data/raw/setx_source_audit/preprint.html",
+      "bytes": 364406,
+      "sha256": "4249a0f1cb0976517c8852171bd0ee5b332374647357b03656b92a49004cc406"
+    },
+    {
+      "path": "data/raw/setx_source_audit/preprint_metadata_doi.json",
+      "bytes": 2029,
+      "sha256": "c1a4fbe4917523ca7c8b387bfc2f054a2a72eb58261377a5222862a73a485604"
+    },
+    {
+      "path": "data/raw/setx_source_audit/preprint_crossref.json",
+      "bytes": 18979,
+      "sha256": "c748aa499eac488134f0a9f7be89a5ae5e20cd1202977e43d05513495ca84ad0"
+    },
+    {
+      "path": "data/raw/setx_source_audit/skill_citation.html",
+      "bytes": 42868,
+      "sha256": "87e5d6378d900a1a9299aaf8c9e13ea37db5de5bebd0c7f7af29255b457402d7"
+    },
+    {
+      "path": "data/raw/replicability_discovery/GSE224875_family.soft.gz",
+      "bytes": 4239,
+      "sha256": "ecb28467fc4612e2939bc483e8548bbba1014b89d8f9f45af7ff6d79fc6014dd"
+    },
+    {
+      "path": "results/replicability_discovery/GSE224875_metadata.json",
+      "bytes": 54584,
+      "sha256": "8a846b62da7f55262d1009d1aad4b45a1eec87b7510919143c9b7e4c6d941325"
+    },
+    {
+      "path": "setx_interaction_snapshot/sample_design.csv",
+      "bytes": 4740,
+      "sha256": "4d4170e53321e9ba52bc63e956310264cca8e82787732ee1773fcfc08dcc5582"
+    },
+    {
+      "path": "data/raw/setx_source_audit/preprint_source.xml",
+      "bytes": 171094,
+      "sha256": "dbadad37c65979d2d71aaab267e0a3974b2aad7c24d31908f58e321426b2df6e"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "published_PMID": "37801077",
+  "published_DOI": "10.1530/REP-23-0166",
+  "published_year": 2023,
+  "preprint_DOI": "10.1101/2023.04.12.536672",
+  "preprint_version": 1,
+  "preprint_document_authors": [
+    "Yasuhiro Fujiwara",
+    "Kouhei Saito",
+    "Fengyun Sun",
+    "Sabrina Petri",
+    "Erina Inoue",
+    "John Schimenti",
+    "Yuki Okada",
+    "Mary Ann Handel"
+  ],
+  "mutant_allele": "Setx spcar3; ENU-induced mutant allele, not evidence of an engineered knockout",
+  "allele_association": "GEO series summary names spcar3; the openly accessible preprint explicitly names GSE224875.",
+  "histology_scope": "Published abstract reports absence of spermatids/mature sperm and mid-prophase meiotic arrest. Author-reported allele-level evidence; not matched histology for each reanalyzed library.",
+  "preprint_RNAseq_age_dpp": 18,
+  "preprint_reported_biological_replicates": 4,
+  "other_age_independence": "The P18 statement is not extended to P10-P16. No animal manifest or pooling map was established.",
+  "preprint_background": "C3H/HeJ congenic line after more than 30 backcross generations; reported study context, not an individual-library strain certificate.",
+  "published_fulltext_locally_retrieved": false,
+  "access_limit": "Publisher HTML/PDF could not be downloaded in this audit; published phenotype was checked in PubMed. Detailed methods checked in preprint v1, explicitly not equated with the final text.",
+  "preprint_latest_metadata_caveat": "The bioRxiv API response says published=NA and omits Sabrina Petri; the version-1 HTML/JATS and Crossref include eight authors. Use the versioned document and Crossref for author identity, not the inconsistent API summary. Independent PubMed/Crossref identify a published article; publication versions remain distinct."
+}
