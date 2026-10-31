@@ -1,0 +1,77 @@
+{
+  "scope": "Post-hoc competitive set association and correlation-policy sensitivity, not primary replication or biological validation.",
+  "source_sha256": {
+    "code/analyze_competitive_set.R": "5ed093b933974b372ec6451920336fefef41f34161e7b8af64bab6419b56bb2e",
+    "scripts/check_competitive_set.py": "d5449f055832176fad057b5b18b6867233fe9708888df04e0813392b0cc60181",
+    "scripts/check_project.py": "5e55f75d75c8373d51b6c63b4f1a201a67ba387b124e44139bb6d40c43b2ffda",
+    "scripts/export_competitive_set.py": "098dca34a56a5608e0a8db212ae9925a2b366e99fefb17057d8721de2ab433a7",
+    "scripts/export_reference_limits.py": "013354f1f81f4756ce88c07d3693c74920ea64d8a40266ef356a8ff27af7b83b",
+    "scripts/freeze_reference_limits_inputs.py": "d04bb9f3b6e889d20ab1b6c39e8c9f37484df6d9c5aa191731bd61b0b56b2331",
+    "scripts/plot_competitive_set.py": "e3bd6b45b8b361f95dfe5d0867ec335a67e8e6d4ac856943376a1498b3b0ad41",
+    "scripts/run_competitive_set.py": "0b9d57d04358403ea1a96bf5159131b90300f94bcfe9f0c50fde04fb51997dc8",
+    "scripts/run_independent_contexts.py": "2532b55d8ffe85fba1a60e2b61f9c139aaeaf060349d7a81307a1efd8d8c1890",
+    "tests/test_competitive_set.py": "554a5906164fb16d6fdd2cfb32b54defca1e79ad702f8037c5a66124f5dcfd20"
+  },
+  "input_specification_sha256": {
+    "data/competitive_set_contract.json": "a6b9890300d42a49e67f2db0d1147ac9847ec0d20db9c8df3448ca750d2ea0f0",
+    "data/independent_contexts_inputs.json": "fefeb5bf825925986909fb1327a64e2b38e4bb7c7ee453c46b2fe3ce03612c93",
+    "docs/COMPETITIVE_SET.md": "ee13332dc74fbf0fc547ac9caab17a03fb9f2d06d37d18642a2f46bb18a40d6d",
+    "envs/python.sh": "c4f33e23bfbe098f3fe328c9a22d34143be3ab56eb364b3e100875365bca9fe4",
+    "envs/rscript.sh": "8ddc1b42727baf814e3e571622116bd2d91b33b548ac34c4085dbc888eed13e8",
+    "envs/network.sh": "8ffb5fb4cc511f8ef46fe9aee9e4a1365ee7c601d468688e2e700de6aee219da",
+    "replicability_snapshot/manifest.json": "8ac20fd6044772d21c04ecb5724972c8592bc514c663cdc904743745c4fe7a57",
+    "independent_contexts_snapshot/manifest.json": "6a643ab14ca67d0888451717d3f360e27d8d7da5597c2f9da3f0cf7a9391c2d3"
+  },
+  "files": [
+    {
+      "path": "camera_results.csv",
+      "bytes": 1730,
+      "sha256": "2acba87ba0510cd64de9f04645f40effd76e6f928fc20604a19ee70348c2242b"
+    },
+    {
+      "path": "correlation_sensitivity.png",
+      "bytes": 98992,
+      "sha256": "60d0cc98f70e831680acf400661d90da37e640695d4d4633aa09b220e5f9b76b"
+    },
+    {
+      "path": "fit_reconciliation.csv",
+      "bytes": 676,
+      "sha256": "e24132f578886b3a73f016eff51ce735812fd2cffee19d1fcdc94112f45e16f2"
+    },
+    {
+      "path": "gene_universe.csv.gz",
+      "bytes": 1012256,
+      "sha256": "641e46c97a938d30f222c0262c2c2335122d5aeb8c995de6ca6e80c75b71bc28"
+    },
+    {
+      "path": "installed_camera_source.txt",
+      "bytes": 6505,
+      "sha256": "17f7aaf489baa483108416e0b757f5d08207bc739bd5348dcfee46d2dbd8d279"
+    },
+    {
+      "path": "priority_coverage.csv",
+      "bytes": 7623,
+      "sha256": "3b3608609ddba50ced2e44c7b0922e383ccf687c2b7aae61adb0f3bedd501090"
+    },
+    {
+      "path": "reproduction.json",
+      "bytes": 535,
+      "sha256": "b4efdba95cc9a5f5c5e7224e904d30b200bdfcbc9708d3ab1767a7642a6a7af9"
+    },
+    {
+      "path": "runtime_Python_versions.json",
+      "bytes": 92,
+      "sha256": "8c198df54fdca3f53e52167e5aa76e2a3a37fbfa0af5427a24eca92adda24507"
+    },
+    {
+      "path": "runtime_R_versions.csv",
+      "bytes": 72,
+      "sha256": "51bb1971345516b4a7bcc3de6fbef818155c92b832d7385c71297dcf5ba137db"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1038,
+      "sha256": "8eca2cef4a0ee52862dcfcd8b02b3c954811ba8323209daa82409f58fdc8477c"
+    }
+  ]
+}

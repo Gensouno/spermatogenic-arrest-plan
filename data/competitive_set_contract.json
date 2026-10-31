@@ -1,0 +1,18 @@
+{
+  "recorded_on": "2026-10-31",
+  "timing": "Written before this branch produced CAMERA results. The fixed candidates, four contexts and their gene effects have already been explored; this is post-hoc exploratory inference, not preregistration.",
+  "question": "Does the fixed descriptive priority set show a directional shift relative to the other tested genes in the original primary-symbol universe, within each additional count context?",
+  "method": "limma::camera on weighted voom expression, directional=TRUE, use.ranks=FALSE, trend.var=FALSE, allow.neg.cor=FALSE. PValue is two-sided; Direction is reported without halving P values.",
+  "contexts": ["Rif1_P14", "Hormad_dsfb_P19", "Mael_P16", "Morc1_P14p5"],
+  "candidates": "All 36 unique symbols in replicability_snapshot/stable_descriptive_priorities.csv; no outcome-dependent additions, removals or relabeling.",
+  "universe": "Original 9675 primary symbols intersect full-fit source filterByExpr-tested globally unique symbols. All eligible priorities are included; unavailable priorities remain explicit out of 36. Complement contains all other eligible symbols, including other earlier descriptive candidates.",
+  "model": "Reconstruct all native source counts from existing hash-bound processed deposits. Six RNA libraries, three source controls and three perturbations, intercept plus perturbation coefficient. Full source-ID filterByExpr, TMM and voom identical to the preceding count branch. Reconcile full-source logFC, t, P.Value and AveExpr with frozen full_statistics before CAMERA. Restrict the already weighted voom EList to the declared symbol universe without re-normalizing; CAMERA estimates its own moderated variance distribution on that universe.",
+  "correlation_policies": {
+    "estimated": "Main interpretation: inter.gene.cor=NA; CAMERA estimates weighted residual correlation per set, nonnegative variance inflation enforced. Four residual degrees of freedom; document raw correlation, used variance inflation and test degrees of freedom.",
+    "fixed_0p01": "Model-assumption sensitivity: inter.gene.cor=0.01, the installed default. This is an assumed correlation, not an estimate; not equivalent finite-sample error control to the estimated policy. Report all results irrespective of significance."
+  },
+  "multiplicity": "One separate family of eight two-sided tests: four contexts times two correlation policies. BY adjusted P values primary; BH sensitivity. Threshold <0.05, conditional on CAMERA assumptions. Do not use within-call FDR for a single set or alter the frozen 38700 primary family.",
+  "verification": "Fresh-directory matrix reconstruction and all CAMERA fits; independent Python BY/BH calculation; contrast-sign reversal must preserve P values and reverse Direction; reconcile coverage and every original source fit. No randomization in this branch.",
+  "limits": "Post-hoc selected set and sources; small sample size, unverified animal/pooling/batch structure and heterogeneous source controls/ages/alleles. Competitive set association does not test stage specificity, adjust composition, establish a shared cell-intrinsic mechanism, discover individual genes or certify cross-unit replication. Fixed-correlation sensitivity must not override an estimated-policy null.",
+  "preserve": "All preceding frozen results, bound source code and contracts, zero formal primary discoveries and the descriptive 36 denominator remain unchanged."
+}

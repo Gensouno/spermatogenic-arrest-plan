@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Fresh cached-source reconstruction and numerical rerun; not independent biological validation.",
+  "tables": [
+    "camera_results.csv",
+    "gene_universe.csv.gz",
+    "priority_coverage.csv",
+    "fit_reconciliation.csv",
+    "runtime_R_versions.csv"
+  ],
+  "json_files": [
+    "summary.json",
+    "runtime_Python_versions.json"
+  ],
+  "text_files": [
+    "installed_camera_source.txt"
+  ],
+  "figures": [
+    "correlation_sensitivity.png"
+  ],
+  "matrices": 4,
+  "rtol": 1e-09,
+  "atol": 1e-12
+}

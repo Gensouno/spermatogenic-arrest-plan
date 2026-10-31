@@ -82,12 +82,21 @@ bash envs/python.sh scripts/export_snapshot.py --verify
 
 本机另做了没有旧结果和中间文件的新目录重跑，关键结果表一致；此检查复用已安装的依赖，**不是**另一台机器或空依赖环境安装验证，也没有在删除原数据后测试全部首次网络下载。耗时和详细边界见 [复现记录](docs/REPRODUCIBILITY.md)。
 
+
+使用 `bash envs/python.sh scripts/check_all_snapshots.py` 检查所有已有冻结分支（包括本地后续工作）的文件和来源完整性；数值复现及生物学验证须单独区分。
+
 ## 项目导航
+
+- [可视化研究进度](docs/RESEARCH_PROGRESS.md)：已完成的计算工作、现有成果、论文状态与剩余证据缺口（英文报告）。
 
 - [Setx 年龄交互分析](docs/SETX_INTERACTION.md)：联合年龄／基因型模型、来源编号和条码限制、敏感性与复现。
 - [Setx 来源与长度核查](docs/SETX_SOURCE_AND_LENGTH.md)：数据库身份、等位基因背景和长度校正计数敏感性（英文报告）。
 - [Setx 逐样本稳定性](docs/SETX_STABILITY.md)：计数模型留一检查、同基因集合诊断及模型依赖（英文报告）。
 - [新增全睾丸背景](docs/INDEPENDENT_CONTEXTS.md)：Rif1、Hormad1/2、Mael 和 Morc1 来源核查与独立计数分析；原有主要检验集合保持不变（英文报告）。
+- [参考阶段匹配对照](docs/STAGE_SPECIFICITY.md)：对照表达量与阶段匹配、两类阶段峰值的区别，以及 Rif1 六样本年龄核查（英文报告）。
+- [N6amt1 主要队列来源核查](docs/N6AMT1_SOURCE.md)：八份样本身份核对、未报告的采样年龄，以及 CTL 标签与真实野生型基因型的区别（英文报告）。
+- [固定候选集的竞争性检验](docs/COMPETITIVE_SET.md)：四个新增背景的基因集方向均偏下；估计残差相关性时均未通过统一校正，固定相关性敏感性下均通过。结果依赖模型假设，原主要检验家族不变（英文报告）。
+- [定向文献比较](docs/LITERATURE_CONTEXT.md)：已有细胞组成相关研究及新获取的配对细胞学候选资源；候选数据的原始单位仍需澄清，尚未进入定量分析（英文报告）。
 - [英文论文同步工作流](docs/PAPER_WORKFLOW.md)：持续写作、证据登记、检查、Word导出和私稿发布边界。
 - [METHODS](docs/METHODS.md)：分平台处理、基因集合、敏感性与组成检查。
 - [RESULTS](docs/RESULTS.md)：主要数字、负结果及解释边界。

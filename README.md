@@ -84,7 +84,12 @@ Copy `envs/download-proxy.example` to `.download-proxy.local` in the project roo
 
 A fresh local directory was also used to rerun the baseline without earlier outputs or intermediate files, and key result tables agreed. This reused installed dependencies: it is not a clean installation or a different-machine test, and it did not test every first-time download after deleting all original inputs. Timing and scope are documented in the [reproduction report](docs/REPRODUCIBILITY.md).
 
+
+Check every available frozen branch (including local follow-ups) with `bash envs/python.sh scripts/check_all_snapshots.py`. This verifies artifact and bound-source integrity; numerical reproduction and biological validation are separate.
+
 ## Project navigation
+
+- [Visual research progress](docs/RESEARCH_PROGRESS.md): completed computational work, current findings, manuscript status and the remaining evidence needed.
 
 The root README defaults to English; use the language links above for the Chinese edition. Some linked technical reports and historical source filenames remain in Chinese.
 
@@ -92,6 +97,10 @@ The root README defaults to English; use the language links above for the Chines
 - [Setx source and length audit](docs/SETX_SOURCE_AND_LENGTH.md): archive identities, allele context, and length-aware count sensitivity.
 - [Setx omission stability](docs/SETX_STABILITY.md): count omissions, matched-universe diagnostics, and explicit model dependence.
 - [Additional whole-testis contexts](docs/INDEPENDENT_CONTEXTS.md): source audits and separate Rif1, Hormad1/2, Mael and Morc1 count analyses; the primary family remains frozen.
+- [Reference-informed candidate matching](docs/STAGE_SPECIFICITY.md): abundance/stage-matched backgrounds, distinct stage descriptors, and the refreshed six-sample Rif1 age audit.
+- [N6amt1 primary-source audit](docs/N6AMT1_SOURCE.md): eight reconciled source records, unresolved sampling age, and the distinction between CTL labels and verified wild-type genotypes.
+- [Competitive priority-set testing](docs/COMPETITIVE_SET.md): all four additional contexts have a downward set direction, but none passes joint adjustment with estimated residual correlation; all pass under the assumed-correlation sensitivity. Results are model dependent and leave the original primary family unchanged.
+- [Targeted literature comparison](docs/LITERATURE_CONTEXT.md): prior composition-aware studies and a newly acquired paired-cytology candidate; the candidate's deposited units require clarification before quantitative use.
 - [English manuscript synchronization workflow](docs/PAPER_WORKFLOW.md): incremental writing, evidence registration, checks, Word export, and private-release boundaries.
 - [Methods](docs/METHODS.md): platform-specific processing, gene universes, sensitivities, and composition diagnostics.
 - [Results](docs/RESULTS.md): numerical findings, negative results, and interpretive limitations.

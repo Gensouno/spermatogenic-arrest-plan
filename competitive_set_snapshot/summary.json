@@ -1,0 +1,41 @@
+{
+  "scope": "Post-hoc two-sided competitive association; not primary replication or biological validation",
+  "family_tests": 8,
+  "correlation_policies": [
+    "estimated",
+    "fixed_0p01"
+  ],
+  "fixed_priorities": 36,
+  "primary_discoveries_changed": false,
+  "results": {
+    "estimated": {
+      "contexts": 4,
+      "direction_down": 4,
+      "BY_below_0p05": [],
+      "BH_below_0p05": []
+    },
+    "fixed_0p01": {
+      "contexts": 4,
+      "direction_down": 4,
+      "BY_below_0p05": [
+        "Rif1_P14",
+        "Hormad_dsfb_P19",
+        "Mael_P16",
+        "Morc1_P14p5"
+      ],
+      "BH_below_0p05": [
+        "Rif1_P14",
+        "Hormad_dsfb_P19",
+        "Mael_P16",
+        "Morc1_P14p5"
+      ]
+    }
+  },
+  "contracts": {
+    "data/competitive_set_contract.json": "a6b9890300d42a49e67f2db0d1147ac9847ec0d20db9c8df3448ca750d2ea0f0"
+  },
+  "inherited_input_specification": {
+    "data/independent_contexts_inputs.json": "fefeb5bf825925986909fb1327a64e2b38e4bb7c7ee453c46b2fe3ce03612c93"
+  },
+  "random_seed": null
+}
