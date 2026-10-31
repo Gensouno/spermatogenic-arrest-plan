@@ -1,0 +1,5 @@
+reference,subset,total,comparable,peak_stage_in_other_mean_peak_group,meaning
+Chen,all_primary,9675,9626,2450,Different aggregation descriptors can legitimately disagree; no relabeling or data correction.
+Chen,fixed_priorities,36,33,9,Different aggregation descriptors can legitimately disagree; no relabeling or data correction.
+Green,all_primary,9675,9641,2315,Different aggregation descriptors can legitimately disagree; no relabeling or data correction.
+Green,fixed_priorities,36,35,3,Different aggregation descriptors can legitimately disagree; no relabeling or data correction.

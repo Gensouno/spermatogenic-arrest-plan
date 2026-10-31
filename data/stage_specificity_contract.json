@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-30",
+  "timing": "Exploratory, specified after prior candidate/source outcomes were known but before matched-background summaries. Not preregistered.",
+  "question": "Do the fixed descriptive priorities have more negative full-fit effects than reference-stage and control-abundance matched nonpriority genes in each additional context?",
+  "cohorts": [
+    "Rif1_P14",
+    "Hormad_dsfb_P19",
+    "Mael_P16",
+    "Morc1_P14p5"
+  ],
+  "frozen_priorities": "Original 36, no reselection by new outcomes",
+  "universe": "Original 9675-gene primary intersection, intersected with source-specific full-fit tested and globally unique symbols. Background excludes only the 36 fixed priorities, not all prior candidates.",
+  "covariate": "Mean across the three control libraries of the full voom log2-CPM expression. Reconstruct from source integer counts and frozen full-fit library sizes/TMM factors; verify all-six mean against frozen AveExpr. Never match on perturbation abundance or effect.",
+  "references": [
+    "Chen",
+    "Green"
+  ],
+  "stage": "Exact native peak-group match within each reference; retain its native group names. Require measured, positive peak expression, finite dominance share. Exclude not_measured/unexpressed/tied labels if present.",
+  "primary_matching": {
+    "control_logCPM_caliper": 1.0,
+    "dominance_share_caliper": 0.2,
+    "minimum_neighbors": 5,
+    "maximum_neighbors": 20,
+    "ordering": "distance=absolute abundance difference/caliper + absolute dominance difference/0.2, then symbol lexicographic; never inspect outcomes"
+  },
+  "sensitivity_control_logCPM_caliper": 0.5,
+  "comparisons": [
+    "abundance_only",
+    "stage_abundance_dominance"
+  ],
+  "eligibility": "Retain targets with at least five qualifying controls under both schemes. Within each cohort/reference/caliper, summarize the same target set for both schemes. Always report measured, stage-available, matchable and missing denominators out of 36.",
+  "weights": "Equal target weights; equal weights among each target neighborhood. A background gene may appear in several neighborhoods, so this is a weighted reference comparison, not independent replicated genes.",
+  "endpoints": [
+    "Equal-target mean logFC of priorities, matched-neighborhood mean logFC and their difference",
+    "Priority proportion at most -log2(1.5), mean matched-neighborhood proportion and their difference",
+    "Per-target expression/dominance gaps and source stage labels"
+  ],
+  "inference": "Deterministic descriptive comparisons only; no gene-based P values, biological independence claims, causal composition adjustment, enrichment FDR or confidence intervals. Full fits only; no inherited background omission stability.",
+  "selection_limits": "Candidate selection came from earlier primary effects. Sources and references already explored; this is a sensitivity on the selected data, not confirmatory replication. Matching cannot remove unmeasured biology, errors in stage transfer, or within-group stage heterogeneity.",
+  "random_seed": null,
+  "source_audit": {
+    "target": "GSE294151 plus six explicitly linked ENA BioSamples; bounded refreshed source fields and targeted official/publication search",
+    "scope": "Targeted, not exhaustive; no author contact or private access",
+    "maximum_requests": 12,
+    "maximum_bytes_per_payload": 4000000,
+    "access": "Required local proxy, no direct fallback",
+    "SRA_fallback": "After four ENA404 records, count-first query exact six GEO-linked SRX accessions and retrieve numeric UIDs in at most three extra requests; total at most12."
+  },
+  "preserve": "All old contracts, code and snapshots remain immutable; zero changes to primary hypothesis family.",
+  "background_stage_eligibility": "Within each reference view both schemes use the same background with a valid measured positive-expression stage annotation. Abundance-only ignores stage and dominance when ranking. Strict scheme additionally requires exact peak group and dominance caliper.",
+  "implementation_notes": [
+    "Caliper comparisons allow numerical tolerance 1e-12, not data-driven threshold changes.",
+    "Control covariates use frozen six-library TMM factors. Their contribution is a common additive shift across genes within each cohort, audited to cancel in abundance differences. The source tested universe still comes from the full comparison."
+  ],
+  "post_hoc_diagnostic_addendum": "After the first matched means were inspected, add median paired differences and delete-one-priority mean ranges to inspect gene influence. These are descriptive, not sample omissions, confidence intervals or biological replication."
+}

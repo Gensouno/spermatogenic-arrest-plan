@@ -1,0 +1,186 @@
+{
+  "recorded_on": "2026-10-30",
+  "accession": "GSE294151",
+  "expected_samples": 6,
+  "batch_returned": 2,
+  "individually_retrieved": 2,
+  "SRA_records_reconciled": 6,
+  "ENA_age_p14_confirmed": 2,
+  "age_p14_confirmed": 6,
+  "age_unresolved": 0,
+  "linked_GEO_citation": [],
+  "samples": [
+    {
+      "gsm": "GSM8899502",
+      "BioSample": "SAMN47760901",
+      "GEO_title": "Rif1 WT-1",
+      "ENA_status": "retrieved",
+      "age": "p14",
+      "ENA_title": "Rif1 WT-1",
+      "ENA_attributes": {
+        "strain": "C57BL/6",
+        "replicate": "biological replicate WT 1",
+        "sex": "male",
+        "tissue": "testis",
+        "age": "p14"
+      },
+      "ENA_age": "p14",
+      "SRA_record": {
+        "accession": "SAMN47760901",
+        "title": "Rif1 WT-1",
+        "attributes": {
+          "strain": "C57BL/6",
+          "age": "p14",
+          "sex": "male",
+          "tissue": "testis",
+          "replicate": "biological replicate WT 1"
+        },
+        "experiment": "SRX28237051",
+        "sample": "SRS24585020",
+        "library_name": "Rif1 WT-1",
+        "runs": [
+          "SRR32963383"
+        ]
+      }
+    },
+    {
+      "gsm": "GSM8899503",
+      "BioSample": "SAMN47760902",
+      "GEO_title": "Rif1 WT-2",
+      "ENA_status": "not_retrieved",
+      "age": "p14",
+      "retrieval_error": "HTTP Error 404: ",
+      "SRA_record": {
+        "accession": "SAMN47760902",
+        "title": "Rif1 WT-2",
+        "attributes": {
+          "strain": "C57BL/6",
+          "age": "p14",
+          "sex": "male",
+          "tissue": "testis",
+          "replicate": "biological replicate WT 2"
+        },
+        "experiment": "SRX28237052",
+        "sample": "SRS24585021",
+        "library_name": "Rif1 WT-2",
+        "runs": [
+          "SRR32963382"
+        ]
+      }
+    },
+    {
+      "gsm": "GSM8899504",
+      "BioSample": "SAMN47760903",
+      "GEO_title": "Rif1 WT-3",
+      "ENA_status": "not_retrieved",
+      "age": "p14",
+      "retrieval_error": "HTTP Error 404: ",
+      "SRA_record": {
+        "accession": "SAMN47760903",
+        "title": "Rif1 WT-3",
+        "attributes": {
+          "strain": "C57BL/6",
+          "age": "p14",
+          "sex": "male",
+          "tissue": "testis",
+          "replicate": "biological replicate WT 3"
+        },
+        "experiment": "SRX28237053",
+        "sample": "SRS24585022",
+        "library_name": "Rif1 WT-3",
+        "runs": [
+          "SRR32963381"
+        ]
+      }
+    },
+    {
+      "gsm": "GSM8899505",
+      "BioSample": "SAMN47760904",
+      "GEO_title": "Rif1 sKO-1",
+      "ENA_status": "not_retrieved",
+      "age": "p14",
+      "retrieval_error": "HTTP Error 404: ",
+      "SRA_record": {
+        "accession": "SAMN47760904",
+        "title": "Rif1 sKO-1",
+        "attributes": {
+          "strain": "C57BL/6",
+          "age": "p14",
+          "sex": "male",
+          "tissue": "testis",
+          "replicate": "biological replicate Rif1 sKO 1"
+        },
+        "experiment": "SRX28237054",
+        "sample": "SRS24585023",
+        "library_name": "Rif1 sKO-1",
+        "runs": [
+          "SRR32963380"
+        ]
+      }
+    },
+    {
+      "gsm": "GSM8899506",
+      "BioSample": "SAMN47760905",
+      "GEO_title": "Rif1 sKO-2",
+      "ENA_status": "retrieved",
+      "age": "p14",
+      "ENA_title": "Rif1 sKO-2",
+      "ENA_attributes": {
+        "strain": "C57BL/6",
+        "replicate": "biological replicate Rif1 sKO 2",
+        "sex": "male",
+        "tissue": "testis",
+        "age": "p14"
+      },
+      "ENA_age": "p14",
+      "SRA_record": {
+        "accession": "SAMN47760905",
+        "title": "Rif1 sKO-2",
+        "attributes": {
+          "strain": "C57BL/6",
+          "age": "p14",
+          "sex": "male",
+          "tissue": "testis",
+          "replicate": "biological replicate Rif1 sKO 2"
+        },
+        "experiment": "SRX28237055",
+        "sample": "SRS24585024",
+        "library_name": "Rif1 sKO-2",
+        "runs": [
+          "SRR32963379"
+        ]
+      }
+    },
+    {
+      "gsm": "GSM8899507",
+      "BioSample": "SAMN47760906",
+      "GEO_title": "Rif1 sKO-3",
+      "ENA_status": "not_retrieved",
+      "age": "p14",
+      "retrieval_error": "HTTP Error 404: ",
+      "SRA_record": {
+        "accession": "SAMN47760906",
+        "title": "Rif1 sKO-3",
+        "attributes": {
+          "strain": "C57BL/6",
+          "age": "p14",
+          "sex": "male",
+          "tissue": "testis",
+          "replicate": "biological replicate Rif1 sKO 3"
+        },
+        "experiment": "SRX28237056",
+        "sample": "SRS24585025",
+        "library_name": "Rif1 sKO-3",
+        "runs": [
+          "SRR32963378"
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "ENA returned two of six samples; four individual ENA404 records were resolved using the six GEO-linked SRA experiment records.",
+    "All six SRA records annotate age P14; archive accessions and biological-replicate labels do not independently establish distinct animals.",
+    "Exact Cre/allele, animal/pooling/batch structure, matrix-to-library crosswalk and phenotype remain unresolved.",
+    "GEO has no linked publication. Targeted literature search did not resolve a source paper, not proof that none exists."
+  ]
+}

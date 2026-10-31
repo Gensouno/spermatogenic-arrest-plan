@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-31",
+  "target": "GSE283904 original primary N6amt1 cohort, eight GEO samples",
+  "scope": "Targeted current metadata audit; no new differential-expression fit or primary-family change",
+  "sources": [
+    "GEO family SOFT",
+    "Exact GEO-linked SRA experiments via count-first ESearch and EFetch"
+  ],
+  "maximum_requests": 8,
+  "maximum_bytes_each": 8000000,
+  "fields": [
+    "GSM title",
+    "explicit BioSample/SRX identities",
+    "source age",
+    "source genotype",
+    "strain",
+    "tissue",
+    "replicate labels",
+    "library assay"
+  ],
+  "limits": [
+    "Do not infer age from adult labels in old curation",
+    "Distinct archive accessions do not certify animals",
+    "CTL is a native source label, not proof of a wild-type genotype",
+    "Source phenotype narratives do not independently validate reanalyzed animals"
+  ],
+  "output": "Curated contact-free identity/attribute table, explicit field missingness and frozen current-source provenance",
+  "access": "Project proxy launcher from first request; no direct fallback or author contact",
+  "primary": "Keep original zero-discovery analysis and all preceding bound source/snapshots untouched"
+}

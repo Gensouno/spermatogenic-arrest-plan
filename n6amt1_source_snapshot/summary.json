@@ -1,0 +1,24 @@
+{
+  "recorded_on": "2026-10-31",
+  "accession": "GSE283904",
+  "samples": 8,
+  "controls": 4,
+  "perturbations": 4,
+  "source_age_missing": 8,
+  "literal_WT_controls_verified": 0,
+  "related_article": {
+    "PMID": "40079145",
+    "DOI": "10.1093/biolre/ioaf052",
+    "publication_status": "published",
+    "role": "Related biological study; exact GSE283904 linkage not verified from accessible article content",
+    "fulltext_retrieved": false
+  },
+  "GEO_linked_citation": [],
+  "primary_statistics_changed": false,
+  "limitations": [
+    "Old adult curation entries are not confirmed source ages.",
+    "CTL is a source control label; WT is an analysis alias, not a verified literal control genotype.",
+    "Exact Cre/alleles, animal/pooling/batch and sample-matched phenotype remain unresolved.",
+    "The related article abstract reports meiotic abnormalities but does not establish the accession-to-article link; publisher retrieval returned403."
+  ]
+}

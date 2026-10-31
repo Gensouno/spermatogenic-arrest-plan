@@ -1,0 +1,340 @@
+{
+  "recorded_on": "2026-10-30",
+  "assets": [
+    {
+      "path": "data/raw/independent_discovery/GSE294151_rif1_count.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294151/suppl/GSE294151_rif1_count.txt.gz",
+      "bytes": 488260,
+      "sha256": "3f4d22d694d744fb9b231dd24eff38eb7795e544b08c0ce27893f350a95190bc"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE274491_read_counts_all_control_dsfb.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE274nnn/GSE274491/suppl/GSE274491_read_counts_all_control_dsfb.txt.gz",
+      "bytes": 502599,
+      "sha256": "32cc17ed347ca7dd599843be606f8e888b0abd9cfe86b959a85c0a37da469280"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE222415_counts_rna_ribo_annotated.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222415/suppl/GSE222415_counts_rna_ribo_annotated.txt.gz",
+      "bytes": 21129216,
+      "sha256": "12c2dc6c9cdd9f02988240ede1b0f600140ca3aecc104edea418359359e92384"
+    },
+    {
+      "path": "data/raw/independent_discovery/mael.xml",
+      "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1010797&type=manuscript",
+      "bytes": 276401,
+      "sha256": "52b2da7222139478415acb4b819356090639e1ce785d72edf363167b65a03bb5"
+    },
+    {
+      "path": "data/raw/independent_discovery/hormad.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11885488/fullTextXML",
+      "bytes": 140473,
+      "sha256": "769475bccf8519254c0080da0dde666f46fad920715b71e0bc298e3fd7044677"
+    },
+    {
+      "path": "data/raw/independent_discovery/pubmed.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37307272,40050306&retmode=xml",
+      "bytes": 79489,
+      "sha256": "6a9480a4bb2346e327527c95df7dd3576aadb81d6285ebfc2d13b743eecac583"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE294151_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294151/soft/GSE294151_family.soft.gz",
+      "bytes": 1737,
+      "sha256": "ff73cb100d65fd3ccf3319b97d25872b8aa8493dc2dcff922d31203c3a2f97f0"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE185740_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185740/soft/GSE185740_family.soft.gz",
+      "bytes": 3310,
+      "sha256": "4b714cb3d16a391f991c7fe2f9becf7d1782fd7fdda7e4c30258416dcc079052"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE191105_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE191nnn/GSE191105/soft/GSE191105_family.soft.gz",
+      "bytes": 3353,
+      "sha256": "7851c6b6cfe7454d77b6e7fcc8b58f22bbd0ebdc4316167c6cdb78f5d652d84c"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE226550_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE226nnn/GSE226550/soft/GSE226550_family.soft.gz",
+      "bytes": 2557,
+      "sha256": "56fd5334c6d6dc81e59dcbb0e98c78f9925475f4e7b66363feaea87e644f3601"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE227403_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227403/soft/GSE227403_family.soft.gz",
+      "bytes": 2593,
+      "sha256": "b07299c5d5f6f3643d16fed057254c1f67914a13b258a7ee9caa54c4b36884cb"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE274491_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE274nnn/GSE274491/soft/GSE274491_family.soft.gz",
+      "bytes": 2054,
+      "sha256": "5790cec65e9bfd9d4ca9fccbc1bc092889eac326073e1f9427c941e642e7d3e8"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE222415_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222415/soft/GSE222415_family.soft.gz",
+      "bytes": 3262,
+      "sha256": "bce98e13278fc5acac6732192e0a09954bf1d277e847b1e2f335ce51b998e456"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE63048_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63048/soft/GSE63048_family.soft.gz",
+      "bytes": 11245,
+      "sha256": "18129e9426c7c78122b573770173c22e93ed36b8d85ee19a2245ce109c113670"
+    },
+    {
+      "path": "data/raw/independent_discovery/GSE146873_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE146nnn/GSE146873/soft/GSE146873_family.soft.gz",
+      "bytes": 9168,
+      "sha256": "bf6870a00e043e6c1d645047999c398cafb52f22bde696b0948876ffadbea989"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Rif1+OR+Mettl16+OR+Nat10+OR+Usp7+OR+Zcwpw1+OR+Zcwpw2%29&retmode=json&retmax=0",
+      "path": "data/raw/independent_discovery/b33de8d234322439335db5b20868755c6e92b0d5d4b6be26fa1883ae3aa75f5a.json",
+      "bytes": 1687,
+      "sha256": "2a8c21c6688cb65b92e72445c34db5cbc05c2c1743b38f4a76b6de8ab307d9f8"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Rif1+OR+Mettl16+OR+Nat10+OR+Usp7+OR+Zcwpw1+OR+Zcwpw2%29&retmode=json&retmax=500&retstart=0&sort=Accession",
+      "path": "data/raw/independent_discovery/caaada2d72df10a810be73d56b396f22cd14568f645b9c495316121b53141a5e.json",
+      "bytes": 1967,
+      "sha256": "688b1025d5d89f17205b89cd8e0f4ddb96b2ceb54cff4a8d0f4ee6fbb6bc7cb5"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Zfp541+OR+Kctd19+OR+Hormad1+OR+Meiob+OR+Spata22+OR+Ubr2%29&retmode=json&retmax=0",
+      "path": "data/raw/independent_discovery/f64ca7e990dc2d35edc301c2d89fda88194d16d310592f8c9d8978b2f7d2fa7d.json",
+      "bytes": 1652,
+      "sha256": "72cf7c182f25427a29048bd22873cb3d604c2d1d5630c00aca9b24148d1452f1"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Zfp541+OR+Kctd19+OR+Hormad1+OR+Meiob+OR+Spata22+OR+Ubr2%29&retmode=json&retmax=500&retstart=0&sort=Accession",
+      "path": "data/raw/independent_discovery/acd46b68b8c0523232623d527801f6c3dc52d7c555050b7d3b2f899ad2200b63.json",
+      "bytes": 1980,
+      "sha256": "2681b537b7d68e885f6335bc6cdb63ee670584c3aabfc71aa8ff9f2995a399db"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28P14+OR+P16+OR+P18+OR+P21+OR+%2214+dpp%22+OR+%2216+dpp%22%29+AND+%28knockout+OR+deficient%29&retmode=json&retmax=0",
+      "path": "data/raw/independent_discovery/312912173f534bfc8e717f24184f51cbb89f13119d6f44ca2422a6305c0da351.json",
+      "bytes": 1886,
+      "sha256": "1e463832f3a956f964943c472c83d27313b3a32e3a0aa64ce0d3580b6b13dcbd"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28P14+OR+P16+OR+P18+OR+P21+OR+%2214+dpp%22+OR+%2216+dpp%22%29+AND+%28knockout+OR+deficient%29&retmode=json&retmax=500&retstart=0&sort=Accession",
+      "path": "data/raw/independent_discovery/9d7083c6cbd18c278c446d74df9c9b917dde64ef1732d597e8598587df7ae574.json",
+      "bytes": 2370,
+      "sha256": "53586665472ddbb6516793e1bb0c480723192ff4a5f0130f1bb02bf2a8ecc0f8"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Rnf212b+OR+Trip13+OR+Dmc1+OR+Rad21l+OR+Rec8+OR+Piwil1%29&retmode=json&retmax=0",
+      "path": "data/raw/independent_discovery/a91925e2c4a19d432a12d9720fe0ee5af3cee630eef67c1f769f6bd9cd1706eb.json",
+      "bytes": 1732,
+      "sha256": "a5b2f2078f2386b8d11cdc781adb5b8c76bc835bf6766746b6d7f3e9e0781780"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse%5BETYP%5D+AND+%22Mus+musculus%22%5BOrganism%5D+AND+%28testis+OR+testes%29+AND+%28Rnf212b+OR+Trip13+OR+Dmc1+OR+Rad21l+OR+Rec8+OR+Piwil1%29&retmode=json&retmax=500&retstart=0&sort=Accession",
+      "path": "data/raw/independent_discovery/bb4e7e017b0c1a7b5c7ba07ad5f64d6d9b2c748487471a971722857704e8095f.json",
+      "bytes": 2456,
+      "sha256": "2f7fcf641859f77dbfc8caae94fcd4741b164d8dcb617583d53d1720571d4e51"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200000014%2C200018824%2C200019162%2C200021524%2C200024438%2C200027582%2C200030461%2C200034592%2C200035498%2C200038891%2C200038895%2C200038896%2C200039480%2C200039545%2C200048493%2C200051334%2C200063048%2C200073833%2C200075419%2C200077309%2C200088972%2C200093955%2C200097195%2C200099921%2C200106424%2C200108953%2C200109874%2C200112110%2C200113293%2C200118913%2C200119176%2C200119177%2C200121240%2C200124991%2C200125326%2C200125327%2C200126443%2C200132446%2C200135896%2C200138915&retmode=json",
+      "path": "data/raw/independent_discovery/6b8fe4c81cae230cbe9f59a7cfb8fe66f963f275e0209dcf98d3eb32f3f0c320.json",
+      "bytes": 266094,
+      "sha256": "3ae40f2b804cff193847e423067f2f435b008d41a8421651cd4e89e1db624306"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200139289%2C200141340%2C200141516%2C200141850%2C200143582%2C200144144%2C200145768%2C200146873%2C200148327%2C200163916%2C200163917%2C200172157%2C200172160%2C200172171%2C200180966%2C200182518%2C200183360%2C200185740%2C200185741%2C200185742%2C200190043%2C200191105%2C200194126%2C200196427%2C200211390%2C200217621%2C200222283%2C200222415%2C200226550%2C200226551%2C200227303%2C200227403%2C200227944%2C200231983%2C200232417%2C200236785%2C200236859%2C200236860%2C200239997%2C200244586&retmode=json",
+      "path": "data/raw/independent_discovery/b0f02ccd3de432912f73423091be1a5658824a9cf49b89edb06f7d16098f00ce.json",
+      "bytes": 122981,
+      "sha256": "faf83ea23912e7cccd05e78880f35a542bfb1806e65a0f786a56cc446765feb6"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200252075%2C200252077%2C200259242%2C200262343%2C200266271%2C200268829%2C200268830%2C200274491%2C200280363%2C200284142%2C200284143%2C200284312%2C200294151%2C200296269%2C200297600%2C200297601%2C200313963%2C200313965%2C200327624%2C200333547%2C200333548%2C200334745&retmode=json",
+      "path": "data/raw/independent_discovery/4b829ef5572ef653e0652a0ce1da55dd758176afbda088a4a86c3d29777fa6d9.json",
+      "bytes": 56118,
+      "sha256": "9ad3a32d3aff21d82fabed65cac90015f5d07efd1a3e28679e0b967923cca5a6"
+    },
+    {
+      "path": "replicability_snapshot/stable_descriptive_priorities.csv",
+      "bytes": 33803,
+      "sha256": "038d27e6f972ba91866d86510ea40a63fca3369981e070ac52064b76293e71a7"
+    },
+    {
+      "gsm": "GSM1547662",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1547nnn/GSM1547662/suppl/GSM1547662_P14.5_Morc1_het_Replicate_1_RNA-seq.txt.gz",
+      "path": "data/raw/independent_discovery/GSM1547662_P14.5_Morc1_het_Replicate_1_RNA-seq.txt.gz",
+      "bytes": 607333,
+      "sha256": "2fd2b2dd76dedcfe7f3e5d5b6063c153f6e766869e510c9d824c6f2912da2cc9"
+    },
+    {
+      "gsm": "GSM1547663",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1547nnn/GSM1547663/suppl/GSM1547663_P14.5_Morc1_het_Replicate_2_RNA-seq.txt.gz",
+      "path": "data/raw/independent_discovery/GSM1547663_P14.5_Morc1_het_Replicate_2_RNA-seq.txt.gz",
+      "bytes": 608425,
+      "sha256": "6ee500c379eda1117666dff485d1fa2f3223efcac026473763c1f9c4f019ac51"
+    },
+    {
+      "gsm": "GSM1547664",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1547nnn/GSM1547664/suppl/GSM1547664_P14.5_Morc1_het_Replicate_3_RNA-seq.txt.gz",
+      "path": "data/raw/independent_discovery/GSM1547664_P14.5_Morc1_het_Replicate_3_RNA-seq.txt.gz",
+      "bytes": 606937,
+      "sha256": "a57e5772e83b6d391fc75e7929157075a434b920f1066e9a4e414a483c0ec8f9"
+    },
+    {
+      "gsm": "GSM1547665",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1547nnn/GSM1547665/suppl/GSM1547665_P14.5_Morc1_KO_Replicate_1_RNA-seq.txt.gz",
+      "path": "data/raw/independent_discovery/GSM1547665_P14.5_Morc1_KO_Replicate_1_RNA-seq.txt.gz",
+      "bytes": 606946,
+      "sha256": "2a2459248e0bea8bdda815cc4f3d48aa431fb5c4102a0cf0099aed91200047e8"
+    },
+    {
+      "gsm": "GSM1547666",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1547nnn/GSM1547666/suppl/GSM1547666_P14.5_Morc1_KO_Replicate_2_RNA-seq.txt.gz",
+      "path": "data/raw/independent_discovery/GSM1547666_P14.5_Morc1_KO_Replicate_2_RNA-seq.txt.gz",
+      "bytes": 606481,
+      "sha256": "8bcc3fbeb487598c298bc4979a4d8c770b23110e2b5af68952b3e0eedc225d95"
+    },
+    {
+      "gsm": "GSM1547667",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1547nnn/GSM1547667/suppl/GSM1547667_P14.5_Morc1_KO_Replicate_3_RNA-seq.txt.gz",
+      "path": "data/raw/independent_discovery/GSM1547667_P14.5_Morc1_KO_Replicate_3_RNA-seq.txt.gz",
+      "bytes": 605701,
+      "sha256": "cfb89c77ddb97dead54617666463c85145dd6b7230b729133a2597dde3f43393"
+    },
+    {
+      "path": "data/raw/independent_discovery/morc1.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4268658/fullTextXML",
+      "bytes": 135910,
+      "sha256": "10b0c4ee738e05bad9661cdcc6611f312a36908ef8e066fdf490a3817154dc9f"
+    },
+    {
+      "path": "data/raw/independent_discovery/morc1_erratum.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5784397/fullTextXML",
+      "bytes": 5238,
+      "sha256": "95e9a3f2f047d95fcd9f5fd4ad4c6a12ed6ac7dca186eba36d3980e21ef37df1"
+    },
+    {
+      "path": "paper/literature/Jiao2025.json",
+      "url": "https://api.crossref.org/works/10.1038/s41467-025-57702-z",
+      "bytes": 16277,
+      "sha256": "1ca010ef0c9466f262e5d7055628a0f737ff1afea5d7b6696aabdcd607f98d89"
+    },
+    {
+      "path": "paper/literature/DeLuca2023.json",
+      "url": "https://api.crossref.org/works/10.1371/journal.pgen.1010797",
+      "bytes": 40409,
+      "sha256": "382fd864ea30a9d3cea8ca63cd2bd43a345c9ea94927d3f449fb15bff4818609"
+    },
+    {
+      "path": "paper/literature/Pastor2014.json",
+      "url": "https://api.crossref.org/works/10.1038/ncomms6795",
+      "bytes": 26435,
+      "sha256": "fe007b6e3b3bbece6cbca032c8b2109e0984955f892fa7c534e50dcf190e9e8e"
+    },
+    {
+      "path": "replicability_snapshot/manifest.json",
+      "bytes": 8448,
+      "sha256": "8ac20fd6044772d21c04ecb5724972c8592bc514c663cdc904743745c4fe7a57"
+    },
+    {
+      "path": "independent_contexts_snapshot/manifest.json",
+      "bytes": 5233,
+      "sha256": "6a643ab14ca67d0888451717d3f360e27d8d7da5597c2f9da3f0cf7a9391c2d3"
+    },
+    {
+      "path": "replicability_snapshot/all_primary_gene_stage_context.csv.gz",
+      "bytes": 1421957,
+      "sha256": "f738dcf9862f9656b3ace696f4f286c7cafaa99dc47eb8efce56ad9447cfc833"
+    },
+    {
+      "path": "independent_contexts_snapshot/full_statistics.csv.gz",
+      "bytes": 4555011,
+      "sha256": "5b60c6a39e5b12167214b6a8f76f294d6f58b38fe9d7f576214b2ae7905bc98d"
+    },
+    {
+      "path": "independent_contexts_snapshot/normalization.csv",
+      "bytes": 9651,
+      "sha256": "08e86c7e282eaf455f9b5dcb8f7d351d20623d5a852ba5bcbbdbacd15b52bcd6"
+    },
+    {
+      "path": "independent_contexts_snapshot/samples.csv",
+      "bytes": 2242,
+      "sha256": "ca342d8139beb4eeae20ea32a80f859b1fadb304746e5731cab35232ba909758"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294151/soft/GSE294151_family.soft.gz",
+      "path": "data/raw/stage_specificity/GSE294151_family.soft.gz",
+      "accessed_UTC": "2026-10-30T06:24:11Z",
+      "bytes": 1737,
+      "sha256": "ff73cb100d65fd3ccf3319b97d25872b8aa8493dc2dcff922d31203c3a2f97f0",
+      "role": "source_refresh"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760901,SAMN47760902,SAMN47760903,SAMN47760904,SAMN47760905,SAMN47760906",
+      "path": "data/raw/stage_specificity/Rif1_samples.xml",
+      "accessed_UTC": "2026-10-30T06:24:12Z",
+      "bytes": 8291,
+      "sha256": "f30b9a5003256edf73d43cbcbeaee7d5d4df74d8cc099d839aa72948cacff63b",
+      "role": "source_refresh"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.00065",
+      "path": "data/raw/stage_specificity/skill_citation.html",
+      "accessed_UTC": "2026-10-30T06:24:15Z",
+      "bytes": 42868,
+      "sha256": "87e5d6378d900a1a9299aaf8c9e13ea37db5de5bebd0c7f7af29255b457402d7",
+      "role": "source_refresh"
+    },
+    {
+      "accession": "SAMN47760901",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760901",
+      "path": "data/raw/stage_specificity/SAMN47760901.xml",
+      "accessed_UTC": "2026-10-30T06:29:08Z",
+      "bytes": 4174,
+      "sha256": "0c5dd9f7648aa6e055666fbfe2bed50586229ee41a0876d9004eb8f2080b8976",
+      "role": "source_refresh"
+    },
+    {
+      "accession": "SAMN47760905",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760905",
+      "path": "data/raw/stage_specificity/SAMN47760905.xml",
+      "accessed_UTC": "2026-10-30T06:29:21Z",
+      "bytes": 4183,
+      "sha256": "36b8fa5a883f6fbc9ac175620cd946aa990845130fae6ba5316a4311a047fac2",
+      "role": "source_refresh"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX28237051%5BAccession%5D+OR+SRX28237052%5BAccession%5D+OR+SRX28237053%5BAccession%5D+OR+SRX28237054%5BAccession%5D+OR+SRX28237055%5BAccession%5D+OR+SRX28237056%5BAccession%5D&retmax=0&retmode=json&tool=research_source_audit",
+      "path": "data/raw/stage_specificity/SRA_count.json",
+      "bytes": 836,
+      "sha256": "397355f2687d5148aca1832262e65e65a0b205d9db9de4c456d46734f0113d16",
+      "accessed_UTC": "2026-10-30T06:33:57Z",
+      "role": "source_refresh"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX28237051%5BAccession%5D+OR+SRX28237052%5BAccession%5D+OR+SRX28237053%5BAccession%5D+OR+SRX28237054%5BAccession%5D+OR+SRX28237055%5BAccession%5D+OR+SRX28237056%5BAccession%5D&retmax=10&retstart=0&retmode=json&tool=research_source_audit",
+      "path": "data/raw/stage_specificity/SRA_ids.json",
+      "bytes": 901,
+      "sha256": "138c07a080aa79100fd97cbfe6e14cdfb3a7b3e39581c6d55015ea2ba17faa74",
+      "accessed_UTC": "2026-10-30T06:33:59Z",
+      "role": "source_refresh"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=37963933%2C37963932%2C37963931%2C37963930%2C37963929%2C37963928&rettype=full&retmode=xml&tool=research_source_audit",
+      "path": "data/raw/stage_specificity/Rif1_SRA.xml",
+      "bytes": 50505,
+      "sha256": "327d91a13a8e350f839da024eec767e54b37c00f04ad658e2ae963a5107ec96b",
+      "accessed_UTC": "2026-10-30T06:34:02Z",
+      "role": "source_refresh"
+    },
+    {
+      "path": "data/stage_source_retrieval.json",
+      "bytes": 4398,
+      "sha256": "aa3f4659e958d4a1c2c291e21f716a43db8dd09787c50f4bf31e7ac68d50e5d0"
+    }
+  ],
+  "policy": "Old frozen inputs reused without modification; cached processed gene counts reconstructed, no raw read alignment."
+}

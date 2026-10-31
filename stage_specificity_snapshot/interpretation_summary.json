@@ -1,0 +1,8 @@
+{
+  "comparison_pairs": 16,
+  "stage_mean_difference_negative": 16,
+  "stage_absolute_difference_smaller": 16,
+  "median_difference_negative": 16,
+  "primary_caliper_contexts": 8,
+  "no_causal_explained_fraction": true
+}

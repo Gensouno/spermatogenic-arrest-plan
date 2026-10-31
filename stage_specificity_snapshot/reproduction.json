@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Same cached processed input reconstruction and matching; not biological validation or a fresh network retrieval.",
+  "tables": [
+    "gene_covariates.csv.gz",
+    "covariate_reconstruction.csv",
+    "target_eligibility.csv",
+    "neighborhoods.csv.gz",
+    "paired_comparisons.csv",
+    "specificity_summary.csv",
+    "stage_descriptor_audit.csv",
+    "resolution_eligibility.csv",
+    "resolution_neighborhoods.csv.gz",
+    "resolution_pairs.csv",
+    "resolution_summary.csv"
+  ],
+  "JSON": [
+    "design_summary.json",
+    "runtime_versions.json",
+    "source_refresh_summary.json",
+    "interpretation_summary.json",
+    "resolution_design.json"
+  ],
+  "figures": [
+    "matched_backgrounds.png",
+    "stage_resolution.png"
+  ],
+  "matrices": 4,
+  "rtol": 1e-09,
+  "atol": 1e-10
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Descriptive reference-informed gene matching, not a cell-composition adjustment or inferential test",
+  "cohorts": 4,
+  "reference_views": 2,
+  "abundance_calipers": [
+    1.0,
+    0.5
+  ],
+  "matching_schemes": 2,
+  "summary_rows": 32,
+  "fixed_priorities": 36,
+  "priority_eligibility_rows": 576,
+  "new_primary_votes": 0,
+  "minimum_matchable_priorities": 23,
+  "maximum_matchable_priorities": 35,
+  "no_gene_based_Pvalues": true
+}

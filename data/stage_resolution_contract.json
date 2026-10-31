@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "specified_on": "2026-10-30",
+  "timing": "Explicit post-hoc diagnostic after coarse matched summaries were inspected; not an untouched validation.",
+  "reason": "Peak of equal-stage group means and peak of an individual stage are distinct and need not be nested. Test dependence of descriptive excess on that reference resolution.",
+  "baseline_contract": "data/stage_specificity_contract.json",
+  "universe": "Same frozen primary/source unique tested symbols, same control-abundance and dominance definitions, same fixed36 priorities.",
+  "schemes": [
+    "abundance_only",
+    "stage_abundance_dominance",
+    "stage_peak_abundance_dominance"
+  ],
+  "additional_constraint": "Third scheme also requires exact native single-stage peak label in addition to same native peak-of-group-means label; never reclassify groups from single-stage peak.",
+  "calipers": [
+    1.0,
+    0.5
+  ],
+  "dominance_caliper": 0.2,
+  "neighbors_minimum": 5,
+  "neighbors_maximum": 20,
+  "same_targets": "Use targets matchable under all three schemes within each cohort/reference/caliper, then compare all schemes on precisely that common set. Do not compare to the earlier coarse-only target means as if denominators were unchanged.",
+  "ranking": "Same normalized abundance + group-dominance distance and lexicographic ties; fine-stage descriptor is an additional exact constraint.",
+  "endpoint": "Mean and median per-priority excess, threshold-proportion difference and delete-one-priority influence ranges, descriptive only.",
+  "limitations": [
+    "Not a biological composition adjustment, independent gene replication, causal attribution or FDR-controlled enrichment.",
+    "Different stage descriptors, reference-transfer failures and source-design uncertainty persist.",
+    "No selection of a favored reference or threshold from the inspected outcomes; all scenarios retained."
+  ]
+}

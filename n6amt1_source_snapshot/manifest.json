@@ -1,0 +1,26 @@
+{
+  "scope": "Current source identity and unresolved fields; not biological validation or new statistics.",
+  "source_sha256": {
+    "scripts/audit_n6amt1_source.py": "b2b096a248e557d53a0401582b42051e18bf5f4e67369778097943c6ddf84328",
+    "scripts/audit_independent_metadata.py": "b4f902208ff304ece7f4621e808c2428c0a4135b470daa4c88d873b03533d977",
+    "scripts/run_independent_contexts.py": "2532b55d8ffe85fba1a60e2b61f9c139aaeaf060349d7a81307a1efd8d8c1890",
+    "tests/test_n6amt1_source.py": "0b36ab2891bd2bf89abc0487431133132fe7d8f8e99bf69a3e2a7a4403931e8b"
+  },
+  "input_specification_sha256": {
+    "data/n6amt1_source_contract.json": "3a0c58f1dc8ff05950ab4ddd45ce496b57f60fc45dc89f256752dd9813a10daf",
+    "data/n6amt1_source_inputs.json": "01f500aae67924c7d368683525a8c00387a6da7ac26e17133aeab186086be814",
+    "docs/N6AMT1_SOURCE.md": "c17e372425bf4d864355eecf9284fb1503d8c2642ccd78e5cedf654e2ac436da"
+  },
+  "files": [
+    {
+      "path": "sample_audit.csv",
+      "bytes": 983,
+      "sha256": "2eb3b491f8616456f5c02b8ac71166827dab3d49ee18bcacf616ef8160d26fe0"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 959,
+      "sha256": "1bf53dcfba285df7f25b6a42e785711d43027899c95d6c620f1b7a4cd03f1013"
+    }
+  ]
+}

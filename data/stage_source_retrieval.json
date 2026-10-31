@@ -1,0 +1,96 @@
+{
+  "initial": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294151/soft/GSE294151_family.soft.gz",
+      "path": "data/raw/stage_specificity/GSE294151_family.soft.gz",
+      "accessed_UTC": "2026-10-30T06:24:11Z",
+      "bytes": 1737,
+      "sha256": "ff73cb100d65fd3ccf3319b97d25872b8aa8493dc2dcff922d31203c3a2f97f0"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760901,SAMN47760902,SAMN47760903,SAMN47760904,SAMN47760905,SAMN47760906",
+      "path": "data/raw/stage_specificity/Rif1_samples.xml",
+      "accessed_UTC": "2026-10-30T06:24:12Z",
+      "bytes": 8291,
+      "sha256": "f30b9a5003256edf73d43cbcbeaee7d5d4df74d8cc099d839aa72948cacff63b"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.00065",
+      "path": "data/raw/stage_specificity/skill_citation.html",
+      "accessed_UTC": "2026-10-30T06:24:15Z",
+      "bytes": 42868,
+      "sha256": "87e5d6378d900a1a9299aaf8c9e13ea37db5de5bebd0c7f7af29255b457402d7"
+    }
+  ],
+  "individual": [
+    {
+      "accession": "SAMN47760901",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760901",
+      "path": "data/raw/stage_specificity/SAMN47760901.xml",
+      "accessed_UTC": "2026-10-30T06:29:08Z",
+      "bytes": 4174,
+      "sha256": "0c5dd9f7648aa6e055666fbfe2bed50586229ee41a0876d9004eb8f2080b8976"
+    },
+    {
+      "accession": "SAMN47760902",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760902",
+      "path": "data/raw/stage_specificity/SAMN47760902.xml",
+      "accessed_UTC": "2026-10-30T06:29:10Z",
+      "error": "HTTP Error 404: "
+    },
+    {
+      "accession": "SAMN47760903",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760903",
+      "path": "data/raw/stage_specificity/SAMN47760903.xml",
+      "accessed_UTC": "2026-10-30T06:29:14Z",
+      "error": "HTTP Error 404: "
+    },
+    {
+      "accession": "SAMN47760904",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760904",
+      "path": "data/raw/stage_specificity/SAMN47760904.xml",
+      "accessed_UTC": "2026-10-30T06:29:16Z",
+      "error": "HTTP Error 404: "
+    },
+    {
+      "accession": "SAMN47760905",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760905",
+      "path": "data/raw/stage_specificity/SAMN47760905.xml",
+      "accessed_UTC": "2026-10-30T06:29:21Z",
+      "bytes": 4183,
+      "sha256": "36b8fa5a883f6fbc9ac175620cd946aa990845130fae6ba5316a4311a047fac2"
+    },
+    {
+      "accession": "SAMN47760906",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN47760906",
+      "path": "data/raw/stage_specificity/SAMN47760906.xml",
+      "accessed_UTC": "2026-10-30T06:29:23Z",
+      "error": "HTTP Error 404: "
+    }
+  ],
+  "SRA": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX28237051%5BAccession%5D+OR+SRX28237052%5BAccession%5D+OR+SRX28237053%5BAccession%5D+OR+SRX28237054%5BAccession%5D+OR+SRX28237055%5BAccession%5D+OR+SRX28237056%5BAccession%5D&retmax=0&retmode=json&tool=research_source_audit",
+      "path": "data/raw/stage_specificity/SRA_count.json",
+      "bytes": 836,
+      "sha256": "397355f2687d5148aca1832262e65e65a0b205d9db9de4c456d46734f0113d16",
+      "accessed_UTC": "2026-10-30T06:33:57Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX28237051%5BAccession%5D+OR+SRX28237052%5BAccession%5D+OR+SRX28237053%5BAccession%5D+OR+SRX28237054%5BAccession%5D+OR+SRX28237055%5BAccession%5D+OR+SRX28237056%5BAccession%5D&retmax=10&retstart=0&retmode=json&tool=research_source_audit",
+      "path": "data/raw/stage_specificity/SRA_ids.json",
+      "bytes": 901,
+      "sha256": "138c07a080aa79100fd97cbfe6e14cdfb3a7b3e39581c6d55015ea2ba17faa74",
+      "accessed_UTC": "2026-10-30T06:33:59Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=37963933%2C37963932%2C37963931%2C37963930%2C37963929%2C37963928&rettype=full&retmode=xml&tool=research_source_audit",
+      "path": "data/raw/stage_specificity/Rif1_SRA.xml",
+      "bytes": 50505,
+      "sha256": "327d91a13a8e350f839da024eec767e54b37c00f04ad658e2ae963a5107ec96b",
+      "accessed_UTC": "2026-10-30T06:34:02Z"
+    }
+  ],
+  "access_date": "2026-10-30",
+  "scope": "Targeted 12 requests, 8 successful cached payloads and four ENA404 records; SRA supplies all six mapped sample records."
+}

@@ -1,0 +1,114 @@
+{
+  "recorded_on": "2026-10-31",
+  "assets": [
+    {
+      "path": "data/raw/n6amt1_source/GSE283904_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283904/soft/GSE283904_family.soft.gz",
+      "bytes": 2746,
+      "sha256": "5fd15a17f87d12ea7371578abf147aa1cd8adcdeb6aaf2c909d7a9a72fe6289d",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "data/raw/n6amt1_source/SRA_count.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX27017299%5BAccession%5D+OR+SRX27017300%5BAccession%5D+OR+SRX27017301%5BAccession%5D+OR+SRX27017302%5BAccession%5D+OR+SRX27017303%5BAccession%5D+OR+SRX27017304%5BAccession%5D+OR+SRX27017305%5BAccession%5D+OR+SRX27017306%5BAccession%5D&retmax=0&retmode=json&tool=primary_source_audit",
+      "bytes": 1058,
+      "sha256": "2c091139a80b9141e86062e7944da5a8ba5237fe6eeabb229de128f3a85955fc",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "data/raw/n6amt1_source/SRA_ids.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX27017299%5BAccession%5D+OR+SRX27017300%5BAccession%5D+OR+SRX27017301%5BAccession%5D+OR+SRX27017302%5BAccession%5D+OR+SRX27017303%5BAccession%5D+OR+SRX27017304%5BAccession%5D+OR+SRX27017305%5BAccession%5D+OR+SRX27017306%5BAccession%5D&retmax=10&retmode=json&tool=primary_source_audit",
+      "bytes": 1145,
+      "sha256": "af1635259507ee95c0cbbc2e15369690924434699361c426e5422935f64a79dd",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "data/raw/n6amt1_source/N6amt1_SRA.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=36487942%2C36487941%2C36487940%2C36487939%2C36487938%2C36487937%2C36487936%2C36487935&rettype=full&retmode=xml&tool=primary_source_audit",
+      "bytes": 76180,
+      "sha256": "07e991bb1e947d23534b4b7c0cf6ddf095e684b32199a709eccc37dd96ad694c",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "paper/literature/Luo2025.json",
+      "url": "https://api.crossref.org/works/10.1093/biolre/ioaf052",
+      "accessed_on": "2026-10-31",
+      "bytes": 21297,
+      "sha256": "7dc9555284aa1b9e4f362ca556a96cf4388f705500adbfa52aea82adcb7ed304"
+    },
+    {
+      "path": "data/raw/n6amt1_source/pubmed.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40079145&retmode=xml",
+      "accessed_on": "2026-10-31",
+      "bytes": 11507,
+      "sha256": "7817bcb4b2ced295539f95e076f127b24aa5cca759db3e5c221b94fe4d4f7df6"
+    },
+    {
+      "path": "data/samples.tsv",
+      "bytes": 10779,
+      "sha256": "dd50f2f98c33b733e712b8641678031b8de93144069504414b221250f886ef1d"
+    },
+    {
+      "path": "data/raw/metadata/GSE283904_family.soft.gz",
+      "bytes": 2746,
+      "sha256": "5fd15a17f87d12ea7371578abf147aa1cd8adcdeb6aaf2c909d7a9a72fe6289d"
+    },
+    {
+      "path": "data/raw/GSE283904/GSE283904_Gene_count.txt.gz",
+      "bytes": 347406,
+      "sha256": "de8b67412f134c5e37a92653a81d6f7d9a34eb2144763e21479c2549ffbde028"
+    }
+  ],
+  "retrieval_status": [
+    {
+      "path": "data/raw/n6amt1_source/GSE283904_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283904/soft/GSE283904_family.soft.gz",
+      "bytes": 2746,
+      "sha256": "5fd15a17f87d12ea7371578abf147aa1cd8adcdeb6aaf2c909d7a9a72fe6289d",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "data/raw/n6amt1_source/SRA_count.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX27017299%5BAccession%5D+OR+SRX27017300%5BAccession%5D+OR+SRX27017301%5BAccession%5D+OR+SRX27017302%5BAccession%5D+OR+SRX27017303%5BAccession%5D+OR+SRX27017304%5BAccession%5D+OR+SRX27017305%5BAccession%5D+OR+SRX27017306%5BAccession%5D&retmax=0&retmode=json&tool=primary_source_audit",
+      "bytes": 1058,
+      "sha256": "2c091139a80b9141e86062e7944da5a8ba5237fe6eeabb229de128f3a85955fc",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "data/raw/n6amt1_source/SRA_ids.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX27017299%5BAccession%5D+OR+SRX27017300%5BAccession%5D+OR+SRX27017301%5BAccession%5D+OR+SRX27017302%5BAccession%5D+OR+SRX27017303%5BAccession%5D+OR+SRX27017304%5BAccession%5D+OR+SRX27017305%5BAccession%5D+OR+SRX27017306%5BAccession%5D&retmax=10&retmode=json&tool=primary_source_audit",
+      "bytes": 1145,
+      "sha256": "af1635259507ee95c0cbbc2e15369690924434699361c426e5422935f64a79dd",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "data/raw/n6amt1_source/N6amt1_SRA.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=36487942%2C36487941%2C36487940%2C36487939%2C36487938%2C36487937%2C36487936%2C36487935&rettype=full&retmode=xml&tool=primary_source_audit",
+      "bytes": 76180,
+      "sha256": "07e991bb1e947d23534b4b7c0cf6ddf095e684b32199a709eccc37dd96ad694c",
+      "accessed_on": "2026-10-31"
+    },
+    {
+      "path": "paper/literature/Luo2025.json",
+      "url": "https://api.crossref.org/works/10.1093/biolre/ioaf052",
+      "accessed_on": "2026-10-31",
+      "bytes": 21297,
+      "sha256": "7dc9555284aa1b9e4f362ca556a96cf4388f705500adbfa52aea82adcb7ed304"
+    },
+    {
+      "path": "data/raw/n6amt1_source/pubmed.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40079145&retmode=xml",
+      "accessed_on": "2026-10-31",
+      "bytes": 11507,
+      "sha256": "7817bcb4b2ced295539f95e076f127b24aa5cca759db3e5c221b94fe4d4f7df6"
+    },
+    {
+      "path": "data/raw/n6amt1_source/publisher.html",
+      "url": "https://academic.oup.com/biolreprod/article/112/6/1289/8074744",
+      "accessed_on": "2026-10-31",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "first_proxy_attempt": "SSL EOF; one retry via same proxy succeeded",
+  "publisher_access": "HTTP403, public abstract checked; no access-control bypass"
+}

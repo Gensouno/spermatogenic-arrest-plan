@@ -1,0 +1,5 @@
+cohort,tested_source_genes,eligible_primary_symbols,voom_AveExpr_max_absolute_error,control_libraries,control_normalization_shift_spread,normalization
+Rif1_P14,18860,9558,4.440892098500626e-14,3,7.105427357601002e-15,Frozen full fit; source counts reconstructed from original cached assets
+Hormad_dsfb_P19,19826,9647,4.618527782440651e-14,3,7.993605777301127e-15,Frozen full fit; source counts reconstructed from original cached assets
+Mael_P16,14685,9411,5.1514348342607263e-14,3,6.217248937900877e-15,Frozen full fit; source counts reconstructed from original cached assets
+Morc1_P14p5,15283,9444,5.1514348342607263e-14,3,7.105427357601002e-15,Frozen full fit; source counts reconstructed from original cached assets
